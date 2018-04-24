@@ -36,11 +36,18 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
+# SEAMLESS
+## SoftwarE infrAstructure for Multi-purpose fLood modElling at variouS scaleS
+
+
+![Image](https://github.com/ci1xgk/Seamless-web/blob/master/Fig_1G.jpg)
+
+
+
 ## 1. About 
 SEAMLESS is a new two-dimensional (2D) model aimed to facilitate flood simulation over a range of scales for the mesh and domain-sizes in both deterministic and scholastic settings. SEAMLESS is currently under development by taking a mathematics-led approach to come with a coherent framework, under the themes of “automatism” and “holistisity”, in handling flood modelling applications. 
 
 
-![Image](https://github.com/ci1xgk/Seamless-web/blob/master/Fig_1G.jpg)
 
 
 
