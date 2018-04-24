@@ -1,3 +1,7 @@
+## 1. About: 
+SEAMLESS is a new two-dimensional (2D) model aimed to facilitate flood simulation over a range of scales for the mesh and domain-sizes in both deterministic and scholastic settings. SEAMLESS is currently under development by taking a mathematics-led approach to come with a coherent framework, under the themes of “automatism” and “holistisity”, in handling flood modelling applications.
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/ci1xgk/Seamless-web/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
