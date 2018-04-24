@@ -39,3 +39,4 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 # 1. About 
 SEAMLESS is a new two-dimensional (2D) model aimed to facilitate flood simulation over a range of scales for the mesh and domain-sizes in both deterministic and scholastic settings. SEAMLESS is currently under development by taking a mathematics-led approach to come with a coherent framework, under the themes of “automatism” and “holistisity”, in handling flood modelling applications. To be continued:
 GK to use the contents from the [Google doc](https://docs.google.com/document/d/1wXB-lJQIKtMC3P3qBuzorbjYouuPyWGpLnPsVcanCdM/edit) to get started on the page. 
+[Image]()
