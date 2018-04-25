@@ -105,13 +105,6 @@ We are happy that the following scientists have agreed to serve on our steering 
 
 
 
-
-![Image](Fig_4G.jpg)
-
-
-
-
-
 ### 6. Publications
 #### Journal papers
 G. Kesserwani, J.L. Ayog and D. Bau (2018). _Discontinuous Galerkin formulation for 2D hydrodynamic modelling:
@@ -128,6 +121,8 @@ J.L. Ayog and G. Kesserwani. _A well-balanced second-order discontinuous Galerki
 ### 7. Activities
 
 ### 8. Documentation and downloads 
+
+![Image](Fig_4G.jpg)
 
 
 To be continued: GK to use the contents from the [Google doc](https://docs.google.com/document/d/1wXB-lJQIKtMC3P3qBuzorbjYouuPyWGpLnPsVcanCdM/edit) to get started on the page. 
