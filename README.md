@@ -40,6 +40,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 ## SoftwarE infrAstructure for Multi-purpose fLood modElling at variouS scaleS
 
 
+
 ![Image](https://github.com/ci1xgk/Seamless-web/blob/master/Fig_1G.jpg)
 
 
@@ -56,6 +57,10 @@ The development of SEAMLESS is currently led by [Georges Kesserwani](https://www
 - Mar. 2014 - Jul 2015, EPSRC First Grant Scheme, “Unified flood model with optimal zooming and linking at multiple scales”, funder ID: “EP/K031023/1”. 
 
 - Aug. 2013 - Feb. 2014, DAAD Short-Term Grant, “Transforming flood risk modelling: collaborative research schedule with RWTH Aachen”, funder ID: “A1372005”.
+
+
+
+![Image](https://github.com/ci1xgk/Seamless-web/blob/master/Fig_2G.jpg)
 
 
 ### 3. Rationale
