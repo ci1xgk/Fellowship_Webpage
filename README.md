@@ -41,7 +41,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 
 
-![Image](https://github.com/ci1xgk/Seamless-web/blob/master/Fig_1G.jpg)
+![Image](Fig_1G.jpg)
 
 
 
@@ -75,7 +75,7 @@ The need to better forecast and model flooding is of strategic importance to soc
 - Comprehensive (inform on numerical-model error and/or physical uncertainty propagation)
 
 
-![Image](https://github.com/ci1xgk/Seamless-web/blob/master/Fig_3G.jpg)
+![Image](Fig_3G.jpg)
 
 
 
@@ -106,7 +106,7 @@ We are happy that the following scientists have agreed to serve on our steering 
 
 
 
-![Image](https://github.com/ci1xgk/Seamless-web/blob/master/Fig_4G.jpg)
+![Image](Fig_4G.jpg)
 
 
 
