@@ -45,6 +45,8 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 
 
+
+
 ### 1. About
 SEAMLESS is a new two-dimensional (2D) model aimed to facilitate flood simulation over a range of scales for the mesh and domain-sizes in both deterministic and scholastic settings. SEAMLESS is currently under development by taking a mathematics-led approach to come with a coherent framework, under the themes of “automatism” and “holistisity”, in handling flood modelling applications. 
 
@@ -61,6 +63,7 @@ The development of SEAMLESS is currently led by [Georges Kesserwani](https://www
 
 
 
+
 ![Image](https://github.com/ci1xgk/Seamless-web/blob/master/Fig_2G.jpg)
 
 
@@ -70,6 +73,20 @@ The need to better forecast and model flooding is of strategic importance to soc
 - Reliable and efficient (to ensure a high-quality answer, in as rapid a time as possible)
 - Versatile (applicable to solve a wide/compound range of physical scales and/or domains)
 - Comprehensive (inform on numerical-model error and/or physical uncertainty propagation)
+
+
+![Image](https://github.com/ci1xgk/Seamless-web/blob/master/Fig_3G.jpg)
+
+
+
+### 4. Approach
+Multi-Wavelets are augmented forms of wavelets which allow precise, bi-directional, multiscale analysis. Construction of Multi-Wavelets on a mother basis function yields sets of inner bases that have local and nonoverlapping supports at each scale level, but which are globally nested across all scale levels. The power of such multiscale bases lies in their ability to decompose and reconstruct the scales of a given signal relevant to physical and/or statistical modelling data. Although popular in signal and image processing applications, the use of wavelets for flood forecasting is still in its infancy. The idea behind SEAMLESS is exploit the versatile properties of Multi-Wavelets, by to capitalising on their simultaneous ability to:
+- Unambiguously detect and separate localised dominant flow and terrain features on locally nested adaptive grids, thereby providing a tool for intrinsic resolution decision-making; 
+- Be adapted as local basis functions, which allows to increase polynomial accuracy in local storage and evolution of the modelling data; 
+- Perform multi-scale analysis for accessing, upscaling and downscaling the modelling information across various spectrum of resolution involved in the adaptive grid; 
+- Further apply/expand the deterministic model formulation for informing on the statistics of uncertainty propagations due to uncertain inputs in an entirely compatible framework. 
+
+
 
 
 To be continued: GK to use the contents from the [Google doc](https://docs.google.com/document/d/1wXB-lJQIKtMC3P3qBuzorbjYouuPyWGpLnPsVcanCdM/edit) to get started on the page. 
