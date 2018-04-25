@@ -87,7 +87,7 @@ Multi-Wavelets are augmented forms of wavelets which allow precise, bi-direction
 - Further apply/expand the deterministic model formulation for informing on the statistics of uncertainty propagations due to uncertain inputs in an entirely compatible framework. 
 
 
-### 4. The team and collaborators 
+### 5. The team and collaborators 
 The current team involves researchers working at the interface between applied mathematics, hydraulic modelling and science fields, which include the following people: 
 - Georges Kesserwani, Research Fellow at the University of Sheffield 
 - James Shaw, Research Associate at the University of Sheffield
@@ -102,6 +102,15 @@ We are happy that the following scientists have agreed to serve on our steering 
 - Onno Bokhove, University of Leeds
 - Domenico Bau, University of Sheffield 
 
+![Image](https://github.com/ci1xgk/Seamless-web/blob/master/Fig_4G.jpg)
+
+
+### 6. Publications
+
+
+### 7. Activities
+
+### 8. Documentation and downloads 
 
 
 To be continued: GK to use the contents from the [Google doc](https://docs.google.com/document/d/1wXB-lJQIKtMC3P3qBuzorbjYouuPyWGpLnPsVcanCdM/edit) to get started on the page. 
