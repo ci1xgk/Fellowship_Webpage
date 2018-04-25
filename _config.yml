@@ -1,3 +1,5 @@
 theme: jekyll-theme-minimal
-title: SEAMLESS-FLOOD
-description: SEAMLESS-FLOOD is a SoftwarE infrAstructure for Multi-purpose fLood modElling at variouS scaleS.  
+title: SEAMLESS-WAVE
+description: SEAMLESS-WAVE is an ongoing project to develop a SoftwarE infrAstructure for Multi-purpose fLood modElling at variouS scaleS. SEAMLESS is a new two-dimensional (2D) model aimed to facilitate flood simulation over a range of scales for the mesh and domain-sizes in both deterministic and scholastic settings. SEAMLESS is currently under development by taking a mathematics-led approach to come with a coherent framework, under the themes of “automatism” and “holistisity”, in handling flood modelling applications.
+
+  
