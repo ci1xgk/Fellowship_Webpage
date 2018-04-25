@@ -64,7 +64,7 @@ The development of SEAMLESS is currently led by [Georges Kesserwani](https://www
 
 
 
-![Image](https://github.com/ci1xgk/Seamless-web/blob/master/Fig_2G.jpg)
+![Image](Fig_2G.jpg)
 
 
 ### 3. Rationale
