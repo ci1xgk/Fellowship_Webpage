@@ -44,10 +44,11 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 
 
-### 1. About 
+### 1. About
 SEAMLESS is a new two-dimensional (2D) model aimed to facilitate flood simulation over a range of scales for the mesh and domain-sizes in both deterministic and scholastic settings. SEAMLESS is currently under development by taking a mathematics-led approach to come with a coherent framework, under the themes of “automatism” and “holistisity”, in handling flood modelling applications. 
 
-### 2. Contact and acknowledgments: 
+
+### 2. Contact and acknowledgments 
 The development of SEAMLESS is currently led by [Georges Kesserwani](https://www.sheffield.ac.uk/civil/staff/academic/gk) supported by an EPSRC Fellowship Scheme. The science and thinking behind the development of SEAMLESS is owed to following research grants: 
 
 - Jan. 2018 - Apr. 2023, EPSRC Fellowship Scheme, “Smart forecasting: joined-up flood forecasting (FF) infrastructure with uncertainties”, funder ID: “EP/R007349/1”. 
@@ -56,6 +57,13 @@ The development of SEAMLESS is currently led by [Georges Kesserwani](https://www
 
 - Aug. 2013 - Feb. 2014, DAAD Short-Term Grant, “Transforming flood risk modelling: collaborative research schedule with RWTH Aachen”, funder ID: “A1372005”.
 
+
+### 3. Rationale
+The need to better forecast and model flooding is of strategic importance to society and science. Policy-makers continue to desire more accurate and comprehensive flood warning maps to issue for public protection against flood events. Hydraulic consultancy and software industry firms still aspire to achieve significantly greater intelligence, reliability, coverage and functionality in their next-generation of hydraulic models, which can particularly obviate manual labor for excessive user iterations in building and running flood models, better control scaling effects due to inter-regional dependencies and more efficiently forecast uncertainty propagation. Aligned with these needs, scientists and engineers across many research communities still seek to develop a modelling framework that is “intelligent” and “holistic”, in the sense of being:
+     - Adaptable (able to embed and self-select a cascade of scales) 
+     - Reliable and efficient (to ensure a high-quality answer, in as rapid a time as possible)
+     - Versatile (applicable to solve a wide/compound range of physical scales and/or domains)
+     - Comprehensive (inform on numerical-model error and/or physical uncertainty propagation)
 
 
 To be continued: GK to use the contents from the [Google doc](https://docs.google.com/document/d/1wXB-lJQIKtMC3P3qBuzorbjYouuPyWGpLnPsVcanCdM/edit) to get started on the page. 
