@@ -102,7 +102,14 @@ We are happy that the following scientists have agreed to serve on our steering 
 - Onno Bokhove, University of Leeds
 - Domenico Bau, University of Sheffield 
 
+
+
+
+
 ![Image](https://github.com/ci1xgk/Seamless-web/blob/master/Fig_4G.jpg)
+
+
+
 
 
 ### 6. Publications
