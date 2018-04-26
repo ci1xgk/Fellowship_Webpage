@@ -37,7 +37,7 @@ Multi-Wavelets are augmented forms of wavelets which allow precise, bi-direction
 - Further apply/expand the deterministic model formulation for informing on the statistics of uncertainty propagations due to uncertain inputs in an entirely compatible framework. 
 
 
-### 4. The team and collaborators 
+### 4. Research team and scientific advisory board
 The current team involves researchers working at the interface between applied mathematics, hydraulic modelling and science fields, which include the following people: 
 - Georges Kesserwani, Research Fellow at the University of Sheffield 
 - James Shaw, Research Associate at the University of Sheffield
@@ -69,17 +69,21 @@ J.L. Ayog and G. Kesserwani. _A well-balanced second-order discontinuous Galerki
 
 ### 6. Activities
 
-### 7. Documentation and downloads 
+### 7. Documentation 
 
 
+## External Partners
+This research is further supported by the following industry and government partners: 
+- XP Solutions, providers of the “XPFLOOD” software
+- CH2M, suppliers of the “Flood Modeller Suite”
+- Innovyze, providers of the “InfoWorks2D” product
+- DHI Group, suppliers of the “MIKE FLOOD” software
+- BMT-WBM, providers of the “TUFLOW” software
+- The incident management and modelling team at the UK Environment Agency
+- Sheffield City Council flood and water management team
 
 
 ![Image](Fig_4G.jpg)
-
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
 
 
 
