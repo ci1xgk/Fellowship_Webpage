@@ -73,7 +73,7 @@ J.L. Ayog and G. Kesserwani. _A well-balanced second-order discontinuous Galerki
 
 
 ## External Partners
-This research is further supported by the following industry and government partners: 
+In addition to the involvement of the above-listed academic partners, the SEAMLESS-WAVE project is being relalised with the awareness and support of the following relevant industry and government partners: 
 - XP Solutions, providers of the “XPFLOOD” software
 - CH2M, suppliers of the “Flood Modeller Suite”
 - Innovyze, providers of the “InfoWorks2D” product
