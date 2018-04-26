@@ -39,12 +39,12 @@ We are happy that the following scientists have agreed to serve on our steering 
 - Domenico Bau, University of Sheffield 
 
 The SEAMLESS-WAVE project is undertaken with the awareness and support of relevant industrial and govermental partners, which include: 
-- XP Solutions, providers of the “XPFLOOD” software
+- The UK Environment Agency
+- BMT-WBM, providers of the “TUFLOW” software
 - CH2M, suppliers of the “Flood Modeller Suite”
 - Innovyze, providers of the “InfoWorks2D” product
+- XP Solutions, providers of the “XPFLOOD” software
 - DHI Group, suppliers of the “MIKE FLOOD” software
-- BMT-WBM, providers of the “TUFLOW” software
-- The incident management and modelling team at the UK Environment Agency
 - Sheffield City Council flood and water management team
 
 
