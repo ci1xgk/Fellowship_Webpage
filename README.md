@@ -53,8 +53,6 @@ We are happy that the following scientists have agreed to serve on our steering 
 - Domenico Bau, University of Sheffield 
 
 
-
-
 ### 5. Publications
 #### Journal papers
 G. Kesserwani, J.L. Ayog and D. Bau (2018). _Discontinuous Galerkin formulation for 2D hydrodynamic modelling:
@@ -68,6 +66,7 @@ G. Kesserwani, M.K. Sharifian and J. Shaw. _Adaptive multi-scale shallow flow mo
 
 J.L. Ayog and G. Kesserwani. _A well-balanced second-order discontinuous Galerkin reformulation for shallow water modelling_. 13th International Conference on Hydroinformatics (HIC 2018), July 01-07, Palermo, Italy. 
 
+
 ### 6. Activities
 
 ### 7. Documentation and downloads 
@@ -77,49 +76,10 @@ J.L. Ayog and G. Kesserwani. _A well-balanced second-order discontinuous Galerki
 
 ![Image](Fig_4G.jpg)
 
-irst Header | Second Header
+First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
-
-
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/ci1xgk/Seamless-web/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ci1xgk/Seamless-web/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
 
