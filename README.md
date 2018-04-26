@@ -77,8 +77,12 @@ J.L. Ayog and G. Kesserwani. _A well-balanced second-order discontinuous Galerki
 
 ![Image](Fig_4G.jpg)
 
+irst Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
 
-To be continued: GK to use the contents from the [Google doc](https://docs.google.com/document/d/1wXB-lJQIKtMC3P3qBuzorbjYouuPyWGpLnPsVcanCdM/edit) to get started on the page. 
+
 
 ## Welcome to GitHub Pages
 
