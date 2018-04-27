@@ -1,6 +1,6 @@
 ![Image](Fig_1G.jpg)
 
-[1. Rationale](Rationale.md)
+[1. Rationale](./Rational.md)
 
 
 ### 2. Approach
