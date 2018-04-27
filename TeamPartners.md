@@ -1,5 +1,5 @@
 
-### 3. Research team and partners
+### Team and partners
 The current team involves researchers working at the interface between applied mathematics, hydraulic modelling and science fields, which include the following people: 
 - Georges Kesserwani, Research Fellow at the University of Sheffield 
 - James Shaw, Research Associate at the University of Sheffield
