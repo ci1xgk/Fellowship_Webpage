@@ -3,9 +3,9 @@
 
 
  
-[Rationale](./Rational.md) |  [Approach](./Approach.md) | [Team and partners](./TeamPartners.md)
+[Rationale](./Rational.md)        [Approach](./Approach.md)      [Team and partners](./TeamPartners.md)
 
-[Publications](./Publication.md) | [Activities](./Activities.md) | [Documentation](./Documentation.md)
+[Publications](./Publication.md)  [Activities](./Activities.md)  [Documentation](./Documentation.md)
 
 [Contact and acknowledgments](./ContAck.md)
 
