@@ -4,7 +4,7 @@ The current team involves researchers working at the interface between applied m
 - Georges Kesserwani, Research Fellow at the University of Sheffield 
 - James Shaw, Research Associate at the University of Sheffield
 - Mohammad Kazem Sharifian, PhD student at the University of Tabriz 
-- Janice Lynn Agoy, PhD student at the University of Sheffield
+- Janice Lynn Ayog, PhD student at the University of Sheffield
 - Mohammad Shirvani, PhD student at the University of Sheffield
 
 We are happy that the following scientists have agreed to serve on our steering committee and to provide scientific guidance:
