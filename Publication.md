@@ -1,5 +1,5 @@
 
-### 4. Publications
+### Publications
 #### Journal papers
 G. Kesserwani, J.L. Ayog and D. Bau (2018). _Discontinuous Galerkin formulation for 2D hydrodynamic modelling:
 trade-offs between theoretical complexity and practical convenience_. Computer Methods in Applied Mechanics and Engineering, *under review*. 
