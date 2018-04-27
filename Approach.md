@@ -8,6 +8,4 @@ Multi-Wavelets are augmented forms of wavelets which allow precise, bi-direction
 - Perform multi-scale analysis for accessing, upscaling and downscaling the modelling information across various spectrum of resolution involved in the adaptive grid; 
 - Further apply/expand the deterministic model formulation for informing on the statistics of uncertainty propagations due to uncertain inputs in an entirely compatible framework. 
 
-
-
-
+[back](./)
