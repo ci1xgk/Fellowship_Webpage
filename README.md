@@ -10,15 +10,14 @@
 [3. Research team and partners](./TeamPartners.md)
 
 
-
 [4. Publications](./Publication.md)
 
 
-### 5. Activities
-GK to report
+[5. Activities](./Activities.md)
 
-### 6. Documentation 
-JS to report
+
+[6. Documentation](./Documentation.md)
+
 
 
 ### 7. Contact and acknowledgments 
