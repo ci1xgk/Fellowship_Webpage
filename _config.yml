@@ -2,4 +2,4 @@ theme: jekyll-theme-minimal
 logo: Fig_5G.jpg
 
 title: SEAMLESS-WAVE
-description: SEAMLESS-WAVE is an ongoing project to develop a SoftwarE infrAstructure for Multi-purpose fLood modElling at variouS scaleS. It adopts a WAVElet basis with a view to increase intelligence and holisticity in modelling across the scales of the mesh- and domain-sizes, and of uncertainties. SEAMLESS-WAVE is designed to drastically reduce iterations for building and running a flood model, and to have better control over error- and uncertainty-propagations throughout the modelling.
+description: SEAMLESS-WAVE is a developing “SoftwarE infrAstructure for Multi-purpose fLood modElling at variouS scaleS”, based on WAVElets and their versatile properties. The vision behind SEAMLESS-WAVE is to produce an intelligent and holistic modelling framework, which can drastically reduce iterations in building and testing for an optimal setting and controlling the propagation of numerical model-error and/or uncertainty from physical inputs.
