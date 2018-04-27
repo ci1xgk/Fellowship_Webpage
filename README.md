@@ -3,7 +3,7 @@
 
 
  
-[Rationale](./Rational.md) |  [Approach](./Approach.md) | [Research team and partners](./TeamPartners.md)
+[Rationale](./Rational.md) |  [Approach](./Approach.md) | [Team and partners](./TeamPartners.md)
 
 [Publications](./Publication.md) | [Activities](./Activities.md) | [Documentation](./Documentation.md)
 
