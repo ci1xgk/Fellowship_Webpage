@@ -6,7 +6,7 @@
 
 [2. Approach](./Approach.md)
 
-[3. Research team and partners](./Team_Partners.md)
+[3. Research team and partners](./TeamPartners.md)
 
 
 ### 4. Publications
