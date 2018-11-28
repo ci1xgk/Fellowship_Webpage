@@ -11,7 +11,7 @@
 
 - 3-5 Oct. 2018, University of Colorado, Boulder: attended an invitation-only [Flood Risk Workshop](https://sites.google.com/view/flood-risk-ws) (G. Kesserwani).
 
-- 23 Nov. 2018, University of Sheffield, scientific and industiral board meeting ([agenda and minutes](https://docs.google.com/document/d/1J6r1d2T7HTH5wwJ4E47RE9A4s6HJm0FXleKDZJKoMyI/edit#))
+- 23 Nov. 2018, University of Sheffield, scientific and industiral board meeting ([agenda and minutes](https://docs.google.com/document/d/1J6r1d2T7HTH5wwJ4E47RE9A4s6HJm0FXleKDZJKoMyI/edit?usp=sharing)
 
 
 
