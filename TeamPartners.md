@@ -16,10 +16,9 @@ We are happy that the following scientists have agreed to serve on our steering 
 
 The SEAMLESS-WAVE project is undertaken with the awareness and support of relevant industrial and govermental partners, which include: 
 - The UK Environment Agency
-- BMT-WBM, providers of the “TUFLOW” software
-- CH2M, suppliers of the “Flood Modeller Suite”
-- Innovyze, providers of the “InfoWorks2D” product
-- XP Solutions, providers of the “XPFLOOD” software
+- BMT-WBM, providers of the “TUFLOW-FV” software
+- JACOBS, suppliers of the “Flood Modeller Suite”
+- Innovyze, providers of the “InfoWorks ICM” product
 - DHI Group, suppliers of the “MIKE FLOOD” software
 - Sheffield City Council flood and water management team
 
