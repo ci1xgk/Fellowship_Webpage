@@ -17,3 +17,7 @@ The SEAMLESS-WAVE project uses a (multi)wavelet approach for adaptive flood mode
 3. the MWDG2 is about 20 times faster than DG2, and MWDG2 can achieve the same high accuracy as DG2 with computation time lower than FV1.
 
 A two-dimensional MWDG2 model is being formulated and testing of this model is already underway.  The two-dimensional MWDG2 model has been measured to be about 50 times faster than DG2 without compromising accuracy or robustness.  Work is ongoing to validate the MWDG2 model for benchmark tests and real-world case studies.
+
+
+
+[back](./)
