@@ -1,4 +1,4 @@
-## Efficient and accurate flood simulators based on wavelet adaptivity
+## Efficient and accurate flood simulators with wavelet adaptivity
 
 Flood plains are often many square kilometers, but the flow of water in a flood event frequently depends on small-scale topographic features, particularly for urban flood events.  As such, flood simulations must represent many square kilometers with a resolution of a metre or smaller.  Conventional flood simulations are performed on a static, uniform grid, but this becomes computationally prohibitive when the simulation area is very large and the finest resolution is very small since the resultant grid has many millions of cells.  Adaptive flood simulations reduce the computational burden by using dynamic, non-uniform grids to capture the important features of the topography and the flow.  Where the topography or flow are smooth, adaptive methods can coarsen the grid and reduce the total number of cells.
 
