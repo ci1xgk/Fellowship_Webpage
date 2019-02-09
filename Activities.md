@@ -13,6 +13,8 @@
 
 - 23 Nov. 2018, University of Sheffield, scientific and industrial board meeting ([agenda and minutes](https://docs.google.com/document/d/1J6r1d2T7HTH5wwJ4E47RE9A4s6HJm0FXleKDZJKoMyI/edit?usp=sharing))
 
+- 6 Feb. 2019, University of Leeds, EPSRC/LWEC Fellows meeting, [presentation on project overview and progress](https://drive.google.com/file/d/1ACBmj7wHHch_vhvvoxpf052k1KGhIbRY/view?usp=sharing) (G. Kesserwani)
+
 
 
 
