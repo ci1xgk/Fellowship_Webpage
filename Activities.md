@@ -5,9 +5,9 @@
 
 - 2018 (2-6 Jul.), University of Palermo: two talks delivered at the 13th [International Conference on Hydroinformatics](https://www.hic2018.org/) (J. Shaw and J. Ayog)
 
-- 2018 (3-5 Sept.), University of Reading: two talks delivered at the Workshop on [Moving and Adaptive Meshes for Global Atmospheric Modelling](https://sites.google.com/view/movingmesh2018) (G. Kesserwani and J. Shaw)
+- 2018 (3-5 Sep.), University of Reading: two talks delivered at the Workshop on [Moving and Adaptive Meshes for Global Atmospheric Modelling](https://sites.google.com/view/movingmesh2018) (G. Kesserwani and J. Shaw)
 
-- 2018 (23-27 Sept.), University of Trento: attended a short course on [Computational Methods for Hyperbolic Equations with Applications](https://eleuteriotoro.com/2018/06/23/computational-methods-for-hyperbolic-equations-with-applications/) (J. Ayog and J. Shaw)
+- 2018 (23-27 Sep.), University of Trento: attended a short course on [Computational Methods for Hyperbolic Equations with Applications](https://eleuteriotoro.com/2018/06/23/computational-methods-for-hyperbolic-equations-with-applications/) (J. Ayog and J. Shaw)
 
 - 2018 (3-5 Oct.), University of Colorado, Boulder: attended an invitation-only [Flood Risk Workshop](https://sites.google.com/view/flood-risk-ws) (G. Kesserwani).
 
