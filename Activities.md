@@ -15,7 +15,7 @@
 
 - 6 Feb. 2019, University of Leeds, EPSRC/LWEC Fellows meeting, [presentation on project overview and progress](https://drive.google.com/file/d/1ACBmj7wHHch_vhvvoxpf052k1KGhIbRY/view?usp=sharing) (G. Kesserwani)
 
-
+- 1 Mar. 2019, Electrite de France (EDF), Chatou, France: meeting with the host of the [open source TELEMAC software](http://www.opentelemac.org/) to explore potential integration (G. Kesserwani and J. Shaw)
 
 
 
