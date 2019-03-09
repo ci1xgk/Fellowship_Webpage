@@ -1,79 +1,40 @@
-## Interactive and dynamic agent-based flood model on FLAME-GPU for studying human-flood systems
+## Agent-based flood model for simulating human-flood responses
 
+This model is being developed through the PhD project of Mohammad Shirvani (mshirvani1@sheffield.ac.uk) at the University of Sheffield supervised by [Dr Georges Kesserwani](https://www.sheffield.ac.uk/civil/staff/academic/gk) and [Dr Paul Richmond](http://paulrichmond.shef.ac.uk/). It is built upon [FLAME-GPU](http://www.flamegpu.com), which is a computer platform for building and running agent-based simulations on Graphics Processing Units (GPUs). The motivation behind this development is to enable a flexible human-flood modelling framework that captures the complex and bidirectional interactions between flooding and people. 
 
-This project is carried by Mohammad Shirvani as a part of his PhD studentship at the University of Sheffield supervised by [Dr Georges Kesserwani](https://www.sheffield.ac.uk/civil/staff/academic/gk) and [Dr Paul Richmond](http://paulrichmond.shef.ac.uk/)
+### About
+This model is a tool for simulating flooding events and social behaviour of people in the same modelling framework, where two-way interactions between people and water flows can be analysed dynamically. The modelling framework intertwines two major components: 
+* A robust hydraulic solver based on finite volume numerical solution of the two-dimensional shallow water equations, which is capable of simulating complex features including shock formation, wetting and drying processes, etc ([Wang et al. 2011](https://www.tandfonline.com/doi/abs/10.1080/00221686.2011.566248)).
+* A pedestrian model for the simulation of a crowd of people walking aimlessly and/or directed towards a goal in a given area ([Richmond and Romano 2008](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.144.734), [Karmakharm et al. 2012](https://diglib.eg.org/handle/10.2312/LocalChapterEvents.TPCG.TPCG12.041-044)).
 
-The motivation of this research is grounded on demonstrating the merit of using a new technology for creating an agent-based hydraulic model and its inherent capability to capture complex interactions with other types of agents in flood-related researches.
+### Aim and scope
+This modelling framework is being developped and progressively validated with a view to: 
+* afford real-time flood simulations at urban-to-neighborhood scale (GPU-accelerated),  
+* map dynamically the impact of flood water on people states and of people actions to reduce flood risk, and  
+* apply this new tool to study realistic scenarios of local community resilience to flood hazard emergencies.   
 
-The current model is built upon [FLAME-GPU](http://www.flamegpu.com), which is a computer modelling framework for building and running agent-based simulations on Graphics Processing Units (GPUs).
+### Dynamic coupling capability
+The modelling framework is able to run for a large crowd of people integrated with flood water simulation in real time, while providing information on the possible changes in individual people states as they get exposed to flooding using morality and vulnerability metrics defined by EA/DEFRA. It is designed to also provide real-time visualisation of both walking humans and flood water propagation, satistics relevant to risk-to-people hazard mapping as time evolves and throughout the spatial flooding domain. 
 
-Please contact Mohammad Shirvani (mshirvani1@sheffield.ac.uk) for further details. 
+The dynamic coupling capability of the framework has been validate over a series of hypothetical human-flood interactiong scenarios demonstrating promising capability to:  
+* simulate evacuation of people running toward a safe emergency exit, with ‘with’ or ‘without’ early evacuation planning measures
+* simulate emergency responders deploying temporary defences and the associated changes in flood water flow reduction
+* simulate different inflow conditions without the need for extra compilation and run on any PC/laptop with a graphics
 
-### What is it?
+### Functionality 
+The modelling framework is entirely agent-based, and requires specification of three different types of agents: flood agents, navigation agents, and pedestrian agents.
+- Flood agents: represent computationals cell in a 2D mesh-based grid which discretise the domain for hydraulic solver. Each flood agent stores the information of water flows (i.e. depth and velocity).
+- Navigation agents: represent a cell in a grid over which people can walk – they store the textures and features of the area and also the location of entrances and exits, provided for pedestrian agents to follow.
+- Pedestrian agents: represent individuals randomly walking  – they store their goal destination for people-to-area interaction, impulsion force variables for people-to-people interactions, and their status variables for people-to-flood interaction.
 
-This model is a tool for simulating flooding events and social behaviour of people in one unified shared modelling framework in which two-way interactions between people and water flows can be analysed dynamically at the level of individuals.
+Since the model does parallel computations, all the above-mentioned agents existing in the domain are evolved at the same time with respect to others’ states within each iteration of the simulations. A single run requires the following paramters: 
+1. Generate initial condition for hydraulic model (bed data, water depth, water velocity), and navigation map (defining the area, walls, obstacles, exits) based on the topographic features defined by hydraulic model.
+2. Assigning parameters, such as number of people, pedestrian emission rate for exists, size of the flood domain, boundary condition.
 
-This model is developed by combining two major components: 
-1.	A well-established hydraulic model (Liang et al., 2007) based on Finite Volume (FV) solution of the two-dimensional Shallow               Water Equations (SWEs) capable of simulating complex features of water flows over an initially dried and/or wet area with bed             friction contribution.
-      
- 2.	A pedestrian model, created by Richmond and Romano (2008) and developed by Karmakharm et al (2012) on FLAME-GPU and capable of             producing a simulation of a crowd of people walking aimlessly and/or directed towards a goal in a given area.
+### Flooded shopping centre example (hypothetical)  
+This example is based on simulation of a number of people wandering in a shopping centre, assuming they are moving between a number of malls. Suddenly an unexpected flooding occurs and they start to evacuate the area immediately. Everyone is guided by imaginary police officers directing them towards a hypothetical safe haven located in northwest corner of the shopping centre. A video demo of the model can be found on YouTube for 5 different scenarios: [CLICK](https://www.youtube.com/watch?v=NCToADh39dQ)
 
-### What is the aim?
-
-The aim of this model is to: 
-
-1. Provide fast flood simulations respectful to physics of water flows 
-2. Provide an alive flood water simulation which can be modified dynamically by the actions of emergency responders 
-3. Eliminate the need of employing external hydraulic software packages to obtain hydrodynamic datasets for feeding ABMs so as to map between water flow characteristics and real-world systems, e.g. social behaviour
-
-All of which above reinforce a greater goal for enabling end-users to conduct real-time spatio-temporal evaluation of human-flood systems from a synaptic perspective, such as assessing the efficiency of implementing temporary flood defence measures or evacuation planning strategies at individual level.
-
-### What does it can do? (so far)
-
-It can:
--	run for large crowd of people integrated with flood water simulation in real time 
--	dynamically change the status of people exposed to water flows by modifying their walking velocities and showing whether they are alive, dead, or trapped with respect to water depth and velocity, which is which based on morality and vulnerability functions defined by EA/DEFRA
--	simulate evacuation of people running toward a safe haven/emergency exit
--	provide a possibility to expose people to flood water under ‘with’ or ‘without’ early evacuation planning measures
--	simulate emergency responders deploying temporary defences
--	optionally observe the effect of human body on water flows
--	run for different scenarios with different inputs and initial conditions without the need for further compilation 
--	run on any PC/laptop with a graphics card
-
-#### What are the outputs?
--	Real-time visualisation of both walking humans and water propagation
--	Statistics and numerical outputs relevant to people and water flow status and characteristics can be customised and outputted after each iteration, both as text files and/or on console command screen (for real-time statistics)
-
-Note 1: in current model, the information of people and hydrodynamic data as well as structural measures is outputted on console command window.
-
-Note 2: any customised outputting form required further compilation after changing to the desirable format
-
-### How does it work?
-
-The model is inherently agent based, created on specification of three different types of agents: flood agents, navigation agents, and pedestrian agents.
-
-- Flood agent: is the representative of a computational cell in a 2D mesh-based grid which discretise the domain for solving SWE with the aim of FV method – they store the information of water flows (i.e. depth and velocity)
-
-- Navigation agent: is the representative of a cell in a grid over which people can walk – they store the textures and features of the area and also the location of entrances and exits, provided for pedestrian agents to follow
-
-- Pedestrian agent: is the representative of an individual based on random walk behaviour – they store their goal destination for people-to-area interaction, impulsion force variables for people-to-people interactions, and their status variables for people-to-flood interaction
-
-Since the model aims parallel computations, all the above-mentioned agents existing in the domain are evolved at the same time with respect to others’ states within each iteration of the simulations
-
-### How to use it?
-1.	Generating initial condition for hydraulic model (bed data, water depth, water velocity), and navigation map (defining the area, walls, obstacles, exits) based on the topographic features defined by hydraulic model.
-
-2.	Assigning parameters, such as number of people, pedestrian emission rate for exists, size of the flood domain, boundary condition, etc. 
-
-3.	Run
-
-### An example
-
-This example is based on simulation of a number of people wandering in a shopping centre, assuming they are moving between a number of malls. Suddenly an unexpected flooding occurs and they start to evacuate the area immediately. Everyone is guided by imaginary police officers directing them towards a hypothetical safe haven located in northwest corner of the shopping centre. 
-
-Watch a demo of the model on YouTube for 5 different scenarios: [CLICK](https://www.youtube.com/watch?v=NCToADh39dQ)
-
-•	First, to demonstrate the response of people to flood water, response of people to a harmless and a very dangerous flash floods with and without early evacuation planning is simulated
+• First, to demonstrate the response of people to flood water, response of people to a harmless and a very dangerous flash floods with and without early evacuation planning is simulated
 
 Model 1: shows a harmless flood event without any early evacuation planning. People escape to a safe have as a response to instantaneous evacuation order given by imaginary police officers once they observe the flood water propagating. 
 
