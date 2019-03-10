@@ -16,7 +16,7 @@ The motivation behind this development is to enable a flexible human-flood model
 ### Dynamic coupling capability
 The modelling framework is able to run for a large crowd of people integrated with flood water simulation in real time, while providing information on the possible changes in individual people states as they get exposed to flooding using flood-to-people hazard rating metrics defined by EA/DEFRA. It is designed to also provide real-time visualisation of both walking humans and flood water propagation, satistics relevant to risk-to-people hazard mapping as time evolves and throughout the spatial flooding domain. 
 
-The dynamic coupling of the framework has been assessed by a series of hypothetical flooding scenarios involving human-flood interactions demonstrating promising capability to:  
+The dynamic coupling of the framework has been assessed by a series of hypothetical flooding scenarios involving human-flood interactions demonstrating promising capability to (see the Illustrative example Section below):  
 * simulate evacuation of people running toward a safe emergency exit, with ‘with’ or ‘without’ early evacuation planning measures
 * simulate emergency responders deploying temporary defences and the associated changes in flood water flow reduction
 * simulate different inflow conditions without the need for extra compilation and run on any PC/laptop with a graphics
