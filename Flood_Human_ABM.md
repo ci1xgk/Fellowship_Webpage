@@ -1,14 +1,14 @@
 ## Simulating dynamic human-flood responses
 
-This model is being developed through the PhD project of Mohammad Shirvani (mshirvani1@sheffield.ac.uk) at the University of Sheffield supervised by [Dr Georges Kesserwani](https://www.sheffield.ac.uk/civil/staff/academic/gk) and [Dr Paul Richmond](http://paulrichmond.shef.ac.uk/). It is built upon [FLAME-GPU](http://www.flamegpu.com), which is a computer platform for building and running agent-based simulations on Graphics Processing Units (GPUs). The motivation behind this development is to enable a flexible human-flood modelling framework that captures the complex and bidirectional interactions between flooding and people. 
+This human-flood simulator is being developed through the PhD project of Mohammad Shirvani (mshirvani1@sheffield.ac.uk) at the University of Sheffield supervised by [Dr Georges Kesserwani](https://www.sheffield.ac.uk/civil/staff/academic/gk) and [Dr Paul Richmond](http://paulrichmond.shef.ac.uk/).  
 
 ### About
-This model is a tool for simulating flooding events and social behaviour of people in the same modelling framework, where two-way interactions between people and water flows can be analysed dynamically. The modelling framework intertwines two major components: 
+The simulator is being built upon [FLAME-GPU](http://www.flamegpu.com), which is a computer platform for building and running agent-based simulations on Graphics Processing Units (GPUs). The modelling framework intertwines two major components: 
 * A robust hydraulic solver based on finite volume numerical solution of the two-dimensional shallow water equations, which is capable of simulating complex features including shock formation, wetting and drying processes, etc ([Wang et al. 2011](https://www.tandfonline.com/doi/abs/10.1080/00221686.2011.566248)).
 * A pedestrian model for the simulation of a crowd of people walking aimlessly and/or directed towards a goal in a given area ([Richmond and Romano 2008](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.144.734), [Karmakharm et al. 2012](https://diglib.eg.org/handle/10.2312/LocalChapterEvents.TPCG.TPCG12.041-044)).
 
 ### Aim and scope
-This modelling framework is being developped and progressively validated aiming to: 
+The motivation behind this development is to enable a flexible human-flood modelling framework that captures the complex and bidirectional interactions between flooding and people. This modelling framework is being developped aiming to: 
 * afford real-time flood simulations at urban-to-neighborhood scale (GPU-accelerated),  
 * map dynamically the impact of flood water on people states and of people actions to reduce flood risk, and  
 * apply this new tool to study realistic scenarios of local community resilience to flood hazard emergencies.   
