@@ -13,7 +13,7 @@ trade-offs between theoretical complexity and practical convenience_. Computer M
 M.K. Sharifian, G. Kesserwani and Y. Hassanzadeh (2018). _A discontinuous Galerkin approach for conservative modeling of fully
 nonlinear and weakly dispersive wave transformations_. Ocean Modelling, [**125**, 61-79](https://www.sciencedirect.com/science/article/pii/S146350031830101X).
 
-#### Conference papers
+#### Conference contributions
 G. Kesserwani, J. Shaw and MK Sharifian. _Adaptive MWDG2 hydrodynamic solver: as accurate as a uniform DG2 solver but faster than a uniform FV1 solver_. Modelling Hydrodynamics for Water Resources (MODWATER 2019), June 17-20, University of Zaragoza, Spain.
 
 J. Shaw and G. Kesserwani. _Well-balanced stochastic Galerkin shallow water flows over uncertain topography_. 3rd International Conference on Uncertainty Quantification in Computational Sciences and Engineering (UNCECOMP 2019), June 24-26, Crete, Greece.
