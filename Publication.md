@@ -1,7 +1,7 @@
 
 ### Publications
 #### Journal papers
-G. Kesserwani, J. Shaw, M.K. Sharifian, P.D. Bates, D. Bau, C. Keylock, and J. Ryan (2019). (Multi)wavelets can increase both accuracy and efficiency of Godunov-type hydrodynamic models? Advances in Water Resouces, _in review_.
+G. Kesserwani, J. Shaw, M.K. Sharifian, P.D. Bates, D. Bau, C. Keylock, and J. Ryan (2019). (Multi)wavelets can increase both accuracy and efficiency of Godunov-type hydrodynamic models. Advances in Water Resouces, _in review_.
 
 J. Shaw and G. Kesserwani (2019). Stochastic Galerkin finite volume shallow flow model: well-balanced treatment over
 uncertain topography (ASCE), _in re-review_.
