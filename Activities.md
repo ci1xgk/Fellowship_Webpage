@@ -1,4 +1,6 @@
 ### Activities
+- 2019 (28 Mar.), University of Bergen, Norway: [Presentation](https://drive.google.com/drive/folders/105k2FjGL3P0xVc_bX3oX7zclxwpG9Wox) on addvances in stochastic Galerkin methods for uncertainty propagation in shallow water modelling. Invited talk delivered at the XXX conference  (J. Shaw)
+
 - 2019 (1 Mar.), Electrite de France (EDF), Chatou, France: meeting with the host of the [open source TELEMAC software](http://www.opentelemac.org/) to explore potential integration (G. Kesserwani and J. Shaw)
 
 - 2019 (6 Feb.), University of Leeds, EPSRC/LWEC Fellows meeting, [presentation on project overview and progress](https://drive.google.com/file/d/1ACBmj7wHHch_vhvvoxpf052k1KGhIbRY/view?usp=sharing) (G. Kesserwani)
