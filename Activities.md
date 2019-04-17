@@ -1,4 +1,6 @@
 ### Activities
+- 2019 (23 Apr.), Seminar talk at the [Civil and Environmental Engineering Department, Amercian University of Beirut](https://www.aub.edu.lb/msfea/cee/Pages/default.aspx): [How can we increase accuracy, reliability, functionality and speed of flood risk modelling approaches?](https://drive.google.com/file/d/1vVMfmHbA-T8WlrK3SCOqkltHxcIuXFov/view?usp=sharing) (G. Kesserwani)
+
 - 2019 (28 Mar.), International workshop on CO₂ Storage in the North Sea - Quantification of Uncertainties and Error Reduction, Finse, Norway: Presentation on [Probabilistic flood mapping: Stochastic Galerkin shallow water modelling with uncertain source terms](https://drive.google.com/file/d/1QTPyasTnZxQRgUaK8281Us2leni2cp4d/view?usp=sharing)) (J. Shaw)
 
 - 2019 (1 Mar.), Electrite de France (EDF), Chatou, France: meeting with the host of the [open source TELEMAC software](http://www.opentelemac.org/) to explore potential integration (G. Kesserwani and J. Shaw)
