@@ -1,11 +1,11 @@
 
 ### Publications
 #### Journal papers
-G. Kesserwani, J. Shaw, M.K. Sharifian, P.D. Bates, D. Bau, C. Keylock, and J. Ryan (2019). (Multi)wavelets can increase both accuracy and efficiency of Godunov-type hydrodynamic models. Advances in Water Resouces, _in review_.
+G. Kesserwani, J. Shaw, M.K. Sharifian, P.D. Bates, D. Bau, C. Keylock, and J. Ryan (2019). (Multi)wavelets can increase both accuracy and efficiency of Godunov-type hydrodynamic models. Advances in Water Resouces,[**129**, 31-55](https://www.sciencedirect.com/science/article/pii/S0309170819301770).
 
 J. Shaw and G. Kesserwani (2019). Stochastic Galerkin finite volume shallow flow model: well-balanced treatment over uncertain topography. Journal of Hydraulic Engineering (ASCE), _in re-review_.
 
-M.K. Sharifian, Y. Hassanzadeh, G. Kesserwani and J. Shaw (2019). Performance of multiwavelet discontinuous Galerkin approach for solving the Green-Naghdi equations. International Journal for Numerical Methods in Fluids, _accepted_.
+M.K. Sharifian, Y. Hassanzadeh, G. Kesserwani and J. Shaw (2019). Performance of multiwavelet discontinuous Galerkin approach for solving the Green-Naghdi equations. International Journal for Numerical Methods in Fluids, [_in press_](https://onlinelibrary.wiley.com/doi/10.1002/fld.4732).
 
 G. Kesserwani, J.L. Ayog and D. Bau (2018). _Discontinuous Galerkin formulation for 2D hydrodynamic modelling:
 trade-offs between theoretical complexity and practical convenience_. Computer Methods in Applied Mechanics and Engineering, [**342**,  710-741](https://doi.org/10.1016/j.cma.2018.08.003). 
