@@ -1,4 +1,8 @@
 ### Activities
+- 2019 (25 Jun.), Oral [presentation](james to add link) delivered at the [3rd International Conference on Uncertainty Quantification in Computational Sciences and Engineering](https://2019.uncecomp.org/) (J. Shaw)
+
+- 2019 (18 Jun.), [Presentation](https://drive.google.com/file/d/1oeFdc_j-mJ74tCgjBt49CUY_kh2utAWV/view?usp=sharing) and [meeting](https://docs.google.com/document/d/1cIj4oAL9oGxYDdgjZCCjcMVwrI2sC6HPBsVQRcRQtmA/edit?usp=sharing) at JBA Trust to introduce SEAMLESS-WAVE and explore means for facilitating public engagement activities (J. Shaw) 
+
 - 2019 (17 Jun.), [Presentation talk](https://drive.google.com/file/d/19WioVoBD-YuxJDMZuXAipNs_WtYcD0x5/view?usp=sharing) at the [Modelling Hydrodynamics for Water Resources](http://eventos.unizar.es/25050/detail/modelling-hydrodynamics-for-water-resources.html) workshop, 17-21 June, Zaragoza, Spain (G. Kesserwani)
 
 - 2019 (5 Jun.), Meeting with the developers of [TUFLOW](https://www.tuflow.com/) software at their Leeds office: Meeting's [presnetation](https://drive.google.com/file/d/1OmBje1Iz5wIcbt5wkHxDbgGA7Jpc8uju/view?usp=sharing) and minutes (G. Kesserwani and J. Ayog)
