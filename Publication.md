@@ -5,7 +5,7 @@ G. Kesserwani, J. Shaw, M.K. Sharifian, P.D. Bates, D. Bau, C. Keylock, and J. R
 
 J. Shaw and G. Kesserwani (2019). Stochastic Galerkin finite volume shallow flow model: well-balanced treatment over uncertain topography. Journal of Hydraulic Engineering (ASCE), _in re-review_.
 
-M.K. Sharifian, Y. Hassanzadeh, G. Kesserwani and J. Shaw (2019). Performance of multiwavelet discontinuous Galerkin approach for solving the Green-Naghdi equations. International Journal for Numerical Methods in Fluids, [_in press_](https://onlinelibrary.wiley.com/doi/10.1002/fld.4732).
+M.K. Sharifian, Y. Hassanzadeh, G. Kesserwani and J. Shaw (2019). Performance of multiwavelet discontinuous Galerkin approach for solving the Green-Naghdi equations. International Journal for Numerical Methods in Fluids, [**90**, 501-521](https://onlinelibrary.wiley.com/doi/full/10.1002/fld.4732).
 
 G. Kesserwani, J.L. Ayog and D. Bau (2018). _Discontinuous Galerkin formulation for 2D hydrodynamic modelling:
 trade-offs between theoretical complexity and practical convenience_. Computer Methods in Applied Mechanics and Engineering, [**342**,  710-741](https://doi.org/10.1016/j.cma.2018.08.003). 
