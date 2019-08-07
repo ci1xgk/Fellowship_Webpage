@@ -1,9 +1,14 @@
 
 ### Publications
 #### Journal papers
+M. Shirvani, G. Kesserwani and P. Richmond (2019). Agent-based simulator of dynamic flood-people interactions. Journal of Flood Risk Management, _under review_.
+
+J. Shaw, G. Kesserwani and P. Pettersson (2019). Robust finite volume shallow flow modelling with direct uncertainty propagation:
+is it worth it? Advances in Water Resouces, _under review_.
+
 G. Kesserwani, J. Shaw, M.K. Sharifian, P.D. Bates, D. Bau, C. Keylock, and J. Ryan (2019). (Multi)wavelets can increase both accuracy and efficiency of Godunov-type hydrodynamic models. Advances in Water Resouces,[**129**, 31-55](https://www.sciencedirect.com/science/article/pii/S0309170819301770).
 
-J. Shaw and G. Kesserwani (2019). Stochastic Galerkin finite volume shallow flow model: well-balanced treatment over uncertain topography. Journal of Hydraulic Engineering (ASCE), _in re-review_.
+J. Shaw and G. Kesserwani (2019). [Stochastic Galerkin finite volume shallow flow model: well-balanced treatment over uncertain topography](https://arxiv.org/abs/1907.06421). Journal of Hydraulic Engineering (ASCE), _accepted_.
 
 M.K. Sharifian, Y. Hassanzadeh, G. Kesserwani and J. Shaw (2019). Performance of multiwavelet discontinuous Galerkin approach for solving the Green-Naghdi equations. International Journal for Numerical Methods in Fluids, [**90**, 501-521](https://onlinelibrary.wiley.com/doi/full/10.1002/fld.4732).
 
