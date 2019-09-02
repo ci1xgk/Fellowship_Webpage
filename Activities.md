@@ -1,4 +1,6 @@
 ### Activities
+- 2019 (10-12 Sep.). Showcasing key developments arising from research to a range of stakeholders at the [Flood Expo 2019](http://www.thefloodexpo.co.uk/), through an [exbition stand using five panels](https://drive.google.com/drive/u/0/folders/1C6vlpm1mg1iefLokeVOELuzMWAy7AzKF) and discussions with attendees on these topics. 
+
 - 2019 (25 Jun.), Oral [presentation](https://drive.google.com/file/d/1yyzqJt4NEi8D3Ei3XjWNQ-Ys_Lhfg5wF/view?usp=sharing) delivered at the [3rd International Conference on Uncertainty Quantification in Computational Sciences and Engineering](https://2019.uncecomp.org/) (J. Shaw)
 
 - 2019 (18 Jun.), [Presentation](https://drive.google.com/file/d/1oeFdc_j-mJ74tCgjBt49CUY_kh2utAWV/view?usp=sharing) and [meeting](https://docs.google.com/document/d/1cIj4oAL9oGxYDdgjZCCjcMVwrI2sC6HPBsVQRcRQtmA/edit?usp=sharing) at JBA Trust to introduce SEAMLESS-WAVE and explore means for facilitating public engagement activities (J. Shaw) 
