@@ -1,5 +1,5 @@
 ### Activities
-- 2019 (20 Sep.), Public engagement presentation 'What happens the day after tomorrow: how do computers forecast floods?' at [Pop-Up University](https://www.museums-sheffield.org.uk/whats-on/events/2019/9/pop-up-university), Millenium Gallery, Sheffield (J. Shaw).
+- 2019 (20 Sep.), Public engagement presentation, _What happens the day after tomorrow: how do computers forecast floods?_, [Pop-Up University](https://www.museums-sheffield.org.uk/whats-on/events/2019/9/pop-up-university), Millenium Gallery, Sheffield (J. Shaw).
 
 - 2019 (11 Sep.), Participation in [Next Generation Land Surface and Hydrological Predictions](https://hydro-jules.org/abstract-submission-form), Royal Society, London (J. Shaw).
 
