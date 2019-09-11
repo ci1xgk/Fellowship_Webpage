@@ -3,7 +3,7 @@
 
 - 2019 (11 Sep.), Participation in [Next Generation Land Surface and Hydrological Predictions](https://hydro-jules.org/abstract-submission-form), Royal Society, London (J. Shaw).
 
-- 2019 (10-12 Sep.), Participation in [Flood Expo 2019](http://www.thefloodexpo.co.uk/) to showcase new research developments to a range of stakeholders, through [exbition panels](https://drive.google.com/file/d/1ngD8wGwS4DpB_IC6iVbDewn9NPX7eLdq/view?usp=sharing) (G. Kesserwani, J. Ayog & M. Shirvani).
+- 2019 (10-12 Sep.), Participation in [Flood Expo 2019](http://www.thefloodexpo.co.uk/) to showcase new research developments to a range of stakeholders, through [exbition panels](https://drive.google.com/file/d/10p1cpQGEE1c0IKQqQyvxs03thszwEGJd/view?usp=sharing).
  
 - 2019 (25 Jun.), Oral [presentation](https://drive.google.com/file/d/1yyzqJt4NEi8D3Ei3XjWNQ-Ys_Lhfg5wF/view?usp=sharing) delivered at the [3rd International Conference on Uncertainty Quantification in Computational Sciences and Engineering](https://2019.uncecomp.org/) (J. Shaw)
 
