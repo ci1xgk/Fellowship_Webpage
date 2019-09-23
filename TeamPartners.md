@@ -10,7 +10,7 @@ The current team involves researchers working at the interface between applied m
 - Yusuf Almalaki, PhD student, University of Sheffield
 
 - [Per Pettersson](https://uni.no/en/staff/directory/per-pettersson/), Research Collaborator, University of Bergen
-- [Ilhan Ozgen](https://eesa.lbl.gov/profiles/ilhan-ozgen/), Research Collaborator, Lawrence Berkeley National Laboratory
+- [Ilhan Ozgen](https://eesa.lbl.gov/profiles/ilhan-ozgen/), Research Collaborator, Berkeley Lab
 
 We are happy that the following scientists have agreed to serve on our steering committee and to provide scientific guidance:
 - Jennifer Ryan, University of East Anglia
