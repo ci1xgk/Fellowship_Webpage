@@ -3,12 +3,14 @@
 The current team involves researchers working at the interface between applied mathematics, hydraulic modelling and science fields, which include the following people: 
 - Georges Kesserwani, Research Fellow, University of Sheffield 
 - James Shaw, Research Associate, University of Sheffield
-- Mohammad K. Sharifian, Research Collaborator, University of Tabriz 
-- Per Pettersson, Research Collaborator, University of Bergen
+- Mohammad K. Sharifian, Research Associate, University of Sheffield 
 - Janice L. Ayog, PhD student, University of Sheffield
 - Mohammad Shirvani, PhD student, University of Sheffield
 - Xitong Sun, PhD student, University of Sheffield
 - Yusuf Almalaki, PhD student, University of Sheffield
+
+- [Per Pettersson](https://uni.no/en/staff/directory/per-pettersson/), Research Collaborator, University of Bergen
+- [Ilhan Ozgen](https://eesa.lbl.gov/profiles/ilhan-ozgen/), Research Collaborator, Lawrence Berkeley National Laboratory
 
 We are happy that the following scientists have agreed to serve on our steering committee and to provide scientific guidance:
 - Jennifer Ryan, University of East Anglia
