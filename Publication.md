@@ -1,6 +1,8 @@
 
 ### Publications
 #### Journal papers
+J. Ayog, G. Kesserwani and D. Bau (2019). Second-order discontinuous Galerkin flood model: comparison with industry-standard finite volume models. Journal of Flood Risk Management, _under review_.
+
 M. Shirvani, G. Kesserwani and P. Richmond (2019). Agent-based simulator of dynamic flood-people interactions. Journal of Flood Risk Management, _under review_.
 
 J. Shaw, G. Kesserwani and P. Pettersson (2019). Robust finite volume shallow flow modelling with direct uncertainty propagation:
