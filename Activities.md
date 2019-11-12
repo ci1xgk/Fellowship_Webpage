@@ -1,4 +1,6 @@
 ### Activities
+- 2020 (11-12 Jun.), University of Sheffield, ['Flood modelling and forecasting challenges in industry'](https://www.twenty65.ac.uk/events/workshop-on-flood-modelling-and-forecasting-challenges-in-industry) workshop. 
+
 - 2019 (19 Nov.), University of Bristol, third steering committee meeting ([agenda and minutes](https://docs.google.com/document/d/1J_Wsoutj_5fuaZejW0um8a1ojZmgTv-VsRECYlP25ls/edit#))
 
 - 2019 (20 Sep.), Public engagement presentation, [_What happens the day after tomorrow: how do computers forecast floods?_](https://drive.google.com/file/d/18CBCXAx2JzbwhNGkOVSgPh19OlpiuV5A/view), [Pop-Up University](https://www.museums-sheffield.org.uk/whats-on/events/2019/9/pop-up-university), Millenium Gallery, Sheffield (J. Shaw). James' talk explained how the Environment Agency is collecting high-resolution terrain data across the UK in order to produce national flood hazard maps, and he showed how his research, [developing uncertainty quantification methods](https://arxiv.org/abs/1907.06421), can help flood risk managers to assess their confidence in computer flood simulations.
