@@ -6,22 +6,22 @@ The team involves researchers working at the interface between mathematics, hydr
 - Mohammad K. Sharifian, Research Associate, University of Sheffield 
 - Alovya Chowdhury, PhD student, University of Sheffield
 
-With contributions from: 
+with contribution from: 
 - Janice L. Ayog, PhD student, University of Sheffield
 - Mohammad Shirvani, PhD student, University of Sheffield
 - Xitong Sun, PhD student, University of Sheffield
 - [Per Pettersson](https://uni.no/en/staff/directory/per-pettersson/), Research Collaborator, University of Bergen
 - [Ilhan Ozgen](https://eesa.lbl.gov/profiles/ilhan-ozgen/), Research Collaborator, Berkeley Lab
-- [Paul Richmond](https://paulrichmond.shef.ac.uk/)
+- [Paul Richmond and the Research Software Engineering group](https://rse.shef.ac.uk/) at the University of Sheffield
 
-We are greatful for the following scientists, who serve on our steering committee meetings to provide scientific guidance:
-- Jennifer Ryan, Applied mathematics & statisitcs (Colorado School of Mines) 
-- Chris Keylock, Fluid Mechanics & data analysis (Loughborough University)
+We are greatful to the following scientists, who serve on our steering committee meetings to provide scientific guidance:
 - Paul Bates, Hydrology & hydraulics (University of Bristol)
-- Onno Bokhove, Computational/geophysical fluid dynamics (University of Leeds)
 - Domenico Bau, Uncertainty quantification & data assimilation (University of Sheffield) 
+- Onno Bokhove, Computational/geophysical fluid dynamics (University of Leeds)
+- Chris Keylock, Fluid Mechanics & data analysis (Loughborough University)
+- Jennifer Ryan, Applied mathematics & statisitcs (Colorado School of Mines) 
 
-We are also greatful for the following external partners, who serve on our industrial committee meetings to provide practical guidance:
+We are also greatful to many external partners serving on our steering committee meetings to provide practical guidance, inluding:
 - UK Environment Agency  (incident management and modelling)
 - BMT Group (providers of 'TUFLOW' software suite)
 - JACOBS (suppliers of 'Flood Modeller Suite')
