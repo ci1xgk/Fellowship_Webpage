@@ -1,7 +1,7 @@
 ### Activities
 - 2020 (11-12 Jun.), University of Sheffield, [_'Flood modelling and forecasting challenges in industry'_](https://www.twenty65.ac.uk/events/workshop-on-flood-modelling-and-forecasting-challenges-in-industry) workshop (Main organisers: G. Kesserwani and [V. Speight](https://www.sheffield.ac.uk/civil/staff/research/speightv)). 
 
-- 2019 (9 Dec.), San Francisco AGU fall meetin, _Finite volume shallow water modelling with direct uncertainty propagation: is it worth it?_ oral presentation at the Fall AGU meeting (G. Kesserwani).
+- 2019 (9 Dec.), San Francisco AGU fall meetin, _Finite volume shallow water modelling with direct uncertainty propagation: is it worth it?_ Oral presentation at the Fall AGU meeting (G. Kesserwani).
 
 - 2019 (19 Nov.), University of Bristol, third steering committee meeting ([agenda and minutes](https://docs.google.com/document/d/1J_Wsoutj_5fuaZejW0um8a1ojZmgTv-VsRECYlP25ls/edit#))
 
