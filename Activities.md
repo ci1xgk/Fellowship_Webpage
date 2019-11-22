@@ -1,11 +1,11 @@
 ### Activities
-- 2020 (11-12 Jun.), University of Sheffield, ['Flood modelling and forecasting challenges in industry'](https://www.twenty65.ac.uk/events/workshop-on-flood-modelling-and-forecasting-challenges-in-industry) workshop. 
+- 2020 (11-12 Jun.), University of Sheffield, ['Flood modelling and forecasting challenges in industry'](https://www.twenty65.ac.uk/events/workshop-on-flood-modelling-and-forecasting-challenges-in-industry) workshop (Lead organisors: G. Kesserwani and [V. Speight](https://www.sheffield.ac.uk/civil/staff/research/speightv)). 
 
 - 2019 (9 Dec.), San Francisco AGU fall meetin, _Finite volume shallow water modelling with direct uncertainty propagation: is it worth it?_ Fall AGU meeting (G. Kesserwani).
 
 - 2019 (19 Nov.), University of Bristol, third steering committee meeting ([agenda and minutes](https://docs.google.com/document/d/1J_Wsoutj_5fuaZejW0um8a1ojZmgTv-VsRECYlP25ls/edit#))
 
-- 2019 (Jun-Dec.), collaboration with the University of Bristol to integrate and test a [robust DG2 solver](https://www.sciencedirect.com/science/article/pii/S004578251830389X) into the multi-core CPU codebase of the popular [LISFLOOD-FP](http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/)  flood model.  
+- 2019 (Jun-Dec.), collaboration with the University of Bristol to integrate and test a [robust DG2 solver](https://www.sciencedirect.com/science/article/pii/S004578251830389X) into the multi-core CPU codebase of the popular [LISFLOOD-FP](http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/) flood model (J. Shaw, J. Neal, P Bates and G. Kesserwani).  
 
 - 2019(Jun.-now), collaboration with US researchers in [Lawrence Berkeley National Laboratory](https://eesa.lbl.gov) to develop and validate Wavelet-based local mesh refinement (wLMR)for rainfall-runoff simulations for real-wolrd catchements. The wLMR apporach is being integrated into the hydrogeological tool [‘TINerator’](https://github.com/lanl/LaGriT/tree/tinerator) to augment its mesh generation capability (I. Özgen-Xian and G. Kesserwani).
 
