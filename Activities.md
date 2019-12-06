@@ -1,5 +1,5 @@
 ### Activities
-- 2020 (11-12 Jun.), University of Sheffield, [_'Flood modelling and forecasting challenges in industry'_](https://www.twenty65.ac.uk/events/workshop-on-flood-modelling-and-forecasting-challenges-in-industry) workshop (Main organisers: G. Kesserwani and [V. Speight](https://www.sheffield.ac.uk/civil/staff/research/speightv)). 
+- 2020 (11-12 Jun.), University of Sheffield, [_'Flood modelling and forecasting challenges in industry'_](https://www.twenty65.ac.uk/events/flood) workshop (Main organisers: G. Kesserwani and [V. Speight](https://www.sheffield.ac.uk/civil/staff/research/speightv)). 
 
 - 2019 (9 Dec.), San Francisco AGU fall meetin, [_Direct approach for uncertainty propagation in hydraulic modelling: is it worth it?_](https://drive.google.com/file/d/1cLouenKS0qJR6cIDsGO3kBg2TC4o860W/view?usp=sharing) Oral presentation at the Fall AGU meeting (G. Kesserwani).
 
