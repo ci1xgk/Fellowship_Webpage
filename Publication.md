@@ -1,6 +1,10 @@
 
 ### Publications
 #### Journal papers
+I. Özgen-Xian, G. Kesserwani, D Caviedes-Voullième, S Molins, Z Xu, D Dwivedi, J. D. Moulton, and C. I. Steefel. Wavelet-based local mesh refinement for rainfall-runoff simulations. **Journal of Hydroinformatics**, tentatively accepted.
+
+J. Shaw, G. Kesserwani and P. Pettersson. Probabilistic Godunov-type hydrodynamic modelling under multiple uncertainties: robust wavelet-based formulations. **Advances in Water Resouces**, accepted.
+
 G. Kesserwani, J. Shaw, M.K. Sharifian, P.D. Bates, D. Bau, C. Keylock, and J. Ryan (2019). (Multi)wavelets can increase both accuracy and efficiency of Godunov-type hydrodynamic models. **Advances in Water Resouces**,[**129**, 31-55](https://www.sciencedirect.com/science/article/pii/S0309170819301770).
 
 J. Shaw and G. Kesserwani (2019). [Stochastic Galerkin finite volume shallow flow model: well-balanced treatment over uncertain topography]. **Journal of Hydraulic Engineering (ASCE)**, [**146**, 04020005](https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29HY.1943-7900.0001705).
