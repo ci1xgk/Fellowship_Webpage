@@ -6,7 +6,7 @@ Development, testing and validatin of new modelling techniques and integrated si
 
 [Robust and efficient second-order discontinous Galerkin (DG2) flood model ](./Robust_DG2.md)
 
-[Wavelet-based solvers that automate grid-resolution size](./MuliWave_Flood_models.md)
+[Wavelet-based solvers that self-automate grid-resolution size](./MuliWave_Flood_models.md)
 
 [Approaches to propagate uncertainties in probabilistic flood simulations](./Uncertainty_Propagation.md)
 
