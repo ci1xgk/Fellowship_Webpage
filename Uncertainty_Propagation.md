@@ -11,9 +11,9 @@ We have been developing probabilistic finite volume formulations based on _intru
 The _wavelet-based nonintrusive approach_ is found to be more flexible for use with existing deterministic solver, for propagating _multiple uncertainties in practical hydrodynamic modelling applications_. 
 
 
-## Ongoing work and code accessiblity 
+### Ongoing work and code accessiblity 
 A nonintrusive software toolkit for obtaining probabilistic flood maps from existing deterministic models is pennding development. The toolkit will implement modern uncertainty quantification methods (e.g. [Bhaduri et al. 2018](https://doi.org/10.1016/j.jcp.2018.06.003)) with the aim of accelerating probabilistic flood models by an order of magnitude.
 
-The Polynomial Chaos based uncertainty propagation approaches can be accessed by following the link available in [Shaw and Kesserwani 2020](https://ascelibrary.org/doi/10.1061/%28ASCE%29HY.1943-7900.0001705) and [Shaw et al. 2020](https://www.sciencedirect.com/science/article/abs/pii/S0309170819306281).
+The uncertainty propagation approaches developped can be accessed and run by following the relevant links in [Shaw and Kesserwani 2020](https://ascelibrary.org/doi/10.1061/%28ASCE%29HY.1943-7900.0001705) and [Shaw et al. 2020](https://www.sciencedirect.com/science/article/abs/pii/S0309170819306281). 
 
 [back](./)
