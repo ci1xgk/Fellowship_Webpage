@@ -1,17 +1,22 @@
-## Simulating dynamic human-flood responses
+## Agent-based food-pedestrian model 
 
-This human-flood simulator is being developed through the PhD project of Mohammad Shirvani (mshirvani1@sheffield.ac.uk) at the University of Sheffield supervised by [Dr Georges Kesserwani](https://www.sheffield.ac.uk/civil/staff/academic/gk) and [Dr Paul Richmond](http://paulrichmond.shef.ac.uk/).  
+Evacuation simulation models are useful to support flood risk management. Such models were developed for microscopic evacuation analysis of crowds of individuals at urban-scale for various purposes, such as emergency response management ([Lumbroso and Tagg 2011](http://eprints.hrwallingford.co.uk/508/)), evacuation route finding ([Bernardini et al. 2017](https://www.sciencedirect.com/science/article/pii/S1876610217346805)), and assessing the number of casualties to violent flood types ([Lumbroso and Davison 2018](https://onlinelibrary.wiley.com/doi/full/10.1111/jfr3.12230)). Simulators of this type adopt agent-based models (ABM) to dynamically map the responses of flooding receptor, such as people or cars, in an urban enviroment. However, most of existing ABM models are designed for _pre-evacuation_ planning purposes and thus ignore the implications from dynamic spatiotemproral interactions that could have occured _during_ flooding.  
 
-### About
-The simulator is being built upon [FLAME-GPU](http://www.flamegpu.com), which is a computer platform for building and running agent-based simulations on Graphics Processing Units (GPUs). The modelling framework intertwines two major components: 
-* A robust hydraulic solver based on finite volume numerical solution of the two-dimensional shallow water equations, which is capable of simulating complex features including shock formation, wetting and drying processes, etc ([Wang et al. 2011](https://www.tandfonline.com/doi/abs/10.1080/00221686.2011.566248)).
-* A pedestrian model for the simulation of a crowd of people walking aimlessly and/or directed towards a goal in a given area ([Richmond and Romano 2008](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.144.734), [Karmakharm et al. 2012](https://diglib.eg.org/handle/10.2312/LocalChapterEvents.TPCG.TPCG12.041-044)).
+We have been developping a flood-pedestrian simulator that dynamically couples a hydrodynamic ABM to a navigation ABM, including walking pedestrian agents. This simulator is designed to:
 
-### Aim and scope
-The motivation behind this development is to enable a flexible human-flood modelling framework that captures the complex and bidirectional interactions between flooding and people. This modelling framework is being developped aiming to: 
-* afford real-time flood simulations at urban-to-neighborhood scale (GPU-accelerated),  
-* map dynamically the impact of flood water on people states and of people actions to reduce flood risk, and  
-* apply this new tool to study realistic scenarios of local community resilience to flood hazard emergencies.   
+* dynamically map the interactions occurring between in a crowd of walking individuals under immediate evacuation under mild and realistic flooding energency conditions, thereby allowing to estimate flood hazard rating in realtime and at a miscroscopic scale; 
+
+* plan pedestrian intervention strategies if an advanced flood warning is issued, e.g. to decide when and where it is possible to safely and robustly delopy a temorary flood barrier. 
+
+The flood-pedestrian simulator is implemented in the open source [FLAME-GPU](http://www.flamegpu.com) platform, ideal for building and efficiently running agent-based simulations on Graphics Processing Units (GPUs). It couples dynamically:
+
+* a fixed grid of flood agents that change their state based on the numerical solution of the two-dimensional shallow water equations ([Wang et al. 2011](https://www.tandfonline.com/doi/abs/10.1080/00221686.2011.566248)), to
+
+
+* a fixed grid of navigation agents that include continous flow of pedestrian agents driven by a random walk behaviour rules ([Richmond and Romano 2008](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.144.734), [Karmakharm et al. 2012](https://diglib.eg.org/handle/10.2312/LocalChapterEvents.TPCG.TPCG12.041-044)).
+
+The behaviour of the walking pedestrian agents is informed by the spatial and temporal changes in the agent states on the coupled navigation and hydrodynamic grids. 
+
 
 ### Dynamic coupling capability
 The modelling framework is able to run for a large crowd of people integrated with flood water simulation in real time, while providing information on the possible changes in individual people states as they get exposed to flooding using flood-to-people hazard rating metrics defined by EA/DEFRA. It is designed to also provide real-time visualisation of both walking humans and flood water propagation, satistics relevant to risk-to-people hazard mapping as time evolves and throughout the spatial flooding domain. 
