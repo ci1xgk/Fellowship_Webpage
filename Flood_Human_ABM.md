@@ -1,4 +1,4 @@
-## Agent-based food-pedestrian model 
+## Agent-based food-pedestrian simulator 
 
 Evacuation simulation models are useful to support flood risk management. Such models were developed for microscopic evacuation analysis of crowds of individuals at urban-scale for various purposes, e.g. emergency response management ([Lumbroso and Tagg 2011](http://eprints.hrwallingford.co.uk/508/)), evacuation route detection ([Bernardini et al. 2017](https://www.sciencedirect.com/science/article/pii/S1876610217346805)), and to assess the number of casualties to dam-break floods ([Lumbroso and Davison 2018](https://onlinelibrary.wiley.com/doi/full/10.1111/jfr3.12230)). Simulators of this type adopt agent-based models (ABM) that allow to analyse the responses of flooding receptor, such as people, cars or socio-economic impacts on the flooded enviroment. Most of existing ABM models are designed for _pre-evacuation_ planning purposes, with little consideration to the accumulated impacts arising from spatiotemproral interactions that could occur _during_ flooding.  
 
