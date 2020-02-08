@@ -37,9 +37,8 @@ Scenario 3. Considers an early evacuation planning subjected to a flood event.
 
 Scenario 4. Considers emergency responders making a barrier made of sandbags in front of water flow to obstruct the water flowing towards the escape area. This model runs for a less severe flooding event in which sandbagging can be considered as an effective temporary action. 
 
-5. Considers sandbagging during an extreme case of flooding. 
+Scenario 5. Considers sandbagging during an extreme case of flooding. 
 
-There is also a video demo of how the body of people is considered as moving obstacles (showing two-way interactions of water and people at the same time) can be seen [here](https://www.youtube.com/watch?v=qGE5ZNiCLaY).
 
 ### Ongoing work
 The flood-pedestrian simulator has been augmented to incorporate more realistic behaviour rules for the walking pedestrian in flood water. These include rules to account for their variable stability states, variable walking speed states, and different body sizes and height for the pedestrians ([Xia et al. 2018](https://iahr.tandfonline.com/doi/abs/10.1080/00221686.2013.875073); [Postacchini et al. 2018](https://drive.google.com/file/d/1Nhp6heNgwNHdtoEKvMdMvWZFaalTD7FJ/view); [Bernardini et al 2020](https://www.sciencedirect.com/science/article/pii/S0925753519321745)). 
