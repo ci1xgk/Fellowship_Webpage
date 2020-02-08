@@ -41,7 +41,7 @@ Scenario 5. Considers sandbagging during an extreme case of flooding.
 
 
 ### Ongoing work
-The flood-pedestrian simulator has been augmented to incorporate more realistic behaviour rules for the walking pedestrian in flood water. These include rules to account for their variable stability states, variable walking speed states, and different body sizes and height for the pedestrians ([Xia et al. 2018](https://iahr.tandfonline.com/doi/abs/10.1080/00221686.2013.875073); [Postacchini et al. 2018](https://drive.google.com/file/d/1Nhp6heNgwNHdtoEKvMdMvWZFaalTD7FJ/view); [Bernardini et al 2020](https://www.sciencedirect.com/science/article/pii/S0925753519321745)). 
+The flood-pedestrian simulator has been augmented to incorporate more realistic behaviour rules for the walking pedestrian in flood water. These include rules to account for their variable stability states, variable walking speed states, and different body sizes and height for the pedestrians ([Xia et al. 2014](https://iahr.tandfonline.com/doi/abs/10.1080/00221686.2013.875073); [Postacchini et al. 2018](https://drive.google.com/file/d/1Nhp6heNgwNHdtoEKvMdMvWZFaalTD7FJ/view); [Bernardini et al 2020](https://www.sciencedirect.com/science/article/pii/S0925753519321745)). 
 
 Ongoing work also inclules evaluating the capability of the simulator to plan emergency evacuation and intervension responses for a real study site of a flood-prone area that is often populated by pedestrians. 
 
