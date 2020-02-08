@@ -4,7 +4,7 @@ Development, testing and validatin of new modelling techniques and integrated si
 
 [Modelling human-flood response dynamics](./Flood_Human_ABM.md)
 
-[Robust and efficient second-order discontinous Galerkin (DG2) flood model ](./Robust_DG2.md)
+[Second-order discontinous Galerkin (DG2) flood model](./Robust_DG2.md)
 
 [Wavelet-based solvers that self-automate grid-resolution size](./MuliWave_Flood_models.md)
 
