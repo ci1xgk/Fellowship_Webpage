@@ -18,7 +18,7 @@ We have been developping (multi)wavelet approaches for adaptive flood modelling.
 
 
 ### Ongoing work and code accessibility 
-A two-dimensional MWDG2 model is under development and testing, with prelimary results indicating that it offers even more efficiency gain reative to the 1D case ([Kesserwani et al. 2019](https://doi.org/10.1016/j.advwatres.2019.04.019)). Details on how to access and run the 1D codes are are documented within ([Kesserwani et al. 2019](https://doi.org/10.1016/j.advwatres.2019.04.019)).    
+A two-dimensional MWDG2 model is under development and testing, with prelimary results indicating that it offers even more efficiency gain reative to the 1D case. Details on how to access and run the 1D codes are are documented within ([Kesserwani et al. 2019](https://doi.org/10.1016/j.advwatres.2019.04.019)).    
 
 Work is also ongoing to validate the 2D-MWDG2 and 2D-HFV1 models for industrial benchmark tests and real-world case studies to assess its real potential for flood modelling applications, and to integrate them into [LISFLOOD-FP](http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/).
 
