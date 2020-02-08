@@ -14,4 +14,6 @@ A second-order discontunuous Galerkin (DG2) approach has, therefore, been adopte
 [Wavelet-based solvers that self-automate grid-resolution size](./MuliWave_Flood_models.md).  
 
 ### Ongoing work and code accessibility 
-The robust DG2 flood model has been sucessfully integrated onto the grid-based [LISFLODD-FP](http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/) solver. It can be run on multi-core CPU, and a CUDA version is under development to enable running it GPUs. 
+The performance of the robust DG2 flood model is currently being assessed against a range of industry standard flood models, over the [UK Environment Agency benchmark tests](https://consult.environment-agency.gov.uk/engagement/bostonbarriertwao/results/appendix-6---neelz--s.---pender--g.--2013--benchmarking-the-latest-generation-of-2d-hydraulic-modelling-packages.-bristol_environment-agency.pdf), and for real-world case studies. 
+
+The sloped-decoupled DG2 flood model ([Kesserwani et al. 2018](https://www.sciencedirect.com/science/article/pii/S004578251830389X)) has been integrated onto the grid-based [LISFLODD-FP](http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/) solver. It can be run on multi-core CPU, and a CUDA version is under development to enable running it GPUs. 
