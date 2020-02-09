@@ -15,11 +15,11 @@ with contribution from:
 - [Paul Richmond and the Research Software Engineering group](https://rse.shef.ac.uk/) at the University of Sheffield
 
 We are greatful to the following scientists, who serve on our steering committee meetings to provide scientific guidance:
-- Paul Bates, Hydrology & hydraulics (University of Bristol)
-- Domenico Bau, Uncertainty quantification & data assimilation (University of Sheffield) 
-- Onno Bokhove, Computational/geophysical fluid dynamics (University of Leeds)
-- Chris Keylock, Fluid Mechanics & data analysis (Loughborough University)
-- Jennifer Ryan, Applied mathematics & statisitcs (Colorado School of Mines) 
+- Paul Bates, University of Bristol
+- Domenico Bau, University of Sheffield 
+- Onno Bokhove, University of Leeds
+- Chris Keylock, Loughborough University
+- Jennifer Ryan, Colorado School of Mines 
 
 We are also greatful to many external partners serving on our steering committee meetings to provide practical guidance, inluding:
 - UK Environment Agency  (incident management and modelling)
