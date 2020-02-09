@@ -14,12 +14,14 @@ with contribution from:
 - [Ilhan Ozgen](https://eesa.lbl.gov/profiles/ilhan-ozgen/), Research Collaborator, Berkeley Lab
 - [Paul Richmond and the Research Software Engineering group](https://rse.shef.ac.uk/) at the University of Sheffield
 
+
 We are greatful to the following scientists, who serve on our steering committee meetings to provide scientific guidance:
-- Paul Bates, University of Bristol
-- Domenico Bau, University of Sheffield 
-- Onno Bokhove, University of Leeds
-- Chris Keylock, Loughborough University
-- Jennifer Ryan, Colorado School of Mines 
+- [Paul Bates](http://www.bristol.ac.uk/geography/people/paul-d-bates/index.html), University of Bristol
+- [Domenico Bau](https://www.sheffield.ac.uk/civil/staff/academic/dbau), University of Sheffield 
+- [Onno Bokhove](https://eps.leeds.ac.uk/maths/staff/4009/professor-onno-bokhove), University of Leeds
+- [Chris Keylock](https://www.lboro.ac.uk/departments/abce/staff/chris-keylock/), Loughborough University
+- [Jennifer Ryan](https://ams.mines.edu/project/ryan-jennifer/), Colorado School of Mines 
+
 
 We are also greatful to many external partners serving on our steering committee meetings to provide practical guidance, inluding:
 - UK Environment Agency  (incident management and modelling)
@@ -28,5 +30,7 @@ We are also greatful to many external partners serving on our steering committee
 - Innovyze (providers of 'InfoWorks ICM' product)
 - DHI Group (suppliers of 'MIKE FLOOD' software)
 - Sheffield City Council (flood and water management team)
+
+
 
 [back](./)
