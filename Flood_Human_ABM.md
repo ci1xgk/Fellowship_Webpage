@@ -41,12 +41,11 @@ Scenario 5. Considers sandbagging during an extreme case of flooding.
 
 
 ### Ongoing work
-The flood-pedestrian simulator has been augmented to incorporate more realistic behaviour rules for the walking pedestrian in flood water. These include rules to account for their variable stability states, variable walking speed states, and different body sizes and height for the pedestrians ([Xia et al. 2014](https://iahr.tandfonline.com/doi/abs/10.1080/00221686.2013.875073); [Postacchini et al. 2018](https://drive.google.com/file/d/1Nhp6heNgwNHdtoEKvMdMvWZFaalTD7FJ/view); [Bernardini et al 2020](https://www.sciencedirect.com/science/article/pii/S0925753519321745)). 
+The flood-pedestrian simulator is being augmented with more sophisticated behaviour rules driving walking pedestrians in floodwater, including stability states due to potential sliding and toppling ([Xia et al. 2014](https://iahr.tandfonline.com/doi/abs/10.1080/00221686.2013.875073), variable walking speed, and nonuniform body charateristics [Bernardini et al 2020](https://www.sciencedirect.com/science/article/pii/S0925753519321745)). Work is also ongoing to set up and apply the simulator for a flood-prone area often populated by pedestrians, to more realistically explore its potential in planning evacuation and interventions.  
 
-Ongoing work also inclules evaluating the capability of the simulator to plan emergency evacuation and intervension responses for a real study site of a flood-prone area that is often populated by pedestrians. 
 
 ### Accessing the simualtor
-A project has been approved to port the latest version of the flood-pedestrain simualtor onto [DAFNI](https://www.dafni.ac.uk/projects/), where it will be openly accessible. 
+A work plan has been approved to port the latest version of the flood-pedestrain simualtor onto [DAFNI](https://www.dafni.ac.uk/projects/) computing facilities, where it can be accessed. 
 
 
 [back](./)
