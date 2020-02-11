@@ -1,6 +1,6 @@
 
 ### Developments
-Development, testing and validation of new modelling techniques is ongoing during, and include the following: 
+Development, testing and validation of new modelling techniques is ongoing, and include the following: 
 
 [Agent-based food-pedestrian simulator](./Flood_Human_ABM.md)
 
