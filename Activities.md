@@ -1,10 +1,10 @@
 ### Activities
 
-- 2020 (Feb.-Sep.), award of a [*Partnerships & Regional Engagement*](https://www.sheffield.ac.uk/pre) funds to participate in the [**Festival of the Mind 2020**](http://festivalofthemind.group.shef.ac.uk/). To link appropriate virtual reality equipment to the ['**Agent-based food-pedestrian simulator'**](https://www.seamlesswave.com/Flood_Human_ABM.html) for use in the festival to enable a person to virtually experience flooding (M. Shirvani, G. Kesserwani and P. Richmond).
+- 2020 (Feb.-Sep.), award of [Partnerships & Regional Engagement](https://www.sheffield.ac.uk/pre) funds to participate in the [Festival of the Mind 2020](http://festivalofthemind.group.shef.ac.uk/): to link appropriate virtual reality equipment to the ['Agent-based food-pedestrian simulator'](https://www.seamlesswave.com/Flood_Human_ABM.html) for use in the festival to virtually engage people to experience computer-simulated flooding (M. Shirvani, G. Kesserwani and P. Richmond).
 
 - 2020 (11-12 Jun.), University of Sheffield, [_'Flood modelling and forecasting challenges in industry'_](https://www.twenty65.ac.uk/events/flood) workshop (Main organisers: G. Kesserwani and [V. Speight](https://www.sheffield.ac.uk/civil/staff/research/speightv)).
 
-- 2020 (01-04 Mar.), Boğaziçi University, participation in the invitation-only [*'Building Resilience Series | Disaster Resilience*'](https://www.raeng.org.uk/grants-prizes/grants/international-research-and-collaborations/frontiers/frontiers-of-development/upcoming-symposia) RAEng Symposium (G. Kesserwani).    
+- 2020 (01-04 Mar.), Boğaziçi University, participation in the invitation-only ['Building Resilience Series: Disaster Resilience'](https://www.raeng.org.uk/grants-prizes/grants/international-research-and-collaborations/frontiers/frontiers-of-development/upcoming-symposia) RAEng Symposium (G. Kesserwani).    
 
 - 2020 (Feb. - Apr.), Pilot plan approved by [DAFNI](https://www.dafni.ac.uk/) Governance Board to port our [dynamically coupled agent based flood-pedestrian simulator on FlameGPU](https://arxiv.org/abs/1908.05232) into their compute facilities (T. Gowland, M. Shirvani, G. Kesserwani and P. Richmond).  
 
