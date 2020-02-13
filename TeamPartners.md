@@ -12,7 +12,7 @@ with contribution from:
 - Xitong Sun, PhD student, University of Sheffield
 - [Per Pettersson](https://uni.no/en/staff/directory/per-pettersson/), Research Collaborator, University of Bergen
 - [Ilhan Ozgen](https://eesa.lbl.gov/profiles/ilhan-ozgen/), Research Collaborator, Berkeley Lab
-- [Paul Richmond and the Research Software Engineering group](https://rse.shef.ac.uk/) at the University of Sheffield
+- [Paul Richmond](https://paulrichmond.shef.ac.uk/) and the [RSE group](https://rse.shef.ac.uk/) at the University of Sheffield
 
 
 We are greatful to the following scientists, who serve on our steering committee meetings to provide scientific guidance:
