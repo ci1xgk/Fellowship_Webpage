@@ -12,7 +12,7 @@ The _wavelet-based nonintrusive approach_ is found to be more flexible for use w
 
 
 ### Ongoing work and code accessiblity 
-A nonintrusive software toolkit for obtaining probabilistic flood maps from existing deterministic models is pennding development. The toolkit will implement modern uncertainty quantification methods (e.g. [Bhaduri et al. 2018](https://doi.org/10.1016/j.jcp.2018.06.003)) with the aim of accelerating probabilistic flood models by an order of magnitude.
+A nonintrusive software toolkit for obtaining probabilistic flood maps from existing deterministic models is pending development. The toolkit will implement modern uncertainty quantification methods (e.g. [Bhaduri et al. 2018](https://doi.org/10.1016/j.jcp.2018.06.003)) with the aim of accelerating probabilistic flood models by an order of magnitude.
 
 The uncertainty propagation approaches developped can be accessed and run by following the relevant links in [Shaw and Kesserwani 2020](https://ascelibrary.org/doi/10.1061/%28ASCE%29HY.1943-7900.0001705) and [Shaw et al. 2020](https://www.sciencedirect.com/science/article/abs/pii/S0309170819306281). 
 
