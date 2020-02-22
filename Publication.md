@@ -18,6 +18,12 @@ M.K. Sharifian, G. Kesserwani and Y. Hassanzadeh (2018). A discontinuous Galerki
 nonlinear and weakly dispersive wave transformations. **Ocean Modelling**, [**125**, 61-79](https://www.sciencedirect.com/science/article/pii/S146350031830101X).
 
 #### Conference contributions
+MK. Sharifian and G. Kesserwani. _(Multi)wavelets increase both accuracy and efficiency of standard Godunov-type hydrodynamic models: 2D application._ 6th IAHR Europe Congress 2020, June 30 - July 2, Warsaw, Poland.  
+
+M. Shirvani, G. Kesserwani and P. Richmond. _Dynamic simulation of flood and people interactions for urban and populated areas._ 'Bringing the Water Sector Together, Innovation Through Collaboration to Secure a Sustainable Future', TWENTY65 conference 2020, April 28-29 Manchester, UK. 
+
+I. Özgen-Xian, S. Molins, G. Kesserwani, D. Caviedes-Voullieme and CI. Steefel. _Meshing workflows for multiscale hydrological simulations: Wavelet-based approach improves model accuracy._ Fall AGU meeting 2019, Decembre 9-13, San Francisco, US.
+
 G. Kesserwani and J. Shaw. _Finite volume shallow water modelling with direct uncertainty propagation: is it worth it?_ Fall AGU meeting 2019, Decembre 9-13, San Francisco, US.  
 
 G. Kesserwani, J. Shaw and MK Sharifian. _Adaptive MWDG2 hydrodynamic solver: as accurate as a uniform DG2 solver but faster than a uniform FV1 solver_. Modelling Hydrodynamics for Water Resources (MODWATER 2019), June 17-20, University of Zaragoza, Spain.
