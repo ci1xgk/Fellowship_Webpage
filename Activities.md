@@ -8,13 +8,13 @@
 
 - 2020 (Feb. - Apr.), Pilot plan approved by [DAFNI](https://www.dafni.ac.uk/) Governance Board to port our [dynamically coupled agent based flood-pedestrian simulator on FlameGPU](https://arxiv.org/abs/1908.05232) into their compute facilities (T. Gowland, M. Shirvani, G. Kesserwani and P. Richmond).  
 
-- 2019 (9 Dec.), San Francisco AGU fall meetin, [_Direct approach for uncertainty propagation in hydraulic modelling: is it worth it?_](https://drive.google.com/file/d/1cLouenKS0qJR6cIDsGO3kBg2TC4o860W/view?usp=sharing) Oral presentation at the Fall AGU meeting (G. Kesserwani).
+- 2019 (9 Dec.), San Francisco AGU fall meeting, [_Direct approach for uncertainty propagation in hydraulic modelling: is it worth it?_](https://drive.google.com/file/d/1cLouenKS0qJR6cIDsGO3kBg2TC4o860W/view?usp=sharing) Oral presentation at the Fall AGU meeting (G. Kesserwani).
 
 - 2019 (19 Nov.), University of Bristol, third steering committee meeting ([agenda and minutes](https://docs.google.com/document/d/1J_Wsoutj_5fuaZejW0um8a1ojZmgTv-VsRECYlP25ls/edit#))
 
 - 2019 (Jun-Dec.), collaboration with the University of Bristol to integrate and test a [robust DG2 solver](https://www.sciencedirect.com/science/article/pii/S004578251830389X) into the multi-core CPU codebase of the popular [LISFLOOD-FP](http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/) flood model (J. Shaw, J. Neal, P Bates and G. Kesserwani).  
 
-- 2019(Jun.-Dec.), collaboration with US researchers in [Lawrence Berkeley National Laboratory](https://eesa.lbl.gov) to develop and validate Wavelet-based local mesh refinement (wLMR)for rainfall-runoff simulations for real-wolrd catchements. The wLMR apporach is being integrated into the hydrogeological tool [‘TINerator’](https://github.com/lanl/LaGriT/tree/tinerator) to augment its mesh generation capability (I. Özgen-Xian and G. Kesserwani).
+- 2019(Jun.-Dec.), collaboration with US researchers in [Lawrence Berkeley National Laboratory](https://eesa.lbl.gov) to develop and validate Wavelet-based local mesh refinement (wLMR)for rainfall-runoff simulations for real-world catchments. The wLMR apporach is being integrated into the hydrogeological tool [‘TINerator’](https://github.com/lanl/LaGriT/tree/tinerator) to augment its mesh generation capability (I. Özgen-Xian and G. Kesserwani).
 
 - 2019 (20 Sep.), Public engagement presentation, [_What happens the day after tomorrow: how do computers forecast floods?_](https://drive.google.com/file/d/18CBCXAx2JzbwhNGkOVSgPh19OlpiuV5A/view), [Pop-Up University](https://www.museums-sheffield.org.uk/whats-on/events/2019/9/pop-up-university), Millenium Gallery, Sheffield (J. Shaw). James' talk explained how the Environment Agency is collecting high-resolution terrain data across the UK in order to produce national flood hazard maps, and he showed how his research, [developing uncertainty quantification methods](https://arxiv.org/abs/1907.06421), can help flood risk managers to assess their confidence in computer flood simulations.
 
