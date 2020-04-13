@@ -1,6 +1,10 @@
 
 ### Publications
 #### Journal papers
+M. Shirvani, G. Kesserwani, and P. Richmond (2020). Simulation of pedestrian responses to urban flood emergency in a populated area: choice of pedestrian behavioural rules and implications for flood risk assessment. **Journal of Hydroinformatics**, tentatively accepted.
+
+M. Shirvani, G. Kesserwani, and P. Richmond (2020). Agent-based simulator of dynamic flood-people interactions. **Journal of Flood Risk Management**, tentatively accepted.
+
 I. Özgen-Xian, G. Kesserwani, D Caviedes-Voullième, S Molins, Z Xu, D Dwivedi, J. D. Moulton, and C. I. Steefel (2020). Wavelet-based local mesh refinement for rainfall-runoff simulations. **Journal of Hydroinformatics**, accepted.
 
 J. Shaw, G. Kesserwani and P. Pettersson (2020). Probabilistic Godunov-type hydrodynamic modelling under multiple uncertainties: robust wavelet-based formulations. **Advances in Water Resouces**, [**137**, 103526](https://doi.org/10.1016/j.advwatres.2020.103526).
