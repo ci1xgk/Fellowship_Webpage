@@ -1,7 +1,7 @@
 
 ### Publications
 #### Journal papers
-M. Shirvani, G. Kesserwani, and P. Richmond (2020). Simulation of pedestrian responses to urban flood emergency in a populated area: choice of pedestrian behavioural rules and implications for flood risk assessment. **Journal of Hydroinformatics**, tentatively accepted.
+M. Shirvani, G. Kesserwani, and P. Richmond (2020). Agent-based modelling of pedestrian responses during flood emergency: mobility behavioural rules and implications for flood risk analysis. **Journal of Hydroinformatics**, tentatively accepted.
 
 M. Shirvani, G. Kesserwani, and P. Richmond (2020). Agent-based simulator of dynamic flood-people interactions. **Journal of Flood Risk Management**, tentatively accepted.
 
