@@ -1,6 +1,8 @@
 
 ### Publications
 #### Journal papers
+G. Kesserwani and M.K. Sharifian (2020). (Multi)wavelets can increase both accuracy and efficiency of Godunov-type hydrodynamic models: robust 2D approaches. **Advances in Water Resouces**, in revision for re-review. 
+
 M. Shirvani, G. Kesserwani, and P. Richmond (2020). Agent-based modelling of pedestrian responses during flood emergency: mobility behavioural rules and implications for flood risk analysis. **Journal of Hydroinformatics**, in re-review.
 
 M. Shirvani, G. Kesserwani, and P. Richmond (2020). Agent-based simulator of dynamic flood-people interactions. **Journal of Flood Risk Management**, in re-review.
