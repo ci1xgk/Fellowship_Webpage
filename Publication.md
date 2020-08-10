@@ -3,11 +3,11 @@
 #### Journal papers
 G. Kesserwani and M.K. Sharifian (2020). (Multi)wavelets can increase both accuracy and efficiency of Godunov-type hydrodynamic models: robust 2D approaches. **Advances in Water Resouces**, [**144**, 103693](https://doi.org/10.1016/j.advwatres.2020.103693). 
 
-M. Shirvani, G. Kesserwani, and P. Richmond (2020). Agent-based modelling of pedestrian responses during flood emergency: mobility behavioural rules and implications for flood risk analysis. **Journal of Hydroinformatics**, [in press](https://doi.org/10.2166/hydro.2020.031).
+M. Shirvani, G. Kesserwani, and P. Richmond (2020). Agent-based modelling of pedestrian responses during flood emergency: mobility behavioural rules and implications for flood risk analysis. **Journal of Hydroinformatics**, [**in press**](https://doi.org/10.2166/hydro.2020.031).
 
 M. Shirvani, G. Kesserwani, and P. Richmond (2020). Agent-based simulator of dynamic flood-people interactions. **Journal of Flood Risk Management**, in re-review.
 
-I. Özgen-Xian, G. Kesserwani, D Caviedes-Voullième, S Molins, Z Xu, D Dwivedi, J. D. Moulton, and C. I. Steefel (2020). Wavelet-based local mesh refinement for rainfall-runoff simulations. **Journal of Hydroinformatics**, https://doi.org/10.2166/hydro.2020.198.
+I. Özgen-Xian, G. Kesserwani, D Caviedes-Voullième, S Molins, Z Xu, D Dwivedi, J. D. Moulton, and C. I. Steefel (2020). Wavelet-based local mesh refinement for rainfall-runoff simulations. **Journal of Hydroinformatics**, [**in press**](https://doi.org/10.2166/hydro.2020.198).
 
 J. Shaw, G. Kesserwani and P. Pettersson (2020). Probabilistic Godunov-type hydrodynamic modelling under multiple uncertainties: robust wavelet-based formulations. **Advances in Water Resouces**, [**137**, 103526](https://doi.org/10.1016/j.advwatres.2020.103526).
 
