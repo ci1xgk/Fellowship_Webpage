@@ -1,27 +1,13 @@
 ## Agent-based food-pedestrian simulator 
 
-Evacuation simulation models are useful to support flood risk management. Such models were developed for microscopic evacuation analysis of crowds of individuals at urban-scale for various purposes, e.g. emergency response management ([Lumbroso and Tagg 2011](https://eprints.hrwallingford.com/837/)), evacuation route detection ([Bernardini et al. 2017](https://www.sciencedirect.com/science/article/pii/S1876610217346805)), and to assess the number of casualties to dam-break floods ([Lumbroso and Davison 2018](https://onlinelibrary.wiley.com/doi/full/10.1111/jfr3.12230)). Simulators of this type adopt agent-based models (ABM) that allow to analyse the responses of flooding receptor, such as people, cars or socio-economic impacts on the flooded environment. ABM models have been designed for _pre-evacuation_ planning applications, but with little focus on the potentially accumulated effects arising from the spatiotemproral interactions of individual evacuees _during_ flooding.  
+The flood-pedestrian simulator is implementend within [FLAMEGPU](http://www.flamegpu.com), a computational platform for the simulation of multiple agent interactions on CUDA Cores for parallel processing on Graphical Processing Units (GPUs). It involves dynamic and bidirectional coupling across pedestrian-agents and flood agents ([Shirvani et al. 2020](https://arxiv.org/abs/1908.05232)). 
 
-We have been developping a flood-pedestrian simulator that dynamically couples a hydrodynamic ABM to a navigation ABM, including walking pedestrian agents. This simulator is designed to:
+Pedestrian-agents are continuous so they can change their coordinates and their population. Their walking patterns are based on the social force model that accounts for the movements of each individual and by modelling the interaction between individuals to derive forces that avoid collisions with neighbours. The motion of pedestrian-agents is also governed by by a global path planning model represented by a grid of discrete agents, navigation-agents, forming a navigation map. The navigation map encodes the features of the walkable area necessary for the individuals’ way-finding decision, e.g. terrain obstacles and walls that need to be avoided as the individuals navigate and vector fields providing navigation to key destinations. Multiple pedestrian agents can be presented at the same time over one mutual navigation agent as they are of continuous type ([Shirvani et al. 2020](https://arxiv.org/abs/1908.05232)). 
 
-* map the interactions occurring between walking individuals under immediate evacuation to realistic flooding conditions, and thus to estimate localised flood hazard rating in realtime; 
-
-* plan pedestrian intervention strategies in reponse to an advanced flood warning, e.g. to decide when and where it is safe to robustly deploy a temorary barrier. 
+Flood agents are discrete agents that are coincident with the grid of navigation agents. Each flood agent stores its position, terrain properties in terms of height and Manning’s roughness parameter, and the states of the floodwater variables in terms of water depth and velocity components. The information stored in the pedestrian-agents and in the flood-agents is passed between them through the navigation-agents that act as shared communication interfaces (see Section 2.5 in [Shirvani et al. 2020](https://arxiv.org/abs/1908.05232)).
 
 
-The flood-pedestrian simulator is implemented in the [FLAME-GPU](http://www.flamegpu.com) platform for building and efficiently running agent-based simulations on Graphics Processing Units (GPUs). It couples dynamically:
-
-* a fixed grid of flood agents that change their state based on the numerical solution of the two-dimensional shallow water equations ([Wang et al. 2011](https://www.tandfonline.com/doi/abs/10.1080/00221686.2011.566248)), to
-
-
-* a fixed grid of navigation agents that include continuous flow of pedestrian agents driven by a random walk behaviour rules ([Richmond and Romano 2008](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.144.734), [Karmakharm et al. 2012](https://diglib.eg.org/handle/10.2312/LocalChapterEvents.TPCG.TPCG12.041-044)).
-
-The behaviour of the walking pedestrian agents is informed by the spatial and temporal changes in the states of the flood and navigation agents on the coupled grids. 
-
-
-### Two-way coupling capability
-The developing flood-pedestrian simulator ([Shirvani et al. 2019](https://arxiv.org/abs/1908.05232)) is able to run in real time with visualisation, while providing information on the possible changes in the pedestrian states based on the [Hazard Rating (HR) metric defined by the Enironment Agengy and DEFRA](http://randd.defra.gov.uk/Document.aspx?Document=FD2321_3436_TRP.pdf). Outputs of the simulator can also include flooding agent states as they evolve in time and throughout the spatial flooding domain. 
-
+### Verification of the simualtor's two-way coupling capability
 The two-way coupling ability of the simulator has been assessed for a hypothetical case study of a flood shopping centre considering two cases (details in [Shirvani et al. 2019](https://arxiv.org/abs/1908.05232)): 
 
 * an evacuation case involving 1000 pedestrians evacuating toward a safe emergency exit, with _with_/_without_ an advanced flood warning; 
@@ -42,11 +28,11 @@ Scenario 5. Considers sandbagging during an extreme case of flooding.
 
 
 ### Ongoing work
-The flood-pedestrian simulator is being augmented with more sophisticated behaviour rules driving walking pedestrians in floodwater, including stability states due to potential sliding and toppling ([Xia et al. 2014](https://iahr.tandfonline.com/doi/abs/10.1080/00221686.2013.875073), variable walking speed, and nonuniform body charateristics [Bernardini et al 2020](https://www.sciencedirect.com/science/article/pii/S0925753519321745)). Work is also ongoing to set up and apply the simulator for a flood-prone area often populated by pedestrians, to more realistically explore its potential in planning evacuation and interventions.  
+The flood-pedestrian simulator has been augmented with more sophisticated behaviour rules for governing pedestrians' variable walking speeds and instability states in floodwater, and considering difference age, gender and body sizes ([Shirvani et al 2020](https://iwaponline.com/jh/article-abstract/22/5/1078/75432/Agent-based-modelling-of-pedestrian-responses?redirectedFrom=fulltext)). Work is also ongoing to set up and apply the simulator for a real case study of a flood-prone and congested urban area to more realistically explore its potential in planning evacuation and interventions.  
 
 
 ### Accessing the simualtor
-A work plan has been approved to port the latest version of the flood-pedestrain simualtor onto [DAFNI](https://www.dafni.ac.uk/projects/) computing facilities, where it can be accessed. 
+The flood-pedestrain simualtor has been ported the compute facility of [DAFNI](https://dafni.ac.uk/project/flood-people-simulator/), where it can be used from a user-friendly graphical interface and informed by a detailed user guide. We are very grateful for the portability support provided by DAFNI to make the simulator available to the wider community and easy-to-use by non-experts. The proehct of porting the simulator to DAFNI was smooth, timely and stress-free! Also, upon project completion, we were provided with a demonstration of how the simulator can be run from the user-friendly graphical interface of DAFNI. Thanks DAFNI! 
 
 
 [back](./)
