@@ -2,33 +2,31 @@
 
 The flood-pedestrian simulator is implementend within [FLAMEGPU](http://www.flamegpu.com), a computational platform for the simulation of multiple agent interactions on CUDA Cores for parallel processing on Graphical Processing Units (GPUs). It involves dynamic and bidirectional coupling across pedestrian-agents and flood-agents ([Shirvani et al. 2020](https://arxiv.org/abs/1908.05232)). 
 
-Pedestrian-agents are continuous so they can change their coordinates and their population. Their walking patterns are based on the social force model that accounts for the movements of each individual and by modelling the interaction between individuals to derive forces that avoid collisions with neighbours. The motion of pedestrian-agents is also governed by by a global path planning model represented by a grid of discrete agents, navigation-agents, forming a navigation map. The navigation map encodes the features of the walkable area necessary for the individuals’ way-finding decision, e.g. terrain obstacles and walls that need to be avoided as the individuals navigate and vector fields providing navigation to key destinations. Multiple pedestrian agents can be present at the same time over one mutual navigation agent as they are of continuous type ([Shirvani et al. 2020](https://arxiv.org/abs/1908.05232)). 
+Pedestrian-agents are continuous so they can change their coordinates and their population. Their walking patterns are based on the social force model that accounts for the movements of each individual and by modelling the interaction between individuals to derive forces that avoid collisions with neighbours. The motion of pedestrian-agents is also governed by a global path planning model represented by a grid of discrete agents, navigation-agents, forming a navigation map. The navigation map encodes the features of the walkable area necessary for the individuals’ way-finding decision, e.g. terrain obstacles and walls that need to be avoided as the individuals navigate and vector fields providing navigation to key destinations. Multiple pedestrian agents can be present at the same time over one mutual navigation agent as they are of continuous type ([Shirvani et al. 2020](https://arxiv.org/abs/1908.05232)). 
 
 Flood-agents are discrete agents that are coincident with the grid of navigation agents. Each flood-agent stores its position, terrain properties in terms of height and Manning’s roughness parameter, and the states of the floodwater variables in terms of water depth and velocity components. A non-sequential computation for a hydrodynamic model is used to allow all flood-agents to dynamically updates the states of floodwater variables at the same time (i.e. in parallel). The information stored in the pedestrian-agents and in the flood-agents is dynamically passed between them through the navigation-agents that act as shared communication interfaces (see Section 2.5 in [Shirvani et al. 2020](https://arxiv.org/abs/1908.05232)).
 
 
 ### Verification of the simualtor's two-way coupling capability
-The two-way coupling ability of the simulator has been assessed for a hypothetical case study of a flood shopping centre considering two cases (details in [Shirvani et al. 2020](https://arxiv.org/abs/1908.05232)): 
+The two-way coupling ability of the simulator has been evaluated for a hypothetical case study of a flooded shopping centre ([Shirvani et al. 2020](https://arxiv.org/abs/1908.05232)), for an evacuation scenario of 1000 pedestrians to a safe emergency exit, with _with_/_without_ an advanced flood warning; and an intervention scenario to find out the miminum _responder_ pedestrians and height of a flood-fighting barrier for safe and robust deployment. 
 
-* an evacuation case involving 1000 pedestrians evacuating toward a safe emergency exit, with _with_/_without_ an advanced flood warning; 
+In addition to the demonstration provided in [Shirvani et al. (2020)](https://arxiv.org/abs/1908.05232), simulation demos are provided in this [video](https://www.youtube.com/watch?v=NCToADh39dQ) for five modelling cases. 'Model 1' to 'Model 3' simulate people evacuating during a flood; whereas, 'Model 4' and 'Model 5' simulate people intervening to deploy a flood-fighting barrier upstream of the emergency exit. More specifically:  
 
-* an intervention case exploring the miminum of _responder_ pedestrians required to safely deploy a temporary defence in response to an advanced warning. 
+* 'Model 1' covers a low-risk flood event without any early evacuation planning. People escape to the emergency exit, in response to an order given by an authority onsite as soon as they observe the flooding propagation.
 
-Simulations illustrating the capabilites of the simualtor for five flooding scenarios can be found in this [YouTube video](https://www.youtube.com/watch?v=NCToADh39dQ). Scenarios 1-3 demonstrates how people dynamically response to the emergent flood and scenarios 4-5 demonstrates how people intervention to deploy a temporary barrier can reduce the flood intensity upstream of the emergency exit: 
+* 'Model 2' covers an extreme flood event without an early evacuation plan. People escape once they observe the flooding propagation, while some people get trapped in floodwater and wait for help.
 
-Scenario 1. Considers a low-risk flood event without any early evacuation planning. People escape to a safe haven as a response to instantaneous evacuation order given by imaginary police officers once they observe the flood water propagating.
+* 'Model 3' illustrates an early evacuation planning assuming a prior knowledge of flooding propagation.  
 
-Scenario 2. Considers an extreme flood event without any early evacuation planning. People escape once they observe the flood water propagating. Some people get trapped into water and wait for help.
+* 'Model 4' shows emergency responders deploying a sandbag-barrier prior to a low-risk flooding to obstruct water flow from reaching the espcape area. 
 
-Scenario 3. Considers an early evacuation planning subjected to a flood event. 
-
-Scenario 4. Considers emergency responders making a barrier made of sandbags in front of water flow to obstruct the water flowing towards the escape area. This model runs for a less severe flooding event in which sandbagging can be considered as an effective temporary action. 
-
-Scenario 5. Considers sandbagging during an extreme case of flooding. 
+* 'Model 5' study the feasiblity of the the sandbaging process for an extreme flooding case.
 
 
-### Ongoing work
-The flood-pedestrian simulator has been augmented with more sophisticated behaviour rules for governing pedestrians' variable walking speeds and instability states in floodwater, and considering difference age, gender and body sizes ([Shirvani et al 2020](https://iwaponline.com/jh/article-abstract/22/5/1078/75432/Agent-based-modelling-of-pedestrian-responses?redirectedFrom=fulltext)). Work is also ongoing to set up and apply the simulator for a real case study of a flood-prone and congested urban area to more realistically explore its potential in planning evacuation and interventions.  
+### Related activities 
+The flood-pedestrian simulator has been augmented with more sophisticated behaviour rules for governing pedestrians' variable walking speeds and instability states in floodwater, and considering age groups, gender and body sizes ([Shirvani et al 2020](https://iwaponline.com/jh/article-abstract/22/5/1078/75432/Agent-based-modelling-of-pedestrian-responses?redirectedFrom=fulltext)). 
+
+Work has been underway to explore the perforamce of the simulator for a real-case study, of a flood-prone and congested area in Sheffield, and to enable it with a dynamic 4D visulaisation tool to stimulate more effective engagement with the general public (]Festival of the Mind, 2020](http://staging-festivalofthemind.kinsta.cloud/2020/futurecade/planning-for-the-next-great-flood/)). 
 
 
 ### Accessing the simualtor
