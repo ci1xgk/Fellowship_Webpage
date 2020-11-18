@@ -26,7 +26,7 @@ In addition to the demonstration provided in [Shirvani et al. (2020)](https://ar
 ### Related activities 
 The flood-pedestrian simulator has been augmented with more sophisticated behaviour rules for governing pedestrians' variable walking speeds and instability states in floodwater, and considering age groups, gender and body sizes ([Shirvani et al 2020](https://iwaponline.com/jh/article-abstract/22/5/1078/75432/Agent-based-modelling-of-pedestrian-responses?redirectedFrom=fulltext)). 
 
-Work has been underway to explore the perforamce of the simulator for a real-case study, of a flood-prone and congested area in Sheffield, and to enable it with a dynamic 4D visulaisation tool to stimulate more effective engagement with the general public (]Festival of the Mind, 2020](http://staging-festivalofthemind.kinsta.cloud/2020/futurecade/planning-for-the-next-great-flood/)). 
+Work has been underway to explore the perforamce of the simulator for a real-case study, of a flood-prone and congested area in Sheffield, and to enable it with a dynamic 4D visulaisation tool to stimulate more effective engagement with the general public ([Festival of the Mind, 2020](http://staging-festivalofthemind.kinsta.cloud/2020/futurecade/planning-for-the-next-great-flood/)). 
 
 
 ### Accessing the simualtor
