@@ -2,7 +2,9 @@
 ### Publications
 #### Journal papers
 
-M. Shirvani, G. Kesserwani, and P. Richmond (2020). Agent-based simulator of dynamic flood-people interactions. **Journal of Flood Risk Management**, Tenatively Accepted.
+J. Ayog, G. Kesserwani, J. Shaw, M.K. Sharifian, and D Bau (2021). Second-order discontinuous Galerkin flood model: comparison with industry-standard finite volume models. **Journal of Hydrology**, Accepted.
+
+M. Shirvani, G. Kesserwani, and P. Richmond (2021). Agent-based simulator of dynamic flood-people interactions. **Journal of Flood Risk Management**, Accepted.
 
 M. Shirvani, G. Kesserwani, and P. Richmond (2020). Agent-based modelling of pedestrian responses during flood emergency: mobility behavioural rules and implications for flood risk analysis. **Journal of Hydroinformatics**, [**22**: 1078–1092](https://doi.org/10.2166/hydro.2020.031).
 
