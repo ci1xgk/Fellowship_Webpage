@@ -1,4 +1,6 @@
-## Second-order discontinous Galerkin (DG2) flood model
+## LISFLOOD-FP-DG2-GPU
+
+To be updated soon... 
 
 Finite volume flood model formulations are well-established in research and industrial communities (e.g. [CLAWPACK-5](http://www.clawpack.org/) and [TUFLOW](https://www.tuflow.com/) software packages). These formulations have adopted the Godunov-type principle ([Toro and Garcia-Navarro 2007](https://www.tandfonline.com/doi/abs/10.1080/00221686.2007.9521812)) given its advantage to automatically capture all types of water flow transitions: store the flow and terrain data _element-wise_ using a _piecewise-constant approximation_ and evolve flow data by means of inter-elemental spatial flux exchange, by incorporating an [approximate Riemann solver](https://en.wikipedia.org/wiki/Riemann_solver#Approximate_solvers). Formulations that instead use a _piecewise-planar approximation_ are shown to improve flood simulation predictions, such as for modelling applications that are limited to coarse mesh resolution ([Kesserwani and Wang (2014)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2013WR014906); [Sanders and Schubert 2019](https://www.sciencedirect.com/science/article/pii/S0309170818308698)). 
 
