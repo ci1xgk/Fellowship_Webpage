@@ -1,7 +1,3 @@
-## LISFLOOD-FP-DG2-GPU
-
-To be updated soon... 
-
 Finite volume flood model formulations are well-established in research and industrial communities (e.g. [CLAWPACK-5](http://www.clawpack.org/) and [TUFLOW](https://www.tuflow.com/) software packages). These formulations have adopted the Godunov-type principle ([Toro and Garcia-Navarro 2007](https://www.tandfonline.com/doi/abs/10.1080/00221686.2007.9521812)) given its advantage to automatically capture all types of water flow transitions: store the flow and terrain data _element-wise_ using a _piecewise-constant approximation_ and evolve flow data by means of inter-elemental spatial flux exchange, by incorporating an [approximate Riemann solver](https://en.wikipedia.org/wiki/Riemann_solver#Approximate_solvers). Formulations that instead use a _piecewise-planar approximation_ are shown to improve flood simulation predictions, such as for modelling applications that are limited to coarse mesh resolution ([Kesserwani and Wang (2014)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2013WR014906); [Sanders and Schubert 2019](https://www.sciencedirect.com/science/article/pii/S0309170818308698)). 
 
 A second-order discontunuous Galerkin (DG2) approach has been used to augment the finite volume formulation to storing and evolving element-wise _piecewise-planar approximation_. The so-called _slope_decoupled_ DG2 form has been developed ([Kesserwani et al. 2018](https://www.sciencedirect.com/science/article/pii/S004578251830389X)) with a four-fold purpose: 
@@ -19,3 +15,72 @@ A second-order discontunuous Galerkin (DG2) approach has been used to augment th
 The performance of the robust DG2 flood model is currently being assessed against a range of industry standard flood models, over the [UK Environment Agency benchmark tests](https://consult.environment-agency.gov.uk/engagement/bostonbarriertwao/results/appendix-6---neelz--s.---pender--g.--2013--benchmarking-the-latest-generation-of-2d-hydraulic-modelling-packages.-bristol_environment-agency.pdf), and for real-world case studies. 
 
 The sloped-decoupled DG2 flood model ([Kesserwani et al. 2018](https://www.sciencedirect.com/science/article/pii/S004578251830389X)) has been integrated onto the grid-based [LISFLOOD-FP](http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/) solver. There is a standard version to run it on multi-core CPU, and a developing CUDA version to also run the DG2 flood model on GPUs. 
+
+------------------------------------------------------
+## LISFLOOD-FP8.0
+
+With the Sheffield contribution, what has become possible with the LFP initially developped by Bristol + link to the bristol main page.  
+
+### New FV1 and DG2 solvers on multi-core CPU 
+Text to explain ACC-GPU, FV1-GPU, and DG2-GPU, FV1-CPU and DG2-CPU + multi-core Limited to a single GPU card.
+
+#### New GPU solvers  
+Text to explain ACC-GPU, FV1-GPU, and DG2-GPU, FV1-CPU and DG2-CPU + multi-core Limited to a single GPU card.
+
+
+### Download  
+
+#### Zenodo for external users 
+We mainly point people to the version on Zenodo where you need to fill a form. Refer to the paper of Shaw et al. (2019). 
+
+#### GitHub for University of Sheffield users 
+To get access into the most up to date version version on GitHub, communcate with Jeff from Bristol or with MKS form ou side. It is a cross-platform, so the same download is usable on windows and linux. 
+
+
+### Compilation   
+The downloaded versin is cross-platform... and can be done on personal computers on windows or linux, or via the HPC of the university of Sheffield (link).  
+
+#### On a personal computer
+MKS to descrive a process + comments on VS19.  
+
+#### On the University of Sheffield HPC 
+link to the HPC, SharC and Bessemer, etc. 
+
+
+### Case studies 
+Mean't to demonstrate new capabilies. 
+
+#### Enviroment Agency Test 5  
+Why this case study? 
+Underway (MKS management): 10 m, 20 m, 40 m and 80 m for a comparision between ACC-CPU/GPU, FV1-CPU/GPU, DG2-CPU/GPU. Coarse-DG2 does not need GPU! Better velocity prediction. Compare floodplains with metrics H, F and C at t = 3 hours. Downscaling capability. 
+
+#### Carlisle flooding 2005
+Why this case study? Should be different than EA5.  
+Underway (MKS management): 5 m, 10 m, 20 m and 40 m for a comparision between ACC-CPU/GPU, FV1-CPU/GPU, DG2-CPU/GPU. Coarse-DG2 does not need GPU! Better velocity prediction. Compare floodplains with metrics H, F and C at t = 3 hours. Downscaling capability.
+
+#### Strom Desmond's flooding on the Eden catchement  
+Thin water layer and different initial condition 
+
+#### Merewether physical replica: urban flooding around building with pieres  
+One this one, we are clear that GPU solvers are the best option: 0.175m ==> millions of cells. No point of investigation CPU solvers. 
+Velocitiy prediction and small eddy capturing. FV1-GPU, ACC-GPU and DG2-GPU. Water levels + velocities + eddies. Other metrics like relevance index. 
+
+
+### Video tutorials  
+[1. Download and compile](https://github.com/ci1xgk/Fellowship_Webpage/blob/master/VideoTutorials/Download_and_compile)   
+[2. Introduction to QGIS](The necessary needed to cope with lisflood)
+[3. Pre-processing DEM with slope coefficents for the DG2 solver]
+[4. Running across different platform](Enviroment Agency Test 5)
+[5. Running a test with a point-source inflow](Carlisle 2005 - laoding )
+[6. Running with a test with a boundary-source inflow and initially wet areas](Merewether)
+[7. Running with a test driven by rainfall](Eden)
+[8. Post-processing outputs](Enviroment Agency Test 5, hydrogprahs, floodplain and downscaling-MKS-toolkit, metrics)
+
+
+### License 
+
+
+### References 
+
+
+
