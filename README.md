@@ -8,4 +8,4 @@
 [Contact and acknowledgments](./ContAck.md)
 
 
-![Image](Fig_4GG.jpg)
+![Image](/Figures/Fig_4GG.jpg)
