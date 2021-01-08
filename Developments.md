@@ -6,7 +6,7 @@ Development, testing and validation of new modelling techniques is ongoing, and 
 
 [Efficient uncertainty propagation approaches](./Uncertainty_Propagation.md)
 
-[LISFLOOD-FP-DG2-GPU](./Robust_DG2.md)
+[LISFLOOD-FP v8.0](./Robust_DG2.md)
 
 [Wavelet-based solvers that self-automate grid-resolution size](./MuliWave_Flood_models.md)
 
