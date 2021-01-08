@@ -3,7 +3,8 @@
 The team involves researchers working at the interface between mathematics, hydraulic modelling and software engineering, which includes: 
 - Georges Kesserwani, Research Fellow, University of Sheffield 
 - James Shaw, Research Associate, University of Sheffield
-- Mohammad K. Sharifian, Research Associate, University of Sheffield 
+- Mohammad K. Sharifian, Research Associate, University of Sheffield
+- Anna Nikishova, Research Associate, University of Sheffield
 - Alovya Chowdhury, PhD student, University of Sheffield
 
 with contribution from: 
