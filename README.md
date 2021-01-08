@@ -1,4 +1,4 @@
-![Image](Fig_1G.jpg)
+![Image](/Figures/Fig_1G.jpg)
 
 
  
