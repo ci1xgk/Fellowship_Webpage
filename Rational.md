@@ -1,4 +1,4 @@
-![Image](Fig_2G.jpg)
+![Image](/Figures/Fig_2G.jpg)
 
 
 ### Rationale
