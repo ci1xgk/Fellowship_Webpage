@@ -1,31 +1,15 @@
-Finite volume flood model formulations are well-established in research and industrial communities (e.g. [CLAWPACK-5](http://www.clawpack.org/) and [TUFLOW](https://www.tuflow.com/) software packages). These formulations have adopted the Godunov-type principle ([Toro and Garcia-Navarro 2007](https://www.tandfonline.com/doi/abs/10.1080/00221686.2007.9521812)) given its advantage to automatically capture all types of water flow transitions: store the flow and terrain data _element-wise_ using a _piecewise-constant approximation_ and evolve flow data by means of inter-elemental spatial flux exchange, by incorporating an [approximate Riemann solver](https://en.wikipedia.org/wiki/Riemann_solver#Approximate_solvers). Formulations that instead use a _piecewise-planar approximation_ are shown to improve flood simulation predictions, such as for modelling applications that are limited to coarse mesh resolution ([Kesserwani and Wang (2014)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2013WR014906); [Sanders and Schubert 2019](https://www.sciencedirect.com/science/article/pii/S0309170818308698)). 
 
-A second-order discontunuous Galerkin (DG2) approach has been used to augment the finite volume formulation to storing and evolving element-wise _piecewise-planar approximation_. The so-called _slope_decoupled_ DG2 form has been developed ([Kesserwani et al. 2018](https://www.sciencedirect.com/science/article/pii/S004578251830389X)) with a four-fold purpose: 
-
-* simplify the complexity of the caluclation stencil of the general DG2 form to make it compatible with the stencil commonly used in grid-based hydraulic models, while retaining its ability to acheive second-order accurate predictions;
-
-* reduce the number of operations per element from 32 to 12, offering 2.6 times more efficient calculations than the general DG2 form; 
-
-* reliably integrate terrain data and wetting-and-drying using _piecewise-plannar_ data at the level required to simulate real-world flooding scenarios; 
-
-* provide a _reference_ uniform mesh DG2 solver required to develop 2D version of the [Wavelet-based solvers that self-automate grid-resolution size](./MuliWave_Flood_models.md).  
-
-
-### Ongoing work and code accessibility 
-The performance of the robust DG2 flood model is currently being assessed against a range of industry standard flood models, over the [UK Environment Agency benchmark tests](https://consult.environment-agency.gov.uk/engagement/bostonbarriertwao/results/appendix-6---neelz--s.---pender--g.--2013--benchmarking-the-latest-generation-of-2d-hydraulic-modelling-packages.-bristol_environment-agency.pdf), and for real-world case studies. 
-
-The sloped-decoupled DG2 flood model ([Kesserwani et al. 2018](https://www.sciencedirect.com/science/article/pii/S004578251830389X)) has been integrated onto the grid-based [LISFLOOD-FP](http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/) solver. There is a standard version to run it on multi-core CPU, and a developing CUDA version to also run the DG2 flood model on GPUs. 
-
-------------------------------------------------------
 ## LISFLOOD-FP8.0
 
-With the Sheffield contribution, what has become possible with the LFP initially developped by Bristol + link to the bristol main page.  
+The LISFLOOD-FP hydrodynamic model developed by the [University of Bristol](http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/) already includes a local inertia, or ‘gravity wave’, solver, LISFLOOD-ACC, and a diffusive wave, ‘or zero-inertia’, solver, LISFLOOD-ATS. The ACC solver is widely used to simulate floods with gradually-varying, subcritical flow over sufficiently rough surfaces with Manning’s coefficient of at least 0.03 s m−1/3. It has a version with CPU-specific optimisations and enhanced with a subgrid channel model ([Neal et al. 2012](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2012WR012514), [2018](https://www.sciencedirect.com/science/article/pii/S1364815217307478)). Please contact [University of Bristol](http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/) for any advice related to the ACC solver.   
 
-### New FV1 and DG2 solvers on multi-core CPU 
-Text to explain ACC-GPU, FV1-GPU, and DG2-GPU, FV1-CPU and DG2-CPU + multi-core Limited to a single GPU card.
+### New DG2/FV1 solvers on multi-core CPU 
+LISFLOOD-FP 8.0 includes second-order discontinuous Galerkin (DG2) and first-order finite volume (FV1) solvers of the two-dimensional shallow water equations for modelling a wide range of flows, including rapidly-propagating, supercritical flows, shock waves, or flows over very smooth surfaces. The new DG2/FV1 solvers are purely two-dimensional and parallelised for the multi-core CPU architecture, but do not integrate with the subgrid channel model nor with the CPU-specific optimisation [Shaw et al. 2021](https://gmd.copernicus.org/preprints/gmd-2020-340/).
 
 #### New GPU solvers  
-Text to explain ACC-GPU, FV1-GPU, and DG2-GPU, FV1-CPU and DG2-CPU + multi-core Limited to a single GPU card.
+The new DG2/FV1 solvers are also parallelised within a new Nvidia GPU architecture and can run existing LISFLOOD-FP modelling scenarios without modification. The [user manual of LISFLOOD-FP](https://drive.google.com/file/d/1Yk5txMWWfSqPcPOqjQh30XLSp8Sypy1M/view?usp=sharing) has been updated to furter offer guidance about how to parametrise the code to run on the GPU, in particular for the new DG2/FV1 solvers. Users interested in knowing more about the mathematical and computational background of the DG2/FV1 solvers on LISFLOOD-FP 8.0 are encouraged to start their readings from [Shaw et al. 2021](https://gmd.copernicus.org/preprints/gmd-2020-340/). 
+
+The rest of this page is devoted to instructing new users on how to download, install and run the code of LISFLOOD-FP 8.0, in particular to use the new hydrodynamic solvers, DG2/FV1. Guidance is provided about preprocessing DG2-related DEM files and posprocessing coarse DG2 output files to downscale them into a floodplain map at finer resolutions. The documented instructions are also covered in video tutorials and realistic case studies are presented to help identify the capabilities of the different solvers. 
 
 
 ### Download  
