@@ -14,6 +14,8 @@ DG2-NL and DG2-LL simulations were run up to t = 10 s on a mesh with a grid size
 
 
 The simulated spatial profiles of the water depth and velocity are extracted along the centreline y = 0.2 m (red line in the figure, upper panel) at two output times, 5 s and 6 s, shown in the middle and bottom panel in the figure, respectively. The water depth profiles are illustrated on the left while the right sides show the velocity profiles.  
+
+
 DG2-LL shows a closer alignment with the profiles produced by the MUSCL-FV2 solver, both of which showing a good agreement with all the observed data. The DG2-NL, though in good agreement with some of the observed data, leads to noisy profiles that in many instances locally diverge from the profiles produced by DG2-LL and MUSCL-FV2. 
 
 
