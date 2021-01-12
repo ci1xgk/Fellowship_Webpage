@@ -17,8 +17,7 @@ The rest of this page is devoted to instructing new users on how to download, in
 #### Zenodo for external users 
 We mainly point people to the version on Zenodo where you need to fill a form. Refer to the paper of Shaw et al. (2019). 
 
-#### GitHub for University of Sheffield users 
-To get access into the most up to date version version on GitHub, communcate with Jeff from Bristol or with MKS form ou side. It is a cross-platform, so the same download is usable on windows and linux. 
+#### [University of Sheffield users](./UoS_HPC.md) 
 
 
 ### Compilation   
