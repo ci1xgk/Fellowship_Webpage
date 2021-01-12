@@ -34,7 +34,7 @@ link to the HPC, SharC and Bessemer, etc.
 ### Case studies 
 Why each case study? To demonstrate what?
 
-#### [Merewether urban flooding around building with pieres](Case Studies/Merewether.md)
+#### [Merewether urban flooding around building with pieres](./Merewether.md)
 One this one, we are clear that GPU solvers are the best option: 0.175m ==> millions of cells. No point of investigation CPU solvers. 
 Velocitiy prediction and small eddy capturing. FV1-GPU, ACC-GPU and DG2-GPU. Water levels + velocities + eddies. Other metrics like relevance index.
 
