@@ -31,9 +31,11 @@ link to the HPC, SharC and Bessemer, etc.
 
 
 ### Case studies 
-Summary of each case study? To demonstrate what?
+A selection of case studies are presented to instruct new users on how to set up and run the new DG2/FV1 solvers from LISFLOOD-FP 8.0, and on the potential utility of the DG2 solver compared to the commonly used FV1 solver. 
 
-#### [Merewether urban flooding around building with pieres](./Merewether.md)
+[1. Pre-processing the initial conditions for DG2 including slope coefficients](./Merewether.md)
+[2. Activation of the local slope limiting for DG2](./25_blocks.md)
+
 #### [Enviroment Agency Test 5](./EnvAcy5.md)  
 #### [Carlisle flooding 2005](./Carlistle_flooding.md)
 #### [Eden catchement flooding 2015](./Desmond_Eden2015.md)  
