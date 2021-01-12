@@ -32,7 +32,11 @@ link to the HPC, SharC and Bessemer, etc.
 
 
 ### Case studies 
-Mean't to demonstrate new capabilies. 
+Why each case study? To demonstrate what?
+
+#### [Merewether urban flooding around building with pieres](Case Studies/Merewether.md)
+One this one, we are clear that GPU solvers are the best option: 0.175m ==> millions of cells. No point of investigation CPU solvers. 
+Velocitiy prediction and small eddy capturing. FV1-GPU, ACC-GPU and DG2-GPU. Water levels + velocities + eddies. Other metrics like relevance index.
 
 #### Enviroment Agency Test 5  
 Why this case study? 
@@ -44,10 +48,6 @@ Underway (MKS management): 5 m, 10 m, 20 m and 40 m for a comparision between AC
 
 #### Strom Desmond's flooding on the Eden catchement  
 Thin water layer and different initial condition 
-
-#### Merewether physical replica: urban flooding around building with pieres  
-One this one, we are clear that GPU solvers are the best option: 0.175m ==> millions of cells. No point of investigation CPU solvers. 
-Velocitiy prediction and small eddy capturing. FV1-GPU, ACC-GPU and DG2-GPU. Water levels + velocities + eddies. Other metrics like relevance index. 
 
 
 ### Video tutorials  
