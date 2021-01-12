@@ -35,9 +35,7 @@ link to the HPC, SharC and Bessemer, etc.
 Summary of each case study? To demonstrate what?
 
 #### [Merewether urban flooding around building with pieres](./Merewether.md)
-#### Enviroment Agency Test 5  
-Why this case study? 
-Underway (MKS management): 10 m, 20 m, 40 m and 80 m for a comparision between ACC-CPU/GPU, FV1-CPU/GPU, DG2-CPU/GPU. Coarse-DG2 does not need GPU! Better velocity prediction. Compare floodplains with metrics H, F and C at t = 3 hours. Downscaling capability. 
+#### [Enviroment Agency Test 5](./EnvAcy5.md)  
 
 #### Carlisle flooding 2005
 Why this case study? Should be different than EA5.  
@@ -48,7 +46,7 @@ Thin water layer and different initial condition
 
 
 ### Video tutorials  
-[1. Download and compile](https://github.com/ci1xgk/Fellowship_Webpage/blob/master/VideoTutorials/Download_and_compile)   
+[1. Download and compile](./VideoTutorials/Download_and_compile)   
 [2. Introduction to QGIS](The necessary needed to cope with lisflood)
 [3. Pre-processing DEM with slope coefficents for the DG2 solver]
 [4. Running across different platform](Enviroment Agency Test 5)
