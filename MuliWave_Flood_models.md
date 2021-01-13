@@ -8,9 +8,9 @@ Conventional mesh-resolution adaptivity methods can introduce simulation errors 
 
 Multiwavelets bases are naturally compatible with the piecewise-polynomial bases shaping the local solution strucutre wihtin the Discontinuous Galerkin (DG) method, hence also the Finite Volume (FV) method. Multiwavelets' [multiresolution analysis](https://en.wikipedia.org/wiki/Multiresolution_analysis) enables to dynamically form an adaptive solution that overcomes the majority of the above-mentioned shortcomings of conventional adaptive mesh-resolution adaptivity methods ([Kesserwani et al. 2019](https://doi.org/10.1016/j.advwatres.2019.04.019); [Kesserwani and Sharifian 2020](https://www.sciencedirect.com/science/article/pii/S0309170820303079)). Namely, the multiwavelet-based adaptivity offers a solid mathematical foundation to design smart and flexible multiresolution models that: 
 
-* deploy rigorous transforms for inherent encoding/decoding of the modelled data across cascades of resolution scales 
+* deploy rigorous transforms for inherent encoding/decoding of the modelled data across cascades of resolution scales, and 
 
-* only need one user-specified parameter to both directly controls adaptivity error and sensibly decide where to refine and where to coarsen 
+* only need one user-specified parameter to both directly controls adaptivity error and sensibly decide where to refine and where to coarsen. 
 
 
 We have been developping and investigating (multi)wavelet-based adaptive approaches for flood modelling ([Caviedes-Voulliéme and Kesserwani 2015](10.1016/j.jcp.2015.08.030); [Gerhard et al. 2015](10.1016/j.advwatres.2015.09.016)). The first-order finite volume model (FV1) is combined with [Haar wavelets](https://en.wikipedia.org/wiki/Haar_wavelet) to produce the Haar-FV1 (HFV1) model. Similarly, the second-order discontinuous Galerkin model (DG2) is combined with Alpert multiwavelets ([Alpert 1993](https://doi.org/10.1137/0524016)) to produce the multiwavelet-DG2 (MWDG2) model. A complete description of how one-dimensional (1D) hydrodynamic MWDG2/HFV1 solvers can be formulated is found in [Kesserwani et al. (2019)](https://doi.org/10.1016/j.advwatres.2019.04.019), with a diagnostic analysis on its potential for real-world problems and links to access the relevant codes and data. 
