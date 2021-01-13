@@ -36,8 +36,8 @@ A selection of case studies are presented to instruct users on how to set up and
 #### [1. Merewether urban flooding](./Merewether.md)
 This case study [(Smith et al. 2017)](https://www.tandfonline.com/doi/abs/10.1080/15715124.2016.1193510) is used to explain how set up and run LISFLOOD-FP for beginners using eiher of the DG2, FV1 and ACC two-dimensional hydrodynamic sovler on the CPU or the GPU.  
 
-#### [ 2. Activation of the local slope limiting with DG2.](./25_Blocks.md) 
-By default, when including `dg2` in the `.par` file of LISFLOOD-FP (see the [user manual](https://drive.google.com/file/d/1Yk5txMWWfSqPcPOqjQh30XLSp8Sypy1M/view?usp=sharing)), it considers running the DG2 solver without local slope limiting. This choice is appropriate to more efficiently and reliably simulate shockless flood flows featured in most of flood modelling applications [(Ayog et al. 2021)](https://www.sciencedirect.com/science/article/abs/pii/S0022169420313858). For simulations involving either fine-scale spatial features or strong flow discontinuities, there is the option to activate local slope limiting: simply add `limiteslopes` alongside `dg2` in the `.par` file. A demonstration is provided for a dam-break wave interacting with an idealised urban district [(Soares-Frazao and Zech 2008)](https://www.tandfonline.com/doi/abs/10.3826/jhr.2008.3164) to help understand when local slope limiting with DG2 comes in handy.  
+#### [ 2. Dam-break wave over an urban area.](./25_Blocks.md) 
+This case study [(Soares-Frazao and Zech 2008)](https://www.tandfonline.com/doi/abs/10.3826/jhr.2008.3164) is aimed to demonstrate when local slope limiting with DG2 should be applied. 
 
 #### [Enviroment Agency Test 5](./EnvAcy5.md)  
 #### [Carlisle flooding 2005](./Carlistle_flooding.md)
