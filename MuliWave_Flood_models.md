@@ -24,4 +24,4 @@ Work is ongoing to explore the potential of different (multi)wavelets types for 
 Details on how to access and run educative 1D and 2D codes are documented within [Kesserwani et al. (2019)](https://doi.org/10.1016/j.advwatres.2019.04.019) and [Kesserwani and Sharifian (2020)](https://www.sciencedirect.com/science/article/pii/S0309170820303079). 
 
 
-[back](./)
+[back](https://www.seamlesswave.com/Developments.html)
