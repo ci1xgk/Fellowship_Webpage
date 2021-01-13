@@ -34,7 +34,7 @@ link to the HPC, SharC and Bessemer, etc.
 A selection of case studies are presented to instruct users on how to set up and run the DG2/FV1/ACC solvers for LISFLOOD-FP 8.0. These studies can also be useful to identify the most optimal DG2 configuration for the targetted type of flood modelling application. 
 
 #### [1. Merewether urban flooding](./Merewether.md)
-This case study [(Smith et al. 2017)](https://www.tandfonline.com/doi/abs/10.1080/15715124.2016.1193510) is used to explain how set up and run LISFLOOD-FP for beginners using eiher of the DG2, FV1 and ACC two-dimensional hydrodynamic sovler on the CPU or the GPU.  
+This case study [(Smith et al. 2017)](https://www.tandfonline.com/doi/abs/10.1080/15715124.2016.1193510) is used to explain how set up and run LISFLOOD-FP for beginners using any of the DG2, FV1 and ACC two-dimensional hydrodynamic solvers on the CPU or the GPU.  
 
 #### [ 2. Dam-break wave over an urban area.](./25_Blocks.md) 
 This case study [(Soares-Frazao and Zech 2008)](https://www.tandfonline.com/doi/abs/10.3826/jhr.2008.3164) is aimed to demonstrate when local slope limiting with DG2 should be applied. 
