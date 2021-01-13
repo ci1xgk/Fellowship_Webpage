@@ -1,5 +1,5 @@
 
-## LISFLOOD-FP8.0
+## LISFLOOD-FP8.0 with DG2 and GPU solvers
 
 The LISFLOOD-FP hydrodynamic model developed by the [University of Bristol](http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/) already includes a local inertia, or ‘gravity wave’, solver, LISFLOOD-ACC, and a diffusive wave, ‘or zero-inertia’, solver, LISFLOOD-ATS. The ACC solver is widely used to simulate floods with gradually-varying, subcritical flow over sufficiently rough surfaces with Manning’s coefficient of at least 0.03. It has a version with CPU-specific optimisations and enhanced with a subgrid channel model ([Neal et al. 2012](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2012WR012514), [2018](https://www.sciencedirect.com/science/article/pii/S1364815217307478)). Please contact [University of Bristol](http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/) for any advice related to the ACC solver.   
 
