@@ -1,3 +1,12 @@
+
+[1.1. Merewether case study]()
+What the story, IC, BC and where people can get the DEM?
+
+[1.2. title]()
+
+[1.3. title]()
+
+
 Description of the test case + 
 
 - DG2 initial condition and topography 
