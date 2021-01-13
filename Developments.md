@@ -1,12 +1,12 @@
 
 ### Developments
-Development, testing and validation of new modelling techniques is ongoing and include the following: 
+Development and validation of new modelling frameworks and techniques are ongoing activities, many of which are already openly accessible. These include the following: 
 
-[Food-pedestrian simulator on FAMEGPU](./Flood_Human_ABM.md)
+[Food-pedestrian simulator](./Flood_Human_ABM.md)
 
-[LISFLOOD-FP8.0 to include GPU solvers and a robust DG2 solver](./LISFLOOD8.0.md)
+[LISFLOOD-FP8.0 with DG2 and GPU solvers](./LISFLOOD8.0.md)
 
-[Adaptive wavelet-based multiresolution solvers](./MuliWave_Flood_models.md)
+[Smart and flexible multiresolution solvers](./MuliWave_Flood_models.md)
 
 [Efficient uncertainty propagation approaches](./Uncertainty_Propagation.md)
 
