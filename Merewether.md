@@ -11,6 +11,7 @@ Description of the test case +
 
 ## Intro
 LISFLOOD uses topographical data, or digital elevation model (DEM), in Esri ASCII raster format. This file contains the first six rows as header information, followed by a space delimited matrix of nrows x ncols (an example snapshot of the file is shown below). This serves as the base computational domain for the hydraulic simulations where the number of rows and columns defines the size of the computational domain.
+
 ![View of a DEM raster file](https://github.com/ci1xgk/Fellowship_Webpage/blob/master/Figures/mesh1.PNG)
 
 LISFLOOD reads the DEM by including the keyword `DEMfile` in the `.par` file and following this with the name of the file to be read. 
