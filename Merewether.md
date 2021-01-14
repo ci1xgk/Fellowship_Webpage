@@ -1,5 +1,5 @@
 
-[1.1. Merewether case study]()
+#Merewether case study
 What the story, IC, BC and where people can get the DEM?
 
 [1.2. title]()
