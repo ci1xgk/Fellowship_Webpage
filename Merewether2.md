@@ -21,3 +21,14 @@
 #### DG2-related Initial condition files
 
 ---
+
+#### Setting up boundary conditions
+
+---
+
+#### Selecting output type
+
+
+
+
+[back](https://www.seamlesswave.com/Merewether.html)
