@@ -6,7 +6,6 @@ The LISFLOOD-FP hydrodynamic model developed by the [University of Bristol](http
 ### New DG2/FV1 solvers on multi-core CPU 
 LISFLOOD-FP 8.0 includes second-order discontinuous Galerkin (DG2) and first-order finite volume (FV1) solvers of the two-dimensional shallow water equations for modelling a wide range of flows, including rapidly-propagating, supercritical flows, shock waves, or flows over very smooth surfaces. The new DG2/FV1 solvers are purely two-dimensional and parallelised for the multi-core CPU architecture, but do not integrate with the subgrid channel model nor with the CPU-specific optimisations ([Shaw et al. 2021](https://gmd.copernicus.org/preprints/gmd-2020-340/)).
 
----
 
 ### New GPU solvers  
 The new DG2/FV1 solvers are also parallelised within a new Nvidia GPU architecture and can run existing LISFLOOD-FP modelling scenarios without modification. The [user manual of LISFLOOD-FP](https://drive.google.com/file/d/1Yk5txMWWfSqPcPOqjQh30XLSp8Sypy1M/view?usp=sharing) has been updated to further offer guidance about how to parametrise the code to run on the GPU, in particular for the DG2/FV1 solvers. Users interested in knowing more about the mathematical/computational background of the DG2/FV1 solvers and how to run them on LISFLOOD-FP 8.0 are encouraged to start their readings from [Shaw et al. (2021)](https://gmd.copernicus.org/preprints/gmd-2020-340/). 
@@ -20,11 +19,12 @@ The rest of this page is devoted to instructing new users on how to download, in
 #### Zenodo for external users 
 We mainly point people to the version on Zenodo where you need to fill a form. Refer to the paper of Shaw et al. (2019). 
 
----
 
 #### [University of Sheffield users](./UoS_HPC.md) 
 
+
 ***
+
 
 ### Compilation   
 The downloaded versin is cross-platform... and can be done on personal computers on windows or linux, or via the HPC of the university of Sheffield (link).  
@@ -32,12 +32,13 @@ The downloaded versin is cross-platform... and can be done on personal computers
 #### On a personal computer
 MKS to descrive a process + comments on VS19.  
 
----
 
 #### On the University of Sheffield HPC 
 link to the HPC, SharC and Bessemer, etc. 
 
+
 ***
+
 
 ### Case studies 
 Case studies are presented to instruct users how to set up and run the DG2/FV1/ACC solvers for LISFLOOD-FP8.0. These studies are also useful to identify the most optimal DG2 configuration for the targetted application. 
