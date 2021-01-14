@@ -15,6 +15,8 @@ In the following, an an overview of LISFLOOD modeling environment is provided fo
 
 #### [2. Preparing the input data](./Merewether2.md) 
 
+#### [3. Running the code](./Merewether3.md) 
+
 
 
 
