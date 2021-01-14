@@ -18,22 +18,6 @@ In the following, an an overview of LISFLOOD modeling environment is provided fo
 
 
 
------------------------------------------------- TO BE REMOVED ---------------------------------------------
-LISFLOOD uses topographical data, or digital elevation model (DEM), in Esri ASCII raster format. This file contains the first six rows as header information, followed by a space delimited matrix of nrows x ncols (an example snapshot of the file is shown below). This serves as the base computational domain for the hydraulic simulations where the number of rows and columns defines the size of the computational domain.
-
-![image](/Figures/mesh1.PNG)
-
-LISFLOOD reads the DEM by including the keyword `DEMfile` in the `.par` file and following this with the name of the file to be read. 
-
-In order to visualize, process or modify the DEM data, it is advised to use QGIS, a geographic information system, which is [freely available to download](https://www.qgis.org/en/site/forusers/download.html). 
-
-In this section the preparation and process of the DEM data is explained for Merewether test case, as an example. The same process could be used for other test cases.
-
------------------------------------------------- TO BE REMOVED ---------------------------------------------
-
-
-
-
 
 
 [back](https://www.seamlesswave.com/LISFLOOD8.0.html)
