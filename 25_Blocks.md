@@ -10,7 +10,7 @@ The study area is an experimental flume with smooth surface (Manning coefficient
 ![Image](/Figures/Fig6G.jpg)
 
 
-Both the DEM file and the initially wet dam-break condition were pre-processed to form DG2-related initial conditions (details in case study 1.). DG2-NL and DG2-LL simulations were run up to 10 s on a mesh with a grid size of 0.02 m. An alternative simulation was run using the well-established MUSCL-FV2 solver, widely used by many research groups and for industrial-scale modelling applications, e.g. [TUFLOW-HPC](https://wiki.tuflow.com/index.php?title=HPC_Introduction).  
+Both the DEM file and the initially wet dam-break condition were pre-processed to form DG2-related initial conditions, as detaied within the case study of _"Merewether urban flooding"_. DG2-NL and DG2-LL simulations were run up to 10 s on a mesh with a grid size of 0.02 m. An alternative simulation was run using the well-established MUSCL-FV2 solver, widely used by many research groups and for industrial-scale modelling applications, e.g. [TUFLOW-HPC](https://wiki.tuflow.com/index.php?title=HPC_Introduction).  
 
 
 The simulated spatial profiles of the water depth and velocity are extracted along the centreline y = 0.2 m (red line in the figure, upper panel) at two output times, 5 s and 6 s, shown in the middle and bottom panel of the figure, respectively. The water depth profiles are located on the left part of the figure, whereas the right side shows the velocity profiles.  
