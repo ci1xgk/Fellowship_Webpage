@@ -8,9 +8,9 @@ This test case is based on a physical model constructed to simulate the overland
 
 The model DEM, water level and velocity data were recorded relative to an arbitrary datum (at model scale) and were transformed to prototype scale using known survey points and the Froude scaling relationships. These data files are available for download through the [Water Research Laboratory of University of New South Wales Australia Data Warehouse website](http://datawarehouse.wrl.unsw.edu.au/newcastlefloodmodel/).
 
-What the story, IC, BC and where people can get the DEM?
+The following sections aims to give an overview of LISFLOOD modeling environment and an step-by-step guid to run the Merewether urban flooding test case. 
 
-[1.2. title]()
+##Introduction to LISFLOOD data requirements, input files and file formats
 
 [1.3. title]()
 
