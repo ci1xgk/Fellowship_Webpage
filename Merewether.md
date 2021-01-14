@@ -1,11 +1,13 @@
 
 # Merewether urban flooding
 This test case is based on a physical model constructed to simulate the overland flow path between Morgan and Selwyn Streets the ‘Morgan–
-Selwyn floodway’ in Merewether, Newcastle, Australia [(Smith et al. 2017)](https://www.tandfonline.com/doi/abs/10.1080/15715124.2016.1193510). The constructed model was 12.5 m long by 5 m wide, and and was scaled (30:1 horizontal, 9:1 vertical) to the prototype. Figure below shows the study site and the scaled physical model domain.
+Selwyn floodway’ in Merewether, Newcastle, Australia [(Smith et al. 2017)](https://www.tandfonline.com/doi/abs/10.1080/15715124.2016.1193510). The constructed model was 12.5 m long by 5 m wide, and and was scaled (30:1 horizontal, 9:1 vertical) to the prototype (Figure 1).
 
 <img src="https://github.com/ci1xgk/Fellowship_Webpage/blob/master/Figures/mer1.png" width="400" /><figcaption>Figure 1. Study site and physical model domain</figcaption>
 
+Figure 2 shows The digital elevation model and the layout of the buildings.
 
+<img src="https://github.com/ci1xgk/Fellowship_Webpage/blob/master/Figures/mer2.png" width="400" /><figcaption>Figure 2. Prototype bathymetry and physical model layout.</figcaption>
 
 What the story, IC, BC and where people can get the DEM?
 
