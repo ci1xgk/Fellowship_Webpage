@@ -1,6 +1,6 @@
 ### Preparing the input data
 
----
+
 
 #### Viewing a DEM file
 
