@@ -13,12 +13,17 @@ In the following, an an overview of LISFLOOD modeling environment is provided fo
 
 #### [1. Data requirements, input files and their format](./Merewether1.md)
 
+
 #### [2. Preparing the input data](./Merewether2.md) 
+
 
 #### [3. Running the code](./Merewether3.md) 
 
 
+#### [4. Plotting of flood maps and hydrographs](./Merewether3.md) 
 
+
+After applying steps 1. to 4., here are the resutls... 
 
 
 
