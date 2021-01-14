@@ -11,6 +11,7 @@ The new DG2/FV1 solvers are also parallelised within a new Nvidia GPU architectu
 
 The rest of this page is devoted to instructing new users on how to download, install and run the code of LISFLOOD-FP 8.0, in particular to use the new hydrodynamic solvers, DG2/FV1. Guidance is provided on preprocessing DG2-related DEM and initial condition files (with slope coefficients), and on posprocessing coarse DG2 output files to downscale them into a floodplain map at finer resolutions. The documented instructions are also covered in video tutorials and through realistic case studies. 
 
+---
 
 ### Download  
 
@@ -19,6 +20,7 @@ We mainly point people to the version on Zenodo where you need to fill a form. R
 
 #### [University of Sheffield users](./UoS_HPC.md) 
 
+---
 
 ### Compilation   
 The downloaded versin is cross-platform... and can be done on personal computers on windows or linux, or via the HPC of the university of Sheffield (link).  
@@ -29,6 +31,7 @@ MKS to descrive a process + comments on VS19.
 #### On the University of Sheffield HPC 
 link to the HPC, SharC and Bessemer, etc. 
 
+---
 
 ### Case studies 
 Case studies are presented to instruct users how to set up and run the DG2/FV1/ACC solvers for LISFLOOD-FP8.0. These studies are also useful to identify the most optimal DG2 configuration for the targetted application. 
@@ -36,8 +39,12 @@ Case studies are presented to instruct users how to set up and run the DG2/FV1/A
 #### [1. Merewether, urban flooding](./Merewether.md)
 This case study [(Smith et al. 2017)](https://www.tandfonline.com/doi/abs/10.1080/15715124.2016.1193510) is used to explain how to set up and run LISFLOOD-FP for beginners using any of the DG2, FV1 and ACC two-dimensional hydrodynamic solvers on the CPU or the GPU.  
 
+***
+
 #### [2. Dam-break wave over an urban area](./25_Blocks.md) 
 This case study [(Soares-Frazao and Zech 2008)](https://www.tandfonline.com/doi/abs/10.3826/jhr.2008.3164) is aimed to demonstrate when local slope limiting with DG2 should be applied. 
+
+___
 
 #### [3. Valley flooding following a dam failure](./EnvAcy5.md)  
 This case study [(Néelz and Pender 2013)](https://consult.environment-agency.gov.uk/engagement/bostonbarriertwao/results/appendix-6---neelz--s.---pender--g.--2013--benchmarking-the-latest-generation-of-2d-hydraulic-modelling-packages.-bristol_environment-agency.pdf) is aimed to demonstrate how to handle an inflow boundary condition located inside the computational area, at source point(s). This test is also used to demonstrate a new post-processing toolkit for producing metrics to quantify floodplain extent prediction capabilities when comparing the outcomes predicted by different hydrodynamic solvers.
@@ -48,6 +55,7 @@ This case study [(Horritt et al. 2010)](https://www.icevirtuallibrary.com/doi/pd
 #### [5. Eden 2015, fluvial flooding](./Desmond_Eden2015.md)  
 This case study [(Xia et al. 2019)](https://www.sciencedirect.com/science/article/abs/pii/S030917081930243X) involves overland flow driven by spatially- and temporally-varying rainfall data over a 2500 kilometer square catchment. It is aimed to demonstrate how to use the new rain-on-grid capabilities in LISFLOOD-FP8.0. This test is also used to demonstrate a new post-processing toolkit for downscaling coarse-resolution DG2 flood maps.
 
+---
 
 ### Video tutorials  
 [1. Download and compile](./VideoTutorials/Download_and_compile)   
@@ -59,9 +67,11 @@ This case study [(Xia et al. 2019)](https://www.sciencedirect.com/science/articl
 [7. Running with a test driven by rainfall](Eden)
 [8. Post-processing outputs](Enviroment Agency Test 5, hydrogprahs, floodplain and downscaling-MKS-toolkit, metrics)
 
+---
 
 ### License 
 
+---
 
 ### References 
 
