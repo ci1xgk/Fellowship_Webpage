@@ -1,31 +1,19 @@
-
 ### Merewether urban flooding
-This test case is based on a physical model constructed to simulate the overland flow path in an urban area in Merewether, Newcastle, Australia, during the June 2007 flooding event [(Smith et al. 2017)](https://www.tandfonline.com/doi/abs/10.1080/15715124.2016.1193510). The constructed model was 12.5 m long by 5 m wide, and and was scaled (30:1 horizontal, 9:1 vertical) to the prototype (Figure 1). The physical model experiments were run at steady state with a constant flow rate of 19.7 m3/s, through a section at the bottom boundary of the physical domain (Figure 2).
+This test case is based on a physical model constructed to simulate the overland flow path in an urban area with building including pieres in Merewether, Newcastle, Australia, during the June 2007 flooding event [(Smith et al. 2017)](https://www.tandfonline.com/doi/abs/10.1080/15715124.2016.1193510). The constructed model was 12.5 m long by 5 m wide, and was scaled (30:1 horizontal, 9:1 vertical) to the prototype shown in the figure below.
 
 ![image](/Figures/mer1.png)
 
-<img src="https://github.com/ci1xgk/Fellowship_Webpage/blob/master/Figures/mer1.png" width="400" /><figcaption>Figure 1. Study site and physical model domain</figcaption>
 
-<img src="https://github.com/ci1xgk/Fellowship_Webpage/blob/master/Figures/mer2.png" width="400" /><figcaption>Figure 2. Prototype Digital Elevation Model (DEM) and physical model layout.</figcaption>
+The model DEM, water level and velocity data were recorded relative to an arbitrary datum (at model scale) and were transformed to prototype scale using known survey points and the Froude scaling relationships. These data files are available for download through the [Water Research Laboratory of University of New South Wales Australia Data Warehouse website](http://datawarehouse.wrl.unsw.edu.au/newcastlefloodmodel/). An overview of the DEM including the location of buildings and of the inflow (bottom right corner) are shown in the figure below. The physical model experiments were run at steady state with a constant flow rate of 19.7 cubic meters per second.
 
-The model DEM, water level and velocity data were recorded relative to an arbitrary datum (at model scale) and were transformed to prototype scale using known survey points and the Froude scaling relationships. These data files are available for download through the [Water Research Laboratory of University of New South Wales Australia Data Warehouse website](http://datawarehouse.wrl.unsw.edu.au/newcastlefloodmodel/).
+![image](/Figures/mer2.png)
 
-The following sections aim to give an overview of LISFLOOD modeling environment and an step-by-step guid to run the Merewether urban flooding test case. 
-
-#### 1. Introduction to LISFLOOD data requirements, input files and file formats
-
-[1.3. title]()
+In the following, an an overview of LISFLOOD modeling environment is provided followed by a step-by-step guid for setting up and running the Merewether urban flooding test case. 
 
 
-Description of the test case + 
+#### 1. Data requirements, input files and their format
 
-- DG2 initial condition and topography 
-- Fine resolution modelling (0.175m ==> millions of cells)
-- Benefit of GPU solvers 
-- Velocitiy prediction and small eddy capturing (Water levels + velocities)
-- Bug free codes for DG2/FV1 CPU and GPU 
-- Other metrics like relevance index.
-
+#### 2. Title
 
 
 ## Intro
