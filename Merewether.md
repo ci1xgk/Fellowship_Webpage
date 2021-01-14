@@ -6,7 +6,7 @@ This test case is based on a physical model constructed to simulate the overland
 
 <img src="https://github.com/ci1xgk/Fellowship_Webpage/blob/master/Figures/mer2.png" width="400" /><figcaption>Figure 2. Prototype digital elevation model (DEM) and physical model layout.</figcaption>
 
-The model topography, water level and velocity data were recorded relative to an arbitrary datum (at model scale) and were transformed to prototype scale using known survey points and the Froude scaling relationships. These data files are available for download through the [Water Research Laboratory of University of New South Wales Australia Data Warehouse website] (http://datawarehouse.wrl.unsw.edu.au/newcastlefloodmodel/).
+The model topography, water level and velocity data were recorded relative to an arbitrary datum (at model scale) and were transformed to prototype scale using known survey points and the Froude scaling relationships. These data files are available for download through the [Water Research Laboratory of University of New South Wales Australia Data Warehouse website](http://datawarehouse.wrl.unsw.edu.au/newcastlefloodmodel/).
 
 What the story, IC, BC and where people can get the DEM?
 
