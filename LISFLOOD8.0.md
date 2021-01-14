@@ -42,7 +42,7 @@ link to the HPC, SharC and Bessemer, etc.
 ### Case studies 
 Case studies are presented to instruct users how to set up and run the DG2/FV1/ACC solvers for LISFLOOD-FP8.0. These studies are also useful to identify the most optimal DG2 configuration for the targetted application. 
 
----
+
 #### [1. Merewether, urban flooding](./Merewether.md)
 This case study [(Smith et al. 2017)](https://www.tandfonline.com/doi/abs/10.1080/15715124.2016.1193510) is used to explain how to set up and run LISFLOOD-FP for beginners using any of the DG2, FV1 and ACC two-dimensional hydrodynamic solvers on the CPU or the GPU.  
 
