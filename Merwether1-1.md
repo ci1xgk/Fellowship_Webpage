@@ -1,3 +1,5 @@
+# Parameter file (.par)
+
 This file contains the information necessary to run the simulation including file names and locations and the main model and run control parameters. The following general    principles apply:
    * All items in the file are case sensitive.
    * Items not recognised are ignored rather than generating an error message.
@@ -6,7 +8,7 @@ This file contains the information necessary to run the simulation including fil
    * The order given below is not fixed.
    * To comment out a line place a # in the first character space.
 
-   The following table lists keywords related to ACC, FV1 and DG2 solvers that are specified in the parameter file. These define parameter values, tell the model to read in specified files, turn model options on and off or tell the model to output specific files. The full list of parameters is provided in [LISFLOOD user manual](https://drive.google.com/file/d/1Yk5txMWWfSqPcPOqjQh30XLSp8Sypy1M/view). 
+The following table lists keywords related to ACC, FV1 and DG2 solvers that are specified in the parameter file. These define parameter values, tell the model to read in specified files, turn model options on and off or tell the model to output specific files. The full list of parameters is provided in [LISFLOOD user manual](https://drive.google.com/file/d/1Yk5txMWWfSqPcPOqjQh30XLSp8Sypy1M/view). 
 
 
    | Item name `input` | Description | Applicable solver |
