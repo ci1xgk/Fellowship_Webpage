@@ -1,4 +1,4 @@
-# Parameter file (`.par`)
+#### Parameter file (`.par`)
 
 This is the starting file that a user should refer to for setting up and running any simulation. Inside this file, the user should enter parameters including the names and location of files of relevance for the case study under condideration. While putting entries or items in the `.par` file, the following rules apply:  
 
