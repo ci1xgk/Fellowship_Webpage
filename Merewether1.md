@@ -10,7 +10,7 @@ For a typical simulation using either of ACC, FV1 or DG2 solvers, data is input 
    * The order given below is not fixed.
    * To comment out a line place a # in the first character space.
 
-   The following table lists keywords related to ACC, FV1 and DG2 solvers that are specified in the parameter file. These define parameter values, tell the model to read in specified files, turn model options on and off or tell the model to output specific files. The full list of parameters are provided in [LISFLOOD user manual](https://drive.google.com/file/d/1Yk5txMWWfSqPcPOqjQh30XLSp8Sypy1M/view). 
+   The following table lists keywords related to ACC, FV1 and DG2 solvers that are specified in the parameter file. These define parameter values, tell the model to read in specified files, turn model options on and off or tell the model to output specific files. The full list of parameters is provided in [LISFLOOD user manual](https://drive.google.com/file/d/1Yk5txMWWfSqPcPOqjQh30XLSp8Sypy1M/view). 
 
 
    | Item name `input` | Description | Applicable solver |
