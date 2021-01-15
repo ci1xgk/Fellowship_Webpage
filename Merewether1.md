@@ -32,10 +32,11 @@ For a typical simulation using either of ACC, FV1 or DG2 solvers, data is input 
    | cuda    | Run the acceleration, FV1 or DG2 solver on a GPU.       | All solvers      |
    | dynamicrainfile `filename`   | Name of spatially- and temporally-varying rainfall data (NetCDF)     | All solvers    |
    | nodata_elevation `value`     | Terrain elevation value that replaces NODATA values in the DEMfile      | All solvers    |
-   | drain_nodata     | Enable to remove water in cells with NODATA elevation. Use in conjunction with `nodata_elevation`.       | All solvers    |
-   | saveint `value`     | Interval in seconds at which results files are saved       | All solvers    |
-   | saveint `value`     | Interval in seconds at which results files are saved       | All solvers    |
-   | saveint `value`     | Interval in seconds at which results files are saved       | All solvers    |
+   | drain_nodata     | Enable to remove water in cells with NODATA elevation       | All solvers    |
+   | startfile `filename`     | Name of initial conditions file with water depth in ARC ascii raster format     | All solvers    |
+   | startelev `filename`     | Similar to startfile but with water surface elevation rather than depth    | All solvers    |
+   | limitslopes     | Enable the DG2 minmod slope limiter      | DG2   |
+   | krivodonovathresh     | Control the localisation of the DG2 slope limiter (Default: 10.0)       | DG2   |
    
 
    
