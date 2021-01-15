@@ -1,16 +1,17 @@
 # Parameter file (`.par`)
 
-This file contains the information provided by the user and necessary to run the simulation including file names and locations and the main model and run control parameters. The following general    principles apply:
-   * Items not recognised are ignored rather than generating an error message.
-   * The code expects one item per line only.
-   * If a keyword does not appear the model uses the default value specified in the code and (usually) does not generate an error message.
-   * The order given below is not fixed.
-   * To comment out a line place a # in the first character space.
+This is the starting file that a user should refer to for setting up and running any simulation. Inside this file, the user should enter parameters including the names and location of files of relevance for the case study under condideration. While putting entries or items in the `.par` file, the following rules apply:  
 
-The following table lists keywords related to ACC, FV1 and DG2 solvers that are specified in the parameter file. These define parameter values, tell the model to read in specified files, turn model options on and off or tell the model to output specific files. The full list of parameters is provided in [LISFLOOD user manual](https://drive.google.com/file/d/1Yk5txMWWfSqPcPOqjQh30XLSp8Sypy1M/view). 
+   * Only the items listed in [LISFLOOD user manual](https://drive.google.com/file/d/1Yk5txMWWfSqPcPOqjQh30XLSp8Sypy1M/view) should be typed. Any other item will be ignored. 
+   
+   * There should only be one item per line. Items can be entered in no particualr order. To comment out a line place add a `#` in the first character space.
+
+   * If a keyword does not appear, the model uses the default value specified wihtout generating an error message.
+   
+To run the 2D ACC, FV1 and DG2 solvers, the following list of items need to be specified in the `.par` file. 
 
 
-   | Item name `input` | Description | Applicable solver |
+   | Item name `input` | Description | Solver |
    | :---         | :---      | :--- |
    | DEMfile `filename`   | Digital Elevation Model file name     | All solvers    |
    | resroot `name`     | Root for naming of results files       | All solvers    |
