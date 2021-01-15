@@ -1,6 +1,6 @@
 # Parameter file (`.par`)
 
-This file contains the information necessary to run the simulation including file names and locations and the main model and run control parameters. The following general    principles apply:
+This file contains the information provideed by the user and necessary to run the simulation including file names and locations and the main model and run control parameters. The following general    principles apply:
    * Items not recognised are ignored rather than generating an error message.
    * The code expects one item per line only.
    * If a keyword does not appear the model uses the default value specified in the code and (usually) does not generate an error message.
