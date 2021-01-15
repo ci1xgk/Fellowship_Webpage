@@ -13,7 +13,7 @@ For a typical simulation using either of ACC, FV1 or DG2 solvers, data is input 
    The following tables list keywords that are specified in the parameter file. These define parameter values, tell the model to read in specified files, turn model options on and off or tell the model to output specific files.
 
 
-   | Item name `input` | Description | Applicable model solver |
+   | Item name `input` | Description | Applicable solver |
    | :---         | :---      | :--- |
    | DEMfile `filename`   | Digital Elevation Model file name     | All solvers    |
    | resroot `name`     | Root for naming of results files       | All solvers      |
