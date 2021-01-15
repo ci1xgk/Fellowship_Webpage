@@ -23,4 +23,4 @@ Where `Valuei` is the value of the relevant quantity for the given boundary type
 - For a `QVAR` boundary specified in the `.bci` file `Valuei` is given as mass flux per unit width with units of square meter per second.
 
 
-[back](https://www.seamlesswave.com/Merewether1.html)
+[back](/Merewether1.html)
