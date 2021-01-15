@@ -28,8 +28,9 @@ For a typical simulation using either of ACC, FV1 or DG2 solvers, data is input 
    | manningfile `filename`     | Name of file containing a grid of floodplain n values       | All solvers      |
    
    
-   Notes: * If both fpfric and manningfile are specified, fpfric will not be used.
-          * The file containing Manning's n values should be an ARC ascii raster format with the same dimensions and resolution as the DEMfile. 
+   Notes: 
+     * If both fpfric and manningfile are specified, fpfric will not be used.
+     * The file containing Manning's n values should be an ARC ascii raster format with the same dimensions and resolution as the DEMfile. 
 
 
 What MKS needs to explain? 
