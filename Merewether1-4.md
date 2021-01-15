@@ -6,17 +6,17 @@ LISFLOOD uses topographical data, or digital elevation model (DEM), in Esri ASCI
 
 The header section contains the following informtation:
 
-- ncols: Number of columns
+- `ncols`: Number of columns
 
-- nrowws: Number of rows
+- `nrows`: Number of rows
 
-- xllcorner: X cartesian co-ordinate of the lower left corner of the grid in metres
+- `xllcorner`: X cartesian co-ordinate of the lower left corner of the grid in metres
 
-- yllcorner: Y cartesian co-ordinate of the lower left corner of the grid in metres
+- `yllcorner`: Y cartesian co-ordinate of the lower left corner of the grid in metres
 
-- cellsize: Cell size in metres
+- `cellsize`: Cell size in metres
 
-- NODATA_value: Null value
+- `NODATA_value`: Null value
 
 
 
