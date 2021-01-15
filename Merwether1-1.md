@@ -1,4 +1,4 @@
-# Parameter file (.par)
+# Parameter file (`.par`)
 
 This file contains the information necessary to run the simulation including file names and locations and the main model and run control parameters. The following general    principles apply:
    * All items in the file are case sensitive.
