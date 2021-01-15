@@ -7,7 +7,11 @@ For a typical simulation using either of ACC, FV1 or DG2 solvers, data is input 
 
 3. [Time varying boundary conditions file (`.bdy`)](/Merwether1-3.md)
 
-4. [Digital Elevation Model file (.dem)](/Merwether1-4.md)
+4. [Digital Elevation Model file (`.dem`)](/Merwether1-4.md)
+
+5. [Stage output data file (`.stage`)](/Merwether1-5.md)
+
+6. [Start file – water depth or elevation (`.start`)](/Merwether1-6.md)
    
 
    
