@@ -1,5 +1,5 @@
 # Input files and their format
-For a typical simulation using either of ACC, FV1 or DG2 solvers, data is input to the model using following file types. Users should note that the file extensions are not mandatory, comments can only be used in the parameter file (`.par`) and all items are case sensitive. 
+To set up a 2D solver incluing for ACC, FV1 or DG2, input files and parameters need to be specified. Note that the file extension named in the list below are not mandatory; and comments can only be used in the parameter file, with extension `.par`, with all file and parameter names being case sensitive. 
 
 1. [Parameter file (`.par`)](/Merewether1-1.md) 
 
