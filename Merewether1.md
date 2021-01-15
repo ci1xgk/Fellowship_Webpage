@@ -30,6 +30,9 @@ For a typical simulation using either of ACC, FV1 or DG2 solvers, data is input 
    | fv1     | Selects the FV1 floodplain solver       | FV1      |
    | dg2     | Selects the DG2 floodplain solver       | DG2      |
    | cuda    | Run the acceleration, FV1 or DG2 solver on a GPU.       | ACC, FV1, DG2      |
+   | dynamicrainfile `filename`   | Name of spatially- and temporally-varying rainfall data (NetCDF)     | ACC, FV1, DG2    |
+   
+
    
    
    Notes: 
