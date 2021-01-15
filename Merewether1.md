@@ -17,11 +17,11 @@ For a typical simulation using either of ACC, FV1 or DG2 solvers, data is input 
    | :---         | :---      | :--- |
    | DEMfile `filename`   | Digital Elevation Model file name     | All solvers    |
    | resroot `name`     | Root for naming of results files       | All solvers      |
-   | dirroot `foldername`     | Relative or absolute path for the directory where results files are to be placed.       | All solvers      |
-   | resroot `name`     | Root for naming of results files       | All solvers      |
-   | resroot `name`     | Root for naming of results files       | All solvers      |
-   | resroot `name`     | Root for naming of results files       | All solvers      |
-   | resroot `name`     | Root for naming of results files       | All solvers      |
+   | dirroot `foldername`     | Relative or absolute path for the directory where results files are to be placed       | All solvers      |
+   | saveint `value`     | Interval in seconds at which results files are saved       | All solvers      |
+   | massint `value`     | Interval in seconds at which the .mass file is written     | All solvers      |
+   | sim_time `value`     | Total length of the simulation in seconds (real value)       | All solvers      |
+   | initial_tstep `value`     | Initial guess for the optimum time step and maximum possible time step       | All solvers      |
 
 
 What MKS needs to explain? 
