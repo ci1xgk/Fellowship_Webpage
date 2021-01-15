@@ -25,3 +25,5 @@ Possible boundary condition types and their associated values are given in Table
    | QFIX     | Fixed flow into domain     | Mass flux per unit width (square meter per second)     |
    | QVAR     | Time varying flow into domain       | Boundary identifier corresponding to data in the user supplied `.bdy` file     |
 
+
+Later decide to put Merwether example here or [here](/Merewether2)
