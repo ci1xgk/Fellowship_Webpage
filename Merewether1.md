@@ -8,7 +8,16 @@ For a typical simulation using either of ACC, FV1 or DG2 solvers, data is input 
    * The code expects one item per line only.
    * If a keyword does not appear the model uses the default value specified in the code and (usually) does not generate an error message.
    * The order given below is not fixed.
-   - To comment out a line place a # in the first character space.
+   * To comment out a line place a # in the first character space.
+
+   The following tables list keywords that are specified in the parameter file. These define parameter values, tell the model to read in specified files, turn model options on and off or tell the model to output specific files.
+
+
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
+
 
 What MKS needs to explain? 
 `.par`
