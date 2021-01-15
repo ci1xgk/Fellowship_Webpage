@@ -3,9 +3,11 @@ For a typical simulation using either of ACC, FV1 or DG2 solvers, data is input 
 
 1. [Parameter file (`.par`)](/Merwether1-1.md) 
 
-   
-   
-2. Boundary condition type file (`.bci`)
+2. [Boundary condition type file (`.bci`)](/Merwether1-2.md)
+
+3. [Time varying boundary conditions file (`.bdy`)](/Merwether1-3.md)
+
+4. [Digital Elevation Model file (.dem.ascii)](/Merwether1-4.md)
    
 
    
