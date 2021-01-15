@@ -37,4 +37,4 @@ The following table lists keywords related to ACC, FV1 and DG2 solvers that are 
    | krivodonovathresh     | Control the localisation of the DG2 slope limiter (Default: 10.0)       | DG2   |
    
    
-   [back](https://www.seamlesswave.com/Merewether1.html)
+   [back](/Merewether1.md)
