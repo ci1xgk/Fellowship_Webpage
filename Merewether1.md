@@ -15,17 +15,21 @@ For a typical simulation using either of ACC, FV1 or DG2 solvers, data is input 
 
    | Item name `input` | Description | Applicable solver |
    | :---         | :---      | :--- |
-   | DEMfile `filename`   | Digital Elevation Model file name     | All solvers    |
-   | resroot `name`     | Root for naming of results files       | All solvers      |
-   | dirroot `foldername`     | Relative or absolute path for the directory where results files are to be placed       | All solvers      |
-   | saveint `value`     | Interval in seconds at which results files are saved       | All solvers      |
-   | massint `value`     | Interval in seconds at which the .mass file is written     | All solvers      |
-   | sim_time `value`     | Total length of the simulation (sec.)       | All solvers      |
-   | initial_tstep `value`     | Initial guess for the optimum time step and maximum possible time step (sec.)      | All solvers      |
-   | bcifile `filename`     | Name of file identifying floodplain boundary condition types       | All solvers      |
-   | bdyfile `filename`     | Name of file containing information on time varying floodplain boundary conditions       | All solvers      |
-   | fpfric `value`     | Manning’s n value for floodplain if spatially uniform       | All solvers      |
-   | manningfile `filename`     | Name of file containing a grid of floodplain n values       | All solvers      |
+   | DEMfile `filename`   | Digital Elevation Model file name     | ACC, FV1, DG2    |
+   | resroot `name`     | Root for naming of results files       | ACC, FV1, DG2     |
+   | dirroot `foldername`     | Relative or absolute path for the directory where results files are to be placed       | ACC, FV1, DG2      |
+   | saveint `value`     | Interval in seconds at which results files are saved       | ACC, FV1, DG2     |
+   | massint `value`     | Interval in seconds at which the .mass file is written     | ACC, FV1, DG2     |
+   | sim_time `value`     | Total length of the simulation (sec.)       | ACC, FV1, DG2      |
+   | initial_tstep `value`     | Initial guess for the optimum time step and maximum possible time step (sec.)      | ACC, FV1, DG2      |
+   | bcifile `filename`     | Name of file identifying floodplain boundary condition types       | ACC, FV1, DG2     |
+   | bdyfile `filename`     | Name of file containing information on time varying floodplain boundary conditions       | ACC, FV1, DG2     |
+   | fpfric `value`     | Manning’s n value for floodplain if spatially uniform       | ACC, FV1, DG2      |
+   | manningfile `filename`     | Name of file containing a grid of floodplain n values       | ACC, FV1, DG2      |
+   | acceleration        | Selects the ACC floodplain solver       | ACC      |
+   | fv1     | Selects the FV1 floodplain solver       | FV1      |
+   | dg2     | Selects the DG2 floodplain solver       | DG2      |
+   | cuda    | Run the acceleration, FV1 or DG2 solver on a GPU.       | ACC, FV1, DG2      |
    
    
    Notes: 
