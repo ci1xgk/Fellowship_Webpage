@@ -20,8 +20,16 @@ For a typical simulation using either of ACC, FV1 or DG2 solvers, data is input 
    | dirroot `foldername`     | Relative or absolute path for the directory where results files are to be placed       | All solvers      |
    | saveint `value`     | Interval in seconds at which results files are saved       | All solvers      |
    | massint `value`     | Interval in seconds at which the .mass file is written     | All solvers      |
-   | sim_time `value`     | Total length of the simulation in seconds (real value)       | All solvers      |
-   | initial_tstep `value`     | Initial guess for the optimum time step and maximum possible time step       | All solvers      |
+   | sim_time `value`     | Total length of the simulation (sec.)       | All solvers      |
+   | initial_tstep `value`     | Initial guess for the optimum time step and maximum possible time step (sec.)      | All solvers      |
+   | bcifile `filename`     | Name of file identifying floodplain boundary condition types       | All solvers      |
+   | bdyfile `filename`     | Name of file containing information on time varying floodplain boundary conditions       | All solvers      |
+   | fpfric `value`     | Manning’s n value for floodplain if spatially uniform       | All solvers      |
+   | manningfile `filename`     | Name of file containing a grid of floodplain n values       | All solvers      |
+   
+   
+   Notes: * If both fpfric and manningfile are specified, fpfric will not be used.
+          * The file containing Manning's n values should be an ARC ascii raster format with the same dimensions and resolution as the DEMfile. 
 
 
 What MKS needs to explain? 
