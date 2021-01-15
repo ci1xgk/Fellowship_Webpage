@@ -1,5 +1,5 @@
 # Input files and their format
-For a typical simulation using either of ACC, FV1 or DG2 solvers, data is input to the model using following file types. Users should note that the file extensions are not mandatory, comments can only be used in the parameter file (.par) and all items are case sensitive. Further details are provided in [LISFLOOD user manual](https://drive.google.com/file/d/1Yk5txMWWfSqPcPOqjQh30XLSp8Sypy1M/view). 
+For a typical simulation using either of ACC, FV1 or DG2 solvers, data is input to the model using following file types. Users should note that the file extensions are not mandatory, comments can only be used in the parameter file (.par) and all items are case sensitive. 
 
 1. Parameter file (`.par`)
    This file contains the information necessary to run the simulation including file names and locations and the main model and run control parameters. The following general    principles apply:
@@ -10,7 +10,7 @@ For a typical simulation using either of ACC, FV1 or DG2 solvers, data is input 
    * The order given below is not fixed.
    * To comment out a line place a # in the first character space.
 
-   The following tables list keywords that are specified in the parameter file. These define parameter values, tell the model to read in specified files, turn model options on and off or tell the model to output specific files.
+   The following table lists keywords related to ACC, FV1 and DG2 solvers that are specified in the parameter file. These define parameter values, tell the model to read in specified files, turn model options on and off or tell the model to output specific files. The full list of parameters are provided in [LISFLOOD user manual](https://drive.google.com/file/d/1Yk5txMWWfSqPcPOqjQh30XLSp8Sypy1M/view). 
 
 
    | Item name `input` | Description | Applicable solver |
@@ -38,13 +38,11 @@ For a typical simulation using either of ACC, FV1 or DG2 solvers, data is input 
    | limitslopes     | Enable the DG2 minmod slope limiter      | DG2   |
    | krivodonovathresh     | Control the localisation of the DG2 slope limiter (Default: 10.0)       | DG2   |
    
+2. Boundary condition type file (`.bci`)
+   
 
    
   
 
 
-What MKS needs to explain? 
-`.par`
-`.start`
-`.dem`
 
