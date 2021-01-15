@@ -16,5 +16,11 @@ This file is used to specify time varying boundary conditions (keywords QVAR or 
 
 - Line i: Valuei Timei
 
+Where `Valuei` is the value of the relevant quantity for the given boundary type. 
+
+Notes:
+- For all HVAR boundaries Valuei is a water surface elevation in metres. However, the units of Valuei for QVAR boundaries depend on whether the given boundary identifier is specified in the .bci file. 
+- For a QVAR boundary specified in the .bci file `Valuei` is given as mass flux per unit width with units of square meter per second.
+
 
 [back](https://www.seamlesswave.com/Merewether1.html)
