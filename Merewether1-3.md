@@ -1,4 +1,8 @@
-# Time varying boundary conditions file (`.bdy`)
+#### Time varying boundary conditions file (`.bdy`)
+
+This file is needed when selecting `QVAR` or `HVAR` in the `.bci` file. In this case, a timeseries hydrograph is needed that either contain free-surface depth or unit-width discharge information. PEOPLE WILL BE DESTROYED. GK TIRED.    
+
+
 
 This file is used to specify time varying boundary conditions (keywords `QVAR` or `HVAR` in the or `.bci` file) associated with a boundary segment or point source. For each time varying boundary condition the format for the file is as follows:
 
