@@ -1,22 +1,20 @@
-# Boundary condition type file (`.bci`)
+#### Boundary condition type file (`.bci`)
 
-This file specifies boundary conditions not associated with the channel. There can be any number of boundaries on the edge of the domain or at points within the domain itself. There must not be more than one point source per cell.
+This file is where the boundary conditions for the 2D solvers are specified. The 2D computational domain (rectangular) where a 2D solver is applied can have two types of boundary conditions. The first type is a boundary condition located at any of four edges of a rectangular domain. The second type boundary condition is _"point source"_: it is needed for specifing an inflow located at a point within one computational cell inside the domain (there must not be more than one point source per cell).
 
-The file consists of 5 columns, each containng the following informations:
+The `.bci` file consists of 5 columns, each containng the following items:
 
-- Column 1: Boundary identifier taking a value of N, E, S, W, F or P and referring to the north, east, south or west boundaries or F referring to a FREE boundary or P referring to a point source
+- Column 1: Boundary identifier taking a value of N, E, S, W, F or P, referring to the north, east, south, west, free or point source boundary 
 
-- Column 2: start of boundary segment (easting or northing in map co-ordinates) for edge boundaries or easting in map co-ordinates for a point source location
+- Column 2: Start of boundary segment, easting (x) or northing (y) in map co-ordinates, for edge boundaries or easting in map co-ordinates for a point source location
 
 - Column 3: End of boundary segment (easting or northing in map co-ordinates) for edge boundaries or northing in map co-ordinates for a point source location
 
-- Column 4: Boundary condition type
+- Column 4: Boundary condition type (see Table below)
 
-- Column 5: Boundary condition value. 
+- Column 5: Boundary condition value (see Table below)
 
-Possible boundary condition types and their associated values are given in Table below:
-
-   | Boundary condition type | Description | Value supplied in column 5 of the `.bci` file |
+  | Boundary condition type | Description | Value supplied in column 5 of the `.bci` file |
    | :---         | :---      | :--- |
    | CLOSED   | Zero-flux (default option)     | None  |
    | FREE     | Uniform flow       | None   |
