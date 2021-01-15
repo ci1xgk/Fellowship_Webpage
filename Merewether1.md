@@ -13,8 +13,8 @@ For a typical simulation using either of ACC, FV1 or DG2 solvers, data is input 
    The following tables list keywords that are specified in the parameter file. These define parameter values, tell the model to read in specified files, turn model options on and off or tell the model to output specific files.
 
 
-   | Left-aligned | Center-aligned | Right-aligned |
-   | :---         |     :---:      |          ---: |
+   | Item name `input` | Description | Applicable model solver |
+   | :---         | :---      | :--- |
    | git status   | git status     | git status    |
    | git diff     | git diff       | git diff      |
 
