@@ -18,13 +18,8 @@ The `.bdy` file is used to specify such a time varying boundary condition and ha
 
 - Line i: Valuei Timei
 
-Where `Valuei` is the value of the relevant quantity for the given boundary type. MKS - THIS IS CONFUSING? "TYPE"?
 
-
-**Notes:**
-- For all `HVAR` boundaries `Valuei` is a water surface elevation in metres. However, the units of `Valuei` for `QVAR` boundaries depend on whether the given boundary identifier is specified in the `.bci` file.
-
-- For a `QVAR` boundary specified in the `.bci` file `Valuei` is given as unit-width discharge with units of square meter per second.
+**Notes** `Valuei` is the value of the relevant quantity for the given boundary type. For all `HVAR` boundaries `Valuei` is a water surface elevation in metres. ??? However, the units of `Valuei` for `QVAR` boundaries depend on whether the given boundary identifier is specified in the `.bci` file. ?? MKS: WHY TAKING ABOUT QVAR HERE AND LATER? For a `QVAR` boundary specified in the `.bci` file, `Valuei` is given as unit-width discharge with units of square meter per second.
 
 
 [back](/Merewether1.md)
