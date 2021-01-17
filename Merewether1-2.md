@@ -24,7 +24,7 @@ The `.bci` file consists of 5 columns, each containng the following items:
    | QVAR     | Time varying flow into domain       | Boundary identifier from data in the user supplied `.bdy` file     |
 
 
-A demontration of how to set up the `.bci` file for the Merewether case study is provided later in [_"Preparing the input data"_](https://www.seamlesswave.com/Merewether2.html).
+A demo of how to set up the `.bci` file for the Merewether case study is provided later in [_"Preparing the input data"_](https://www.seamlesswave.com/Merewether2.html).
  
 
 [back](/Merewether1.md)
