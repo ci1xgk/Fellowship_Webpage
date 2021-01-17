@@ -10,9 +10,9 @@ The `.bci` file consists of 5 columns, each containng the following items:
 
 - Column 3. End of boundary segment for edge boundaries, either easting (x coordinate) or northing (y coordinate); or, northing (y coordinate) of a point source location
 
-- Column 4. Boundary condition type (see Table below)
+- Column 4. Boundary condition type (see the "Type" list in the Table below)
 
-- Column 5. Boundary condition value (see Table below)
+- Column 5. Boundary condition value or file (see the "Item" list in the Table below)
 
   | Type | Description | Item in column 5 within `.bci` file |
    | :---         | :---      | :--- |
