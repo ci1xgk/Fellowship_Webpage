@@ -1,6 +1,6 @@
 #### Time varying boundary conditions file (`.bdy`)
 
-This file is needed when selecting `QVAR` or `HVAR` in the `.bci` file. In this case, a timeseries hydrograph needs to be loaded at either a boundary segment (an edge) or point source. The timeseries hydrograph is either free-surface elevation or unit-width discharge information, aimed to specify time varying boundary conditions.  
+This file is needed when selecting `QVAR` or `HVAR` in the `.bci` file. In this case, a timeseries hydrograph needs to be loaded at either a boundary segment (an edge) or a point source. The timeseries hydrograph is either free-surface elevation or unit-width discharge information, aimed to specify time varying boundary conditions.  
 
 The `.bdy` file is used to specify such a time varying boundary condition and has the following format:
 
