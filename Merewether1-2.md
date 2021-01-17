@@ -14,7 +14,7 @@ The `.bci` file consists of 5 columns, each containng the following items:
 
 - Column 5. Boundary condition value or file (see the "Item" list in the Table below)
 
-  | Type | Description | Item in column 5 within `.bci` file |
+  | Type | Description | Item for column 5 in a `.bci` file |
    | :---         | :---      | :--- |
    | CLOSED   | Zero-flux (default option)     | None  |
    | FREE     | Uniform flow       | None   |
