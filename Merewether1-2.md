@@ -4,17 +4,17 @@ This file is where the boundary conditions for the 2D solvers are specified. The
 
 The `.bci` file consists of 5 columns, each containng the following items:
 
-- Column 1: Boundary identifier taking a value of N, E, S, W, F or P, referring to the north, east, south, west, free or point source boundary 
+- Column 1. Boundary identifier taking a value of N, E, S, W, F or P, referring to the north, east, south, west, free or point source boundary 
 
-- Column 2: Start of boundary segment, easting (x) or northing (y) in map co-ordinates, for edge boundaries or easting in map co-ordinates for a point source location
+- Column 2. Start of boundary segment for edge boundaries, either easting (x coordinate) or northing (y coordinate); or, easting (x coordinate) of a point source location
 
-- Column 3: End of boundary segment (easting or northing in map co-ordinates) for edge boundaries or northing in map co-ordinates for a point source location
+- Column 3. End of boundary segment for edge boundaries, either easting (x coordinate) or northing (y coordinate); or, northing (y coordinate) of a point source location
 
-- Column 4: Boundary condition type (see Table below)
+- Column 4. Boundary condition type (see Table below)
 
-- Column 5: Boundary condition value (see Table below)
+- Column 5. Boundary condition value (see Table below)
 
-  | BC type | Description | Item in column 5 within `.bci` file |
+  | Type | Description | Item in column 5 within `.bci` file |
    | :---         | :---      | :--- |
    | CLOSED   | Zero-flux (default option)     | None  |
    | FREE     | Uniform flow       | None   |
