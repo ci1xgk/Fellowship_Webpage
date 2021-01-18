@@ -2,9 +2,9 @@
 
 This is the starting file that a user should refer to for setting up and running any simulation. Inside this file, the user should enter parameters including the names and location of files of relevance for the case study under condideration. While putting entries or items in the `.par` file, the following rules apply:  
 
-   * Only the items listed in [LISFLOOD user manual](https://drive.google.com/file/d/1Yk5txMWWfSqPcPOqjQh30XLSp8Sypy1M/view) should be typed. Any other item will be ignored. 
+   * Only the items listed in [LISFLOOD user manual](https://drive.google.com/file/d/1Yk5txMWWfSqPcPOqjQh30XLSp8Sypy1M/view) should be entered. Any other item will be ignored. 
    
-   * There should only be one item per line. Items can be entered in no particualr order. To comment out a line place add a `#` in the first character space.
+   * There should only be one item per line. Items can be entered in no particualr order. To comment out a line add a `#` in the first character space.
 
    * If a keyword does not appear, the model uses the default value specified wihtout generating an error message.
    
