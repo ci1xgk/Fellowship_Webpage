@@ -1,4 +1,4 @@
-#### Stage output data file (`.stage`)
+#### Water depth output data file (`.stage`)
 
 This file specifies the locations of points (in X and Y coordinates) where the model generates a time series output of water depths. For each location specified in this file, the water depth value will be written in a text file with the same extension of `.stage` at each `massint` interval specified in `.par` file. The format of the file is as follows:
 
