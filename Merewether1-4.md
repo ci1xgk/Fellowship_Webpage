@@ -1,6 +1,6 @@
 #### Digital Elevation Model file (`.dem`)
 
-This file contains the topographical data, or digital elevation model (DEM) which also defines the computational grid. The file should be in [Esri ASCII raster format](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/esri-ascii-raster-format.htm) which contains the first six rows as header section, followed by a space delimited 2D array of numerical values defining the data points on the computational grid. An example snapshot of the file is shown below.
+This file contains the topographical data, or digital elevation model (DEM) which also defines the extent and the resolution of the computational domain. The file should be in [Esri ASCII raster format](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/esri-ascii-raster-format.htm) which contains the first six rows as header section, followed by a space delimited 2D array of numerical values defining the data points on the computational grid. An example snapshot of the file is shown below.
 
 ![image](/Figures/mesh1.PNG)
 
@@ -10,9 +10,9 @@ The header section contains the following informtation:
 
 - `nrows`: Number of cell rows (i.e. number of cells in Y direction)
 
-- `xllcorner`: X cartesian coordinate of the lower left corner of the grid in metres
+- `xllcorner`: X cartesian coordinate of the lower left corner of the computational domain in metres
 
-- `yllcorner`: Y cartesian coordinate of the lower left corner of the grid in metres
+- `yllcorner`: Y cartesian coordinate of the lower left corner of the computational domain in metres
 
 - `cellsize`: Cell size in metres
 
