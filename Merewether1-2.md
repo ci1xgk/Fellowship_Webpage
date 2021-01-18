@@ -4,7 +4,7 @@ This file is where the boundary conditions for the 2D solvers are specified. The
 
 The `.bci` file consists of 5 columns, each containng the following items:
 
-- Column 1. Boundary identifier taking a value of N, E, S, W, F or P, referring to the north, east, south, west, free or point source boundary 
+- Column 1. Boundary identifier taking a value of `N`, `E`, `S`, `W`, `F` or `P`, referring to the north, east, south, west, free or point source boundary 
 
 - Column 2. Start of boundary segment for edge boundaries, either easting (x coordinate) or northing (y coordinate); or, easting (x coordinate) of a point source location
 
@@ -24,7 +24,6 @@ The `.bci` file consists of 5 columns, each containng the following items:
    | QVAR     | Time varying flow into domain       | Boundary identifier from data in the user supplied `.bdy` file     |
 
 
-A demo of how to set up the `.bci` file for the Merewether case study is provided later in [_"Preparing the input data"_](https://www.seamlesswave.com/Merewether2.html).
- 
+An example of how to set up the `.bci` file is demonstrated for the Merewether case study in [Preparing the input data](/Merewether2.md). 
 
 [back](/Merewether1.md)
