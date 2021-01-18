@@ -6,17 +6,17 @@ This file contains the topographical data, or digital elevation model (DEM) whic
 
 The header section contains the following informtation:
 
-- `ncols`: Number of cell columns (i.e. number of grid cells in x direction)
+- `ncols`: Number of cell columns (i.e. number of cells in X direction)
 
-- `nrows`: Number of cell rows (i.e. number of grid cells in y direction)
+- `nrows`: Number of cell rows (i.e. number of cells in Y direction)
 
-- `xllcorner`: X cartesian co-ordinate of the lower left corner of the grid in metres
+- `xllcorner`: X cartesian coordinate of the lower left corner of the grid in metres
 
-- `yllcorner`: Y cartesian co-ordinate of the lower left corner of the grid in metres
+- `yllcorner`: Y cartesian coordinate of the lower left corner of the grid in metres
 
 - `cellsize`: Cell size in metres
 
-- `NODATA_value`: Null value
+- `NODATA_value`: Null value (Default is -9999)
 
 
 To visualize or manipulate the DEM data, it is advised to use QGIS, a geographic information system platform, which is [freely available to download](https://www.qgis.org/en/site/forusers/download.html). 
