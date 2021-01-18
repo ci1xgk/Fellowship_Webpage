@@ -1,14 +1,14 @@
 #### Digital Elevation Model file (`.dem`)
 
-LISFLOOD uses topographical data, or digital elevation model (DEM), in Esri ASCII raster format. This file contains the first six rows as header section, followed by a space delimited matrix of `nrows` rows and `ncols` columns defining the data points on the computational domain (an example snapshot of the file is shown below).
+This file contains the topographical data, or digital elevation model (DEM) which also defines the computational grid. The file should be in [Esri ASCII raster](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/esri-ascii-raster-format.htm) format which contains the first six rows as header section, followed by a space delimited 2D array of numerical values defining the data points on the computational grid (an example snapshot of the file is shown below).
 
 ![image](/Figures/mesh1.PNG)
 
 The header section contains the following informtation:
 
-- `ncols`: Number of columns
+- `ncols`: Number of cell columns (i.e. number of grid cells in x direction)
 
-- `nrows`: Number of rows
+- `nrows`: Number of cell rows (i.e. number of grid cells in y direction)
 
 - `xllcorner`: X cartesian co-ordinate of the lower left corner of the grid in metres
 
