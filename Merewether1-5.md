@@ -16,7 +16,7 @@ The format of the file is as follows:
 - Line i. X and Y coordinate of nth point
 
 
-Generating the water depth output is activated by including the `stagefile` keyword in the `.par` file, followed by the name of `.stage` file to be read. If the user wants to generate the velocity output, the `voutput` keyword must be included as well.    
+Generating the water depth output is activated by including the `stagefile` keyword in the `.par` file, followed by the name of `.stage` file to be read. If the user wants to generate the velocity output, the `voutput_stage` keyword must be included as well.    
 
 An example of how to set up the `.stage` file is demonstrated for the Merewether case study in [_"Preparing the input data"_](/Merewether2.md).
 
