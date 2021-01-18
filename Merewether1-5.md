@@ -1,7 +1,7 @@
-#### Water depth and velocity output data file (`.stage`)
+#### Water depth output data file (`.stage`)
 
-This file specifies the locations of points (in X and Y coordinates) where the model generates a time series output of water depth (in meters) and velocity (in meter per second). 
-For each location specified in this file, the water depth and velocity values will be written in two seperate files with the extension of `.stage` and `.velocity`, respectively. These data will be written at each `massint` interval specified in `.par` file. 
+This file specifies the locations of points (in X and Y coordinates) where the model generates a time series output of water depth. 
+For each location specified in this file, the water depth values will be written in a file with the extension of `.stage`, at each `massint` interval specified in `.par` file. 
 
 The format of the file is as follows:
 
@@ -16,9 +16,7 @@ The format of the file is as follows:
 - Line i. X and Y coordinate of nth point
 
 
-Generating the water depth output is activated by including the `stagefile` keyword in the `.par` file, followed by the name of `.stage` file to be read. If the user wants to generate the velocity output, the `voutput_stage` keyword must be included as well.    
-
-An example of how to set up the `.stage` file is demonstrated for the Merewether case study in [_"Preparing the input data"_](/Merewether2.md).
+Generating the water depth output is activated by including the `stagefile` keyword in the `.par` file, followed by the name of `.stage` file to be read. An example of how to set up the `.stage` file is demonstrated for the Merewether case study in [_"Preparing the input data"_](/Merewether2.md).
 
 
 [back](/Merewether1.md)
