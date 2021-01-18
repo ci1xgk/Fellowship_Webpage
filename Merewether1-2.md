@@ -24,6 +24,6 @@ The `.bci` file consists of 5 columns, each containng the following items:
    | QVAR     | Time varying flow into domain       | Boundary identifier from data in the user supplied `.bdy` file     |
 
 
-To use the `.bci` file, the keyword `bcifile` should be included in the `.par` file followed by the name of the `.bci` file to be read. An example of how to set up the `.bci` file is demonstrated for the Merewether case study in [_"Preparing the input data"_](/Merewether2.md). 
+An example of how to set up the `.bci` file is demonstrated for the Merewether case study in [_"Preparing the input data"_](/Merewether2.md). 
 
 [back](/Merewether1.md)
