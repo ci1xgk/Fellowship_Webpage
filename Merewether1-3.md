@@ -21,7 +21,7 @@ The `.bdy` file is used to specify such a time varying boundary condition and ha
 
 Note that `Valuei` is the value of the relevant quantity for the given boundary type. For `HVAR` boundaries `Valuei` is a water surface elevation in metres. For `QVAR` boundaries, `Valuei` is given as unit-width discharge with units of square meter per second.
 
-In case studies [3. Valley flooding following a dam failure](/EnvAcy5.md) or [4. Carlistle 2005, urban flooding](/Carlistle_flooding.md) examples of how to set up `.bdy` file are provided. 
+In case studies [_"3. Valley flooding following a dam failure"_](/EnvAcy5.md) or [_"4. Carlistle 2005, urban flooding"_](/Carlistle_flooding.md) examples of how to set up `.bdy` file are provided.
 
 
 [back](/Merewether1.md)
