@@ -33,7 +33,8 @@ To run the 2D ACC, FV1 and DG2 solvers, the following list of items need to be s
    | drain_nodata     | Enable to remove water in cells with NODATA elevation       | All    |
    | startfile `filename`     | Name of initial conditions file with water depth in ARC ascii raster format     | All    |
    | startelev `filename`     | Similar to startfile but with water surface elevation rather than depth    | All    |
-   | stagefile `filename`     | Name of file containing the locations of points at which stage values are to be written to a text file at each `massint`     | All    |
+   | stagefile `filename`     | Name of file containing the locations of points at which water depth values are to be written to a text file at each `massint`     | All    |
+   | gaugefile `filename`     | Name of file containing the locations of points at which discharge values are to be written to a text file at each `massint`     | All    |
    | limitslopes     | Enable the DG2 minmod slope limiter      | DG2   |
    | krivodonovathresh     | Control the localisation of the DG2 slope limiter (Default: 10.0)       | DG2   |
    
