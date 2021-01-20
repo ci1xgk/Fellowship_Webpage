@@ -4,9 +4,9 @@ The DG2 formulation relies on piecewise-planar representation of data (as oppose
 
 By running `generateDG2DEM` toolkit, following the explanations in [_"Running `generateDG2DEM`"_](), the files listed below will be generated in the same directory of `merewether-0p175m.dem.raw` file:
 
-1.	`merewether-0p175m.dem`: This is basically a copy of the same `merewether-0p175m.dem.raw`, but overwritten to contain the average topography coefficients for DG2.
-2.	`merewether-0p175m.dem.1x`: contains the X-direction slope values of topography.
-3.	`merewether-0p175m.dem.1y`: contains the Y-direction slope values of topography.
+1.	`merewether-0p175m.dem`: This is basically a copy of the same `merewether-0p175m.dem.raw`, but overwritten to contain the average DEM vaues for DG2.
+2.	`merewether-0p175m.dem.1x`: contains the X-direction slope values of the DEM data.
+3.	`merewether-0p175m.dem.1y`: contains the Y-direction slope values of the DEM data.
 
 
 [back](/Merewether2.md)
