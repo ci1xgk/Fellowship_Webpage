@@ -1,8 +1,8 @@
 ### Preparing the input data
 
-In this section the preparation and process of the input data is explained for the Merewether test case, as an example. The same process could be used for other test cases.
+In this section the preparation and process of the input data is explained for the Merewether test case, as an example. The same process could be used for other test cases. 
 
-[Viewing the DEM data](Merewether2-1.md)
+[Viewing the DEM data on QGIS](Merewether2-1.md)
 
 ---
 
