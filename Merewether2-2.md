@@ -12,6 +12,8 @@ The QGIS also provides a way to decrease (upscale) the resolution of the DEM dat
 
 ![image](/Figures/mer6.png)
 
+-	Save the file with `.asc` extension, e.g. as `merewether-0p175m.asc`. 
+-	Once saved, change the extension of file from `.asc` to `.dem`. This is the upscaled DEM file to use in LISFLOOD-FP simulations. 
 
 
 [back](/Merewether2.md)
