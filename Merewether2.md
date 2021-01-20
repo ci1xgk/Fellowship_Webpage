@@ -6,7 +6,7 @@ In this section the preparation and process of the input data is explained for t
 
 2. [Modifying the resolution of the DEM on QGIS](Merewether2-2.md)
 
-3. Preparing the initial conditions files for ACC/FV1 on QGIS
+3. [Preparing the initial conditions files for ACC/FV1 on QGIS](Merewether2-3.md)
 
 4. Preparing the DG2-related DEM files using `generateDG2DEM` toolkit
 
