@@ -9,6 +9,14 @@ The Merewether test case has a constant water level of h + z = 17.8 m at the dow
 ```
 (merewether-0p175m@1 <= 17.8) * 17.8 + (merewether-0p175m@1 > 17.8) * merewether-0p175m@1
 ``` 
-- enter a name, here e.g. `temp`, for the new layer in the *Output layer* section. This puts a value of 17.8 in all areas where topography is less than 17.8 and retains the rest, generating the final initial water level map.
+- Enter a name, here e.g. `temp`, for the new layer in the *Output layer* section (see figure below). This puts a value of 17.8 in all areas where topography is less than 17.8 and retains the rest, generating the final initial water level map.
+
+![image](/Figures/mer7.png)
+
+- To convert the newly created `temp` layer into a raster format readable by LISFLOOD-FP, select it in the *Layers* window and go to menu *Raster - > Conversion - > Translate (Convert Format)*.
+-	In the *Translate (Convert Format)* window, set *Assign a specified nodata value to output bands* as -9999 and click on *Save to File…*
+-	Save the file with `.asc` extension, for example under the same name introduced before, for convenience, i.e. `merewether-0p175m.asc`. 
+-	Once saved, change the extension of file from `.asc` to `.start`. 
+
 
 [back](/Merewether2.md)
