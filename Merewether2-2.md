@@ -7,4 +7,11 @@ The QGIS also provides a way to decrease (upscale) the resolution of the DEM dat
 
 ![image](/Figures/mer5.png)
 
+- Select the new layer in *Layers* window and go to *Raster - > Conversion - > Translate (Convert Format)...*
+-	In *Translate (Convert Format)* window, set *Assign a specified nodata value to output bands* as -9999 and click on *Save to File…* (see figure below).
+
+![image](/Figures/mer6.png)
+
+
+
 [back](/Merewether2.md)
