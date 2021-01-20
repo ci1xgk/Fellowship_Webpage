@@ -1,3 +1,5 @@
-#### Dynamic Rainfall data file (`rain.nc`)
+#### Spatially-varying rainfall file (`.nc`)
+
+
 
 [back](/Merewether1.md)
