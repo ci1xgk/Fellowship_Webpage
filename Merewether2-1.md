@@ -6,4 +6,7 @@ The original DEM data for the Merewether test case was available at a resolution
 - Go to menu *Layer - > Add Layer - > Add Raster Layer…* and browse for `merewether-0p1m.dem`
 - Click *Add*, and the raster map would be shown as below:
 
+![image](/Figures/mer3.png)
+
+
 
