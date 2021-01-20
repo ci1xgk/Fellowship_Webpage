@@ -8,7 +8,7 @@ In this section the preparation and process of the input data is explained for t
 
 3. [Preparing the initial conditions files for ACC/FV1 on QGIS](Merewether2-3.md)
 
-4. Preparing the DG2-related DEM files using `generateDG2DEM` toolkit
+4. [Preparing the DG2-related DEM files using `generateDG2DEM` toolkit](Merewether2-4.md)
 
 5. Preparing the DG2-related Initial condition files using `generateDG2start` toolkit
 
