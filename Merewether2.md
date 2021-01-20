@@ -6,7 +6,7 @@ In this section the preparation and process of the input data is explained for t
 
 ---
 
-#### Modifying the resolution of the DEM
+[Modifying the resolution of the DEM on QGIS](Merewether2-2.md)
 
 ---
 
