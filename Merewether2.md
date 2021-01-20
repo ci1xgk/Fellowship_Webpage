@@ -2,31 +2,31 @@
 
 In this section the preparation and process of the input data is explained for the Merewether test case, as an example. The same process could be used for other test cases. 
 
-[Viewing the DEM data on QGIS](Merewether2-1.md)
+1. [Viewing the DEM data on QGIS](Merewether2-1.md)
 
 ---
 
-[Modifying the resolution of the DEM on QGIS](Merewether2-2.md)
+2. [Modifying the resolution of the DEM on QGIS](Merewether2-2.md)
 
 ---
 
-#### Initial conditions files for ACC/FV1
+3. Preparing the initial conditions files for ACC/FV1 on QGIS
 
 ---
 
-#### DG2-related DEM files
+4. Preparing the DG2-related DEM files using `generateDG2DEM` toolkit
 
 ---
 
-#### DG2-related Initial condition files
+5. Preparing the DG2-related Initial condition files using `generateDG2start` toolkit
 
 ---
 
-#### Setting up boundary conditions
+6. Setting up boundary conditions
 
 ---
 
-#### Selecting output type
+7. Selecting output type
 
 
 
