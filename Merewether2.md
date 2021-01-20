@@ -10,7 +10,7 @@ In this section the preparation and process of the input data is explained for t
 
 4. [Preparing the DG2-related DEM files using `generateDG2DEM` toolkit](Merewether2-4.md)
 
-5. Preparing the DG2-related Initial condition files using `generateDG2start` toolkit
+5. [Preparing the DG2-related Initial condition files using `generateDG2start` toolkit](Merewether2-5.md)
 
 6. Setting up boundary conditions
 
