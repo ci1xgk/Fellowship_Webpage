@@ -1,7 +1,8 @@
 ### Preparing the input data
 
+In this section the preparation and process of the input data is explained for the Merewether test case, as an example. The same process could be used for other test cases.
 
-#### Viewing a DEM file
+[Viewing a DEM file](Merewether2-1.md)
 
 ---
 
