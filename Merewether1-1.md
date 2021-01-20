@@ -23,7 +23,7 @@ To run the 2D ACC, FV1 and DG2 solvers, the following list of items need to be s
    | bcifile `filename`     | Name of file identifying floodplain boundary condition types       | All    |
    | bdyfile `filename`     | Name of file containing information on time varying floodplain boundary conditions       | All     |
    | fpfric `value`     | Manning’s n value for floodplain if spatially uniform       | All      |
-   | manningfile `filename`     | Name of file containing a grid of floodplain n values       | All     |
+   | manningfile `filename`     | Name of file containing a grid of floodplain n values. If both `fpfric` and `manningfile` are specified values in `manningfile` will be used and `fpfric` will be redundant.       | All     |
    | acceleration        | Selects the ACC floodplain solver       | ACC      |
    | fv1     | Selects the FV1 floodplain solver       | FV1      |
    | dg2     | Selects the DG2 floodplain solver       | DG2      |
