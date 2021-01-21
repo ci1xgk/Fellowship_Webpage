@@ -41,7 +41,7 @@ To run the 2D ACC, FV1 and DG2 solvers, the following list of items need to be s
    | limitslopes     | Enable the DG2 minmod slope limiter      | DG2   |
    | krivodonovathresh     | Control the localisation of the DG2 slope limiter (Default: 10.0)       | DG2   |
    
-   Figure below shows an snapshot of the `.par` file used for Merewether test case.
+   Figure below shows an snapshot of the `.par` file used for Merewether test case, namely `merewether-0p175m.par`.
    
    ![image](/Figures/mer8.png)
    
