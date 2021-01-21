@@ -47,9 +47,7 @@ To run the 2D ACC, FV1 and DG2 solvers, the following list of items need to be s
    ![image](/Figures/mer8.png)
    
    Notes:
-   <!---
-   - If `startq2d` is activated to read initial condition of discharge, the model expects the the data of qx and qy (unit discharge in x and y direction, in square meter per second) as explained [here](/Merewether1-6.md). However, since the names of these files are relative to `startfile` name, there is no need to specify them in `.par` file.
---->
+
    - In case of using DG2 solver, since the DG2 solver relies on piecewise-planar representation of DEM and flow variables, the DEM and initial condition files must be provided in three seperate files: one file for average values and two files for slope values in X and Y directions. The user can generate these files manually following instructions in [*"Preparing the DG2-related DEM files using generateDG2DEM toolkit"*](/Merewether2-4.md) and [*"Preparing the DG2-related Initial condition files using generateDG2start toolkit"*](/Merewether2-5.md). However it should be noted that in `.par` file, user only needs to specify the respective average values files (i.e. by setting the keywords `DEMfile`, `startfile` or `startelev`), and the files for slope values will be read by LISFLOOD automatically.  
    
    [back](/Merewether1.md)
