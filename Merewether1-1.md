@@ -17,7 +17,7 @@ To run the 2D ACC, FV1 and DG2 solvers, the following list of items need to be s
    | resroot `name`     | Root for naming of results files       | All    |
    | dirroot `foldername`     | Relative or absolute path for the directory where results files are to be placed       | All     |
    | saveint `value`     | Interval in seconds at which results files are saved       | All    |
-   | massint `value`     | Interval in seconds at which the .mass file is written     | All     |
+   | massint `value`     | Interval in seconds at which the `.mass` file is written     | All     |
    | sim_time `value`     | Total length of the simulation (sec.)       | All     |
    | initial_tstep `value`     | Initial guess for the optimum time step and maximum possible time step (sec.)      | All     |
    | bcifile `filename`     | Name of file identifying floodplain boundary condition types       | All    |
@@ -45,8 +45,11 @@ To run the 2D ACC, FV1 and DG2 solvers, the following list of items need to be s
    Figure below shows an snapshot of the `.par` file used for Merewether test case, namely `merewether-0p175m.par`.
    
    ![image](/Figures/mer8.png)
-   
-For the DG2 solver, as it relies on piecewise-planar representation based on averarge coefficients and two slope coefficients along the X and Y directions, each of the DEM and initial condition start files must be provided in three seperate files: one file containing the average coefficient values and another two files containing the slope coefficient values in X and Y directions. The user can generate these files manually by following instructions in [*"Preparing the DG2-related DEM files using generateDG2DEM toolkit"*](/Merewether2-4.md) and [*"Preparing the DG2-related Initial condition files using generateDG2start toolkit"*](/Merewether2-5.md). In the `.par` file, however, only the file containing the average coefficient values needs to be specified (i.e. by setting the keywords `DEMfile`, `startfile` or `startelev`); and, by doing so, the two extra files including the slope coefficient values will be read automatically.  
+
+
+For the DG2 solver, as it relies on piecewise-planar representation based on average coefficients and two slope coefficients along the X and Y directions, three seperate files must be provided for each of the DEM and initial condition start files: one file containing the average-coefficient values and two extra files containing the slope-coefficient values in X and Y directions. The user can generate these files manually, from the raw DEM file and a given initial condition(s), by following instructions in [*"Preparing the DG2-related DEM files using generateDG2DEM toolkit"*](/Merewether2-4.md) and [*"Preparing the DG2-related Initial condition files using generateDG2start toolkit"*](/Merewether2-5.md). 
+
+In the `.par` file, however, only the file containing the average coefficient values needs to be specified (i.e. by setting the keywords `DEMfile`, `startfile` or `startelev`); and, by doing so, the two extra files including the slope coefficient values will be read automatically.  
 
    
    [back](/Merewether1.md)
