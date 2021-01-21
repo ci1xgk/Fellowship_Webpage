@@ -17,7 +17,7 @@ An overview of LISFLOOD modeling environment is provided with a step-by-step gui
 #### [2. Preparing the input data](./Merewether2.md) 
 
 
-#### [3. Running the code](./Merewether3.md) 
+#### [3. Running the code, outputs and visualization](./Merewether3.md) 
 
 
 #### [4. Plotting of flood maps and hydrographs](./Merewether3.md) 
