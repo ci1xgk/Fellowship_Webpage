@@ -1,6 +1,6 @@
 #### Preparing the initial conditions files for ACC/FV1 on QGIS
 
-The Merewether test case has a constant water level of h + z = 17.8 m at the downstream boundary which needs to be set as the initial condition. LISFLOOD-FP can read the initial condition as a raster file of either water level (h + z) or water depth (h), with the extension of `.start` as previously explained in [_"Input files and their format
+The Merewether test case has a constant water level of h + z = 17.8 m at the downstream boundary which needs to be set as the initial condition. LISFLOOD can read the initial condition as a raster file of either water level (h + z) or water depth (h), with the extension of `.start` as previously explained in [_"Input files and their format
 "_](https://www.seamlesswave.com/Merewether1-6). To generate the initial water level (h + z) raster file using QGIS, the following steps should be applied:
 
 -	Load the Merewether DEM raster file, named `merewether-0p175m.dem` in the QGIS, as explained in [_"Viewing the DEM data on QGIS"_](/Merewether2-1.md).
@@ -22,8 +22,7 @@ Generating the initial water depth (h) raster file follows the same steps above 
 ```
 (merewether-0p175m@1 > 17.8) * 0 + (merewether-0p175m@1 <= 17.8) * (17.8 - merewether-0p175m@1)
 ```
-which puts zero values in areas where topography is higher than 17.8 (dry areas) and retains the depth at the rest of the domain, generating the final initial water depth map.
-
+which puts zero values of water depth (h) in areas where topography is higher than 17.8 (dry areas) and retains the depth at the rest of the domain.
 
 
 [back](/Merewether2.md)
