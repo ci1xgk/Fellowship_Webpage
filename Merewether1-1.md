@@ -35,8 +35,8 @@ To run the 2D ACC, FV1 and DG2 solvers, the following list of items need to be s
    | startelev `filename`     | Similar to startfile but with water surface elevation rather than depth    | All    |
    | stagefile `filename`     | Name of file containing the locations of points at which water depth values are to be written to a text file at each `massint`     | All    |
    | gaugefile `filename`     | Name of file containing the locations of points at which velocity values are to be written to a text file at each `massint`. `voutput_stage` should also be included to activate this option.     | All    |
-   | elevoff     | Suppress production of water surface elevation files (`\*.elev`)    | All    |
-   | voutput     | Enable writing out ascii raster files (`\*.Vx` and `\*.Vy`) of the velocity values in the X and Y Cartesian directions    | All    |
+   | elevoff     | Suppress production of water surface elevation files (`*.elev`)    | All    |
+   | voutput     | Enable writing out ascii raster files (`*.Vx` and `*.Vy`) of the velocity values in the X and Y Cartesian directions    | All    |
    | voutput_stage     | Enable generating the velocity output data in a file specified by `gaugefile`    | All    |
    | limitslopes     | Enable the DG2 minmod slope limiter      | DG2   |
    | krivodonovathresh     | Control the localisation of the DG2 slope limiter (Default: 10.0)       | DG2   |
