@@ -9,7 +9,7 @@ The Merewether test case has a constant water level of h + z = 17.8 m at the dow
 ```
 (merewether-0p175m@1 <= 17.8) * 17.8 + (merewether-0p175m@1 > 17.8) * merewether-0p175m@1
 ``` 
-- Enter a name, here e.g. `temp`, for the new layer in the *Output layer* section (see figure below). This puts a value of 17.8 in all areas where topography is less than 17.8 and retains the rest, generating the final initial water level map.
+- Enter a name, here e.g. `temp`, for the new layer in the *Output layer* section (see figure below). This puts a value of 17.8 for the water elevation (h + z) in all areas where the topography (z) is below 17.8, while the other portions are dry areas and remain unchanged.
 
 ![image](/Figures/mer7.png)
 
