@@ -46,8 +46,7 @@ To run the 2D ACC, FV1 and DG2 solvers, the following list of items need to be s
    
    ![image](/Figures/mer8.png)
    
-   Notes:
+For the DG2 solver, as it relies on piecewise-planar representation based on averarge coefficients and two slope coefficients along the X and Y directions, each of the DEM and initial condition start files must be provided in three seperate files: one file containing the average coefficient values and another two files containing the slope coefficient values in X and Y directions. The user can generate these files manually by following instructions in [*"Preparing the DG2-related DEM files using generateDG2DEM toolkit"*](/Merewether2-4.md) and [*"Preparing the DG2-related Initial condition files using generateDG2start toolkit"*](/Merewether2-5.md). In the `.par` file, however, only the file containing the average coefficient values need to be specified (i.e. by setting the keywords `DEMfile`, `startfile` or `startelev`), and the two extra files including the slope coefficient values will be read automatically.  
 
-   - In case of using DG2 solver, since the DG2 solver relies on piecewise-planar representation of DEM and flow variables, the DEM and initial condition files must be provided in three seperate files: one file for average values and two files for slope values in X and Y directions. The user can generate these files manually following instructions in [*"Preparing the DG2-related DEM files using generateDG2DEM toolkit"*](/Merewether2-4.md) and [*"Preparing the DG2-related Initial condition files using generateDG2start toolkit"*](/Merewether2-5.md). However it should be noted that in `.par` file, user only needs to specify the respective average values files (i.e. by setting the keywords `DEMfile`, `startfile` or `startelev`), and the files for slope values will be read by LISFLOOD automatically.  
    
    [back](/Merewether1.md)
