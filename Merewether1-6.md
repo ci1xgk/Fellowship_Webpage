@@ -16,7 +16,7 @@ In this option, LISFLOOD reads the initial condition of water depth or elevation
    
  The `.start.Qx` and `.start.Qy` files must contain the initial conditions of X and Y components of discharge, qx and qy (qx = Qx/h, qy=Qy/h). They must be an [Esri ASCII raster file](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/esri-ascii-raster-format.htm) with the same dimension and resolution (i.e. `ncols`, `nrows`, `xllcorner`, `yllcorner`, `cellsize`) of the DEM file, followed by space delimited 2D array of qx or qy values, in square meter per second. These two files must have the same name as `.start` file while `.Qx` and `.Qy` must be added at the end of the names.
   
-To activate this option, after activating the *Water depth (or elevation) initialization* as above, the user only needs to include the keyword `startq2d` in `.par` file. 
+To activate this option, after activating the *Water depth (or elevation) initialisation* as above, the user only needs to include the keyword `startq2d` in `.par` file. 
 
 
 
