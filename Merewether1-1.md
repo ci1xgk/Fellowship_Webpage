@@ -33,6 +33,7 @@ To run the 2D ACC, FV1 and DG2 solvers, the following list of items need to be s
    | drain_nodata     | Enable to remove water in cells with NODATA elevation       | All    |
    | startfile `filename`     | Name of initial conditions file with water depth in ARC ascii raster format     | All    |
    | startelev `filename`     | Similar to startfile but with water surface elevation rather than depth    | All    |
+   | startq2d    | Enables reading initial condition of discharge   | All    |
    | stagefile `filename`     | Name of file containing the locations of points at which water depth values are to be written to a text file at each `massint`     | All    |
    | gaugefile `filename`     | Name of file containing the locations of points at which velocity values are to be written to a text file at each `massint`. `voutput_stage` should also be included to activate this option.     | All    |
    | elevoff     | Suppress production of water surface elevation files (`*.elev`)    | All    |
