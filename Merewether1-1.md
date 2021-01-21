@@ -45,4 +45,5 @@ To run the 2D ACC, FV1 and DG2 solvers, the following list of items need to be s
    
    ![image](/Figures/mer8.png)
    
+   In case of using DG2 solver, it should be noted that since the DG2 solver relies on piecewise-planar representation of DEM and flow variables, the DEM and initial condition files should be provided in seperate files: one file for average values and two files for slope values in X and Y directions. The user can generate these files manually following instructions in [*"Preparing the DG2-related DEM files using generateDG2DEM toolkit"*](/Merewether2-4.md) and [*"Preparing the DG2-related Initial condition files using generateDG2start toolkit"*](/Merewether2-5.md).
    [back](/Merewether1.md)
