@@ -23,6 +23,8 @@ The `.bci` file consists of 5 columns, each containng the following items:
    | QFIX     | Fixed flow into domain     | Discharge per unit width (square meter per second)     |
    | QVAR     | Time varying flow into domain       | Boundary identifier from data in the user supplied `.bdy` file     |
 
-For Merwether test case, the simulation consists of a steady flow rate of 19.7 cubic meter per second, incoming through a 38 m opening at the bottom edge of the domain ([see *"Merewether urban flooding"*](/Merewether.md)). 
+For Merwether test case, the simulation consists of a steady flow rate of 19.7 cubic meter per second, incoming through a 38 m opening at the south edge of the domain ([see *"Merewether urban flooding"*](/Merewether.md)) and going out through the north edge, while west and east edgees are closed. To set this type of inflow, `HFIX` boundary condition type must be selected. Dividing 19.7 by 38 (length of opening) gives a discharge per unit width of 0.5184 (square meter per second). Based on this the `.bci`file will be set as figure below.
+
+![image](/Figures/mer9.png)
 
 [back](/Merewether1.md)
