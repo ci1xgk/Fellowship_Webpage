@@ -23,7 +23,6 @@ The `.bci` file consists of 5 columns, each containng the following items:
    | QFIX     | Fixed flow into domain     | Discharge per unit width (square meter per second)     |
    | QVAR     | Time varying flow into domain       | Boundary identifier from data in the user supplied `.bdy` file     |
 
-
-An example of how to set up the `.bci` file is demonstrated for the Merewether case study in [_"Preparing the input data"_](/Merewether2.md). 
+For Merwether test case, the simulation consists of a steady flow rate of 19.7 cubic meter per second, incoming through a 38 m opening at the bottom edge of the domain ([see *"Merewether urban flooding"*](/Merewether.md)). 
 
 [back](/Merewether1.md)
