@@ -18,7 +18,7 @@ The format of the file is as follows:
 
 Generating the water depth output is activated by including the `stagefile` keyword in the `.par` file, followed by the name of `.stage` file to be read. For activating the generation of velocity output data, the extra keyword of `voutput_stage` must be included as well. 
 
-Figure below shows an snapshot of the `.stage` file used for the Merewether case study which tells LISFLOOD to write water depth walues at 4 points inside the domain.
+Figure below shows an snapshot of the `.stage` file used for the Merewether case study, namely `merewether.stage`, which tells LISFLOOD to write water depth walues at 4 points inside the domain.
 
 ![image](/Figures/mer10.png)
 
