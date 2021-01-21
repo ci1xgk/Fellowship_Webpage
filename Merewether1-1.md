@@ -41,6 +41,6 @@ To run the 2D ACC, FV1 and DG2 solvers, the following list of items need to be s
    
    Figure below shows an snapshot of the `.par` file used for Merewether test case.
    
-   ![image](/Figures/mer3.png)
+   ![image](/Figures/mer7.png)
    
    [back](/Merewether1.md)
