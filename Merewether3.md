@@ -33,5 +33,6 @@ The output files are described below:
   - Column 11: `Verror` Volume error per mass interval (`massint` variable in the `.par` file) in cubic meter
   - Column 12: `Rain-(Inf+Evap)` Cumulative effect of infiltration, evaporation and rainfall over the simulation in 1000 cubic meters (not active in 2D simulations)
   
+- **Water depth or water surface elevation output files (`-xxxx.wd`, `-xxxx.elev`).**
 
 [back](/Merewether.md)
