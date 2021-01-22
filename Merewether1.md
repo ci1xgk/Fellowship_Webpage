@@ -15,7 +15,7 @@ To set up a 2D solver including ACC, FV1 or DG2, input files and parameters need
 
 7. [Floodplain friction coefficient Manning's file (`.n`)](/Merewether1-7.md)
 
-8. [Spatially-varying rainfall file (`.nc`)](/Merewether1-8.md)
+8. [Spatially- and temporarily-varying rainfall file (`.nc`)](/Merewether1-8.md)
 
 [back](/Merewether.md)
    
