@@ -23,7 +23,15 @@ The `.bci` file consists of 5 columns, each containng the following items:
    | QFIX     | Fixed flow into domain     | Discharge per unit width in square meter per second (q=Q/B)    |
    | QVAR     | Time-varying flow into domain       | Boundary identifier from data in the user-supplied `.bdy` file     |
 
-For Merwether test case, the simulation consists of a steady flow rate of 19.7 cubic meter per second, incoming through a 38 m opening at the south edge of the domain ([see *"Merewether urban flooding"*](/Merewether.md)) and going out through the north edge, while west and east edgees are closed. To set this type of inflow, `HFIX` boundary condition type must be selected. Dividing 19.7 by 38 (length of opening) gives a discharge per unit width of 0.5184 (square meter per second). Accordingly, the `.bci`file for this test case, namely `merewether.bci` will be set as figure below.
+For the Merwether test case, the simulation consists of a steady flow rate of Q = 19.7 cubic meter per second, inflowing through an opening at the south edge of the domain with a width B = 38 m ([see *"Merewether urban flooding"*](/Merewether.md)) and leaving through the north edge. The west and east edges of the domain are closed by solid walls.
+
+To set a steady inflow, i.e. specify a unit-width discharge of q = Q/B = 0.5184 in the 5th column, `QFIX` boundary condition type must be selected in the 4rd column. As the inflow located in the south edge (constant Y) the first column has the letter S. The inflow occurs from an opening starting at X = 382300.00 and ending at X = 382338.0, which should be selected in 2nd and 3rd columns.  
+
+To set a free outflow through the northern edge of the domain (constant Y), `FREE` must be selected in the 4th column after selecting N in the 1st column; whereas, the 2nd and 3rd columns has the X coordinates of the north edge. The 5th column can be left blank in this case. 
+
+As closed boundary conditions are set by default, no specifications for the east and west edges are required.     
+
+Hence, the `.bci`file for the Merwether test case, named `merewether.bci`, will be as shown in the snapshot below:
 
 ![image](/Figures/mer9.png)
 
