@@ -18,9 +18,9 @@ The `.bci` file consists of 5 columns, each containng the following items:
    | :---         | :---      | :--- |
    | CLOSED   | Zero-flux (default option)     | None  |
    | FREE     | Uniform flow       | None   |
-   | HFIX     | Fixed free-surface elevation      | Free-surface elevation in metres    |
+   | HFIX     | Fixed free-surface elevation      | Free-surface elevation in metres (h+z)   |
    | HVAR     | Time-varying free-surface elevation       | Boundary identifier from data in a user-supplied `.bdy` file   |
-   | QFIX     | Fixed flow into domain     | Discharge per unit width (square meter per second)     |
+   | QFIX     | Fixed flow into domain     | Discharge per unit width in square meter per second (q=Q/B)    |
    | QVAR     | Time-varying flow into domain       | Boundary identifier from data in the user-supplied `.bdy` file     |
 
 For Merwether test case, the simulation consists of a steady flow rate of 19.7 cubic meter per second, incoming through a 38 m opening at the south edge of the domain ([see *"Merewether urban flooding"*](/Merewether.md)) and going out through the north edge, while west and east edgees are closed. To set this type of inflow, `HFIX` boundary condition type must be selected. Dividing 19.7 by 38 (length of opening) gives a discharge per unit width of 0.5184 (square meter per second). Accordingly, the `.bci`file for this test case, namely `merewether.bci` will be set as figure below.
