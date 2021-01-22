@@ -5,7 +5,7 @@ To set up a 2D solver including ACC, FV1 or DG2, input files and parameters need
 
 2. [Boundary condition type file (`.bci`)](/Merewether1-2.md)
 
-3. [Time varying boundary conditions file (`.bdy`)](/Merewether1-3.md)
+3. [Time-varying boundary conditions file (`.bdy`)](/Merewether1-3.md)
 
 4. [Digital Elevation Model file (`.dem`)](/Merewether1-4.md)
 
