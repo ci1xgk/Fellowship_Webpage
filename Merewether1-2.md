@@ -18,8 +18,8 @@ The `.bci` file consists of 5 columns, each containng the following items:
    | :---         | :---      | :--- |
    | CLOSED   | Zero-flux (default option)     | None  |
    | FREE     | Uniform flow       | None   |
-   | HFIX     | Fixed free surface elevation      | Free surface elevation in metres    |
-   | HVAR     | Time varying free surface elevation       | Boundary identifier from data in a user supplied `.bdy` file   |
+   | HFIX     | Fixed free-surface elevation      | Free-surface elevation in metres    |
+   | HVAR     | Time varying free-surface elevation       | Boundary identifier from data in a user supplied `.bdy` file   |
    | QFIX     | Fixed flow into domain     | Discharge per unit width (square meter per second)     |
    | QVAR     | Time varying flow into domain       | Boundary identifier from data in the user supplied `.bdy` file     |
 
