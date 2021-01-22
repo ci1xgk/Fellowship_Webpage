@@ -8,7 +8,7 @@ This is the starting file for setting up and running any simulation. Inside this
 
    * If an expected _item name_ does not appear, the model resorts to the default value specified without generating an error message.
    
-To run the ACC, FV1 and DG2 floodplain solvers, the following list of items need to be specified in the `.par` file. 
+To run the 2D ACC, FV1 and DG2 floodplain solvers, the following list of items need to be specified in the `.par` file. 
 
 
    | Item name `input` | Description | Solver |
