@@ -15,7 +15,7 @@ lisflood.exe merewether-0p175m.par
 
 When the simulation is finished, a series of files named according to `resroot` convention given in `.par` file (here namely `merewether`) will be generated in a directory named by keyword `dirroot` in `.par` file, as shown below.
 
-![image](/Figures/mer14.png)
+![image](/Figures/mer15.png)
 
 The output files are described below:
 
