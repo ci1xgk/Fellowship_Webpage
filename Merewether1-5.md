@@ -15,9 +15,9 @@ For each location specified in this file, water depth (in meter) and velocities 
 - **Line i.** X and Y coordinate of ith point
 
 
-Generating the time series output for the water depth is activated by including the `stagefile` _item name_ in the `.par` file, followed by the name of the `.stage` file to be saved (MKS - changed "read" to "saved"). For further activating time series output for the velocities, the extra keyword of `voutput_stage` must be included too. 
+Generating the time series output for the water depth is activated by including the `stagefile` _item name_ in the `.par` file, followed by the name of the `.stage` file to be read. For further activating time series output for the velocities, the extra keyword of `voutput_stage` must be included too. 
 
-Figure below shows an snapshot of the `.stage` file used for the Merewether case study, namely `merewether.stage`, which tells the model to write time series output of water depth values at 4 points inside the domain.
+Figure below shows an snapshot of the `.stage` file used for the Merewether case study, namely `merewether.stage`, which tells the model to write time series output of water depth values at the 4 points inside the domain listed in the snabshot below.
 
 ![image](/Figures/mer10.png)
 
