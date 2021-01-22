@@ -2,7 +2,9 @@
 
 This file specifies the locations of points (in X and Y coordinates) where the model generates a time series output of water depth and velocities. 
 
-For each location specified in this file, water depth (in meter) and velocities (in meter per second) values will be written in two files with the extensions of `.stage` and `.velocity`, respectively. These data will be written at each `massint` interval (of time in sec.) specified in `.par` file. The format of such output file(s) is as follows:
+For each location specified in this file, water depth (in meter) and velocities (in meter per second) values will be written in two files with the extensions of `.stage` and `.velocity`, respectively. 
+
+These data will be written at each `massint` interval (of time in sec.) specified in `.par` file. The format of such output file(s) is as follows:
 
 - **Line 1.** Number of points at which water depth and velocity output time series are required 
 
