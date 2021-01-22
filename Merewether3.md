@@ -4,4 +4,8 @@ To run the simulations, user must follow the instructions in section [*"Running 
 
 ![image](/Figures/mer12.png)
 
+By clicking on the *location bar* of Windows Explorer, then entering `cmd` and press *Enter* key, the *Command Prompt Window* will be opened in the folder, as figure below.
+
+![image](/Figures/mer13.png)
+
 [back](/Merewether.md)
