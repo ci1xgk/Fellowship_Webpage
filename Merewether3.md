@@ -19,15 +19,15 @@ When the simulation is finished, a series of files named according to `resroot` 
 
 The output files are described below:
 
-- [Mass balance output file (`.mass`)](/Merewether3-1) 
+- [Mass balance output file (`.mass`)](/Merewether3-1.md) 
   
-- [Water depth or water surface elevation output files (`-xxxx.wd`, `-xxxx.elev`)](/Merewether3-2)
+- [Water depth or water surface elevation output files (`-xxxx.wd`, `-xxxx.elev`)](/Merewether3-2.md)
 
-- [Velocity output files (`-xxxx.Vx`, `-xxxx.Vy`)](/Merewether3-3)
+- [Velocity output files (`-xxxx.Vx`, `-xxxx.Vy`)](/Merewether3-3.md)
 
-- [Water depth at stage points output file (`.stage`)](/Merewether3-4) 
+- [Water depth at stage points output file (`.stage`)](/Merewether3-4.md) 
 
-- [Velocity at stage points output file (`.velocity`)](/Merewether3-5) 
+- [Velocity at stage points output file (`.velocity`)](/Merewether3-5.md) 
 
 - [Maximum water surface elevation (`.mxe`) and maximum water depth (`.max`) output files](/Merewether3-6.md)
 
