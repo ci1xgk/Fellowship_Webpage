@@ -20,12 +20,11 @@ When the simulation is finished, a series of files named according to `resroot` 
 The output files are described below:
 
 - **Mass balance output file (`.mass`).** This file gives the following information and is written at the interval specified by the keyword `massint` in the `.par` file:
-  - Column 1: Time. The time in seconds at which the data was saved.
-  - Column 1: Time. The time in seconds at which the data was saved.
-  - Column 2: Tstep. Time step specified by the user (initial time step in the adaptive model) in seconds
-  - Column 3: MinTstep. Minimum time step used so far during the simulation in seconds
-  - Column 4: NumTsteps. Number of time steps since the start of the simulation.
-  - Column 5: Area. Area inundated in m2..
+  - Column 1: `Time`. The time in seconds at which the data was saved.
+  - Column 2: `Tstep`. Time step specified by the user (initial time step in the adaptive model) in seconds
+  - Column 3: `MinTstep`. Minimum time step used so far during the simulation in seconds
+  - Column 4: `NumTsteps`. Number of time steps since the start of the simulation.
+  - Column 5: `Area`. Area inundated in m2..
   - Column 6: Vol. Volume of water in the domain in m3.
   - Column 7: Qin. Inflow discharge in m3s-1.
   - Column 8: Hds. Water depth at the downstream exit of the model domain in meters.
