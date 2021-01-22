@@ -17,8 +17,10 @@ For each location specified in this file, water depth (in meter) and velocities 
 
 Generating the time series output for the water depth is activated by including the `stagefile` _item name_ in the `.par` file, followed by the name of the `.stage` file to be read. For further activating time series output for the velocities, the extra keyword of `voutput_stage` must be included too. 
 
-Figure below shows an snapshot of the `.stage` file used for the Merewether case study, namely `merewether.stage`, which tells the model to write time series output of water depth values at the 4 points inside the domain listed in the snabshot below.
+Figure below shows an snapshot of the `.stage` file used for the Merewether case study, namely `merewether.stage`, which tells the model to write time series output of water depth values at 4 points inside the domain (the points are listed in the `.stage` file).
 
 ![image](/Figures/mer10.png)
+
+
 
 [back](/Merewether1.md)
