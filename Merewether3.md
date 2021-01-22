@@ -19,6 +19,6 @@ When the simulation is finished, a series of files named according to `resroot` 
 
 The output files are described below:
 
-- Mass balance output file (`.mass`). This file gives the following information and is written at the interval specified by the keyword `massint` in the `.par` file.
+- **Mass balance output file (`.mass`).** This file gives the following information and is written at the interval specified by the keyword `massint` in the `.par` file.
 
 [back](/Merewether.md)
