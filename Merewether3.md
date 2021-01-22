@@ -29,4 +29,10 @@ The output files are described below:
 
 - [Velocity at stage points output file (`.velocity`)](/Merewether3-5) 
 
+- [Maximum water surface elevation (`.mxe`) and maximum water depth (`.max`) output files]
+
+- Time of initial inundation (`.inittm`), time of maximum depth (`.maxtm`) and total time of inundation (`.totaltm`) output files]
+
+
+
 [back](/Merewether.md)
