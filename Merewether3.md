@@ -19,7 +19,7 @@ When the simulation is finished, a series of files named according to `resroot` 
 
 The output files are described below:
 
-- **Mass balance output file (`.mass`).** This tabular ASCII file gives the following information and is written at the interval specified by the keyword `massint` in the `.par` file:
+- **Mass balance output file (`.mass`).** This tabular text file gives the following information and is written at the interval specified by the keyword `massint` in the `.par` file:
   - Column 1: `Time` The time in seconds at which the data was saved
   - Column 2: `Tstep` Time step specified by the user in seconds
   - Column 3: `MinTstep` Minimum time step used so far during the simulation in seconds
@@ -34,5 +34,11 @@ The output files are described below:
   - Column 12: `Rain-(Inf+Evap)` Cumulative effect of infiltration, evaporation and rainfall over the simulation in 1000 cubic meters (not active in 2D simulations)
   
 - **Water depth or water surface elevation output files (`-xxxx.wd`, `-xxxx.elev`).** In these files a grid of water depths (`.wd`) and water surface elevations (`.elev`) values (in meter) will be written in the same ASCII raster format of the DEM input file, with the same resolution and extent, at each save interval, `saveint`, specified in `.par` file. In this naming convention `xxxx` is the `saveint` number. For instance in the example of Merewether test case, since `saveint` is 10 seconds, `merewether-0002.wd` will contain the water depth output at t = 20 seconds. It should be reminded that generation of `.elev` files will be suppressed by including the keyword `.elevoff` in the `.par` file. In case of the DG2 solver two extra files named `-xxxx.wd1x`, `-xxxx.wd1y` or `-xxxx.elev1x`, `-xxxx.elev1y` will be generated that contain the X and Y direction slope coeficients of water depth and water surface elevation, respectively.
+
+- **Velocity output files (`-xxxx.Vx`, `-xxxx.Vy`).** In these files a grid of velocity values in X (`.Vx`) and Y (`.Vy`) direction (in meter per second) will be written in the same ASCII raster format of the DEM input file, with the same resolution and extent, at each save interval, `saveint`, specified in `.par` file. In this naming convention `xxxx` is the `saveint` number.
+
+- **Water depth at stage points output file (`.stage`).** This text file contains the water depth values (in meter) for each stage point specified in the `.stage` input file. The data will be written at each time interval specified by `massint` in the `.par` file.
+
+- **Velocity at stage points output file (`.velocity`).** This text file contains the velocity magnitude (in meter per second) for each stage point specified in the `.stage` input file. The data will be written at each time interval specified by `massint` in the `.par` file.
 
 [back](/Merewether.md)
