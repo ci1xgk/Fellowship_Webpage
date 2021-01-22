@@ -27,7 +27,7 @@ To run the ACC, FV1 and DG2 floodplain solvers, the following list of items need
    | acceleration        | Selects the ACC floodplain solver       | ACC      |
    | fv1     | Selects the FV1 floodplain solver       | FV1      |
    | dg2     | Selects the DG2 floodplain solver       | DG2      |
-   | cuda    | Run the acceleration, FV1 or DG2 solver on a GPU.       | All      |
+   | cuda    | Run the acceleration, FV1 or DG2 solver on a GPU       | All      |
    | dynamicrainfile `filename`   | Name of spatially- and temporally-varying rainfall data (NetCDF)     | All    |
    | nodata_elevation `value`     | Terrain elevation value that replaces NODATA values in the DEMfile      | All    |
    | drain_nodata     | Enable to remove water in cells with NODATA elevation       | All    |
