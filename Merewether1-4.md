@@ -19,7 +19,9 @@ The header section contains the following informtation:
 - `NODATA_value`: Null value (Default is -9999)
 
 
-Though this file can be manually edited using any simple text editor, it is advised to use QGIS, a geographic information system platform, to visualise or manipulate the DEM data file. QGIS is [freely available to download](https://www.qgis.org/en/site/forusers/download.html) and an example on how to use it to visualise and manipulate the DEM data file for the Merewether case study is provided in [_"Preparing the input data"_](/Merewether2.md). 
+Though this file can be manually edited using any simple text editor, it is advised to use QGIS, a geographic information system platform, to visualise or manipulate the DEM data file. 
+
+QGIS is [freely available to download](https://www.qgis.org/en/site/forusers/download.html) and an example on how to use it to visualise and manipulate the DEM data file for the Merewether case study is provided in [_"Preparing the input data"_](/Merewether2.md). 
 
 
 [back](/Merewether1.md)
