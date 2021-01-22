@@ -13,7 +13,7 @@ To set up a 2D solver including ACC, FV1 or DG2, input files and parameters need
 
 6. [Start file – water depth (or elevation) and discharges (`.start`, `.start.Qx`, `.start.Qy`)](/Merewether1-6.md)
 
-7. [Floodplain friction coefficient file (`.n`)](/Merewether1-7.md)
+7. [Floodplain friction coefficient Manning's file (`.n`)](/Merewether1-7.md)
 
 8. [Spatially-varying rainfall file (`.nc`)](/Merewether1-8.md)
 
