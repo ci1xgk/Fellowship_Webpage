@@ -21,9 +21,9 @@ The output files are described below:
 
 - [Mass balance output file (`.mass`)](/Merewether3-1) 
   
-- [Water depth or water surface elevation output files (`-xxxx.wd`, `-xxxx.elev`)](/Merewether3-1)
+- [Water depth or water surface elevation output files (`-xxxx.wd`, `-xxxx.elev`)](/Merewether3-2)
 
-- **Velocity output files (`-xxxx.Vx`, `-xxxx.Vy`).** In these files a grid of velocity values in X (`.Vx`) and Y (`.Vy`) direction (in meter per second) will be written in the same ASCII raster format of the DEM input file, with the same resolution and extent, at each save interval, `saveint`, specified in `.par` file. In this naming convention `xxxx` is the `saveint` number.
+- [Velocity output files (`-xxxx.Vx`, `-xxxx.Vy`)](/Merewether3-3)
 
 - **Water depth at stage points output file (`.stage`).** This text file contains the water depth values (in meter) for each stage point specified in the `.stage` input file. The data will be written at each time interval specified by `massint` in the `.par` file.
 
