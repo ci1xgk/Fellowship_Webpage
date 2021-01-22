@@ -8,4 +8,8 @@ By clicking on the *location bar* of Windows Explorer, then entering `cmd` and p
 
 ![image](/Figures/mer13.png)
 
+To run the simulation, the name of executable must be entered in Command prompt, followed by the name of `.par` file: 
+```
+lisflood.exe merewether-0p175m.par   
+```
 [back](/Merewether.md)
