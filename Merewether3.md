@@ -1,19 +1,19 @@
-### Running the code, outputs and visualization
+### Running the code, outputs and visualisation
 
-To run the simulations, user must follow the instructions in section [*"Running LISFLOOD"*](). As an example for running the Merewether test case on windows, user needs to copy paste the LISFLOOD executable file, namely `lisflood.exe`, to the same folder as the input files. Figure below shows the working directory.
+To run the simulations, instructions are available in [*"Running LISFLOOD"*](). An example is given for running the Merewether test case on windows. To do so, copy paste the LISFLOOD executable file, namely `lisflood.exe`, to the same folder as the input files. The figure below shows the file list that should be in the current directory.
 
 ![image](/Figures/mer12.png)
 
-By clicking on the *location bar* of Windows Explorer, then entering `cmd` and press *Enter* key, the *Command Prompt Window* will be opened in the folder, as figure below.
+By clicking on the *location bar* of the Windows Explorer, then typing `cmd` and pressing *Enter*, the *Command Prompt Window* will be opened in the folder, as shown in the figure below.
 
 ![image](/Figures/mer13.png)
 
-To run the simulation, the name of executable must be entered in *Command prompt*, followed by the name of `.par` file: 
+To run the simulation, the name of executable must be entered in *Command prompt*, followed by the name of the `.par` file: 
 ```
 lisflood.exe merewether-0p175m.par   
 ```
 
-When the simulation is finished, a series of files named according to `resroot` convention given in `.par` file (here namely `merewether`) will be generated in a directory named by keyword `dirroot` in `.par` file, as shown below.
+When the simulation is finished, a series of files named according to the keyword `resroot` given in the `.par` file, (i.e. `merewether` for the Merewether test case). These files will be generated in a directory named by the keyword `dirroot` in the `.par` file, as shown in the figure below.
 
 ![image](/Figures/mer15.png)
 
