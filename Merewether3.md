@@ -27,6 +27,6 @@ The output files are described below:
 
 - [Water depth at stage points output file (`.stage`)](/Merewether3-4) 
 
-- **Velocity at stage points output file (`.velocity`).** This text file contains the velocity magnitude (in meter per second) for each stage point specified in the `.stage` input file. The data will be written at each time interval specified by `massint` in the `.par` file.
+- [Velocity at stage points output file (`.velocity`)](/Merewether3-5) 
 
 [back](/Merewether.md)
