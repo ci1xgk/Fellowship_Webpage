@@ -8,10 +8,12 @@ Files with the extensions `.dem`, `.dem1x` and `.dem1y` can be generated using t
 
 For example, the DEM file, `merewether-0p175m.dem`, created for the Merewether test case (see [Modifying the resolution of the DEM on QGIS](https://www.seamlesswave.com/Merewether2-2.html)) should be renamed to `merewether-0p175m.dem.raw`. 
 
-A demo of how to apply the toolkit is available in [_"Running `generateDG2DEM`"_](MKS to add it later). After running `generateDG2DEM` toolkit, the files listed below will be generated in the same directory of `merewether-0p175m.dem.raw` file: 
+A demo of how to apply the toolkit is available in [_"Running `generateDG2DEM`"_](MKS to add it later). After running `generateDG2DEM` toolkit, three raster files will be generated within the same directory of `merewether-0p175m.dem.raw` file: 
 
-* `merewether-0p175m.dem` which is a copy of the same `merewether-0p175m.dem.raw`, but overwritten to contain the generated average-coefficient values
+* `merewether-0p175m.dem` which is a copy of the same `merewether-0p175m.dem.raw`, containing the generated average-coefficient values
+
 * `merewether-0p175m.dem1x` which contains the generated X-directional slope-coefficient values
+
 * `merewether-0p175m.dem1y` which contains the generated Y-directional slope-coefficient values
 
 
