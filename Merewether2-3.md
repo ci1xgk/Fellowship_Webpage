@@ -22,7 +22,7 @@ To generate raster file for the initial free-surface water elevation, the follow
 After applying these steps, the free-surface water elevation raster file, `merewether-0p175m.start` can be read by LISFLOOD (see also [_"Input files and their format"_](https://www.seamlesswave.com/Merewether1-6)).  
 
 
-
+---
 
 
 Generating the initial water depth (h) raster file follows the same steps above, whereby the following expression should be entered in the *Raster Calculator* window:
