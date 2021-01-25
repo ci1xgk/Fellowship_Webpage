@@ -1,6 +1,8 @@
 ### Running the code, outputs and visualisation
 
-To run the simulations, instructions are available in [*"Running LISFLOOD"*](). An example is given for running the Merewether test case on windows. To do so, copy paste the LISFLOOD executable file, namely `lisflood.exe`, to the same folder as the input files. The figure below shows the file list that should be in the current directory.
+After following the instructions within the ["_Compilation_"](/LISFLOOD8.0.md), a LISFLOOD executable file will be obtained. The executable file will have the name `lisflood.exe` on a Windows platform and the name `lisflood` on a linux-based platform. 
+
+For running the `lisflood.exe` of the Merewether test case on windows, bring `lisflood.exe` to the same folder where the input files are located. The figure below shows the file list that should be in the current directory.
 
 ![image](/Figures/mer12.png)
 
@@ -17,7 +19,12 @@ When the simulation is finished, a series of files named according to the keywor
 
 ![image](/Figures/mer15.png)
 
-The output files are described below:
+
+
+For running `lisflood` from a linux-based platform, different instructions should be followed. See the demo on how to run the Merewether test case on the HPC platform of the University of Sheffied [Name of section](link). 
+
+
+Running on eiher platforms will produce the following output files:
 
 - [Mass balance output file (`.mass`)](/Merewether3-1.md) 
   
