@@ -13,7 +13,10 @@
 ![image](/Figures/mer6.png)
 
 -	Save the file with `.asc` extension, e.g. `merewether-0p175m.asc`. 
--	Once saved, change the extension of file from `.asc` to `.dem`. Hence, `merewether-0p175m.dem` will be the upscaled raw DEM file that will be used to set up LISFLOOD simulations. 
+-	Once saved, change the extension of file from `.asc` to `.dem`. 
+
+
+Hence, `merewether-0p175m.dem` will be the upscaled raw DEM file that will be used to set up LISFLOOD simulations. 
 
 
 [back](/Merewether2.md)
