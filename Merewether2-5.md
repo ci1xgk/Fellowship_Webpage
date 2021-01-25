@@ -1,11 +1,15 @@
 #### Preparing the DG2-related Initial condition files using `generateDG2start` toolkit
 
-In this same manner as the DEM data, the initial condition for DG2 simulations should be provided in three files with extensions of `.start`, `.start1x` and `.start1y`, for either water depth (h) or water elevation (h + z) initialization. These files can be generated using the `generateDG2start` toolkit. To do this, the user should add `.raw` to the extension name of the related initial condition. For example in Merewether test case, the initial condition file is renamed to  `merewether-0p175m.start.raw`. 
+In the same manner as the DEM data, setting up the initial condition for DG2 simulations requires three separate files for either water depth (h) or water elevation (h + z), depending on the type of initialisation. These files include the average-coefficient values, the X-directional slope-coefficient values and the Y-directional slope-coefficient values, with extensions of `.start`, `.start1x` and `.start1y`, respectively. 
 
-By running `generateDG2start` toolkit , following the explanations in [_"Running `generateDG2start`"_](), the files listed below will be generated in the same directory of `merewether-0p175m.start.raw` file: 
-1.	`merewether-0p175m.start`: This is basically a copy of the same `merewether-0p175m.start.raw`, but overwritten to contain the average values of water depth or water elevation (depending on the type of initialization) for DG2.
-2.	`merewether-0p175m.start1x`: contains the X-direction slope values of water depth or water elevation.
-3.	`merewether-0p175m.start1y`: contains the y-direction slope values of water depth or water elevation.
+Files with the the extensions `.start`, `.start1x` and `.start1y` can be generated using the toolkit `generateDG2start` (available in the "preprocess" directory). The toolkit requires the availability of a raw initial condition file in the same folder subject to adding `.raw` to the end of its extension. A demo of how to apply the toolkit is available in [*"Running generateDG2start"*]().
+
+
+For example, in the Merewether test case, the initial condition file is renamed to  `merewether-0p175m.start.raw`. After running `generateDG2start` toolkit, the files listed below will be generated in the same directory of `merewether-0p175m.start.raw` file:
+
+-	`merewether-0p175m.start` which is a copy of the same `merewether-0p175m.start.raw`, but overwritten to contain the generated average-coefficient values
+-	`merewether-0p175m.start1x` which contains the X-directional slope-coefficient values
+-	`merewether-0p175m.start1y` which contains the Y-directional slope-coefficient values
 
 
 [back](/Merewether2.md)
