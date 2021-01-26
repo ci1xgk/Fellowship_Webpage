@@ -35,7 +35,7 @@ The downloaded version is cross-platform and can be compiled on Windows or Linux
 - [Linux](/compile_lin.md)
 
 
-- [The University of Sheffield HPC](/compile_hpc.md) 
+- [The University of Sheffield HPC facilities](/compile_hpc.md) 
 
 ***
 
