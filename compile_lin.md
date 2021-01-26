@@ -27,5 +27,6 @@ If libnuma is installed in a non-standard location, the following commands must 
 ````bash
 cmake -S . -B build -DNUMA_ROOT=<path>
 cmake --build build
+````
 
 [back](/LISFLOOD8.0.md)
