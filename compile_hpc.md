@@ -95,7 +95,7 @@ Load CMake:
 module load dev/cmake/3.17.1/gcc-8.2
 ````
 
-To use dynamic rainfall, e.g. for Eden flooding test case, NetCDF library is required. NetCDF libraries can be installed by following instructions [here](https://www.unidata.ucar.edu/software/netcdf/docs/getting_and_building_netcdf.html).
+To use dynamic rainfall, e.g. for Eden flooding test case, NetCDF libraries is required. These libraries can be installed by following instructions [here](https://www.unidata.ucar.edu/software/netcdf/docs/getting_and_building_netcdf.html).
 
 To run LISFLOOD-FP on GPU, the CUDA toolkit should also be loaded:
 
