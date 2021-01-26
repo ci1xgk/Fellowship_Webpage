@@ -1,6 +1,6 @@
 #### Compiling on The University of Sheffield HPC facilities
 
-LISFLOOD-FP can be compiled on both [ShARC](https://docs.hpc.shef.ac.uk/en/latest/sharc/index.html) and Bessemer[https://docs.hpc.shef.ac.uk/en/latest/bessemer/index.html] clusters.
+LISFLOOD-FP can be compiled on both [ShARC](https://docs.hpc.shef.ac.uk/en/latest/sharc/index.html) and [Bessemer](https://docs.hpc.shef.ac.uk/en/latest/bessemer/index.html) clusters.
 
 Launch an interactive session on a worker node using the command:
 
