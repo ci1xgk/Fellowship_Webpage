@@ -2,7 +2,7 @@
 
 To compile LISFLOOD-FP on Linux, the following packages are required:
 
-- [**GCC compiler**](https://gcc.gnu.org/): This is by default installed in most of Linux distributions, like Ubuntu 
+- [**GCC compiler**](https://gcc.gnu.org/), which is by default installed in most of Linux distributions, like Ubuntu 
 - **CMake**, which can be installedd following the instructions [here](https://cmake.org/install/)
 
 Ensure a recent version of CMake is installed.
