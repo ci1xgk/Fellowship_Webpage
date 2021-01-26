@@ -6,11 +6,18 @@ To compile the code either of MSVC (the default C++ compiler of Visual Studio) o
 
 - **Using the MSVC compiler**
 
-Launch Visual Studio and open `LISFLOOD-FP-trunk` as a local folder (See figures below).
+Launch Visual Studio and open `LISFLOOD-FP-trunk` as a local folder:
 
 ![image](/Figures/comp_win_1.png)
 ![image](/Figures/comp_win_2.png)
 
+From *Configuration* drop-down list, choose the `msvc-x64-Debug` or `msvc-x64-Release`:
+
+![image](/Figures/comp_win_3.png)
+
+From *Build* menu click on *Rebuild All*:
+
+![image](/Figures/comp_win_4.png)
 
 
 Choose the `msvc-x64-Debug` or `msvc-x64-Release` configuration, then `Rebuild All`.
