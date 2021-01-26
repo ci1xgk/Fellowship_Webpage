@@ -20,7 +20,6 @@ From *Build* menu click on *Rebuild All*:
 ![image](/Figures/comp_win_4.png)
 
 
-Choose the `msvc-x64-Debug` or `msvc-x64-Release` configuration, then `Rebuild All`.
 
 
 [back](/LISFLOOD8.0.md)
