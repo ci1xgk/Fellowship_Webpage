@@ -22,13 +22,13 @@ Clone libnuma package:
 git clone https://github.com/numactl/numactl.git
 ````
 
-Go to `libnuma-dev` directory and install it:
+Go to `libnuma-dev` directory and install it (specify `<PATH>` as the directory to install libnuma):
 
 ````bash
 ./autogen.sh
 ./configure
 make
-make install DESTDIR=/path/to/install/libnuma/directory
+make install DESTDIR=<PATH>
 ````
 
 Load CMake:
@@ -49,10 +49,10 @@ To run LISFLOOD-FP on GPU, the CUDA toolkit should also be loaded:
 module load CUDA/10.1.105-GCC-8.2.0-2.31.1 
 ````
 
-Go to `LISFLOOD-FP` directory and run `cmake`, by pointing to libnuma install directory:
+Go to `LISFLOOD-FP` directory and run `cmake`, by pointing to libnuma install directory (denoted by `<PATH>`):
 
 ````bash
-cmake -S . -B build -DNUMA_ROOT=/home/USER/libnuma/usr/local
+cmake -S . -B build -DNUMA_ROOT=<PATH>
 cmake --build build
 ````
 
