@@ -57,7 +57,7 @@ cmake --build build
 ````
 
 By doing so, the `lisflood` executable will be generated in the `build` directory.
-
+---
 - **On ShARC**
 
 Compiling on ShARC follows the same procedure as Bessemer. The only difference is the NetCDF module, which is not available on ShARC and must be installed manually.
