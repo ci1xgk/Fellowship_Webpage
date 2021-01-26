@@ -80,13 +80,13 @@ Clone libnuma package:
 git clone https://github.com/numactl/numactl.git
 ````
 
-Go to `libnuma-dev` directory and install it (specify `<PATH>` as the directory to install libnuma):
+Go to `libnuma-dev` directory and install it (specify `<NUMA_PATH>` as the directory to install libnuma):
 
 ````bash
 ./autogen.sh
 ./configure
 make
-make install DESTDIR=<PATH>
+make install DESTDIR=<NUMA_PATH>
 ````
 
 Load CMake:
@@ -95,11 +95,7 @@ Load CMake:
 module load dev/cmake/3.17.1/gcc-8.2
 ````
 
-To use dynamic rainfall, e.g. for Eden flooding test case, NetCDF library is required. 
-
-````bash
-module load netCDF/4.6.2-gompi-2019a
-````
+To use dynamic rainfall, e.g. for Eden flooding test case, NetCDF library is required. NetCDF libraries can be installed by following instructions [here](https://www.unidata.ucar.edu/software/netcdf/docs/getting_and_building_netcdf.html).
 
 To run LISFLOOD-FP on GPU, the CUDA toolkit should also be loaded:
 
@@ -107,10 +103,10 @@ To run LISFLOOD-FP on GPU, the CUDA toolkit should also be loaded:
 module load libs/CUDA/10.1.243/binary 
 ````
 
-Go to `LISFLOOD-FP` directory and run `cmake`, by pointing to libnuma install directory (denoted by `<PATH>`):
+Go to `LISFLOOD-FP` directory and run `cmake`, by pointing to libnuma (denoted by `<NUMA_PATH>`) and NetCDF's include (denoted by `<NetCDF_INC_PATH>`) and library (denoted by `<NetCDF_LIB_PATH>`) directories:
 
 ````bash
-cmake -S . -B build -DNUMA_ROOT=<PATH>
+cmake -S . -B build -DNUMA_ROOT=<NUMA_PATH> -DNetCDF_INCLUDE_DIR=<NetCDF_INC_PATH> -DNetCDF_LIBRARY=<NetCDF_LIB_PATH> 
 cmake --build build
 ````
 
