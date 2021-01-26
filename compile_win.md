@@ -19,7 +19,7 @@ From *Build* menu click on *Rebuild All*:
 
 ![image](/Figures/comp_win_4.png)
 
-
+After the compiling is finished a executable file, namely `lisflood.exe` will be generated in `\LISFLOOD-FP-trunk\out\build\msvc-x64-Debug` or `\LISFLOOD-FP-trunk\out\build\msvc-x64-Release` sub-directories (depending on the configuration used above). 
 
 
 [back](/LISFLOOD8.0.md)
