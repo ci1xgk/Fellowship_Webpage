@@ -4,9 +4,9 @@ To compile LISFLOOD-FP on Linux, the following packages are required:
 
 - [**GCC compiler**](https://gcc.gnu.org/), which is by default installed in most of Linux distributions, like Ubuntu 
 - [**CMake**](https://cmake.org/)
-- [**libnuma-dev**](https://github.com/numactl/numactl), which is required for NetCDF output and dynamic rainfall support
+- [**libnuma**](https://github.com/numactl/numactl), which is required for NetCDF output and dynamic rainfall support
 
-As an example, on Ubuntu, CMake and libnuma-dev can be installed, by entering the following commands in terminal:
+As an example, on Ubuntu, CMake and libnuma can be installed, by entering the following commands in terminal:
 
 ````bash
 sudo snap install cmake --classic
@@ -22,7 +22,7 @@ cmake --build build
 
 By doing so, the `lisflood` executable will be generated in the `build` sub-directory.
 
-If libnuma-dev is installed in a non-standard location, the following commands must be used, in which `<path>` denotes the installation directory of libnuma-dev:
+If libnuma is installed in a non-standard location, the following commands must be used, in which `<path>` denotes the installation directory of libnuma:
 
 ````bash
 cmake -S . -B build -DNUMA_ROOT=<path>
