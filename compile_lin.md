@@ -13,15 +13,16 @@ sudo snap install cmake --classic
 sudo apt install libnuma-dev libnetcdf-dev
 ````
 
-Then open a terminal at in the root `lisflood-fp` directory:
+After installing the packages, open a terminal in `LISFLOOD-FP-trunk` directory, and enter the following commands:
 
 ````bash
 cmake -S . -B build
 cmake --build build
 ````
 
-The `lisflood` executable is written to the `build` directory.
-If `libnuma` is installed in a non-standard location, use
+By doing so, the `lisflood` executable will be generated in the `build` sub-directory.
+
+If `libnuma-dev` is installed in a non-standard location, the following commands must be used, in which <path> denotes the installation directory of `libnuma-dev`:
 
 ````bash
 cmake -S . -B build -DNUMA_ROOT=<path>
