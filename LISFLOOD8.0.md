@@ -27,7 +27,7 @@ We mainly point people to the version on Zenodo where you need to fill a form. R
 
 
 ### Compilation   
-The downloaded version is cross-platform and can be compiled on Windows or Linux. University of Sheffield users can also compile and run the code on the [HPC Computing Facilities provide by IT Services](https://www.sheffield.ac.uk/it-services/research/hpc-facilities). The compilation process is explained for each platform as followed.
+The downloaded version is cross-platform and can be compiled on Windows or Linux using [CMake](https://cmake.org/) version 3.13 or above. University of Sheffield users can also compile and run the code on the [HPC Computing Facilities provide by IT Services](https://www.sheffield.ac.uk/it-services/research/hpc-facilities). The compilation process is explained for each platform as followed.
 
 - [Windows](/compile_win.md)
   
