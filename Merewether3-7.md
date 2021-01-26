@@ -1,8 +1,8 @@
 #### Time of initial inundation (`.inittm`), time of maximum depth (`.maxtm`) and total time of inundation (`.totaltm`) output files
 
-These two files will be generated at the end of simulation and record the maximum water depth (`.max`) and the maximum water surface elevation (`.mxe`) predicted by the model on each grid cell over the course of the simulation. The data will be written in these files with the same ASCII raster format of the DEM input file.
+These two files will be generated at the end of simulation and record the time of initial inundation for each grid cell (`.inittm`), the time of maximum inundation depth in each grid cell (`.maxtm`) and the total time for which a grid cell is inundated (`.totaltm`). The data will be written in these files with the same ASCII raster format of the DEM input file. Units are in hours from the start of the simulation.
 
-By default these files contain the maximum values of water depth and water surface elevation recorded on each time step. However, if the keyword `mint_hk` is included in the `.par` file then the maximum values will be recorded at each interval, `massint`, as specified in the `.par` file. The latter case will be computationally more efficient but less accurate (especially if water depths are changing rapidly relative to `massint`). 
+By default the values will be recorded on each time step. However, if the keyword `mint_hk` is included in the `.par` file, the values will be recorded at each interval, `massint`, as specified in the `.par` file. 
 
 
 
