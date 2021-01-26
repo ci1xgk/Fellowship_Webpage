@@ -41,6 +41,7 @@ To run the 2D ACC, FV1 and DG2 floodplain solvers, the following list of items n
    | voutput_stage     | Enable generating the velocity output data in a file specified by `gaugefile`    | All    |
    | limitslopes     | Enable the DG2 minmod local slope limiter      | DG2   |
    | krivodonovathresh     | Control the localisation of the DG2 slope limiter (Default: 10.0)       | DG2   |
+   | mint_hk     | Keyword to allow calculation of `maxH` (maximum water depth), `maxHtm` (time of maximum water depth), `totalHtm` (total inundation time) and `initHtm` (initial inundation time) at the mass interval rather than every time-step   | All    |
    
    The snapshot below shows the `.par` file used to set up the Merewether test case, named `merewether-0p175m.par`.
    
