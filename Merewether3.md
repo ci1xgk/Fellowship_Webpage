@@ -40,6 +40,8 @@ Running on eiher platforms will produce the following output files:
 
 - [Time of initial inundation (`.inittm`), time of maximum depth (`.maxtm`) and total time of inundation (`.totaltm`) output files]()
 
+The 2D output maps, can be viewed in QGIS as previously explained in [*"Viewing the DEM data on QGIS"*](/Merewether2-1.md). 
+
 
 
 [back](/Merewether.md)
