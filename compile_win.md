@@ -6,7 +6,7 @@ To compile the code either of MSVC (the default C++ compiler of Visual Studio) o
 
 - **Using the MSVC compiler**
 
-Launch Visual Studio and open `lisflood-fp` as a local folder (See figure below).
+Launch Visual Studio and open `LISFLOOD-FP-trunk` as a local folder (See figures below).
 
 ![image](/Figures/comp_win_1.png)
 ![image](/Figures/comp_win_2.png)
