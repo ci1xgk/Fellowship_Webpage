@@ -16,7 +16,7 @@ Clone the repository:
 git clone https://github.com/SEAMLESS-WAVE/LISFLOOD-FP.git
 ````
 
-Clone `libnuma-dev` package:
+Clone libnuma package:
 
 ````bash
 git clone https://github.com/numactl/numactl.git
@@ -43,19 +43,19 @@ Load NetCDF:
 module load netCDF/4.6.2-gompi-2019a
 ````
 
-To run LISFLOOD on GPU, the CUDA toolkit should be loaded:
+To run LISFLOOD-FP on GPU, the CUDA toolkit should also be loaded:
 
 ````bash
 module load CUDA/10.1.105-GCC-8.2.0-2.31.1 
 ````
 
-Go to `LISFLOOD-FP` directory and run `cmake`, by pointing to `libnuma` install directory:
+Go to `LISFLOOD-FP` directory and run `cmake`, by pointing to libnuma install directory:
 
 ````bash
 cmake -S . -B build -DNUMA_ROOT=/home/USER/libnuma/usr/local
 cmake --build build
 ````
 
-At this point, the `lisflood` executable will be written to the `build` directory.
+By doing so, the `lisflood` executable will be generated in the `build` directory.
 
 [back](/LISFLOOD8.0.md)
