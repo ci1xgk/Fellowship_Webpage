@@ -20,13 +20,12 @@ cmake -S . -B build
 cmake --build build
 ````
 
-By doing so, the `lisflood` executable will be generated in the `build` sub-directory.
-
 If libnuma is installed in a non-standard location, the following commands must be used, in which `<path>` denotes the installation directory of libnuma:
 
 ````bash
 cmake -S . -B build -DNUMA_ROOT=<path>
 cmake --build build
 ````
+By doing so, the `lisflood` executable will be generated in the `build` sub-directory.
 
 [back](/LISFLOOD8.0.md)
