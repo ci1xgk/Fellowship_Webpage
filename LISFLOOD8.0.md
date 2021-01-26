@@ -29,13 +29,13 @@ We mainly point people to the version on Zenodo where you need to fill a form. R
 ### Compilation   
 The downloaded version is cross-platform and can be compiled on Windows or Linux. University of Sheffield users can also compile and run the code on the [HPC Computing Facilities provide by IT Services](https://www.sheffield.ac.uk/it-services/research/hpc-facilities). The compilation process is explained for each platform as followed.
 
-- [Windows]()
+- [Windows](/compile_win.md)
   
 
-- [Linux]()
+- [Linux](/compile_lin.md)
 
 
-- [The University of Sheffield HPC]() 
+- [The University of Sheffield HPC](/compile_hpc.md) 
 
 ***
 
