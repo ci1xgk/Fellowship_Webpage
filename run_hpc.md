@@ -5,7 +5,7 @@ the model can be run on both [ShARC](https://docs.hpc.shef.ac.uk/en/latest/sharc
 
 - **On Bessemer**
 
-Create a directory for your test-case, here for example `merewether`, and place the input files of the Merewether test case in it. To run on interactive mode, first open an interactive seesion:
+Create a directory for your test-case, here for example `merewether`, and place the input files of the Merewether test case in it. To run on interactive mode, first open an interactive session:
 
 ````bash
 srun --pty bash -i
@@ -18,7 +18,7 @@ Go to `merewether` directory and enter the following commands (`<USER>` is the B
 ````
 By doing so, the simulation will start to run. 
 
-It should be noted that in an interactive mode, the simulation stops once the session is closed. For long simulations, batch mode is a better option, using which the simulation will continue irrespective of disconnecting from the cluster.
+It should be noted that in an interactive mode, the simulation stops once the session is closed or connection to cluster is lost. For long simulations, batch mode is a better option, using which the simulation will continue irrespective of disconnecting from the cluster.
 
 To run in a batch mode, create a shell script in `merewether` directory, for example named `merewether.sh`, and put the following lines in it:
 
@@ -32,26 +32,20 @@ To run in a batch mode, create a shell script in `merewether` directory, for exa
 #SBATCH --mail-user=m.sharifian@sheffield.ac.uk
 
 module load netCDF/4.6.2-gompi-2019a
-##module load netCDF/4.6.2-iimpi-2019a
 
-##env
-
-##export LD_LIBRARY_PATH=$HOME/netcdf_build_gcc/release/lib:$LD_LIBRARY_PATH
-
-##export LD_LIBRARY_PATH=/usr/local/packages/live/eb/netCDF/4.6.2-gompi-2019a/lib64/libnetcdf.so.13:$LD_LIBRARY_PATH
-
-##srun --export=ALL ../../build/lisflood -v -gzip eden_5m.par 
-
-/home/ci1ms/LISFLOOD-FP/build/lisflood -v carlisle_run1.par
+/home/ci1ms/LISFLOOD-FP/build/lisflood merewether-0p175m.par
 ````
 
-To run the script go to `merewether` directory and enter the following command:
+The different options to use in the shell script are explained [here](https://docs.hpc.shef.ac.uk/en/latest/bessemer/slurm.html).
+
+
+Once the shell script is edited, to run the script go to `merewether` directory and enter the following command:
 
 ````bash
 sbatch merewether.sh
 ````
 
-To check the status of the batch runs, you can use the following commands:
+After submitting the job, to check the status of the batch runs, the following commands can be used:
 
 ````bash
 squeue
