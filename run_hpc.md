@@ -1,4 +1,4 @@
-#### Merewether test case on the HPC facilities of the University of Sheffied
+#### Running the Merewether test case on the HPC facilities of the University of Sheffied
 
 Once the `lisflood` executable is generated, following the instructions within the ["_Compiling on The University of Sheffield HPC facilities_"](/compile_hpc.md), 
 the model can be run on both [ShARC](https://docs.hpc.shef.ac.uk/en/latest/sharc/index.html) and [Bessemer](https://docs.hpc.shef.ac.uk/en/latest/bessemer/index.html) clusters, by following the instructions below.
