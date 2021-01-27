@@ -48,14 +48,11 @@ sbatch merewether.sh
 After submitting the job, to check the status of the batch runs, the following commands can be used:
 
 ````bash
-squeue
-squeue --user=USER --start
+squeue --user=<USER> --start
 ````
 
-and to remove the jobs from queue:
+where `<USER>` is the user name used to connect to Bessemer. 
 
-````bash
-scancel "JOB_ID"
-````
+- **On ShARC**
 
 [back](/Merewether3.md)
