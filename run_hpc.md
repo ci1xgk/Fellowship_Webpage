@@ -11,16 +11,44 @@ Create a directory for your test-case, here for example `merewether`, and place 
 srun --pty bash -i
 ````
 
-Go to the newly created directory and enter the following commands (`<USER>` is the Bessemer account name):
+Go to `merewether` directory and enter the following commands (`<USER>` is the Bessemer account name):
 
 ````bash
 /home/USER/LISFLOOD-FP/build/lisflood merewether-0p175m.par
 ````
+By doing so, the simulation will start to run. 
 
-To run in a batch mode, create a shell file, and run it as:
+It should be noted that in an interactive mode, the simulation stops once the session is closed. For long simulations, batch mode is a better option, using which the simulation will continue irrespective of disconnecting from the cluster.
+
+To run in a batch mode, create a shell script in `merewether` directory, for example named `merewether.sh`, and put the following lines in it:
 
 ````bash
-sbatch shell_file.sh
+#!/bin/bash
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=16
+#SBATCH --mem=8G
+#SBATCH --time=6000
+#SBATCH --job-name=carlisle5m
+#SBATCH --mail-user=m.sharifian@sheffield.ac.uk
+
+module load netCDF/4.6.2-gompi-2019a
+##module load netCDF/4.6.2-iimpi-2019a
+
+##env
+
+##export LD_LIBRARY_PATH=$HOME/netcdf_build_gcc/release/lib:$LD_LIBRARY_PATH
+
+##export LD_LIBRARY_PATH=/usr/local/packages/live/eb/netCDF/4.6.2-gompi-2019a/lib64/libnetcdf.so.13:$LD_LIBRARY_PATH
+
+##srun --export=ALL ../../build/lisflood -v -gzip eden_5m.par 
+
+/home/ci1ms/LISFLOOD-FP/build/lisflood -v carlisle_run1.par
+````
+
+To run the script go to `merewether` directory and enter the following command:
+
+````bash
+sbatch merewether.sh
 ````
 
 To check the status of the batch runs, you can use the following commands:
