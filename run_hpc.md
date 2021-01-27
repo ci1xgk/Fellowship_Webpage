@@ -11,7 +11,7 @@ Create a directory for your test-case, here for example `merewether`, and place 
 srun --pty bash -i
 ````
 
-Then enter the following commands (`<USER>` is the Bessemer account name):
+Go to the newly created directory and enter the following commands (`<USER>` is the Bessemer account name):
 
 ````bash
 /home/USER/LISFLOOD-FP/build/lisflood merewether-0p175m.par
