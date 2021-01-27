@@ -1,19 +1,20 @@
 #### Merewether test case on the HPC facilities of the University of Sheffied
 
-LISFLOOD-FP can be compiled on both [ShARC](https://docs.hpc.shef.ac.uk/en/latest/sharc/index.html) and [Bessemer](https://docs.hpc.shef.ac.uk/en/latest/bessemer/index.html) clusters, by following the instructions below.
+Once the `lisflood` executable is generated, following the instructions within the ["_Compiling on The University of Sheffield HPC facilities_"](/compile_hpc.md), 
+the model can be run on both [ShARC](https://docs.hpc.shef.ac.uk/en/latest/sharc/index.html) and [Bessemer](https://docs.hpc.shef.ac.uk/en/latest/bessemer/index.html) clusters, by following the instructions below.
 
 - **On Bessemer**
 
-First create a directory for your test-case in `testing` directory, and upload the input files. To run the DG2 solver, first the DEM slope files should be created. To do this, in an interactive session, run the following commands (put your bessemer account name in `USER`):
+Create a directory for your test-case, here for example `merewether`, and place the input files of the Merewether test case in it. To run on interactive mode, first open an interactive seesion:
 
 ````bash
-/home/USER/LISFLOOD-FP/build/generateDG2DEM TESTCASE.par
+srun --pty bash -i
 ````
 
-To run on an interactive session, use the following command:
+Then enter the following commands (`<USER>` is the Bessemer account name):
 
 ````bash
-/home/USER/LISFLOOD-FP/build/lisflood -v -gzip TESTCASE.par
+/home/USER/LISFLOOD-FP/build/lisflood merewether-0p175m.par
 ````
 
 To run in a batch mode, create a shell file, and run it as:
