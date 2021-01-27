@@ -21,7 +21,7 @@ When the simulation is finished, a series of files named according to the keywor
 
 
 
-For running `lisflood` from a linux-based platform, different instructions should be followed. See the demo on how to run the Merewether test case on the HPC platform of the University of Sheffied [Name of section](link). 
+For running `lisflood` from a linux-based platform, different instructions should be followed. See the demo on [how to run the Merewether test case on the HPC platform of the University of Sheffied](/run_hpc.md). 
 
 
 Running on eiher platforms will produce the following output files:
