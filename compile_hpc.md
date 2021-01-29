@@ -56,7 +56,7 @@ cmake -S . -B build -DNUMA_ROOT=<PATH>
 cmake --build build
 ````
 
-By doing so, the `lisflood` executable will be generated in the `build` directory.
+By doing so, the `lisflood` executable will be generated in the `build` sub-directory.
 
 - **On ShARC**
 
