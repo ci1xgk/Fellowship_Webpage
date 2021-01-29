@@ -10,7 +10,9 @@ Flooding occurs from a 200-m wide opening located inside the valley from the sou
 
 To set up this simulation on LISFLOOD-FP8.0, a point source boundary condition is required. This type of boundary condition is defined by specifying the inflow at certain locations inside the domain. Since maximum one point source is allowed per computational cell, the number of point sources depend on the resolution of the grid. 
 
-As an example for this test case, since the grid resolution is 10 m, the 200 m opening inside the valley is specified through a number of 20 cells. If a coarser grid resolution of 50 m is deployed, the opening will be specified through 4 cells. The figure below shows an snapshot of the `.bci` file used for Valley flooding test case.
+For the Valley flooding test case, since the grid resolution is 10 m, the 200 m opening inside the valley is specified through a number of 20 cells. If a coarser grid resolution of 50 m is deployed, the opening will be specified through 4 cells. 
+
+The figure below shows an snapshot of the `.bci` file used for Valley flooding test case.
 
 ![image](/Figures/ea5_1.PNG)
 
