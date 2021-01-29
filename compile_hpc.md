@@ -4,7 +4,7 @@ LISFLOOD-FP can be compiled on both [ShARC](https://docs.hpc.shef.ac.uk/en/lates
 
 - **On Bessemer**
 
-Launch an interactive session on a worker node using the command:
+Launch an interactive session using the command:
 
 ````bash
 srun --pty bash -i
