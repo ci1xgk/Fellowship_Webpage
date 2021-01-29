@@ -6,21 +6,19 @@ This test case is standard to study and compare the capabilities of 2D hydrodyna
 ![Image](/Figures/Fig_7G.jpg)
 
 
-Flooding occurs from a 260-m wide opening located inside the valley from the southwest side (left part in the figure) where the inflow hydrograph is applied (right part in the figure). This hydrograph has a strong inflow peak occurring over a short duration to propagate throughout the valley until after 30 hours when the water has ponded near the closed boundary at the eastern edge of the domain. The hydrograph is provided in `ea5.bdy` file, as time series of unit-width discharge (q = Q/B = 3000/200 = 15 square meter per second), as the snapshot below. 
-
-![image](/Figures/ea5_2.PNG)
+Flooding occurs from a 260-m wide opening located inside the valley from the southwest side (left part in the figure) where the inflow hydrograph is applied (right part in the figure). This hydrograph has a strong inflow peak occurring over a short duration to propagate throughout the valley until after 30 hours when the water has ponded near the closed boundary at the eastern edge of the domain. 
 
 To set up this test case, a point source boundary condition is required. This type of boundary condition is defined by specifying the inflow at certain locations inside the domain. Since maximum one point source is allowed per computational cell, the number of point sources depend on the resolution of the grid. 
 
-For the Valley flooding test case, the opening for inflow is located along a line extending from point `(x,y) = (232595, 830480)` to `(x,y) = (232785, 830290)`. By opening the DEM file, namely, `ea5-10m.dem`, in QGIS, it can be observed that the line passes 20 cells inside the domain. The 
-
-since the grid resolution is 10 m, the 200 m opening inside the valley is specified through a number of 20 cells. If a coarser grid resolution of 50 m is deployed, the opening will be specified through 4 cells. 
-
-The figure below shows an snapshot of the `.bci` file used for Valley flooding test case.
+For the Valley flooding test case, the opening for inflow is located along a line extending from point `(x,y) = (232595, 830480)` to `(x,y) = (232785, 830290)`. By opening the DEM file, namely, `ea5-10m.dem`, in QGIS, it can be observed that the line passes 20 cells inside the domain. The locations of these 20 cells along with Boundary identifier (`P` for point source), Boundary condition type (`QVAR` for time-varying flow) and Boundary condition time series (`test5`) must be provided in `.bci` file, as shown by snapshot below.
 
 ![image](/Figures/ea5_1.PNG)
 
+It should be noted tht if different grid resolution is to be usedd, the user is required to manually check (e.g. using QGIS) which cells are paassed by the inflow opening and list them in `.bci` file. 
 
+The respective hydrograph is provided in `ea5.bdy` file, as time series of unit-width discharge (q = Q/B = 3000/200 = 15 square meter per second), as the snapshot below. 
+
+![image](/Figures/ea5_2.PNG)
 
 … MKS … What is this? What the user specificies? File names? The number of points is dependent on the resolution of the grid … right MKS? To be continued_ (unfinished)
 
