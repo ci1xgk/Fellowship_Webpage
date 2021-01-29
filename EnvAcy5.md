@@ -6,7 +6,7 @@ This test case is standard to study and compare the capabilities of 2D hydrodyna
 ![Image](/Figures/Fig_7G.jpg)
 
 
-Flooding occurs from a 200-m wide opening located inside the valley from the southwest side (left part in the figure) where the inflow hydrograph is applied (right part in the figure). This hydrograph has a strong inflow peak occurring over a short duration to propagate throughout the valley until after 30 hours when the water has ponded near the closed boundary at the eastern edge of the domain. 
+Flooding occurs from a 260-m wide opening located inside the valley from the southwest side (left part in the figure) where the inflow hydrograph is applied (right part in the figure). This hydrograph has a strong inflow peak occurring over a short duration to propagate throughout the valley until after 30 hours when the water has ponded near the closed boundary at the eastern edge of the domain. 
 
 To set up this test case, a point source boundary condition is required. This type of boundary condition is defined by specifying the inflow at certain locations inside the domain. Since maximum one point source is allowed per computational cell, the number of point sources depend on the resolution of the grid. 
 
