@@ -6,7 +6,7 @@ The `.bdy` file is used to specify such a time-varying boundary condition and ha
 
 - **Line 1.** Comment line, ignored by LISFLOOD-FP
 
-- **Line 2.** Boundary identifier (this should be consistent with notation supplied in the `.bci` file)
+- **Line 2.** Boundary time series name (this should be consistent with notation supplied in the `.bci` file)
 
 - **Line 3.** Number of time points at which boundary information is given followed by a keyword for the time units used (either `days`, `hours` or `seconds`)
 
