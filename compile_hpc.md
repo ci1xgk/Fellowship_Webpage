@@ -110,6 +110,6 @@ cmake -S . -B build -DNUMA_ROOT=<NUMA_PATH> -DNetCDF_INCLUDE_DIR=<NetCDF_INC_PAT
 cmake --build build
 ````
 
-After compiling is finished, the `lisflood` executable will be generated in the `build` directory.
+After compiling is finished, the `lisflood` executable will be generated in the `build` sub-directory.
 
 [back](/LISFLOOD8.0.md)
