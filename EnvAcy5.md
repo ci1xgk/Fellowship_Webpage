@@ -10,7 +10,9 @@ Flooding occurs from a 260-m wide opening located inside the valley from the sou
 
 To set up this test case, a point source boundary condition is required. This type of boundary condition is defined by specifying the inflow at certain locations inside the domain. Since maximum one point source is allowed per computational cell, the number of point sources depend on the resolution of the grid. 
 
-For the Valley flooding test case, since the grid resolution is 10 m, the 200 m opening inside the valley is specified through a number of 20 cells. If a coarser grid resolution of 50 m is deployed, the opening will be specified through 4 cells. 
+For the Valley flooding test case, the opening for inflow is located along a line extending from point `(x,y) = (232595, 830480)` to `(x,y) = (232785, 830290)`. 
+
+since the grid resolution is 10 m, the 200 m opening inside the valley is specified through a number of 20 cells. If a coarser grid resolution of 50 m is deployed, the opening will be specified through 4 cells. 
 
 The figure below shows an snapshot of the `.bci` file used for Valley flooding test case.
 
