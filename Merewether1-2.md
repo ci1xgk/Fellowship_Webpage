@@ -14,7 +14,7 @@ The `.bci` file consists of 5 columns, each containng the following items:
 
 - **Column 4.** Boundary condition type (see the "Type" list in the Table below)
 
-- **Column 5.** Boundary condition value or file (see the "Item" list in the Table below)
+- **Column 5.** Boundary condition value or time series name (see the "Item" list in the Table below)
 
   | Type | Description | Item for column 5 in a `.bci` file |
    | :---         | :---      | :--- |
