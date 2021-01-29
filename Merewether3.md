@@ -12,7 +12,7 @@ By clicking on the *location bar* of the Windows Explorer, then typing `cmd` and
 
 To run the simulation, the name of executable must be entered in *Command prompt*, followed by the name of the `.par` file: 
 ```
-lisflood.exe merewether-0p175m.par   
+..\lisflood.exe merewether-0p175m.par   
 ```
 
 When the simulation is finished, a series of files named according to the keyword `resroot` given in the `.par` file, (i.e. `merewether` for the Merewether test case). These files will be generated in a directory named by the keyword `dirroot` in the `.par` file, as shown in the figure below.
