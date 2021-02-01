@@ -10,7 +10,7 @@ Flooding occurs from an opening located inside the valley from the southwest sid
 
 To set up this test case, a point source boundary condition is required. This type of boundary condition is defined by specifying the inflow at certain locations inside the domain. Since maximum one point source is allowed per computational cell, the number of point sources depend on the resolution of the grid. 
 
-For the Valley flooding test case, the opening for inflow is located along a line extending from point `(x,y) = (232595, 830480)` to `(x,y) = (232785, 830290)`. By opening the DEM file, namely, `ea5-10m.dem`, in QGIS, it can be observed that the line passes 20 cells inside the domain for the 10m-resolution grid. The locations of these 20 cells along with Boundary identifier (`P` for point source), Boundary condition type (`QVAR` for time-varying inflow) and Boundary condition time series name (here named `test5`) must be provided in `.bci` file, as shown by snapshot below.
+For the Valley flooding test case, the opening for inflow is located along a line extending from point `(x,y) = (232595, 830480)` to `(x,y) = (232785, 830290)`. By opening the DEM file, namely, `ea5-10m.dem`, in QGIS, it can be observed that the line spans 20 cells inside the domain for the 10m-resolution grid. The locations of these 20 cells along with Boundary identifier (`P` for point source), Boundary condition type (`QVAR` for time-varying inflow) and Boundary condition time series name (here named `test5`) must be provided in `.bci` file, as shown by snapshot below.
 
 ![image](/Figures/ea5_1.PNG)
 
