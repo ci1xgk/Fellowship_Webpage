@@ -8,7 +8,7 @@ Files with the extensions `.dem`, `.dem1x` and `.dem1y` can be generated using t
 
 The toolkit requires the availability of the raw DEM file in the same directory subject to appending it with the extension `.raw`. For example, the DEM file, `merewether-0p175m.dem`, created for the Merewether test case (see [Modifying the resolution of the DEM on QGIS](https://www.seamlesswave.com/Merewether2-2.html)) should be renamed to `merewether-0p175m.dem.raw`. 
 
-For running the `generateDG2DEM.exe` of the Merewether test case on windows, first create a directory for the test case, for example named `merewether`, in the same directory where `lisflood.exe` is generated. Then place the `merewether-0p175m.par` and `merewether-0p175m.dem.raw` files inside the `merewether` directory. By clicking on the *location bar* of the Windows Explorer, then typing `cmd` and pressing *Enter*, the *Command Prompt Window* will be opened in the folder. To run the toolkit, the name of executable must be entered in *Command prompt*, followed by the name of the `.par` file: 
+For running the `generateDG2DEM.exe` of the Merewether test case on windows, first create a directory for the test case, for example named `merewether`, in the same directory where `generateDG2DEM.exe` is generated. Then place the `merewether-0p175m.par` and `merewether-0p175m.dem.raw` files inside the `merewether` directory. By clicking on the *location bar* of the Windows Explorer, then typing `cmd` and pressing *Enter*, the *Command Prompt Window* will be opened in the folder. To run the toolkit, the name of executable must be entered in *Command prompt*, followed by the name of the `.par` file: 
 ```
 ..\generateDG2DEM.exe merewether-0p175m.par   
 ```
