@@ -6,17 +6,20 @@ This test case is standard to study and compare the capabilities of 2D hydrodyna
 ![Image](/Figures/Fig_7G.jpg)
 
 
-Flooding occurs from an opening located inside the valley from the southwest side (see the left part in the figure above) where the inflow hydrograph shown in the right part in the figure is applied. This hydrograph has a strong inflow peak of 3000 cubic meter per second occurring over a short duration to propagate throughout the valley until after 30 hours when the water has ponded near the closed boundary at the eastern edge of the domain. 
+Flooding occurs from an opening located inside the valley from the southwest side (see the left part in the figure above) where the inflow hydrograph shown in the right part in the figure is applied. This hydrograph has a strong inflow peak of 3000 cubic meter per second that occurs during 600 to 1200 seconds and then return to zero. This causes a flash flood propagation throughout the valley until after 30 hours when the water has ponded near the closed boundary at the eastern edge of the domain. 
 
 To set up this test case, a point source boundary condition is required. This type of boundary condition is defined by specifying the inflow at certain locations inside the domain. Since maximum one point source is allowed per computational cell, the number of point sources depend on the resolution of the grid. 
 
-For the Valley flooding test case, the opening for inflow is located along a line extending from point `(x,y) = (232595, 830480)` to `(x,y) = (232785, 830290)`. By opening the DEM file, namely, `ea5-10m.dem`, in QGIS, it can be observed that the line spans 20 cells inside the domain for the 10m-resolution grid. The locations of these 20 cells along with Boundary identifier (`P` for point source), Boundary condition type (`QVAR` for time-varying inflow) and Boundary condition time series name (here named `test5`) must be provided in `.bci` file, as shown by snapshot below.
+For the Valley flooding test case, the opening for inflow is located along a line extending from point `(x,y) = (232595, 830480)` to `(x,y) = (232785, 830290)`. By opening the DEM file, namely, `ea5-10m.dem`, in QGIS, it can be observed that the line spans 20 cells inside the domain for the 10m-resolution grid. The locations of these 20 cells along with _Boundary identifier_ (`P` for point source), _Boundary condition type_ (`QVAR` for time-varying inflow) and _Boundary condition time series name_ (here named `test5`) must be provided in `.bci` file, as shown by snapshot below (details in ["Boundary condition type file (.bci)"](https://www.seamlesswave.com/Merewether1-2.html)). 
 
 ![image](/Figures/ea5_1.PNG)
 
-If a different grid resolution is to be used, it is necessary to re-check, manually (e.g. using QGIS), which are the cells spanning the inflow opening and list them in `.bci` file. 
+If a different grid resolution is to be used, it is necessary to re-check, manually (e.g. using QGIS), which are the cells spanning the length of the inflow opening and list them in `.bci` file. 
 
-Since time-varying inflow is used, the hydrograph defining this inflow must be provided in a `.bdy` file. Since 20 cells are specified as point source, the peak discharge of 3000 cubic meter per second will be converted to unit-width discharge as q = Q/B = 3000/(20 x 10) = 15 square meter per second. Figure below shows a snapshot of `ea5.bdy`, which provides the time series of unit-width discharge, starting from t = 0s, reaching the peak at t = 600s and attenuating at t = 1200 s. 
+
+When a time-varying inflow is specifified in a `.bdy` file, it should be accompanied with a `.bdy` file that also includes the _Boundary condition time series name_ "test5". In the `.bdy` file, the number of time steps at which the time-varying inflow data is avaiable should be first specified (6 for this case), followed by the list of time to inflow data. Listing of the discharge data should be done based on the unit-width discharge, q = Q/B. 
+
+= 3000/(20 x 10) = 15 square meter per second. Figure below shows a snapshot of `ea5.bdy`, which provides the time series of unit-width discharge, starting from t = 0s, reaching the peak at t = 600s and attenuating at t = 1200 s. 
 
 ![image](/Figures/ea5_2.PNG)
 
