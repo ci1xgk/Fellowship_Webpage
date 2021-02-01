@@ -16,7 +16,7 @@ For the Valley flooding test case, the opening for inflow is located along a lin
 
 It should be noted tht if different grid resolution is to be used, the user is required to manually check (e.g. using QGIS) which cells are paassed by the inflow opening and list them in `.bci` file. 
 
-Since time-varying inflow is used, the respective hydrograph must be provided in a `.bdy` file. Since 20 cells are specified as point source, the peak discharge of 3000 cubic meter per second will be converted to unit discharge as, q = Q/B = 3000/(20 x 10) = 15 square meter per second. Figure below shows a snapshot of `ea5.bdy`, which provides the time series of unit-width discharge, starting from t = 0s, reaching the peak at t = 600s and attenuating at t = 1200 s. 
+Since time-varying inflow is used, the respective hydrograph must be provided in a `.bdy` file. Since 20 cells are specified as point source, the peak discharge of 3000 cubic meter per second will be converted to unit discharge as q = Q/B = 3000/(20 x 10) = 15 square meter per second. Figure below shows a snapshot of `ea5.bdy`, which provides the time series of unit-width discharge, starting from t = 0s, reaching the peak at t = 600s and attenuating at t = 1200 s. 
 
 ![image](/Figures/ea5_2.PNG)
 
