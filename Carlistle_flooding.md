@@ -7,7 +7,6 @@ This test case demonstartes the urban flooding simulations in a real-world study
 
 ![Image](/Figures/carl_1.PNG)
 
-Essential data 
 To simulate the Carlisle flood events the DEM data and upstream inflow boundary conditions (i.e. flow hydrographs) are required. The DEM data is provided by the School of Geographical Sciences at the University of Bristol, which was created by further processing the LiDAR DEM provided by the UK Environment Agency (EA) by removing the noises and obstacles (e.g. trees and bridges). The DEM has a 5 m spatial resolution and was deemed sufficient to reproduce the flood dynamics using LISFLOOD-FP in the previous
 studies ([e.g. Neal et al., 2013]()). 
 
