@@ -17,7 +17,7 @@ For the Valley flooding test case, the opening for inflow is located along a lin
 If a different grid resolution is to be used, it is necessary to re-check, manually (e.g. using QGIS), which are the cells spanning the length of the inflow opening and list them in `.bci` file. 
 
 
-When a time-varying inflow is specifified in a `.bdy` file, it should be accompanied with a `.bdy` file that also includes the _Boundary condition time series name_ "test5". In the `.bdy` file, the number of time steps at which the time-varying inflow data is avaiable should be first specified (6 for this case), followed by the list of time to inflow data. Listing of the discharge data should be done based on the unit-width discharge, q = Q/B. 
+When a time-varying inflow is specifified in a `.bci` file, it should be accompanied with a `.bdy` file that also includes the _Boundary condition time series name_ "test5". In the `.bdy` file, the number of time steps at which the time-varying inflow data is avaiable should be first specified (6 for this case), followed by the list of time to inflow data. Listing of the discharge data should be done based on the unit-width discharge, q = Q/B. 
 
 = 3000/(20 x 10) = 15 square meter per second. Figure below shows a snapshot of `ea5.bdy`, which provides the time series of unit-width discharge, starting from t = 0s, reaching the peak at t = 600s and attenuating at t = 1200 s. 
 
