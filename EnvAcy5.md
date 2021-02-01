@@ -6,7 +6,7 @@ This test case is standard to study and compare the capabilities of 2D hydrodyna
 ![Image](/Figures/Fig_7G.jpg)
 
 
-Flooding occurs from an opening located inside the valley from the southwest side (see the left part in the figure above) where the inflow hydrograph shown in the right part in the figure is applied. This hydrograph is a strong inflow starting at 300 seconds and linearly increasing to reach a peak of 3000 cubic meter per second at 600 seconds. The inflow stays at its peak up to 1200 seconds and then linearly decreases to return to zero at 6000 seconds. This causes a flash flood propagation throughout the valley until after 30 hours when the water has ponded near the closed boundary at the eastern edge of the domain. 
+Flooding occurs from an opening located inside the valley from the southwest side (see the left part in the figure above) where the inflow hydrograph shown in the right part in the figure is applied. This hydrograph is a strong inflow starting from zero at 300 seconds and linearly increasing to reach a peak of 3000 cubic meter per second at 600 seconds. The inflow stays at its peak up to 1200 seconds and then linearly decreases to return to zero at 6000 seconds (see the right part in the figure above). This causes a flash flood propagation throughout the valley until after 30 hours when the water has ponded near the closed boundary at the eastern edge of the domain. 
 
 To set up this test case, a point source boundary condition is required. This type of boundary condition is defined by specifying the inflow at certain locations inside the domain. Since maximum one point source is allowed per computational cell, the number of point sources depend on the resolution of the grid. 
 
@@ -17,7 +17,8 @@ For the Valley flooding test case, the opening for inflow is located along a lin
 If a different grid resolution is to be used, it is necessary to re-check, manually (e.g. using QGIS), which are the cells spanning the length of the inflow opening and list them in `.bci` file. 
 
 
-When a time-varying inflow is specifified in a `.bci` file, it should be accompanied with a `.bdy` file that also includes the _Boundary condition time series name_ "test5". In the `.bdy` file, the number of time steps at which the time-varying inflow data is avaiable should be first specified (6 for this case), followed by the list of time to inflow data. Listing of the discharge data should be done based on the unit-width discharge, q = Q/B. 
+When a time-varying inflow is specifified in a `.bci` file, it should be accompanied with a `.bdy` file that also includes the _Boundary condition time series name_ "test5". In the `.bdy` file, the number of time steps at which the time-varying inflow data is avaiable should be first specified (6 for this case), followed by the list of time to inflow data. The inflow data must be provided in the unit-width discharge, q = Q/B. For the Valley flooding test case, the 
+
 
 = 3000/(20 x 10) = 15 square meter per second. Figure below shows a snapshot of `ea5.bdy`, which provides the time series of unit-width discharge, starting from t = 0s, reaching the peak at t = 600s and attenuating at t = 1200 s. 
 
