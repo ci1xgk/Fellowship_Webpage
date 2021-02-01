@@ -4,9 +4,9 @@ As opposed to piecewise-constant data representation used in FV1 or ACC solvers,
 
 Hence, setting up DG2 on LISFLOOD requires three separate raster files one including the average-coefficient values, and two others including the X-directional slope-coefficient values and the Y-directional slope-coefficient values, with the extensions `.dem`, `.dem1x` and `.dem1y`, respectively. 
 
-Files with the extensions `.dem`, `.dem1x` and `.dem1y` can be generated using the toolkit `generateDG2DEM` (available in the "_preprocess_" directory). The toolkit requires the availability of the raw DEM file in the same directory subject to appending it with the extension `.raw`. 
+Files with the extensions `.dem`, `.dem1x` and `.dem1y` can be generated using the toolkit `generateDG2DEM` (available in the "_preprocess_" directory). The toolkit is obtained after compiling the LISFLOOD-FP code, following the instructions within the ["_Compilation_"](/LISFLOOD8.0.md). It will be generated as an executable file the name `generateDG2DEM.exe` on a Windows platform and the name `generateDG2DEM` on a linux-based platform, in the same directory where LISFLOOD-FP execurtable.
 
-For example, the DEM file, `merewether-0p175m.dem`, created for the Merewether test case (see [Modifying the resolution of the DEM on QGIS](https://www.seamlesswave.com/Merewether2-2.html)) should be renamed to `merewether-0p175m.dem.raw`. 
+The toolkit requires the availability of the raw DEM file in the same directory subject to appending it with the extension `.raw`. For example, the DEM file, `merewether-0p175m.dem`, created for the Merewether test case (see [Modifying the resolution of the DEM on QGIS](https://www.seamlesswave.com/Merewether2-2.html)) should be renamed to `merewether-0p175m.dem.raw`. 
 
 A demo of how to apply the toolkit is available in [_"Running `generateDG2DEM`"_](MKS to add it later). After running `generateDG2DEM` toolkit, three raster files will be generated within the same directory of `merewether-0p175m.dem.raw` file: 
 
