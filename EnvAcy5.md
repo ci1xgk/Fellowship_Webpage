@@ -17,10 +17,11 @@ For the Valley flooding test case, the opening for inflow is located along a lin
 If a different grid resolution is to be used, it is necessary to re-check, manually (e.g. using QGIS), which are the cells spanning the length of the inflow opening and list them in `.bci` file. 
 
 
-When a time-varying inflow is specifified in a `.bci` file, it should be accompanied with a `.bdy` file that also includes the _Boundary condition time series name_ "test5". In the `.bdy` file, the number of time steps at which the time-varying inflow data is avaiable should be first specified (6 for this case), followed by the list of time to inflow data. The inflow data must be provided in the unit-width discharge, q = Q/B. For the Valley flooding test case, the 
+When a time-varying inflow is specifified in a `.bci` file, it should be accompanied with a `.bdy` file that also includes the _Boundary condition time series name_ "test5". In the `.bdy` file, the number of time steps at which the time-varying inflow data is avaiable should be first specified (6 for this case), followed by a series of time intervals (second column) and the respective inflow data at these intervals (first column). The inflow data between these intervals will be linearly interpolated by LISFLOOD-FP. The inflow data must be provided in the unit-width discharge, q = Q/B. 
 
 
-= 3000/(20 x 10) = 15 square meter per second. Figure below shows a snapshot of `ea5.bdy`, which provides the time series of unit-width discharge, starting from t = 0s, reaching the peak at t = 600s and attenuating at t = 1200 s. 
+Figure below shows a snapshot of `ea5.bdy`, which provides the time series of unit-width discharge for the Valley flooding test case. Since the inflow starts at 300s, zero discharge is specified for 0 and 300 intervals in the time series. The discharge reaches the peak of 3000 cubic meter per second at 600s and stays at the peak until 1200 seconds. This peak discharge is converted to unit-width discharge by considering the opening to be spanned over 20 cells of dimension 10 m, i.e. q = Q/B = 3000/(20 x 10) = 15. Therefore, the unit-width discharge of 15 will be specified for intervals 300 and 600 in the time series list. At 1200s, the inflow decreases to reach zero at 6000 seconds. Therefore zero discharge is specified for 6000 and 108000 (final time of simulation) intervals in the time series list.
+
 
 ![image](/Figures/ea5_2.PNG)
 
