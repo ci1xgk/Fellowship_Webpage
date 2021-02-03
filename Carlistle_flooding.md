@@ -13,7 +13,7 @@ Flood inflow enters from rivers Eden, Petteril and Caldew marked in figure above
 
 ![Image](/Figures/carl_2.PNG)
 
-To set up this test case, th three river inflows are specified as point sources in the `carlisle-5m.bci`, while western edge of the domain is set as free outflow to allow the water to exit the domain. The Upstream 1, Upstream 2 and Upstream 3 inflow enters the domain from 11, 6 and 6 cells, respectively. Figure below shows an snapshot of the `carlisle-5m.bci` file.
+To set up this test case, th three river inflows are specified as point sources in the `carlisle-5m.bci`, while western edge of the domain is set as free outflow to allow the water to exit the domain. Figure below shows an snapshot of the `carlisle-5m.bci` file.
 
 ![Image](/Figures/carl_3.PNG)
 
