@@ -11,5 +11,11 @@ To simulate the Carlisle flood event the DEM data and upstream inflow boundary c
 
 Flood inflow enters from rivers Eden, Petteril and Caldew marked in figure above as “Upstream 1”, “Upstream 2” and “Upstream 3”, respectively. The discharge hydrographs (in 15-minute intervals) obtained through 1D flood routing are available from previous studies ([e.g. Neal et al., 2013; Parkes et al., 2013]()).
 
+To set up this test case, th three river inflows are specified as point sources in the `.bci`, while western edge of the domain is set as free outflow to allow the water to exit the domain. Figure below shows an snapshot of the `carlisle-5m.bci`.
+
+![Image](/Figures/carl_3.PNG)
+
+
+
 [back](/LISFLOOD8.0.md)
 
