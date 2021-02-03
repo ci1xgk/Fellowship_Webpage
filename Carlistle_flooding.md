@@ -9,7 +9,9 @@ This test case demonstartes the urban flooding simulations in a real-world study
 
 To simulate the Carlisle flood event the DEM data and upstream inflow boundary conditions (i.e. flow hydrographs) are required. The 5 m x 5 m resolution DEM data, namely `carlisle-5m.dem`, is provided by the School of Geographical Sciences at the University of Bristol, which was created by further processing the LiDAR DEM provided by the UK Environment Agency (EA) by removing the noises and obstacles (e.g. trees and bridges). 
 
-Flood inflow enters from rivers Eden, Petteril and Caldew marked in figure above as “Upstream 1”, “Upstream 2” and “Upstream 3”, respectively. The discharge hydrographs (in 15-minute intervals) obtained through 1D flood routing are available from previous studies ([e.g. Neal et al., 2013; Parkes et al., 2013]()).
+Flood inflow enters from rivers Eden, Petteril and Caldew marked in figure above as “Upstream 1”, “Upstream 2” and “Upstream 3”, respectively. The discharge hydrographs (in 15-minute intervals) obtained through 1D flood routing are available from previous studies ([e.g. Neal et al., 2013; Parkes et al., 2013]()), as shown in figure below.
+
+![Image](/Figures/carl_2.PNG)
 
 To set up this test case, th three river inflows are specified as point sources in the `.bci`, while western edge of the domain is set as free outflow to allow the water to exit the domain. Figure below shows an snapshot of the `carlisle-5m.bci`.
 
