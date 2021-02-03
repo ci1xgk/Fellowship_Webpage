@@ -17,6 +17,8 @@ To set up this test case, th three river inflows are specified as point sources 
 
 ![Image](/Figures/carl_3.PNG)
 
+In the first line the western boundary (identifier `W`), with the start and end specified at 2nd and 3rd columns, is set as `FREE` boundary condition. (details in ["Boundary condition type file (.bci)"](https://www.seamlesswave.com/Merewether1-2.html)). The *Upstream 1* is spanned by 11 cells
+
 Note that since three inflows are being considered, the boundary condition time series name (in the fifth column) must be unique. In figure above, the names `upstream1`, `upstream2` and `upstream3` are chosen for respective time series. TBA
 
 
