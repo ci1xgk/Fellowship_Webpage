@@ -17,7 +17,7 @@ To set up this test case, th three river inflows are specified as point sources 
 
 ![Image](/Figures/carl_3.PNG)
 
-Note that since three inflows are being considered, the boundary condition time series name (in the fifth column) must be unique. In figure above, the names `upstream1`, `upstream2` and `upstream3` are chosen for respective time series.  
+Note that since three inflows are being considered, the boundary condition time series name (in the fifth column) must be unique. In figure above, the names `upstream1`, `upstream2` and `upstream3` are chosen for respective time series. TBA
 
 
 [back](/LISFLOOD8.0.md)
