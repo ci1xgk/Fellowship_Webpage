@@ -17,7 +17,7 @@ To set up this test case, th three river inflows are specified as point sources 
 
 ![Image](/Figures/carl_3.PNG)
 
-In the first line, the western boundary (identifier `W`), with the start and end coordinate specified at 2nd and 3rd columns, is set as `FREE` boundary condition. The rest of the lines specify a series of points sources (identifier `P`), to refer to time-varying inflow (type `QVAR`) with names (`upstream1`, `upstream2`, `upstream3`) for respective time series in the `.bdy` file.
+In the first line, the western boundary (identifier `W`), with the start and end coordinate specified at 2nd and 3rd columns, is set as `FREE` boundary condition. The rest of the rows specify a series of points sources (identifier `P`), to refer to the time-varying inflow (type `QVAR`) with names `upstream1`, `upstream2`, `upstream3` for respective time series specified in the `.bdy` file.
 
 The *Upstream 1*, which is the section of River Eden from point `(x,y) = (342662, 557552)` to `(x,y) = (342707, 557503)`, is spanned by 11 cells and is named `upstream1`. The *Upstream 2*, which is the section of River Petteril from point `(x,y) = (341352, 554702) to (x,y) = (341377, 554702)`, is spanned by 6 cells and is named `upstream2`. The *Upstream 3*, which is the section of River Caldew from point `(x,y) = (339937, 554702) to (x,y) = (339962, 554702)`, is spanned by 6 cells and is named `upstream3`
 
