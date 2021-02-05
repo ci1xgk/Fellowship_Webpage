@@ -37,4 +37,6 @@ C = M1B1 / (M1B1 + M0B1 + M1B0)
 
 where scores range from 0 (no match between benchmark and modeled data) to 1 (perfect match between benchmark and modeled data).
 
+A simple Python script, named `metrics.py` is included in the post-processing directory, to compute these statistical metrics.  
+
 [back](/EnvAcy5.md)
