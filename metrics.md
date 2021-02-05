@@ -10,8 +10,7 @@ These metrics compare the benchmark data vs modeled data in a binary (wet or dry
    | Wet in Modeled Data   | M1B1      | M1B0    |
    | Dry in Modeled Data     | M0B1       | M0B0    |
 
-
-
+In this sense, e.g. M1B1 denotes the total number of cells that are both wet in benchmark and modeled data.
 
 The **Hit Rate (H)**, sometimes referred to as the probability of detection, is a simple measure that tests the proportion of wet benchmark cells that was replicated by
 the model, ignoring whether the benchmark flood boundaries were exceeded:
