@@ -27,12 +27,14 @@ The **False Alarm Ratio (F)** indicates the proportion of wet modeled cells that
 F = M1B0 / (M1B0 + M1B1)
 ````
 
-This metric gives an idea of whether the model has the tendency to overpredict flood extent and can range from 0 (no false alarms) to 1 (all false alarms). The **Critical Success Index (C)** extends on H and F to create a combined score that penalizes for both underprediction and overprediction:
+This metric gives an idea of whether the model has the tendency to overpredict flood extent and can range from 0 (no false alarms) to 1 (all false alarms). 
+
+The **Critical Success Index (C)** extends on both H and F to create a combined score that accounts for both underprediction and overprediction:
 
 ````
 C = M1B1 / (M1B1 + M0B1 + M1B0)
 ````
 
-where scores range from 0 (no match between model and benchmark) to 1 (perfect match between benchmark and model).
+where scores range from 0 (no match between benchmark and model data) to 1 (perfect match between benchmark and model data).
 
 [back](/EnvAcy5.md)
