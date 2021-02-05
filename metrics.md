@@ -15,6 +15,8 @@ In this sense, e.g. M1B1 denotes the total number of cells that are both wet in 
 The **Hit Rate (H)**, sometimes referred to as the probability of detection, is a simple measure that tests the proportion of wet benchmark cells that was replicated by
 the model, ignoring whether the benchmark flood boundaries were exceeded:
 
+                                                                         H = M1B1 (M1B1 + M0B1)
+
 ![Image](/Figures/metrics1.PNG)
 
 where Am is the modeled inundated area and Ab in the benchmark inundated area. H ranges from 0 (none of the wet benchmark cells are wet in the model data) to 1 (all wet benchmark cells are wet in the model data), examining the model’s tendency toward underprediction of the flood hazard.
