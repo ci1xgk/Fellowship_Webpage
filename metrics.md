@@ -6,15 +6,11 @@ The Hit Rate (H), sometimes referred to as the probability of detection, is a si
 
 ![Image](/Figures/metrics1.PNG)
 
-where Am is the modeled inundated area and Ab in the benchmark inundated area. H ranges from 0 to 1, with a score of 1 indicating that all wet cells in the benchmark data are wet in the model data.
-
-The False Alarm Ratio (F) is a measure of model overprediction (i.e., ‘‘false alarms’’):
+where Am is the modeled inundated area and Ab in the benchmark inundated area. H ranges from 0 to 1, with a score of 1 indicating that all wet cells in the benchmark data are wet in the model data. The False Alarm Ratio (F) is a measure of model overprediction (i.e., ‘‘false alarms’’):
 
 ![Image](/Figures/metrics2.PNG)
 
-where scores range from 0 (no false alarms) to 1 (all false alarms).
-
-The Critical Success Index (C) extends on H and F to create a combined score that penalizes for both underprediction and overprediction:
+where scores range from 0 (no false alarms) to 1 (all false alarms). The Critical Success Index (C) extends on H and F to create a combined score that penalizes for both underprediction and overprediction:
 
 ![Image](/Figures/metrics3.PNG)
 
