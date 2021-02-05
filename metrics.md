@@ -39,6 +39,20 @@ where scores range from 0 (no match between benchmark and modeled data) to 1 (pe
 
 #### Python script to compute the performance metrics
 
-A simple Python script, named `metrics.py` is included in the post-processing directory, to compute these statistical metrics. TBA  
+A simple Python script, named `metrics.py` is included in the post-processing directory, to compute these statistical metrics. The script uses GDAL package for reading the data. 
 
+Two run the script, two ASCII rastar files with the same resolution and extent, one for Benchmark and the other for the modeled data. Inside the script at lines 209~2011, the name of these files must be entered as:
+
+````
+model_fn = "model.wd" 
+bench_fn = "benchmark.wd" 
+
+````
+AFter saving the file, it runs with command:
+
+````
+python metrics.py
+````
+
+and shows the metrics on the screen.
 [back](/EnvAcy5.md)
