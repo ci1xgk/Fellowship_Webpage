@@ -47,7 +47,7 @@ Two run the script, two ASCII rastar files with the same resolution and extent, 
 model_fn = "model.wd" 
 bench_fn = "benchmark.wd" 
 ````
-AFter saving the file, it runs with command:
+After saving the file, it runs with command:
 
 ````
 python metrics.py
