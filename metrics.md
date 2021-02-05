@@ -16,20 +16,22 @@ The **Hit Rate (H)**, sometimes referred to as the probability of detection, is 
 the model, ignoring whether the benchmark flood boundaries were exceeded:
 
 ````
-H = M1B1 (M1B1 + M0B1)
+H = M1B1 / (M1B1 + M0B1)
 ````
 
-<!--- ![Image](/Figures/metrics1.PNG) --->
-
-where Am is the modeled inundated area and Ab in the benchmark inundated area. H ranges from 0 (none of the wet benchmark cells are wet in the model data) to 1 (all wet benchmark cells are wet in the model data), examining the model’s tendency toward underprediction of the flood hazard.
+H ranges from 0 (none of the wet benchmark cells are wet in the model data) to 1 (all wet benchmark cells are wet in the model data), examining the model’s tendency toward underprediction of the flood hazard.
 
 The **False Alarm Ratio (F)** indicates the proportion of wet modeled cells that are not wet in the benchmark data:
 
-<!--- ![Image](/Figures/metrics2.PNG) --->
+````
+F = M1B0 / (M1B0 + M1B1)
+````
 
 This metric gives an idea of whether the model has the tendency to overpredict flood extent and can range from 0 (no false alarms) to 1 (all false alarms). The **Critical Success Index (C)** extends on H and F to create a combined score that penalizes for both underprediction and overprediction:
 
-<!--- ![Image](/Figures/metrics3.PNG) ---> 
+````
+C = M1B1 / (M1B1 + M0B1 + M1B0)
+````
 
 where scores range from 0 (no match between model and benchmark) to 1 (perfect match between benchmark and model).
 
