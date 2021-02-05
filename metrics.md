@@ -5,10 +5,10 @@ To measure the performance of the model in predicting the flooding extent, three
 
 These metrics compare the benchmark data vs modeled data in a binary (wet or dry) manner and sum up them as four states shown in table below.
 
-   |  | **Wet in Benchmark Data** | **Dry in Benchmark Data** |
+   |  | **Wet in Benchmark Data (B1)** | **Dry in Benchmark Data (B0)** |
    | :---         | :---      | :--- |
-   | **Wet in Modeled Data**   | M1B1      | M1B0    |
-   | **Dry in Modeled Data**     | M0B1       | M0B0    |
+   | **Wet in Modeled Data (M1)**   | M1B1      | M1B0    |
+   | **Dry in Modeled Data (M0)**     | M0B1       | M0B0    |
 
 In this sense, e.g. M1B1 denotes the total number of cells that are both wet in benchmark and modeled data.
 
