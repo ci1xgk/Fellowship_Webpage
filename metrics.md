@@ -2,6 +2,17 @@
 
 To measure the performance of the model in predicting the flooding extent, three metrics are commonly used within the hydraulic modeling community, namely Hit Rate (H), False Alarm Ratio (F), and Critical Success Index (C). 
 
+
+These metrics compare the benchmark data vs modeled data in a binary (wet or dry) manner and sum up them as four states shown in table below.
+
+   |  | Wet in Benchmark Data | Dry in Benchmark Data |
+   | :---         | :---      | :--- |
+   | Wet in Modeled Data   | M1B1      | M1B0    |
+   | Dry in Modeled Data     | M0B1       | M0B0    |
+
+
+
+
 The **Hit Rate (H)**, sometimes referred to as the probability of detection, is a simple measure that tests the proportion of wet benchmark cells that was replicated by
 the model, ignoring whether the benchmark flood boundaries were exceeded:
 
@@ -9,11 +20,11 @@ the model, ignoring whether the benchmark flood boundaries were exceeded:
 
 where Am is the modeled inundated area and Ab in the benchmark inundated area. H ranges from 0 (none of the wet benchmark cells are wet in the model data) to 1 (all wet benchmark cells are wet in the model data), examining the model’s tendency toward underprediction of the flood hazard.
 
-The **False Alarm Ratio (F)** is a measure of model overprediction (i.e., ‘‘false alarms’’):
+The **False Alarm Ratio (F)** indicates the proportion of wet modeled cells that are not wet in the benchmark data:
 
 ![Image](/Figures/metrics2.PNG)
 
-where scores range from 0 (no false alarms) to 1 (all false alarms). The **Critical Success Index (C)** extends on H and F to create a combined score that penalizes for both underprediction and overprediction:
+This metric gives an idea of whether the model has the tendency to overpredict flood extent and can range from 0 (no false alarms) to 1 (all false alarms). The **Critical Success Index (C)** extends on H and F to create a combined score that penalizes for both underprediction and overprediction:
 
 ![Image](/Figures/metrics3.PNG)
 
