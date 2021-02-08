@@ -1,4 +1,4 @@
-#### Carlistle 2005, urban flooding TBA
+#### Carlistle 2005, urban flooding
 
 <!---Why this case study? Should be different than EA5.  
 Underway (MKS management): 5 m, 10 m, 20 m and 40 m for a comparision between ACC-CPU/GPU, FV1-CPU/GPU, DG2-CPU/GPU. Coarse-DG2 does not need GPU! Better velocity prediction. Compare floodplains with metrics H, F and C at t = 3 hours. Downscaling capability.--->
@@ -13,15 +13,15 @@ Flood inflow enters from rivers Eden, Petteril and Caldew, marked in the figure 
 
 ![Image](/Figures/carl_2.PNG)
 
-To set up this test case, th three river inflows (discharge hydrographs) have to be specified as point sources (inflow boundary conditions) in the `carlisle-5m.bci`, while western edge of the domain is set as free outflow to allow the water to exit the domain. Figure below shows an snapshot of the `carlisle-5m.bci` file.
+To set up this test case, th three river inflows (discharge hydrographs) have to be specified as point sources (inflow boundary conditions) in the `carlisle-5m.bci`, while western edge of the domain is set as free outflow to allow the water to exit the domain. The figure below shows an snapshot of the `carlisle-5m.bci` file.
 
 ![Image](/Figures/carl_3.PNG)
 
 In the first row, the western boundary is set as `FREE` outflow condition. The rest of the rows specify a series of points sources (identifier `P`), defined as the time-varying inflow (type `QVAR`) with names `upstream1`, `upstream2`, `upstream3`. These names are consistent with the time series specified in the `.bdy`. In the `carlisle-5m.bci` file, *Upstream 1*, which is the section of River Eden from point `(x,y) = (342662, 557552)` to `(x,y) = (342707, 557503)`, is spanned by 11 cells and is named `upstream1`. The *Upstream 2*, which is the section of River Petteril from point `(x,y) = (341352, 554702)` to `(x,y) = (341377, 554702)`, is spanned by 6 cells and is named `upstream2`. The *Upstream 3*, which is the section of River Caldew from point `(x,y) = (339937, 554702)` to `(x,y) = (339962, 554702)`, is spanned by 6 cells and is named `upstream3`. 
 
-Since time-varying inflow is specifified in a `carlisle-5m.bci` file, it is accompanied with a time series file named `carlisle.bdy` file. The layout of the `carlisle.bdy` file follows the same structure explained for [*"Valley flooding"*](/EnvAcy5.md) test case. However, here three time series are written consecutively: The first row specifies the first time series name, `upstream1`, followed by the the number of time intervals, and the lists of the time-varying inflow discharge alongside its time of occurence; After all data of time series `upstream1` is written, the data for `upstream2` and then `upstream3` will be listed with the same order. 
+Since time-varying inflow is specifified in a `carlisle-5m.bci` file, it is accompanied with a time series file named `carlisle.bdy` file. The layout of the `carlisle.bdy` file is similar to the one explained for [*"Valley flooding"*](/EnvAcy5.md) test case. Here, however, the same `carlisle.bdy` file has to include three time series listed one after after antoher. For the first time series, its name, `upstream1`, have to be specified followed by the number of time intervals and the lists of the time-varying inflow discharge alongside its time of occurence. The second time series, with the name `upstream2`, and then the third time series, with the name `upstream3`, can be handled in a similar way. 
 
-_To quantitatively compare and analyse floodplain extents, a post-processing toolkit is available… _ (unfinished)
+_Results and metrics_ (unfinished)
 
 
 
