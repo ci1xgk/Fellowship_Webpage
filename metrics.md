@@ -1,16 +1,16 @@
 #### Performance metrics
 
-To measure the performance of the model in predicting the flooding extent, three metrics are commonly used within the hydraulic modeling community, namely Hit Rate (H), False Alarm Ratio (F), and Critical Success Index (C) [(Wing et al., 2017)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2017WR020917). 
+To measure the performance of the model in predicting flooding extent, three metrics are commonly used within the hydraulic modeling community, namely Hit Rate (H), False Alarm Ratio (F), and Critical Success Index (C) [(Wing et al., 2017)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2017WR020917). 
 
 
-These metrics compare the benchmark data vs modeled data in a binary (wet or dry) manner and sum up them as four states shown in table below.
+These metrics compare the benchmark data _vs._ modeled data in a binary (wet or dry) manner and sum up them as four states shown in the table below.
 
    |  | **Wet in Benchmark Data (B1)** | **Dry in Benchmark Data (B0)** |
    | :---         | :---      | :--- |
    | **Wet in Modeled Data (M1)**   | M1B1      | M1B0    |
    | **Dry in Modeled Data (M0)**     | M0B1       | M0B0    |
 
-In this sense, e.g. M1B1 denotes the total number of cells that are both wet in benchmark and modeled data.
+In this sense, e.g. M1B1 denotes the total number of cells that are both wet in benchmark and modeled data. More 
 
 The **Hit Rate (H)**, sometimes referred to as the probability of detection, is a simple measure that tests the proportion of wet benchmark cells that was replicated by
 the model, ignoring whether the benchmark flood boundaries were exceeded:
