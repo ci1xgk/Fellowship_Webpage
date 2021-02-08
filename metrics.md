@@ -1,16 +1,19 @@
-#### Performance metrics
+#### Performance metrics for flood extent prediction 
 
-To measure the performance of the model in predicting flooding extent, three metrics are commonly used within the hydraulic modeling community, namely Hit Rate (H), False Alarm Ratio (F), and Critical Success Index (C) [(Wing et al., 2017)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2017WR020917). 
+Difference metrics are used to evaluated different aspects... https://iopscience.iop.org/article/10.1088/1748-9326/aaf3d3
+
+To measure the performance of a flood model in predicting flooding extent, three metrics are commonly used within the hydraulic modeling community, namely Hit Rate (H), False Alarm Ratio (F), and Critical Success Index (C) [(Wing et al. 2017)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2017WR020917). 
 
 
-These metrics compare the benchmark data _vs._ modeled data in a binary (wet or dry) manner and sum up them as four states shown in the table below.
+These metrics compare the benchmark data _vs._ model data in a binary (wet or dry) manner and sum up them as four states shown in the table below, where benchmark data represent the reference data to which the model data are evaluated againt.  
 
    |  | **Wet in Benchmark Data (B1)** | **Dry in Benchmark Data (B0)** |
    | :---         | :---      | :--- |
    | **Wet in Modeled Data (M1)**   | M1B1      | M1B0    |
    | **Dry in Modeled Data (M0)**     | M0B1       | M0B0    |
 
-In this sense, e.g. M1B1 denotes the total number of cells that are both wet in benchmark and modeled data. More 
+M1B1 denotes the total number of cells that are wet in both of the benchmark and model data, M0B0 denotes the total number of cells that are dry in both of the benchmark and model data, M1B0 denotes the total number of cells that are wet in the model data but dry in the benchmark data, and M0B1 denotes the total number of cells that are dry in the model data but dry in the benchmark data. 
+
 
 The **Hit Rate (H)**, sometimes referred to as the probability of detection, is a simple measure that tests the proportion of wet benchmark cells that was replicated by
 the model, ignoring whether the benchmark flood boundaries were exceeded:
