@@ -1,6 +1,6 @@
 #### Performance metrics
 
-To measure the performance of the model in predicting the flooding extent, three metrics are commonly used within the hydraulic modeling community, namely Hit Rate (H), False Alarm Ratio (F), and Critical Success Index (C) [Wing et al., 2017](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2017WR020917). 
+To measure the performance of the model in predicting the flooding extent, three metrics are commonly used within the hydraulic modeling community, namely Hit Rate (H), False Alarm Ratio (F), and Critical Success Index (C) [(Wing et al., 2017)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2017WR020917). 
 
 
 These metrics compare the benchmark data vs modeled data in a binary (wet or dry) manner and sum up them as four states shown in table below.
