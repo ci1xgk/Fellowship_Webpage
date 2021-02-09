@@ -13,7 +13,7 @@ These metrics compare the benchmark data cells _vs._ model data cells one by one
 
 ![image](/Figures/metrics4.svg)
 
-M1B1 denotes the total number of cells that are wet in both of the benchmark and model data, M0B0 denotes the total number of cells that are dry in both of the benchmark and model data, M1B0 denotes the total number of cells that are wet in the model data but dry in the benchmark data, and M0B1 denotes the total number of cells that are dry in the model data but dry in the benchmark data. 
+M1B1 denotes the total number of cells that are wet in both of the benchmark and model data, M0B0 denotes the total number of cells that are dry in both of the benchmark and model data, M1B0 denotes the total number of cells that are wet in the model data but dry in the benchmark data, and M0B1 denotes the total number of cells that are dry in the model data but wet in the benchmark data. 
 
 
 The **Hit Rate (H)** is a simple measure that assess the proportion of wet benchmark data cells that was also predicted as wet by the model:
