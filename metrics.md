@@ -21,7 +21,7 @@ The **Hit Rate (H)**, sometimes referred to as the probability of detection, is 
 H = M1B1 / (M1B1 + M0B1)
 ````
 
-H ranges from 0 (none of the wet benchmark cells are wet in the modeled data) to 1 (all wet benchmark cells are wet in the modeled data). Since this metric only considers the area with wet benchmark data cells, it only examines the model’s tendency toward underprediction of the flood hazard.
+H ranges from 0 (none of the wet benchmark cells are wet in the model data) to 1 (all wet benchmark cells are wet in the model data). Since this metric only considers the area with wet benchmark data cells, it only examines the model’s tendency toward underprediction of the flood hazard.
 
 The **False Alarm Ratio (F)** indicates the proportion of wet model data cells that are not wet in the benchmark data:
 
@@ -37,7 +37,7 @@ The **Critical Success Index (C)** extends on both H and F to create a combined 
 C = M1B1 / (M1B1 + M0B1 + M1B0)
 ````
 
-where scores range from 0 (no match between benchmark and modeled data) to 1 (perfect match between benchmark and modeled data).
+where scores range from 0 (no match between benchmark and model data) to 1 (perfect match between benchmark and model data).
 
 #### Python script to compute the metrics
 
