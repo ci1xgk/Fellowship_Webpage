@@ -41,9 +41,9 @@ where scores range from 0 (no match between benchmark and modeled data) to 1 (pe
 
 #### Python script to compute the performance metrics
 
-A simple Python script, named `metrics.py` is included in the post-processing directory, to compute these statistical metrics. The script uses GDAL package for reading the data. 
+A simple Python script, named `metrics.py` is included in the post-processing directory, to compute these statistical metrics. The script requres GDAL package for reading the data. The process of computing the metrics is here described as an example for the Carlistle 2005, urban flooding test case.
 
-Two run the script, two ASCII rastar files with the same resolution and extent, one for Benchmark and the other for the modeled data. Inside the script at lines 138~140, the name of these files, here for example `model.wd` and `benchmark.wd` must be entered as:
+To run the script, two ASCII rastar files with the same resolution and extent, one for benchmark data and the other for the model data. The model data is the Maximum water depth (`.max`) file (recall [Running the code, outputs and visualisation](/Merewether3.md)) that is generated at the end of simulation, namely `carlisle-5m.max`. To ilustrate the process, here the example of Carlisle floodInside the script at lines 138~140, the name of these files, here for example `model.wd` and `benchmark.wd` must be entered as:
 
 ````
 model_fn = "model.wd" 
