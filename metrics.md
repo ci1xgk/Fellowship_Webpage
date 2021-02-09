@@ -15,14 +15,13 @@ These metrics compare the benchmark data _vs._ model data in a binary (wet or dr
 M1B1 denotes the total number of cells that are wet in both of the benchmark and model data, M0B0 denotes the total number of cells that are dry in both of the benchmark and model data, M1B0 denotes the total number of cells that are wet in the model data but dry in the benchmark data, and M0B1 denotes the total number of cells that are dry in the model data but dry in the benchmark data. 
 
 
-The **Hit Rate (H)**, sometimes referred to as the probability of detection, is a simple measure that tests the proportion of wet benchmark cells that was replicated by
-the model, ignoring whether the benchmark flood boundaries were exceeded:
+The **Hit Rate (H)**, sometimes referred to as the probability of detection, is a simple measure that assess the proportion of wet benchmark data cells that was also predicted as wet by the model:
 
 ````
 H = M1B1 / (M1B1 + M0B1)
 ````
 
-H ranges from 0 (none of the wet benchmark cells are wet in the modeled data) to 1 (all wet benchmark cells are wet in the modeled data), examining the model’s tendency toward underprediction of the flood hazard.
+H ranges from 0 (none of the wet benchmark cells are wet in the modeled data) to 1 (all wet benchmark cells are wet in the modeled data). Since this metric only considers the area with wet benchmark data cells, it only examines the model’s tendency toward underprediction of the flood hazard.
 
 The **False Alarm Ratio (F)** indicates the proportion of wet modeled cells that are not wet in the benchmark data:
 
