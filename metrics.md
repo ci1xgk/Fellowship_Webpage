@@ -29,15 +29,15 @@ The **False Alarm Ratio (F)** indicates the proportion of wet model data cells t
 F = M1B0 / (M1B0 + M1B1)
 ````
 
-This metric gives an idea of whether the model has the tendency to overpredict flood extent. In this sense, a cell that is wet in model data but dry in benchmark data is regarded as false alarm. Therefore, F can range from 0 (no false alarms) to 1 (all false alarms). 
+This metric gives an idea of whether the model has the tendency to overpredict flood extent. In this sense, a cell that is wet in model data but dry in benchmark data is regarded as *false alarm*. Therefore, F can range from 0 (none of the model data cells are false alarms) to 1 (all of the model data cells are false alarms). 
 
-The **Critical Success Index (C)** extends on both H and F to create a combined score that accounts for both underprediction and overprediction:
+The **Critical Success Index (C)** extends on both H and F to create a combined criteria that accounts for both underprediction and overprediction:
 
 ````
 C = M1B1 / (M1B1 + M0B1 + M1B0)
 ````
 
-where scores range from 0 (no match between benchmark and model data) to 1 (perfect match between benchmark and model data).
+where scores range from 0, showing no match between benchmark and model data, to 1 , which shows the perfect match between benchmark and model data.
 
 #### Python script to compute the metrics
 
