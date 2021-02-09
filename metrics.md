@@ -23,13 +23,13 @@ H = M1B1 / (M1B1 + M0B1)
 
 H ranges from 0 (none of the wet benchmark cells are wet in the modeled data) to 1 (all wet benchmark cells are wet in the modeled data). Since this metric only considers the area with wet benchmark data cells, it only examines the model’s tendency toward underprediction of the flood hazard.
 
-The **False Alarm Ratio (F)** indicates the proportion of wet modeled cells that are not wet in the benchmark data:
+The **False Alarm Ratio (F)** indicates the proportion of wet model data cells that are not wet in the benchmark data:
 
 ````
 F = M1B0 / (M1B0 + M1B1)
 ````
 
-This metric gives an idea of whether the model has the tendency to overpredict flood extent and can range from 0 (no false alarms) to 1 (all false alarms). 
+This metric gives an idea of whether the model has the tendency to overpredict flood extent. In this sense, a cell that is wet in model data but dry in benchmark data i sregarded as false alarm. Therefore, F can range from 0 (no false alarms) to 1 (all false alarms). 
 
 The **Critical Success Index (C)** extends on both H and F to create a combined score that accounts for both underprediction and overprediction:
 
