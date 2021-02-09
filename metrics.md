@@ -39,7 +39,7 @@ C = M1B1 / (M1B1 + M0B1 + M1B0)
 
 where scores range from 0 (no match between benchmark and modeled data) to 1 (perfect match between benchmark and modeled data).
 
-#### Python script to compute the performance metrics
+#### Python script to compute the metrics
 
 A simple Python script, named `metrics.py` is included in the post-processing directory, to compute these statistical metrics. The script requres GDAL package for reading the data. The process of computing the metrics is here described as an example for the Carlistle 2005, urban flooding test case.
 
