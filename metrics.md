@@ -9,8 +9,8 @@ These metrics compare the benchmark data _vs._ model data in a binary (wet or dr
 
    |  | **Wet in Benchmark Data (B1)** | **Dry in Benchmark Data (B0)** |
    | :---         | :---      | :--- |
-   | **Wet in Modeled Data (M1)**   | M1B1      | M1B0    |
-   | **Dry in Modeled Data (M0)**     | M0B1       | M0B0    |
+   | **Wet in Model Data (M1)**   | M1B1      | M1B0    |
+   | **Dry in Model Data (M0)**   | M0B1      | M0B0    |
 
 M1B1 denotes the total number of cells that are wet in both of the benchmark and model data, M0B0 denotes the total number of cells that are dry in both of the benchmark and model data, M1B0 denotes the total number of cells that are wet in the model data but dry in the benchmark data, and M0B1 denotes the total number of cells that are dry in the model data but dry in the benchmark data. 
 
