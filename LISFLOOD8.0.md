@@ -56,7 +56,7 @@ This case study [(Soares-Frazao and Zech 2008)](https://www.tandfonline.com/doi/
 This case study [(Néelz and Pender 2013)](https://consult.environment-agency.gov.uk/engagement/bostonbarriertwao/results/appendix-6---neelz--s.---pender--g.--2013--benchmarking-the-latest-generation-of-2d-hydraulic-modelling-packages.-bristol_environment-agency.pdf) is aimed to demonstrate how to handle an inflow boundary condition located inside the computational area, at source point(s). 
 
 
-#### [4. Carlistle 2005, urban flooding](./Carlistle_flooding.md)
+#### [4. Carlisle 2005, urban flooding](./Carlistle_flooding.md)
 This case study [(Horritt et al. 2010)](https://www.icevirtuallibrary.com/doi/pdf/10.1680/wama.2010.163.6.273) is particularly aimed to demonstrate how to handle multiple inflow boundary conditions from different source point(s). This test is also used to demonstrate a new post-processing toolkit for producing metrics to quantify floodplain extent prediction capabilities when comparing the outcomes predicted by different hydrodynamic solvers.
 
 
