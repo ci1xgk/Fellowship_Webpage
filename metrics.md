@@ -4,7 +4,7 @@ Different metrics are used to evaluated different aspects of a flood model's per
 
 To validate the performance of a flood model in predicting the flood extent, three metrics are commonly used within the hydraulic modeling community, namely Hit Rate (H), False Alarm Ratio (F), and Critical Success Index (C) [(Wing et al. 2017)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2017WR020917). In the process of comuting these metrics, model data is the flood extent predicted by the model, while benchmark data refers to either surveyed extent of the flooding event or the flood extent from a reference flood modeling simulation.  
 
-These metrics compare the benchmark data _vs._ model data in a binary (wet or dry) manner and sum up them as four states shown in the table and figure below.  
+These metrics compare the benchmark data cells _vs._ model data cells one by one, in a binary (wet or dry) manner, and sum up them as four states shown in the table and figure below.  
 
    |  | **Wet in Benchmark Data (B1)** | **Dry in Benchmark Data (B0)** |
    | :---         | :---      | :--- |
