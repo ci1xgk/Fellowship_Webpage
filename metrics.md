@@ -45,7 +45,11 @@ where scores range from 0, showing no match between benchmark and model data, to
 
 A simple Python script, named `metrics.py` is included in the post-processing directory, to compute these statistical metrics. The script requres GDAL package for reading the data. The process of computing the metrics is here described as an example for the Carlistle 2005, urban flooding test case.
 
-To run the script, two ASCII rastar files with the same resolution and extent, one for benchmark data and the other for the model data. The model data is the Maximum water depth (`.max`) file (recall [Running the code, outputs and visualisation](/Merewether3.md)) that is generated at the end of simulation, namely `carlisle-5m.max`. The benchmark data is a ASCII raster file, provided as `carlisle-5m.dat`, which contains the serveyed extent of the flooding. To run the script, the name of these two files must be entered at lines 138~140 as below:
+To run the script, two ASCII rastar files with the same resolution and extent, one for benchmark data and the other for the model data. The model data is the Maximum water depth (`.max`) file (recall [Running the code, outputs and visualisation](/Merewether3.md)) that is generated at the end of simulation, namely `carlisle-5m.max`. The benchmark data is a ASCII raster file, provided as `carlisle-5m.dat`, which contains the serveyed extent of the flooding. Figure below shows the maps of model and benchmark data.
+
+![image](/Figures/metrics5.svg)
+
+To run the script, the name of these two files must be entered at lines 138~140 as below:
 
 ````
 model_fn = "carlisle-5m.max" 
