@@ -21,7 +21,7 @@ The **Hit Rate (H)**, sometimes referred to as the probability of detection, is 
 H = M1B1 / (M1B1 + M0B1)
 ````
 
-H ranges from 0 (none of the wet benchmark cells are wet in the model data) to 1 (all wet benchmark cells are wet in the model data). Since this metric only considers the area with wet benchmark data cells, it only examines the model’s tendency toward underprediction of the flood hazard.
+H ranges from 0 (none of the wet benchmark data cells are wet in the model data) to 1 (all wet benchmark data cells are wet in the model data). Since this metric only considers the area with wet benchmark data cells, it only examines the model’s tendency toward underprediction of the flood extent.
 
 The **False Alarm Ratio (F)** indicates the proportion of wet model data cells that are not wet in the benchmark data:
 
