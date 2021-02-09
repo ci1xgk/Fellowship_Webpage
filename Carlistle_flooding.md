@@ -21,8 +21,8 @@ In the first row, the western boundary is set as `FREE` outflow condition. The r
 
 Since time-varying inflow is specifified in a `carlisle-5m.bci` file, it is accompanied with a time series file named `carlisle.bdy` file. The layout of the `carlisle.bdy` file is similar to the one explained for [*"Valley flooding"*](/EnvAcy5.md) test case. Here, however, the same `carlisle.bdy` file has to include three time series listed one after after antoher. For the first time series, its name, `upstream1`, have to be specified followed by the number of time intervals and the lists of the time-varying inflow discharge alongside its time of occurence. The second time series, with the name `upstream2`, and then the third time series, with the name `upstream3`, can be handled in a similar way. 
 
-_Results and metrics_ (unfinished)
 
+[_To quantitatively compare and analyse floodplain extents, a post-processing toolkit is available… _ (unfinished)](/metrics.md)
 
 
 [back](/LISFLOOD8.0.md)
