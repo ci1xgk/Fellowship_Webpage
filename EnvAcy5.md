@@ -25,9 +25,4 @@ The figure below shows a snapshot of the `.bdy` file for this test, named `ea5.b
 
 ![image](/Figures/ea5_2.PNG)
 
-
-[_To quantitatively compare and analyse floodplain extents, a post-processing toolkit is available… _ (unfinished)](/metrics.md)
-
-
-
 [back](/LISFLOOD8.0.md)
