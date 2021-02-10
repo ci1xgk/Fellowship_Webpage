@@ -44,7 +44,7 @@ where scores range from 0, showing no match between benchmark and model data, to
 
 A simple Python script, named `metrics.py` is included in the post-processing directory, to compute these statistical metrics. The script requires GDAL package for reading the data. The process of computing the metrics is here described as an example for the Carlistle 2005, urban flooding test case.
 
-To run the script, two ASCII rastar files with the same resolution and extent, one for benchmark data and the other for the model data. The model data is the Maximum water depth (`.max`) file (recall [Running the code, outputs and visualisation](/Merewether3.md)) that is generated at the end of simulation, namely `carlisle-5m.max`. The benchmark data is a ASCII raster file, provided as `carlisle-5m.dat`, which contains the serveyed extent of the flooding. Figure below shows the maps of model and benchmark data.
+To run the script, two ASCII rastar files with the same resolution and extent, one for benchmark data and the other for the model data. The model data is the Maximum water depth (`.max`) file (recall [Running the code, outputs and visualisation](/Merewether3.md)) resulted from running LISFLOOD-FP with ACC solver. This file is generated at the end of simulation, with the name `carlisle-5m.max`. For benchmark data, it is possible to use surveyed extent data. However, in this example the LISFLOOD-FP simulation using FV1 solver will is used. Therefore, the generated Maximum water depth (`.max`) file from FV1 simulation, is used as the benchmark data, and is renamed to `carlisle-5m.dat`. Figure below shows the maps of model (i.e. `carlisle-5m.max`) and benchmark (i.e. `carlisle-5m.dat`) data.
 
 ![image](/Figures/metrics5.svg)
 
@@ -67,7 +67,7 @@ Hit rate: 0.905324
 False Alarm rate: 0.026091
 Critical success index: 0.883887
 ````
-A contingency map is generated shown as below:
+A contingency map is generated shown as below, which ilustrates the flood extent of both model and benchmark data.
 
 ![image](/Figures/carl_4.png)
 
