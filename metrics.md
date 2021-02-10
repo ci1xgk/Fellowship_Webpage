@@ -60,6 +60,12 @@ After saving the file, it runs with command:
 python metrics.py
 ````
 
-and shows the metrics on the screen.
+and shows the metrics on the screen as:
+
+````
+Hit rate: 0.905324
+False Alarm rate: 0.026091
+Critical success index: 0.883887
+````
 
 [back](/Carlistle_flooding.md)
