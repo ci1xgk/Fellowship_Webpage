@@ -67,7 +67,7 @@ Hit rate: 0.905324
 False Alarm rate: 0.026091
 Critical success index: 0.883887
 ````
-A map is also generated as shown below, which ilustrates the flood extent of both model and benchmark data. In the map, the green area is the portion of the floodplain that is flooded both in model and benchmark data (M1B1), the red rea is only flooded in the benchmark data (M0B1) and the blue area is only flooded in the model data (M1B0).
+A map is also generated as shown below, which ilustrates the flood extent of both model and benchmark data. In the map, the green area is the portion of the floodplain that is flooded both in model and benchmark data (M1B1), the red area is only flooded in the benchmark data (M0B1) and the blue area is only flooded in the model data (M1B0).
 
 ![image](/Figures/carl_4.png)
 
