@@ -67,5 +67,8 @@ Hit rate: 0.905324
 False Alarm rate: 0.026091
 Critical success index: 0.883887
 ````
+A contingency map is generated shown as below:
+
+![image](/Figures/carl_4.png)
 
 [back](/Carlistle_flooding.md)
