@@ -6,6 +6,6 @@ The rainfall accumulation (in mm) is stored for each rainfall “tile” for eac
 
 The rainfall file must have the same origin as the DEM (i.e. `xllcorner`, `yllcorner`). The size of a rainfall tile can be larger than the DEM cell size (i.e. `cellsize` in `.par` file) but it must be an integer multiple of the DEM's cell size.
 
-To use this option, the keyword `dynamicrainfile` must be included in `.par` file, followed by the name of the `.nc` file to be read. Case study [_"5. Eden 2015, fluvial flooding"_](/Desmond_Eden2015.md) provides an example of how to set up `.nc` file.
+To use this option, the keyword `dynamicrainfile` must be included in `.par` file, followed by the name of the `.nc` file to be read. Case study [_"5. Eden 2015, fluvial flooding"_](/Desmond_Eden2015.md) provides an example of how the `.nc` file is used.
 
 [back](/Merewether1.md)
