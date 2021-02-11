@@ -10,6 +10,9 @@ For setting up the model the Digital Elevation Mode (DEM) over the whole catchme
 
 The Manning coefficient is assigned according to different land-use types: inside the river channel the value of the coefficint is equal to 0.055 and over floodplain and hillslope equal to 0.075. The Manning coefficient data is provided in a file named `eden-5m.n`. (recall [*"Floodplain friction Manning's coefficient file (`.n`)"*](/Merewether1-7.md)
 
+The spatially- and temporally-varying rainfall data is provided by the [UK Met-Office](https://catalogue.ceda.ac.uk/uuid/82adec1f896af6169112d09cc1174499). The datais at 1 km spatial resolution and 5 min temporal resolution. Figure below shows the time series of the average and median rainfall intensity over the catchment during Storm Desmond. 
+
+![Image](/Figures/eden2.png)
 
 
 [back](/LISFLOOD8.0.md)
