@@ -67,10 +67,15 @@ Hit rate: 0.905324
 False Alarm rate: 0.026091
 Critical success index: 0.883887
 ````
-A map is also generated as shown below, which ilustrates the flood extent of both model and benchmark data. In the map, the green area is the portion of the floodplain that is flooded both in model and benchmark data (M1B1), the red area is only flooded in the benchmark data (M0B1) and the blue area is only flooded in the model data (M1B0).
+
+along with a so-called contingency map [(Hoch et al., 2017)](https://gmd.copernicus.org/articles/10/3913/2017/) as shown in figure below. The contingency map, ilustrates the flood extent of both model and benchmark data. In the map, the green area is the portion of the floodplain that is flooded both in model and benchmark data (M1B1), the red area is only flooded in the benchmark data (M0B1) and the blue area is only flooded in the model data (M1B0).
 
 ![image](/Figures/carl_4.png)
 
-These metrics specify to what extent the FV1 results (benchmark data) and ACC results (model data) differ or agree in their water-depth computations.
+These metrics combined with the contingency map provide a measure on how much the benchmark data and model data differ or agree in their flood extents. In this example, the hit rate of 0.90 indicates that 90% of extent flooded in the benchmark is also flooded by the model, and only 10% of the benchmark flood extent is underpredicted by the model. This is also reflected in the contingency map, i.e. all the green area is correctly flooded by the model while the red area is under predicted. 
+
+On the other hand, the false alarm ratio of 0.02 shows that only in 2% of the model flood extent, overprediction is occured. These overpredicted areas are shown in red on the contingency map. 
+
+Finally, as a combined criteria, the critical success index of 0.88 shows that 88% of the whole flooded area (i.e. the union of the model and benchamrk flood extent) is correctly flooded by the model. *to finish*
 
 [back](/Carlistle_flooding.md)
