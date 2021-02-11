@@ -71,4 +71,6 @@ A map is also generated as shown below, which ilustrates the flood extent of bot
 
 ![image](/Figures/carl_4.png)
 
+These metrics specify to what extent the FV1 results (benchmark data) and ACC results (model data) differ or agree in their water-depth computations.
+
 [back](/Carlistle_flooding.md)
