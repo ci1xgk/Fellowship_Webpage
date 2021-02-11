@@ -6,7 +6,9 @@ The LISFLOOD-FP is applied to reproduce the flood event caused by the 2015 Storm
 
 ![Image](/Figures/eden1.png)
 
-For setting up the model the Digital Elevation Mode (DEM) over the whole catchment is required. The 5 m x 5 m resolution DEM data, named `eden-5m.dem`, is provided by [School of Architecture, Building and Civil Engineering at Loughborough University](https://www.lboro.ac.uk/departments/abce/). It was created by further processing the LiDAR DEM provided by the UK Ordnance Survey [(Ordnance Survey, 2018)](https://www.ordnancesurvey.co.uk/business-government/products/terrain-5) and improved by incorporating the locations and heights of flood defences published by the Environmental Agency [(Environment Agency, 2018)](https://data.gov.uk/dataset/8964d3f8-8273-4521-a4b9-3f0a268b6ecf/spatial-flood-defences-with-standardised-attributes).
+For setting up the model the Digital Elevation Mode (DEM) over the whole catchment is required. The 5 m x 5 m resolution DEM data, named `eden-5m.dem`, is provided by [School of Architecture, Building and Civil Engineering at Loughborough University](https://www.lboro.ac.uk/departments/abce/). It was created by further processing the LiDAR DEM provided by the UK Ordnance Survey [(Ordnance Survey, 2018)](https://www.ordnancesurvey.co.uk/business-government/products/terrain-5) and improved by incorporating the locations and heights of flood defences published by the Environmental Agency [(Environment Agency, 2018)](https://data.gov.uk/dataset/8964d3f8-8273-4521-a4b9-3f0a268b6ecf/spatial-flood-defences-with-standardised-attributes). 
+
+The Manning coefficient is assigned according to different land-use types: inside the river channel the value of the coefficint is equal to 0.055 and over floodplain and hillslope equal to 0.075. The Manning coefficient data is provided in a file named `eden-5m.n`. (recall [*"Floodplain friction Manning's coefficient file (`.n`)"*](/Merewether1-7.md)
 
 
 
