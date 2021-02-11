@@ -44,15 +44,15 @@ where scores range from 0, showing no match between benchmark and model data, to
 
 A simple Python script, named `metrics.py` is included in the post-processing directory, to compute these metrics. The script requires GDAL package for reading the data. The process of computing the metrics is here described as an example for the Carlistle 2005 urban flooding test case.
 
-To run the script, two ASCII rastar files with the same resolution and extent, one for benchmark data and the other for the model data is required. The model data is the Maximum water depth (`.max`) file (recall [Running the code, outputs and visualisation](/Merewether3.md)) resulted from running LISFLOOD-FP with ACC solver. This file is generated at the end of simulation, with the name `carlisle-5m.max`. For benchmark data, eventhough it is possible to use surveyed extent data, but in this example the LISFLOOD-FP simulation using FV1 solver is deployed. Therefore, the generated Maximum water depth (`.max`) file from FV1 simulation, is used as the benchmark data, and is renamed, for example as `carlisle-5m.dat`. Figure below shows the maps of model (i.e. `carlisle-5m.max`) and benchmark (i.e. `carlisle-5m.dat`) data.
+To run the script, two ASCII rastar files with the same resolution and extent, one for benchmark data and the other for the model data is required. The model data is the Maximum water depth (`.max`) file (recall [Running the code, outputs and visualisation](/Merewether3.md)) resulted from running LISFLOOD-FP with ACC solver. This file is generated at the end of simulation, with the name `carlisle-5m.max`. For benchmark data, eventhough it is possible to use surveyed extent data, but in this example the LISFLOOD-FP simulation using FV1 solver is used. Therefore, the generated Maximum water depth (`carlisle-5m.max`) file from FV1 simulation, is used as the benchmark data. Since both files are generated with the same name, they are renamed to `carlisle-5m-acc.max` for the ACC and `carlisle-5m-fv1.max` for the FV1 solvers. Figure below shows the maps of model (i.e. `carlisle-5m-acc.max`) and benchmark (i.e. `carlisle-5m-fv1.max`) data.
 
 ![image](/Figures/metrics5.svg)
 
 To run the script, the name of these two files must be entered at lines 138~140 as below:
 
 ````
-model_fn = "carlisle-5m.max" 
-bench_fn = "carlisle-5m.dat" 
+model_fn = "carlisle-5m-acc.max" 
+bench_fn = "carlisle-5m-fv1.max" 
 ````
 After saving the file, it runs with command:
 
