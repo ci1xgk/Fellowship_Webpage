@@ -22,7 +22,7 @@ The **Hit Rate (H)** is a simple measure that assess the proportion of wet bench
 H = M1B1 / (M1B1 + M0B1)
 ````
 
-H ranges from 0 (none of the wet benchmark data cells are wet in the model data) to 1 (all wet benchmark data cells are wet in the model data). Since this metric only considers the area with wet benchmark data cells, it only examines the model’s tendency toward underprediction of the flood extent.
+H ranges from 0 (none of the wet benchmark data cells are wet in the model data) to 1 (all wet benchmark data cells are wet in the model data). Therefore, this metric only examines whether the model predicts a smaller flood extent compared to the benchmark.
 
 The **False Alarm Ratio (F)** indicates the proportion of the wet model data cells that are not wet in the benchmark data:
 
@@ -30,7 +30,7 @@ The **False Alarm Ratio (F)** indicates the proportion of the wet model data cel
 F = M1B0 / (M1B0 + M1B1)
 ````
 
-This metric gives an idea of whether the model has the tendency to overpredict the flood extent. In this sense, a cell that is wet in model data but dry in benchmark data is regarded as *false alarm*. Therefore, F can range from 0 (none of the model data cells are false alarms) to 1 (all of the model data cells are false alarms). 
+This metric gives an idea of whether the model has the tendency to predict a larger flood extent compared to the benchmark. In this sense, a cell that is wet in model data but dry in benchmark data is regarded as *false alarm*. Therefore, F can range from 0 (none of the model data cells are false alarms) to 1 (all of the model data cells are false alarms). 
 
 The **Critical Success Index (C)** is a composite measure, which combines H and F and allows for simpler overall comparison of prediction performance:
 
