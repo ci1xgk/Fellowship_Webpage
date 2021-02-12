@@ -32,7 +32,7 @@ F = M1B0 / (M1B0 + M1B1)
 
 This metric gives an idea of whether the model has the tendency to overpredict the flood extent. In this sense, a cell that is wet in model data but dry in benchmark data is regarded as *false alarm*. Therefore, F can range from 0 (none of the model data cells are false alarms) to 1 (all of the model data cells are false alarms). 
 
-The **Critical Success Index (C)** extends on both H and F to create a combined criteria that accounts for both underprediction and overprediction:
+The **Critical Success Index (C)** is a composite measure, which combines H and F and allows for simpler overall comparison of performance:
 
 ````
 C = M1B1 / (M1B1 + M0B1 + M1B0)
@@ -74,7 +74,7 @@ along with a so-called **contingency map** [(Hoch et al., 2017)](https://gmd.cop
 
 The combination of the metrics and the contingency map provide a measure on how much and in which areas the benchmark and model data differ or agree in their flood extents. In this example, the hit rate of 0.90 indicates that 90% of extent flooded in the benchmark is also flooded by the model, and only 10% of the benchmark flood extent is underpredicted by the model. This is also reflected in the contingency map, i.e. all the green area is correctly flooded by the model while the red area is underpredicted.   
 
-On the other hand, the false alarm ratio of 0.02 shows that only in 2% of the model flood extent, overprediction is occured. These overpredicted areas are shown in blue on the contingency map. 
+On the other hand, the false alarm ratio of 0.02 shows that only in 2% of the model flood extent, overprediction by the model is occured. These overpredicted areas are shown in blue on the contingency map. 
 
 Finally, as a combined criteria, the critical success index of 0.88 shows that 88% of the whole flooded area (i.e. the union of the model and benchamrk flood extent) is correctly flooded by the model. *to finish*
 
