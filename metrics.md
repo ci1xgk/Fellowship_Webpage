@@ -32,7 +32,7 @@ F = M1B0 / (M1B0 + M1B1)
 
 This metric gives an idea of whether the model has the tendency to overpredict the flood extent. In this sense, a cell that is wet in model data but dry in benchmark data is regarded as *false alarm*. Therefore, F can range from 0 (none of the model data cells are false alarms) to 1 (all of the model data cells are false alarms). 
 
-The **Critical Success Index (C)** is a composite measure, which combines H and F and allows for simpler overall comparison of performance:
+The **Critical Success Index (C)** is a composite measure, which combines H and F and allows for simpler overall comparison of extent prediction performance:
 
 ````
 C = M1B1 / (M1B1 + M0B1 + M1B0)
