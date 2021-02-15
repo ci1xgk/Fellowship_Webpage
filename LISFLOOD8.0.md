@@ -16,8 +16,7 @@ The rest of this page is devoted to instructing new users on how to download, in
 
 ### Download  
 
-#### Zenodo for external users 
-We mainly point people to the version on Zenodo where you need to fill a form. Refer to the paper of Shaw et al. (2019). 
+#### [Zenodo for external users]((./Zenodo.md))
 
 
 #### [University of Sheffield users](./UoS_HPC.md) 
