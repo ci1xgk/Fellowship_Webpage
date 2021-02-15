@@ -1,4 +1,5 @@
-To be updated by MKS
-To get access into the most up to date version version on GitHub, MKS form our side. It is a cross-platform, so the same download is usable on windows and linux. 
+#### Download LISFLOOD-FP 8.0 for University of Sheffield users
+
+LISFLOOD-FP 8.0 is available to users from University of Sheffield through the [Github repository](https://github.com/SEAMLESS-WAVE/LISFLOOD).
 
 [back](/LISFLOOD8.0.md)
