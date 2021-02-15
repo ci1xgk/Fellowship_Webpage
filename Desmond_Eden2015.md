@@ -2,7 +2,7 @@
 
 This test case aims to simulate fluvial flooding resulted from rainfall over a large catchment. It is selected to demonstrate how to set up a simulation based on spatially- and temporally-varying rainfall data. The use of a post-processing toolkit for downscaling coarse-resolution DG2 flood maps is also explained. 
 
-The LISFLOOD-FP is applied to reproduce the flood event caused by the 2015 Storm Desmond, which brought heavy rainfall to the 2500 square kilometers Eden Catchment. Figure below shows a map of the Eden catchment [(Xia et al. 2019)](https://www.sciencedirect.com/science/article/abs/pii/S030917081930243X). There are four major rivers in the catchment, including River Eden and its three tributaries, i.e. River Irthing, River Petteril and River Caldew. River Eden merges with the three tributaries as it passes through Carlisle, whiach was the most flooded city during the Storm Desmond event. 
+The LISFLOOD-FP is applied to reproduce the flood event caused by the 2015 Storm Desmond, which brought heavy rainfall to the 2500 square kilometers Eden Catchment. Figure below shows a map of the Eden catchment [(Xia et al. 2019)](https://www.sciencedirect.com/science/article/abs/pii/S030917081930243X). There are four major rivers in the catchment, including River Eden and its three tributaries, i.e. River Irthing, River Petteril and River Caldew. River Eden merges with the three tributaries as it passes through Carlisle, whiach was the most flooded city during the Storm Desmond event. There are 16 gauges (as marked in figure below, right panel) located in the four rivers for monitoring water levels and discharges. 
 
 ![Image](/Figures/eden1.png)
 
@@ -10,7 +10,9 @@ For setting up the model the Digital Elevation Mode (DEM) over the whole catchme
 
 The Manning coefficient is assigned over the domain according to different land-use types: inside the river channel the value of the coefficint is equal to 0.055, while over floodplain and hillslope it is equal to 0.075. The Manning coefficient data is provided in a file named `eden-5m.n` (recall [*"Floodplain friction Manning's coefficient file (.n)"*](/Merewether1-7.md).
 
-The spatially- and temporally-varying rainfall data is provided by the [UK Met-Office](https://catalogue.ceda.ac.uk/uuid/82adec1f896af6169112d09cc1174499). The data is at 1 km spatial resolution and 5 min temporal resolution and is provided in a NetCDF file named `eden-5m.nc` (recall [*"Spatially- and temporarily-varying rainfall file (.nc)"*](/Merewether1-8.md)). Figure below shows the time series of the average and median rainfall intensity over the catchment during Storm Desmond. 
+The spatially- and temporally-varying rainfall data is provided by the [UK Met-Office](https://catalogue.ceda.ac.uk/uuid/82adec1f896af6169112d09cc1174499). The data is at 1 km spatial resolution and 5 min temporal resolution and is provided in a NetCDF file named `eden-5m.nc` (recall [*"Spatially- and temporarily-varying rainfall file (.nc)"*](/Merewether1-8.md)). Figure below shows the time series of the average and median rainfall intensity over the catchment during Storm Desmond.
+
+
 
 ![Image](/Figures/eden2.png)
 
