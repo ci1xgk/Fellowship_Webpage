@@ -72,7 +72,7 @@ along with a so-called **contingency map** [(Hoch et al., 2017)](https://gmd.cop
 
 ![image](/Figures/carl_4.png)
 
-The combination of the metrics and the contingency map provide a measure on how much and in which areas the benchmark and model data differ or agree in their flood extents. In this example, the hit rate of 0.90 indicates that 90% of the extent flooded in the benchmark is correctly flooded by the model. These areas are shown in green on the contingency map. On the other hand, only 10% of the benchmark flood extent is missed by the model, as shown on the contingency map.
+The combination of the metrics and the contingency map provide a measure on how much and in which areas the benchmark and model data differ or agree in their flood extents. In this example, the hit rate of 0.90 indicates that 90% of the extent flooded in the benchmark is correctly flooded by the model. These areas are shown in green on the contingency map. On the other hand, only 10% of the benchmark flood extent is missed by the model, as shown in red on the contingency map.
 
 On the other hand, the false alarm ratio of 0.02 shows that only in 2% of the model flood extent, overprediction by the model is occured. These overpredicted areas are shown in blue on the contingency map. 
 
