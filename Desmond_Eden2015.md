@@ -13,9 +13,13 @@ The Manning coefficient is assigned over the domain according to different land-
 
 The spatially- and temporally-varying rainfall data is provided by the [UK Met-Office](https://catalogue.ceda.ac.uk/uuid/82adec1f896af6169112d09cc1174499). The data is at 1 km spatial resolution and 5 min temporal resolution and is provided in a NetCDF file named `eden-5m.nc` (recall [*"Spatially- and temporarily-varying rainfall file (.nc)"*](/Merewether1-8.md)). To use the rainfall file, the item `dynamicrainfile` must be includeed in the `eden-5m.par`, followed by the name of the rainfall file, i.e. `eden-5m.nc` (recall [*"Parameter file (.par)"*](https://github.com/ci1xgk/Fellowship_Webpage/blob/master/Merewether1-1.md)). Figure below shows the time series of the average and median rainfall intensity over the catchment during Storm Desmond.
 
-
-
 ![Image](/Figures/eden2.png)
+
+All the input files required to run this test case are provided in the sub-directory `eden` in the `testing` directory of LISFLOOD-FP repository.  
+
+To downscale the coarse-resolution DG2 flood maps, a post-processing toolkit is available in the post-processing directory. The rationale behind the matrics and how to use the toolkit for Eden 2015 fluvial flooding test case is described [here](/downscale.md).
+
+
 
 
 [back](/LISFLOOD8.0.md)
