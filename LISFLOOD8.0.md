@@ -16,7 +16,7 @@ The rest of this page is devoted to instructing new users on how to download, in
 
 ### Download  
 
-#### [Zenodo for external users]((./Zenodo.md))
+#### [Zenodo for external users](./Zenodo.md)
 
 
 #### [University of Sheffield users](./UoS_HPC.md) 
