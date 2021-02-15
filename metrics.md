@@ -2,7 +2,7 @@
 
 Different metrics are often used to evaluated different aspects of a flood model's performance, in comparison to reference or benchmark data [(Hoch and Trigg, 2019)](https://iopscience.iop.org/article/10.1088/1748-9326/aaf3d3). For example, when the focus of comparison is the surface water elevation at a certain location, the RMSE (root-mean-square error) or the bias (mean difference between water levels) is usually used to compare water elevations predicted by the model (or **model data**) to in-situ water elevation measurments or predictions by another reference simulation (or **benchmark data**). 
 
-To validate the performance of a flood model in predicting the flood extent, three metrics are commonly used within the hydraulic modeling community, namely Hit Rate (H), False Alarm Ratio (F), and Critical Success Index (C) [(Wing et al. 2017)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2017WR020917). In the process of comuting these metrics, model data is the flood extent predicted by the model, while benchmark data refers to either surveyed extent of the flooding event or the flood extent from a reference flood modeling simulation.  
+To validate the performance of a flood model in predicting the flood extent, three metrics are commonly used within the hydraulic modeling community, namely Hit Rate (H), False Alarm Ratio (F), and Critical Success Index (C) [(Wing et al. 2017)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2017WR020917). In the process of comuting these metrics, model data is the flood extent predicted by the model, while benchmark data refers to either surveyed extent of the flooding event or the flood extent from a more accurate reference flood modeling simulation.  
 
 These metrics compare the benchmark data cells _vs._ model data cells one by one, in a binary (wet or dry) manner, and sum up these cells into four categories shown in the table and schematic figure below.  
 
@@ -30,7 +30,7 @@ The **False Alarm Ratio (F)** indicates the proportion of the wet model data cel
 F = M1B0 / (M1B0 + M1B1)
 ````
 
-This metric gives an idea of whether the model has the tendency to predict a larger flood extent compared to the benchmark. In this sense, a cell that is wet in model data but dry in benchmark data is regarded as *false alarm*. Therefore, F can range from 0 (none of the model data cells are false alarms) to 1 (all of the model data cells are false alarms). 
+This metric gives an idea of whether the model has the tendency to predict a larger flood extent compared to the benchmark data. In this sense, a cell that is wet in model data but dry in benchmark data is regarded as *false alarm*. Therefore, F can range from 0 (none of the model data cells are false alarms) to 1 (all of the model data cells are false alarms). 
 
 The **Critical Success Index (C)** is a composite measure, which combines H and F and allows for simpler overall comparison of prediction performance:
 
