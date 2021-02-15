@@ -4,7 +4,7 @@ As opposed to piecewise-constant data representation used in first order methods
 
 To improve this crudeness to some extent, a toolkit is provided in the post-processing directory that artificially increase the resolution of the generated flood maps in a process called **downscaling**.
 
-The left panel in the figure below, shows an schematic view of the planar represantion of the DG2-generated data (like water depth or water surface elevation) over a coarse cell. If the cell is devided into four subcells, using this planar representation, it is possible to evaluate the data on the centers of each 4 subcells. Thi   
+The left panel in the figure below, shows an schematic view of the planar represantion of the DG2-generated data (like water depth or water surface elevation) over a coarse cell. If four subdevisions are assummed on this coarse cell, using the planar representation, it is possible to evaluate the data on the centers of each subdevisions. 
 
 ![Image](/Figures/downscale2.svg)
 
