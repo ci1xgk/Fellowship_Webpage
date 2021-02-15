@@ -56,11 +56,11 @@ This case study [(Néelz and Pender 2013)](https://consult.environment-agency.go
 
 
 #### [4. Carlisle 2005, urban flooding](./Carlistle_flooding.md)
-This case study [(Horritt et al. 2010)](https://www.icevirtuallibrary.com/doi/pdf/10.1680/wama.2010.163.6.273) is particularly aimed to demonstrate how to handle multiple inflow boundary conditions from different source point(s). This test is also used to demonstrate a new post-processing toolkit for producing metrics to quantify floodplain extent prediction capabilities when comparing the outcomes predicted by different hydrodynamic solvers.
+This case study [(Horritt et al. 2010)](https://www.icevirtuallibrary.com/doi/pdf/10.1680/wama.2010.163.6.273) is particularly aimed to demonstrate how to handle multiple inflow boundary conditions from different source point(s). This test is also used to demonstrate a new postprocessing toolkit for producing metrics to evaluate the floodplain extent predictions when comparing the simulation outcomes of two different hydrodynamic solvers.
 
 
 #### [5. Eden 2015, fluvial flooding](./Desmond_Eden2015.md)  
-This case study [(Xia et al. 2019)](https://www.sciencedirect.com/science/article/abs/pii/S030917081930243X) involves overland flow driven by spatially- and temporally-varying rainfall data over a 2500 kilometer square catchment. It is aimed to demonstrate how to use the new rain-on-grid capabilities in LISFLOOD-FP8.0. This test is also used to demonstrate a new post-processing toolkit for downscaling coarse-resolution DG2 flood maps.
+This case study [(Xia et al. 2019)](https://www.sciencedirect.com/science/article/abs/pii/S030917081930243X) involves overland flow driven by spatially- and temporally-varying rainfall data over a 2500 kilometer square catchment. It is aimed to demonstrate how to use the new rain-on-grid capabilities in LISFLOOD-FP8.0. This test is also used to demonstrate a new postprocessing toolkit for downscaling coarse-resolution planar DG2 flood maps.
 
 ***
 
