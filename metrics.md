@@ -60,7 +60,7 @@ After saving the file, it runs with command:
 python metrics.py
 ````
 
-and shows the metrics on the screen:
+and shows the metrics on the screen as:
 
 ````
 Hit rate: 0.905324
