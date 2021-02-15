@@ -48,7 +48,7 @@ To run the script, two ASCII rastar files with the same resolution and extent, o
 
 ![image](/Figures/metrics5.svg)
 
-To run the script, the name of these two files must be entered at lines 138~140 of the script, as shown below:
+To run the script, first the name of these two files must be entered at lines 138~140 of the script, as shown below:
 
 ````
 model_fn = "carlisle-5m-acc.max" 
