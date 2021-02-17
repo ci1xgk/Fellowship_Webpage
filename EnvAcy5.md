@@ -25,6 +25,6 @@ When a time-varying inflow is specifified in a `.bci` file, it should be accompa
 The figure below shows a snapshot of the `.bdy` file for this test, named `ea5.bdy`. It provides the time series of unit-width discharge. Since the inflow starts at 300s, zero discharge is specified during the 0 to 300 seconds interval in the time series. The discharge reaches the peak of 3000 cubic meter per second at 600s and stays at the peak until 1200 seconds. This peak discharge is converted to unit-width discharge based on the discrete length of the opening for the 10m-resolution grid, spanning the 20 cells of length 10 m each, i.e. leading to q = Q/B = 3000/(20 x 10) = 15. At 1200s, the inflow decreases to reach zero at 6000 seconds after which a zero discharge is specified.
 
 
-![image](/Figures/ea5_2.PNG)
+<!--- ![image](/Figures/ea5_2.PNG) --->
 
 [back](/LISFLOOD8.0.md)
