@@ -19,6 +19,8 @@ If a different grid resolution is to be used, it is necessary to re-check, manua
 
 When a time-varying inflow is specifified in a `.bci` file, it should be accompanied with a `.bdy` file that first includes the _Boundary condition time series name_ `test5` in the first row. The second row should include the number of time intervals at which the time-varying (6 for this test) and the unit of time (seconds). The rest of the rows lists the time-varying inflow discharge (first column) alongside its time of occurence (second column). The inflow data between these intervals will be linearly interpolated by LISFLOOD. The inflow (discharge) data must be provided in terms of unit-width discharge, q = Q/B. 
 
+![image](/Figures/ea5_3.svg)
+
 
 The figure below shows a snapshot of the `.bdy` file for this test, named `ea5.bdy`. It provides the time series of unit-width discharge. Since the inflow starts at 300s, zero discharge is specified during the 0 to 300 seconds interval in the time series. The discharge reaches the peak of 3000 cubic meter per second at 600s and stays at the peak until 1200 seconds. This peak discharge is converted to unit-width discharge based on the discrete length of the opening for the 10m-resolution grid, spanning the 20 cells of length 10 m each, i.e. leading to q = Q/B = 3000/(20 x 10) = 15. At 1200s, the inflow decreases to reach zero at 6000 seconds after which a zero discharge is specified.
 
