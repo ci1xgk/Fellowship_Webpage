@@ -28,7 +28,7 @@ The simulations are run using the ACC, FV1 and DG2 solvers. The simulated values
 
 The upper panels of the figure below show the free-surface elevations at points 1, 3, 5 and 7. The results show negligible differences in the free-surface elevations predicted by the three solvers. The predictions are also in close agreement with those resulted from existing industrial models (e.g. Fig. 4.16 in [Néelz and Pender (2013)](https://www.gov.uk/government/publications/benchmarking-the-latest-generation-of-2d-hydraulic-flood-modelling-packages)).
 
-The lower panels of the figure show the velocities at points 1, 3, 4 and 7. Bigger differences are found in velocity predictions. In particular, the ACC solver overpredicts the peak velocities at points 1, 4 and 7, which might be related to the fact that the local inertia formulation of the ACC solver is not physically valid for modelling abrupt changes in water depth (Shaw et al., 2021). The predictions by the FV1 solver are overall in close agreement with the ones from the DG2 solver. This shows that using the more costly DG2 solver on the same resolution, does not lead to notable improvements in terms of accuracy. 
+The lower panels of the figure show the velocities at points 1, 3, 4 and 7. Bigger differences are found in velocity predictions. In particular, the ACC solver overpredicts the peak velocities at points 1, 4 and 7, which might be related to the fact that the local inertia formulation of the ACC solver is not physically valid for modelling abrupt changes in water depth (Shaw et al., 2021). The predictions by the FV1 solver are however in close agreement with the ones from the DG2 solver. 
 
  
  ![image](/Figures/ea5_3.svg) 
