@@ -19,7 +19,6 @@ An overview of LISFLOOD modeling environment is provided with a step-by-step gui
 
 #### [3. Running the code, outputs and visualization](./Merewether3.md) 
 
-After applying steps 1. to 3., here are the resutls... 
 
 
 
