@@ -24,6 +24,8 @@ The figure below shows a snapshot of the `.bdy` file for this test, named `ea5.b
 
  ![image](/Figures/ea5_2.PNG) 
  
- <!---![image](/Figures/ea5_3.svg) --->
+The simulations are run using the ACC, FV1 and DG2 solvers. The simulated values of the free-surface elevation (in metre) and velocity (in metre per second) are extracted at the stage points 1 to 7 (the locations of the points are given in the DEM figure in the beginning of this page) , as shown in the figure below.
+ 
+ ![image](/Figures/ea5_3.svg) 
 
 [back](/LISFLOOD8.0.md)
