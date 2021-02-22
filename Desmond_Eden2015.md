@@ -20,6 +20,6 @@ All the input files required to run this test case are provided in the sub-direc
 To downscale the coarse-resolution DG2 flood maps, a post-processing toolkit is available in the post-processing directory. The rationale behind the matrics and how to use the toolkit for Eden 2015 fluvial flooding test case is described [here](/downscale.md).
 
 
-
+![Image](/Figures/eden3.svg)
 
 [back](/LISFLOOD8.0.md)
