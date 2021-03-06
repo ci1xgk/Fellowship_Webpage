@@ -1,5 +1,5 @@
 ### Input files and their format
-To set up a 2D solver including ACC, FV1 or DG2, input files and parameters need to be specified. Note that: (i) the file extension names in the list below are not mandatory, (ii) comments can only be used in the parameter file (with extension `.par`), (iii) all file and parameter names are case sensitive. 
+To set up a 2D solver including ACC, FV1 or DG2, input files and parameters need to be specified. Note that: (i) the file extension names in the list below are not mandatory, (ii) comments can only be used in the parameter file (with the extension of `.par`), (iii) all file and parameter names are case sensitive. 
 
 1. [Parameter file (`.par`)](/Merewether1-1.md) 
 
