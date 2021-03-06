@@ -46,7 +46,7 @@ The combination of the metrics and the contingency map provides a measure on how
 
 The false alarm ratio of 0.02 shows that only 2% of the model flood extent is outside of the benchmark flood extent. These areas are shown in blue on the contingency map.
 
-The critical success index of 0.88 shows that 88% of the whole flood extent is correctly covered by the model extent. In this sense, the *“whole flood extent”* is the union of three areas: (i) the area correctly covered by the model extent, (ii) the area missed by the model extent and (iii) the area of the model extent that is outside of the benchmark extent.
+The critical success index of 0.88 shows that 88% of the whole flood extent is correctly covered by the model extent. In this sense, the *whole flood extent* is the union of three areas: (i) the area correctly covered by the model extent, (ii) the area missed by the model extent and (iii) the area of the model extent that is outside of the benchmark extent.
 
 [back](/LISFLOOD8.0.md)
 
