@@ -22,7 +22,7 @@ Clone libnuma package:
 git clone https://github.com/numactl/numactl.git
 ````
 
-Go to `libnuma-dev` directory and install it (specify `<PATH>` as the directory to install libnuma):
+Go to the `libnuma-dev` directory and install it (specify `<PATH>` as the directory to install libnuma):
 
 ````bash
 ./autogen.sh
@@ -37,19 +37,19 @@ Load CMake:
 module load CMake/3.13.3-GCCcore-8.2.0
 ````
 
-To use dynamic rainfall, e.g. for Eden flooding test case, NetCDF must be loaded:
+To use dynamic rainfall (e.g. for [Eden flooding](/Desmond_Eden2015.md) test case) NetCDF must be loaded:
 
 ````bash
 module load netCDF/4.6.2-gompi-2019a
 ````
 
-To run LISFLOOD-FP on GPU, the CUDA toolkit should also be loaded:
+To run LISFLOOD-FP on GPU, the CUDA toolkit must also be loaded:
 
 ````bash
 module load CUDA/10.1.105-GCC-8.2.0-2.31.1 
 ````
 
-Go to `LISFLOOD-FP` directory and run `cmake`, by pointing to libnuma install directory (denoted by `<PATH>`):
+Go to the `LISFLOOD-FP` directory and run `cmake`, by pointing to libnuma install directory (denoted by `<PATH>`):
 
 ````bash
 cmake -S . -B build -DNUMA_ROOT=<PATH>
@@ -80,7 +80,7 @@ Clone libnuma package:
 git clone https://github.com/numactl/numactl.git
 ````
 
-Go to `libnuma-dev` directory and install it (specify `<NUMA_PATH>` as the directory to install libnuma):
+Go to the `libnuma-dev` directory and install it (specify `<NUMA_PATH>` as the directory to install libnuma):
 
 ````bash
 ./autogen.sh
@@ -95,7 +95,7 @@ Load CMake:
 module load dev/cmake/3.17.1/gcc-8.2
 ````
 
-To use dynamic rainfall, e.g. for Eden flooding test case, NetCDF libraries is required. These libraries can be installed by following instructions [here](https://www.unidata.ucar.edu/software/netcdf/docs/getting_and_building_netcdf.html).
+To use dynamic rainfall (e.g. for [Eden flooding](/Desmond_Eden2015.md) test case) NetCDF libraries are required. These libraries can be installed, following the instructions on the [NetCDF homepage](https://www.unidata.ucar.edu/software/netcdf/docs/getting_and_building_netcdf.html).
 
 To run LISFLOOD-FP on GPU, the CUDA toolkit should also be loaded:
 
@@ -103,7 +103,7 @@ To run LISFLOOD-FP on GPU, the CUDA toolkit should also be loaded:
 module load libs/CUDA/10.1.243/binary 
 ````
 
-Go to `LISFLOOD-FP` directory and run `cmake`, by pointing to libnuma (denoted by `<NUMA_PATH>`) and NetCDF's include (denoted by `<NetCDF_INC_PATH>`) and library (denoted by `<NetCDF_LIB_PATH>`) directories:
+Go to the `LISFLOOD-FP` directory and run `cmake`, by pointing to libnuma (denoted by `<NUMA_PATH>`) and NetCDF include (denoted by `<NetCDF_INC_PATH>`) and library (denoted by `<NetCDF_LIB_PATH>`) directories:
 
 ````bash
 cmake -S . -B build -DNUMA_ROOT=<NUMA_PATH> -DNetCDF_INCLUDE_DIR=<NetCDF_INC_PATH> -DNetCDF_LIBRARY=<NetCDF_LIB_PATH> 
