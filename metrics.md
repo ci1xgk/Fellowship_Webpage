@@ -1,4 +1,4 @@
-#### Performance metrics for flood extent prediction 
+#### Metrics for comparing two different flood extent predictions 
 
 Different metrics are often used to evaluated different aspects of a flood model's performance, in comparison to reference or benchmark data [(Hoch and Trigg, 2019)](https://iopscience.iop.org/article/10.1088/1748-9326/aaf3d3). For example, when the focus of comparison is the surface water elevation at a certain location, the RMSE (root-mean-square error) or the bias (mean difference between water levels) is usually used to compare water elevations predicted by the model (or **model data**) to in-situ water elevation measurments or predictions by another reference simulation (or **benchmark data**). 
 
