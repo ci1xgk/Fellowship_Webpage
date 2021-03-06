@@ -66,14 +66,21 @@ This case study [(Xia et al. 2019)](https://www.sciencedirect.com/science/articl
 ***
 
 ### Video tutorials  
-[1. Download and compile](./VideoTutorials/Download_and_compile)   
-[2. Introduction to QGIS](The necessary needed to cope with lisflood)
-[3. Pre-processing DEM with slope coefficents for the DG2 solver]
-[4. Running across different platform](Enviroment Agency Test 5)
-[5. Running a test with a point-source inflow](Carlisle 2005 - laoding )
-[6. Running with a test with a boundary-source inflow and initially wet areas](Merewether)
-[7. Running with a test driven by rainfall](Eden)
-[8. Post-processing outputs](Enviroment Agency Test 5, hydrogprahs, floodplain and downscaling-MKS-toolkit, metrics)
+[1. Download and compile](./VideoTutorials/Download_and_compile)
+
+[2. Introduction to QGIS](./VideoTutorials/Download_and_compile)
+
+[3. Pre-processing DEM with slope coefficents for the DG2 solver](./VideoTutorials/Download_and_compile)
+
+[4. Running across different platform](./VideoTutorials/Download_and_compile)
+
+[5. Running a test with a point-source inflow](./VideoTutorials/Download_and_compile)
+
+[6. Running with a test with a boundary-source inflow and initially wet areas](./VideoTutorials/Download_and_compile)
+
+[7. Running with a test driven by rainfall](./VideoTutorials/Download_and_compile)
+
+[8. Post-processing outputs](./VideoTutorials/Download_and_compile)
 
 ***
 
