@@ -36,7 +36,7 @@ Running on eiher platform will produce the following output files:
 
 - [Velocity at stage points output file (`.velocity`)](/Merewether3-5.md) 
 
-- [Maximum water depth (`.max`) and maximum water surface elevation (`.mxe`) output files](/Merewether3-6.md)
+- [Maximum water depth (`.max`) and maximum free-surface elevation (`.mxe`) output files](/Merewether3-6.md)
 
 - [Time of initial inundation (`.inittm`), time of maximum depth (`.maxtm`) and total time of inundation (`.totaltm`) output files](/Merewether3-7.md)
 
