@@ -1,8 +1,8 @@
 #### Maximum water depth (`.max`) and maximum water surface elevation (`.mxe`) output files
 
-These two files will be generated at the end of simulation and record the maximum water depth (`.max`) and the maximum water surface elevation (`.mxe`) predicted by the model on each grid cell over the course of the simulation. The data (in meter) will be written in these files with the same ASCII raster format of the DEM input file.
+These two files will be generated at the end of the simulation and record the maximum water depth (`.max`) and the maximum free-surface elevation (`.mxe`) predicted on each grid cell throughout the simulation. The data (in metre) will be written with the same [Esri ASCII raster format](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/esri-ascii-raster-format.htm) of the DEM input file.
 
-By default these files contain the maximum values of water depth and water surface elevation recorded on each time step. However, if the keyword `mint_hk` is included in the `.par` file, the maximum values will be recorded at each interval, `massint`, as specified in the `.par` file. The latter case will be computationally more efficient but less accurate (especially if water depths are changing rapidly relative to `massint`). 
+By default, these files contain the maximum values of water depth and free-surface elevation are written on each time step. Note that if item `mint_hk` is further included in the `.par` file, the writing of the maximum values will be done at each interval `massint` (recall [*"Parameter file (`.par`)"*](/Merewether1-1.md)), and this will be computationally more efficient.
 
 
 
