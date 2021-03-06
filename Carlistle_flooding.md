@@ -42,6 +42,11 @@ A contingency map is also saved, as shown in the figure below.
 
 ![Image](/Figures/carl_4.png)
 
+The combination of the metrics and the contingency map provides a measure on how much and in which areas the benchmark and model flood extents differ or agree. In this example, the hit rate of 0.90 indicates that 90% of the benchmark flood extent is also covered by the model flood extent. These areas are shown in green on the contingency map. In other words, only 10% of the benchmark flood extent is missed by the model, as shown in red on the contingency map.
+
+The false alarm ratio of 0.02 shows that only 2% of the model flood extent is outside of the benchmark flood extent. These areas are shown in blue on the contingency map.
+
+The critical success index of 0.88 shows that 88% of the whole flood extent is correctly covered by the model extent. In this sense, the *“whole flood extent”* is the union of three areas: (i) the area correctly covered by the model extent, (ii) the area missed by the model extent and (iii) the area of the model extent that is outside of the benchmark extent.
 
 [back](/LISFLOOD8.0.md)
 
