@@ -28,6 +28,8 @@ From a practical point of view, one may be interested to analyse “flood extent
 
 ![Image](/Figures/metrics5.svg)
 
+To compare two sets of flood extent maps, three metrics are commonly used ([Wing et al., 2017](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2017WR020917)): the Hit Rate (H), the False Alarm Ratio (F), and the Critical Success Index (C). To compute these three metrics, a post-processing toolkit, named `metrics.py`, is provided in the `postprocess` directory of `LISFLOOD-FP-trunk` repository. The definition of these metrics and how to use the toolkit to generate them are described in [*"Metrics for comparing two different flood extent predictions"*](/metrics.md).
+
 
 [back](/LISFLOOD8.0.md)
 
