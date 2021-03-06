@@ -1,4 +1,4 @@
-#### Start file – water depth (or elevation) and discharges (`.start`, `.start.Qx`, `.start.Qy`)
+#### Start file – water depth (or free-surface elevation) and discharges (`.start`, `.start.Qx`, `.start.Qy`)
 
 By default, LISFLOOD starts the simulations from zero water depth and zero discharge initial conditions. However, it is possible to have user-defined initial condition for the water depth (or free-surface water elevation) and/or discharges. 
 
