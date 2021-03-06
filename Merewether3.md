@@ -28,7 +28,7 @@ Running on eiher platform will produce the following output files:
 
 - [Mass balance output file (`.mass`)](/Merewether3-1.md) 
   
-- [Water depth or water surface elevation output files (`-xxxx.wd`, `-xxxx.elev`)](/Merewether3-2.md)
+- [Water depth or free-surface elevation output files (`-xxxx.wd`, `-xxxx.elev`)](/Merewether3-2.md)
 
 - [Velocity output files (`-xxxx.Vx`, `-xxxx.Vy`)](/Merewether3-3.md)
 
