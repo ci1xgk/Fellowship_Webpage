@@ -37,7 +37,7 @@ Load CMake:
 module load CMake/3.13.3-GCCcore-8.2.0
 ````
 
-To use dynamic rainfall (e.g. for [Eden flooding](/Desmond_Eden2015.md) test case) NetCDF must be loaded:
+To use dynamic rainfall (e.g. for the [Eden flooding](/Desmond_Eden2015.md) test case) NetCDF must be loaded:
 
 ````bash
 module load netCDF/4.6.2-gompi-2019a
@@ -95,7 +95,7 @@ Load CMake:
 module load dev/cmake/3.17.1/gcc-8.2
 ````
 
-To use dynamic rainfall (e.g. for [Eden flooding](/Desmond_Eden2015.md) test case) NetCDF libraries are required. These libraries can be installed, following the instructions on the [NetCDF homepage](https://www.unidata.ucar.edu/software/netcdf/docs/getting_and_building_netcdf.html).
+To use dynamic rainfall (e.g. for the [Eden flooding](/Desmond_Eden2015.md) test case) NetCDF libraries are required. These libraries can be installed, following the instructions on the [NetCDF homepage](https://www.unidata.ucar.edu/software/netcdf/docs/getting_and_building_netcdf.html).
 
 To run LISFLOOD-FP on GPU, the CUDA toolkit should also be loaded:
 
