@@ -1,14 +1,14 @@
 #### Parameter file (`.par`)
 
-This is the starting file for setting up and running any simulation. Inside this file, parameters are entered including the names and location of files of relevance for the case study under condideration. While putting entries or items in the `.par` file, the following rules apply:  
+This is the starting file for setting up and running any simulation. Inside this file, all the required parameters are entered, including the names and location of files of relevance for the case study under consideration. While putting *items* in the `.par` file, the following rules apply:  
 
-   * Only the items listed in [LISFLOOD user manual](https://drive.google.com/file/d/1Yk5txMWWfSqPcPOqjQh30XLSp8Sypy1M/view) should be entered. Any other item will be ignored. 
+   * Only the items listed in the [LISFLOOD user manual](https://drive.google.com/file/d/1Yk5txMWWfSqPcPOqjQh30XLSp8Sypy1M/view) are read by the code. Any other item will be ignored. 
    
-   * There should only be one item per line. Items can be entered in no particualr order. To comment out a line add a `#` in the first character space.
+   * There should only be one item per line. Items can be entered in any order. To comment out a line add a `#` in the first character space.
 
-   * If an expected _item name_ does not appear, the model resorts to the default value specified without generating an error message.
+   * If an expected item does not appear, the model resorts to the default value specified inside the code, without generating an error message.
    
-To run the 2D ACC, FV1 and DG2 floodplain solvers, the following list of items need to be specified in the `.par` file. 
+To run the 2D ACC, FV1 and DG2 solvers, the following list of items need to be specified in the `.par` file.
 
 
    | Item name `input` | Description | Solver |
