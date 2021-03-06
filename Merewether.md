@@ -1,5 +1,5 @@
 ### Merewether urban flooding
-This test case is based on a physical model constructed to simulate the flooding flow pathways in an urban area with pier- and slab-supported buildings in Merewether, Newcastle, Australia [(Smith et al. 2017)](https://www.tandfonline.com/doi/abs/10.1080/15715124.2016.1193510). The model was 12.5 m long by 5 m wide, scaled (30:1 horizontal, 9:1 vertical) to the prototype shown in the figure below.
+This test case is based on a physical model constructed to simulate the flooding flow pathways in an urban area with pier- and slab-supported buildings in Merewether, Newcastle, Australia [(Smith et al., 2017)](https://www.tandfonline.com/doi/abs/10.1080/15715124.2016.1193510). The model was 12.5 m long by 5 m wide, scaled (30:1 horizontal, 9:1 vertical) to the prototype shown in the figure below.
 
 ![image](/Figures/mer1.png)
 
