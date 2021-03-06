@@ -1,4 +1,4 @@
-#### Water depth and velocity output data file (`.stage`)
+#### Input file including the positions where water depth and velocity histories are to be extracted (`.stage`)
 
 This file specifies the locations of points (in X and Y coordinates) where the model generates a time series output of water depth and velocities. 
 
