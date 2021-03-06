@@ -2,7 +2,8 @@
 
 To compile LISFLOOD-FP on Windows, [Microsoft Visual Studio](https://visualstudio.microsoft.com/) and [CMake](https://cmake.org/) are required. By default, CMake is installed as part of the **Desktop development with C++** workloads, in the process of installing Visual studio. 
 
-To compile the code either of MSVC (the default C++ compiler of Visual Studio) or [Intel C++](https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/dpc-compiler.html) compilers can be used, as explained below.
+To compile the LISFLOOD-FP code, either MSVC (the default C++ compiler of Visual Studio) or [Intel C++](https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/dpc-compiler.html) compilers can be used. The compiling process is explained below for each of these compiler choices.
+
 
 - **Using the MSVC compiler**
 
