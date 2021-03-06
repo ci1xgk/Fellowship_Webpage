@@ -9,7 +9,7 @@ To set up a 2D solver including ACC, FV1 or DG2, input files and parameters need
 
 4. [Digital Elevation Model file (`.dem`)](/Merewether1-4.md)
 
-5. [Water depth and velocity output data file (`.stage`)](/Merewether1-5.md)
+5. [Input file including the positions where water depth and velocity histories are to be extracted (`.stage`)](/Merewether1-5.md)
 
 6. [Start file – water depth (or elevation) and discharges (`.start`, `.start.Qx`, `.start.Qy`)](/Merewether1-6.md)
 
