@@ -2,12 +2,12 @@
 
 To compile LISFLOOD-FP on Linux, the following packages are required:
 
-- [**GCC compiler**](https://gcc.gnu.org/), which is by default installed in most of Linux distributions, like Ubuntu 
+- [**GCC compiler**](https://gcc.gnu.org/), which is by default installed in most Linux distributions, like Ubuntu 
 - [**CMake**](https://cmake.org/)
 - [**libnuma**](https://github.com/numactl/numactl) 
 - [**libnetcdf**](https://www.unidata.ucar.edu/software/netcdf/), which is required for NetCDF output and dynamic rainfall support
 
-As an example, on Ubuntu, CMake, libnuma and libnetcdf can be installed, by entering the following commands in terminal:
+As an example, on Ubuntu, CMake, libnuma and libnetcdf can be installed, by entering the following commands in the terminal:
 
 ````bash
 sudo snap install cmake --classic
