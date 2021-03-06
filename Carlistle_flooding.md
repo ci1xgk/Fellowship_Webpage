@@ -40,6 +40,8 @@ Critical success index: 0.883887
 
 A contingency map is also saved, as shown in the figure below.
 
+![Image](/Figures/carl_4.png)
+
 
 [back](/LISFLOOD8.0.md)
 
