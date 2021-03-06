@@ -1,81 +1,74 @@
 #### Metrics for comparing two different flood extent predictions 
 
-Different metrics are often used to evaluated different aspects of a flood model's performance, in comparison to reference or benchmark data [(Hoch and Trigg, 2019)](https://iopscience.iop.org/article/10.1088/1748-9326/aaf3d3). For example, when the focus of comparison is the surface water elevation at a certain location, the RMSE (root-mean-square error) or the bias (mean difference between water levels) is usually used to compare water elevations predicted by the model (or **model data**) to in-situ water elevation measurments or predictions by another reference simulation (or **benchmark data**). 
+To compare two sets of 2D flood extent maps, referred to as the “model” and “benchmark” data, the Hit Rate (H), False Alarm Ratio (F), and Critical Success Index (C) need to be generated ([Wing et al., 2017](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2017WR020917)). The model and benchmark data must have the same grid resolution for the same area of interest.  
 
-To validate the performance of a flood model in predicting the flood extent, three metrics are commonly used within the hydraulic modeling community, namely Hit Rate (H), False Alarm Ratio (F), and Critical Success Index (C) [(Wing et al. 2017)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2017WR020917). In the process of comuting these metrics, model data is the flood extent predicted by the model, while benchmark data refers to either surveyed extent of the flooding event or the flood extent from a more accurate reference flood modeling simulation.  
+To generate the H, F and C metrics, all the cells in the model data and benchmark data are checked one-by-one to flag them as either wet (i.e. contain water depth over 10 cm) or dry (i.e. contain water depth under 10 cm). 
 
-These metrics compare the benchmark data cells _vs._ model data cells one by one, in a binary (wet or dry) manner, and sum up these cells into four categories shown in the table and schematic figure below.  
+In this sense, M1 denotes a wet model cell, B1 denotes a wet benchmark cell, M0 denotes a dry model cell and B0 denotes a dry benchmark cell. 
 
+At the next step, each cell in the model data is compared to the respective cell in the benchmark data to be flagged as either of the four categories shown in the table below.
+  
    |  | **Wet in Benchmark Data (B1)** | **Dry in Benchmark Data (B0)** |
    | :---         | :---      | :--- |
    | **Wet in Model Data (M1)**   | M1B1      | M1B0    |
    | **Dry in Model Data (M0)**   | M0B1      | M0B0    |
 
+M1B1 denotes a cell that is wet in both the benchmark and model data, M0B0 denotes a cell that is dry in both the benchmark and model data, M1B0 denotes a cell that is wet in the model data but dry in the benchmark data, and M0B1 denotes a cell that is dry in the model data but wet in the benchmark data. These are further illustrated in the schematic figure below.
+
 ![image](/Figures/metrics4.svg)
 
-M1B1 denotes the total number of cells that are wet in both of the benchmark and model data, M0B0 denotes the total number of cells that are dry in both of the benchmark and model data, M1B0 denotes the total number of cells that are wet in the model data but dry in the benchmark data, and M0B1 denotes the total number of cells that are dry in the model data but wet in the benchmark data. 
+Finally, the total number of cells belonging to each of the four categories are summed up and used in the respective formulas to compute H, F and C metrics as follows. 
 
-
-The **Hit Rate (H)** is a simple measure that assess the proportion of wet benchmark data cells that was also predicted as wet by the model:
-
-````
-H = M1B1 / (M1B1 + M0B1)
-````
-
-H ranges from 0 (none of the wet benchmark data cells are wet in the model data) to 1 (all wet benchmark data cells are wet in the model data). Therefore, this metric only examines whether the model predicts a smaller flood extent compared to the benchmark.
-
-The **False Alarm Ratio (F)** indicates the proportion of the wet model data cells that are not wet in the benchmark data:
+The Hit Rate (H) indicates how much of the benchmark flood extent is also covered by the model flood extent. It is computed by dividing the total number of cells that are wet in both model and benchmark data by the total number of cells that are wet in the benchmark data:
 
 ````
-F = M1B0 / (M1B0 + M1B1)
+H = ∑M1B1 / (∑M1B1 + ∑M0B1)
 ````
 
-This metric gives an idea of whether the model has the tendency to predict a larger flood extent compared to the benchmark data. In this sense, a cell that is wet in model data but dry in benchmark data is regarded as *false alarm*. Therefore, F can range from 0 (none of the model data cells are false alarms) to 1 (all of the model data cells are false alarms). 
+H ranges from the worst case of 0 (none of the benchmark flood extent is covered by the model flood extent) to the best case of 1 (all of the benchmark flood extent is covered by the model flood extent). Note that H does not consider those areas of the model flood extent that are outside of the benchmark flood extent. 
 
-The **Critical Success Index (C)** is a composite measure, which combines H and F and allows for simpler overall comparison of prediction performance:
-
-````
-C = M1B1 / (M1B1 + M0B1 + M1B0)
-````
-
-where scores range from 0, showing no match between benchmark and model data, to 1 , which shows the perfect match between benchmark and model data.
-
-#### Python script to compute the metrics
-
-A simple Python script, named `metrics.py` is included in the post-processing directory, to compute these metrics. The script requires [GDAL](https://gdal.org/index.html) for reading the data. The process of computing the metrics is here described as an example for the Carlistle 2005 urban flooding test case.
-
-To run the script, two ASCII rastar files with the same resolution and extent, one for benchmark data and the other for the model data is required. The model data is the Maximum water depth (`.max`) file (recall [Running the code, outputs and visualisation](/Merewether3.md)) resulted from running LISFLOOD-FP with the ACC solver on 5m x 5m grid. This file is generated at the end of simulation, with the name `carlisle-5m.max`. For benchmark data, eventhough it is possible to use surveyed extent data, but in this example the LISFLOOD-FP simulation using the FV1 solver is used. Therefore, the generated Maximum water depth file (named `carlisle-5m.max` as well) from the FV1 simulation over the same 5m x 5m grid, is used as the benchmark data. Since both files are generated with the same name, they are renamed to `carlisle-5m-acc.max` for the ACC and `carlisle-5m-fv1.max` for the FV1 solvers. Figure below shows the maps of model and benchmark data.
-
-![image](/Figures/metrics5.svg)
-
-To run the script, first the name of these two files must be entered at lines 138~140 of the script, as shown below:
+The False Alarm Ratio (F) measures how much of the model flood extent is outside of the benchmark flood extent. It is computed by dividing the total number of cells that are wet in the model data and dry in the benchmark data by the total number of cells that are wet in the model data:
 
 ````
-model_fn = "carlisle-5m-acc.max" 
-bench_fn = "carlisle-5m-fv1.max" 
+F = ∑M1B0 / (∑M1B0 + ∑M1B1)
 ````
-After saving the file, it runs with command:
+
+F ranges from the best case of 0 (none of the model flood extent is outside of the benchmark flood extent) to the worst case of 1 (all of the model flood extent is outside of the benchmark flood extent). 
+
+The Critical Success Index (C) is a composite measure that combines both H and F metrics, and therefore it allows for a more inclusive comparison of the flood extent prediction performance. It is computed by dividing the total number of cells that are wet in both model and benchmark data by the total number of cells that are wet in either model or benchmark data.
+
+````
+C = ∑M1B1 / (∑M1B1 + ∑M0B1 + ∑M1B0)
+````
+
+C ranges from the worst case of 0, showing no match between the benchmark and model flood extents, to the best case of 1 which shows the perfect match between the benchmark and model flood extents. 
+
+#### Post-processing toolkit to compute the metrics
+
+A Python script, named metrics.py is included in the postprocess directory of LISFLOOD-FP-trunk repository, to compute these metrics. The script requires the GDAL library for reading the data (see [GDAL documentation](https://gdal.org/index.html)). 
+
+To run the script, two [Esri ASCII raster files](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/esri-ascii-raster-format.htm) with the same resolution and extent, one for benchmark data and the other for the model data is required. The model data is the maximum water depth (`.max`) file (recall [*"Running the code, outputs and visualisation"*](/Merewether3.md)) resulted from a simulation. The benchmark data can be the maximum water depth (`.max`) file from another reference simulation or the flood extent observations from a flooding event. For the latter, the flood extent map must be converted to an [Esri ASCII raster file](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/esri-ascii-raster-format.htm) with the same resolution and extent of the model data.
+
+To run the script, first the name of the model and benchmark data files must be entered at lines 138~140 of the script, as shown below:
+
+````
+model_fn = "model_data_file_name" 
+bench_fn = "benchmark_data_file_name" 
+````
+After saving the file, it runs with the command:
 
 ````
 python metrics.py
 ````
 
-and shows the metrics on the screen as:
+and outputs the metrics on the screen as shown below:
 
 ````
-Hit rate: 0.905324
-False Alarm rate: 0.026091
-Critical success index: 0.883887
+Hit rate: ...
+False Alarm rate: ...
+Critical success index: ...
 ````
 
-along with a so-called **contingency map** [(Hoch et al., 2017)](https://gmd.copernicus.org/articles/10/3913/2017/) as shown in figure below. The contingency map, ilustrates the flood extent of both model and benchmark data. In the map, the green area is the portion of the floodplain that is flooded both in model and benchmark data (M1B1), the red area is only flooded in the benchmark data (M0B1) and the blue area is only flooded in the model data (M1B0).
-
-![image](/Figures/carl_4.png)
-
-The combination of the metrics and the contingency map provide a measure on how much and in which areas the benchmark and model data differ or agree in their flood extents. In this example, the hit rate of 0.90 indicates that 90% of the extent flooded in the benchmark is correctly flooded by the model. These areas are shown in green on the contingency map. On the other hand, only 10% of the benchmark flood extent is missed by the model, as shown in red on the contingency map. 
-
-The false alarm ratio of 0.02 shows that only 2% of the model flood extent is falsly flooded. These areas are shown in blue on the contingency map. 
-
-Finally, as a combined criteria, the critical success index of 0.88 shows that 88% of the whole flooded area (i.e. the union of the model and benchamrk flood extent) is correctly flooded by the model.
+It also saves a contingency map ([Hoch et al., 2017](https://gmd.copernicus.org/articles/10/3913/2017/)) in a file named `map.png`, which visualizes the benchmark and model flood extents. In the map, the green area is the portion of the floodplain that is covered both by the model and benchmark flood extents (i.e. M1B1 cells), the red area is only covered by the benchmark flood extent (i.e. M0B1 cells) and the blue area is only covered by the model flood extent (i.e. M1B0 cells) (see the results of the [*"Carlisle 2005 urban flooding"*](/Carlistle_flooding.md) test case). 
 
 [back](/Carlistle_flooding.md)
