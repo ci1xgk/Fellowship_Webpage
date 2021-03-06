@@ -25,7 +25,7 @@ The `.bci` file consists of 5 columns, each containing the following items:
    | QFIX     | Fixed flow into domain     | Discharge per unit width in square meter per second (q=Q/B)    |
    | QVAR     | Time-varying flow into domain       | Boundary identifier from a user-supplied data file (e.g. a hydrogprah) with a `.bdy` extension     |
 
-For the Merwether test case, the simulation consists of a steady inflow rate of Q = 19.7 cubic meter per second, inflowing through an opening at the south edge along a width of B = 38 m ([see *"Merewether urban flooding"*](/Merewether.md)). The flow leaves the 2D domain through the north edge, whereas the west and east edges of the domain are closed by solid walls.
+For the Merwether test case, the simulation consists of a steady inflow rate of Q = 19.7 cubic meter per second, inflowing through an opening at the south edge along a width of B = 38 m (see [*"Merewether urban flooding"*](/Merewether.md)). The flow leaves the 2D domain through the north edge, whereas the west and east edges of the domain are closed by solid walls.
 
 To set the steady inflow (i.e. specify a unit-width discharge of q = Q/B = 0.5184 in the 5th column), the `QFIX` boundary condition type must be selected in the 4th column. As the inflow is located in the south edge (constant Y) the first column has the letter `S`. The inflow occurs from an opening starting at X = 382300.00 and ending at X = 382338.0, which should be selected in the 2nd and 3rd columns.  
 
