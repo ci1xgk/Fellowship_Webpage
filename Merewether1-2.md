@@ -8,9 +8,9 @@ The `.bci` file consists of 5 columns, each containing the following items:
 
 - **Column 1.** Boundary identifier taking a value of `N`, `E`, `S`, `W`, `F` or `P`, referring to the north, east, south, west, free or _point source_ boundary 
 
-- **Column 2.** Start of boundary segment for edge boundaries, either easting (X coordinate) or northing (Y coordinate); or, easting (X coordinate) of a _point source_ location
+- **Column 2.** Start of boundary segment for edge boundaries, either easting (X coordinate) or northing (Y coordinate); or, easting (X coordinate) of a point source location
 
-- **Column 3.** End of boundary segment for edge boundaries, either easting (X coordinate) or northing (Y coordinate); or, northing (Y coordinate) of a _point source_ location
+- **Column 3.** End of boundary segment for edge boundaries, either easting (X coordinate) or northing (Y coordinate); or, northing (Y coordinate) of a point source location
 
 - **Column 4.** Boundary condition type (see the "Type" list in the Table below)
 
