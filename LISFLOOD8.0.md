@@ -26,7 +26,7 @@ The rest of this page is devoted to instructing new users on how to download, in
 
 
 ### Compilation   
-The downloaded version is cross-platform and can be compiled on Windows or Linux using [CMake](https://cmake.org/) version 3.13 or above. University of Sheffield users can also compile and run the code on the [HPC Computing Facilities provide by IT Services](https://www.sheffield.ac.uk/it-services/research/hpc-facilities). The compilation process is explained for each platform as followed.
+LISFLOOD-FP 8.0 is cross-platform and can be compiled on Windows or Linux using [CMake](https://cmake.org/) version 3.13 or above. University of Sheffield users can also compile and run it on the [HPC Computing Facilities](https://www.sheffield.ac.uk/it-services/research/hpc-facilities). The compilation process on each of the platforms is explained below.
 
 - [Windows](/compile_win.md)
   
