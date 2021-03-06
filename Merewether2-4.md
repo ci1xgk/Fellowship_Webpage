@@ -1,6 +1,6 @@
 #### Preparing the DG2-related DEM files using `generateDG2DEM` toolkit
 
-As opposed to piecewise-constant data representation used in the FV1 or ACC solvers, the DG2 solver represents data as piecewise-planar per element, defined by three coefficients: an average-coefficient and two slope-coefficients in X and Y directions ([Shaw et al. 2021](https://gmd.copernicus.org/preprints/gmd-2020-340/)). 
+As opposed to piecewise-constant data representation used in the FV1 or ACC solvers, the DG2 solver represents data as piecewise-planar per element, defined by three coefficients: an average-coefficient and two slope-coefficients in X and Y directions ([Shaw et al., 2021](https://gmd.copernicus.org/preprints/gmd-2020-340/)). 
 
 Hence, setting up the DG2 on LISFLOOD-FP requires three separate [Esri ASCII raster files](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/esri-ascii-raster-format.htm): one for the average-coefficient values, and two others for the X-directional and the Y-directional slope-coefficient values, with the extensions `.dem`, `.dem1x` and `.dem1y`, respectively.
 
