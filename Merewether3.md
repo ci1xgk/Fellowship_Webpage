@@ -40,7 +40,7 @@ Running on eiher platform will produce the following output files:
 
 - [Time of initial inundation (`.inittm`), time of maximum depth (`.maxtm`) and total time of inundation (`.totaltm`) output files](/Merewether3-7.md)
 
-The 2D output raster maps, can be viewed in QGIS, in the same manner explained in [*"Viewing the DEM data on QGIS"*](/Merewether2-1.md). The text output files, i.e. `.mass`, `.stage` or `.velocity`, can be visualized in any spreadsheet software like MS Excel.
+The 2D output raster files can be viewed in QGIS, in the same manner explained in [*"Viewing the DEM data on QGIS"*](/Merewether2-1.md). The text output files, i.e. `.mass`, `.stage` or `.velocity`, can be visualized in any spreadsheet software like MS Excel.
 
 
 
