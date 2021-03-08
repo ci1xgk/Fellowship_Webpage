@@ -2,7 +2,7 @@
 ### Publications
 #### Journal papers
 
-J. Shaw, G. Kesserwani, J. Neal, P. Bates, and M. K. Sharifian (2021). LISFLOOD-FP 8.0: the new discontinuous Galerkin shallow water solver for multi-core CPUs and GPUs. Development and technical paper submitted to Geoscientific Model Development, [in review](https://doi.org/10.5194/gmd-2020-340).  
+J. Shaw, G. Kesserwani, J. Neal, P. Bates, and M. K. Sharifian (2021). LISFLOOD-FP 8.0: the new discontinuous Galerkin shallow water solver for multi-core CPUs and GPUs. Development and technical paper submitted to **Geoscientific Model Development**, [in review](https://doi.org/10.5194/gmd-2020-340).  
 
 J. Ayog, G. Kesserwani, J. Shaw, M.K. Sharifian, and D Bau (2021). Second-order discontinuous Galerkin flood model: comparison with industry-standard finite volume models. **Journal of Hydrology**, [**594**: 125924](https://www.sciencedirect.com/science/article/abs/pii/S0022169420313858).
 
