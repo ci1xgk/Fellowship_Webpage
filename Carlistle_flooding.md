@@ -1,4 +1,4 @@
-#### Carlistle 2005, urban flooding
+#### Carlistle 2005 urban flooding
 
 This test case is aimed to simulate urban flooding over a real-world study area, where the flooding occurs from three inflow sources. It is useful to understand how to handle multiple point source inflow boundary conditions in LISFLOOD-FP. The study area is about 14.5 square kilometres and includes the urban area of Carlisle, a city in northern England with a population of 70,000 that was heavily hit by flooding in January 2005 [(Horritt et al., 2010)](https://www.icevirtuallibrary.com/doi/pdf/10.1680/wama.2010.163.6.273). The flooding hydrodynamics was driven by three river streams: River Eden, River Petteril and River Caldew, located within the study area. The figure below shows the study area and the three locations, *Upstream 1*, *Upstream 2* and *Upstream 3*, for each of the river streams from where the flood flow occurred.   
 
