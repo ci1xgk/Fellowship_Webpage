@@ -21,7 +21,7 @@ The figure below shows a screenshot of the `.bdy` file for this test case, named
 
  ![image](/Figures/ea5_2.PNG) 
  
-All the input files required to run the simulations are provided in the `testing\ea5` directory of `LISFLOOD-FP-trunk` repository (recall [*"Input files and their format"*](/Merewether1.md)). The simulations are run using the ACC, FV1 and DG2 solvers. The simulated values of the free-surface elevation (in metre) and velocity (in metre per second) are extracted at the stage points 1 to 7 (recall [*"Running the code, outputs and visualisation"*](/Merewether3.md)), with the locations shown in the DEM figure at the beginning of this page. 
+All the input files required to run the simulations are provided in the `testing\UoS\T06` directory of `LISFLOOD-FP-trunk` repository (recall [*"Input files and their format"*](/Merewether1.md)). The simulations are run using the ACC, FV1 and DG2 solvers. The simulated values of the free-surface elevation (in metre) and velocity (in metre per second) are extracted at the stage points 1 to 7 (recall [*"Running the code, outputs and visualisation"*](/Merewether3.md)), with the locations shown in the DEM figure at the beginning of this page. 
 
 The upper panels of the figure below show the free-surface elevations at points 1, 3, 5 and 7. The results show negligible differences in the free-surface elevations predicted by the three solvers. The predictions are also in close agreement with those resulted from the existing industrial models (e.g. Fig. 4.16 in [Néelz and Pender (2013)](https://www.gov.uk/government/publications/benchmarking-the-latest-generation-of-2d-hydraulic-flood-modelling-packages)).
 
