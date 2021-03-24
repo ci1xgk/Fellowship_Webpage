@@ -2,7 +2,7 @@
 
 After following the instructions within ["_Compilation_"](/LISFLOOD8.0.md), a LISFLOOD-FP executable file will be obtained. The executable file will have the name `lisflood.exe` on a Windows platform and the name `lisflood` on a Linux-based platform.
 
-For running the `lisflood.exe` of the Merewether test case on Windows, create a directory for the test case, for example named `merewether`, inside the same directory where `lisflood.exe` is located. Then place the input files (available in the `testing\merewether` directory of `LISFLOOD-FP-trunk` repository) inside the `merewether` directory as shown in the figure below.
+For running the `lisflood.exe` of the Merewether test case on Windows, create a directory for the test case, for example named `merewether`, inside the same directory where `lisflood.exe` is located. Then place the input files (available in the `testing\UoS\T04` directory of `LISFLOOD-FP-trunk` repository) inside the `merewether` directory as shown in the figure below.
 
 ![image](/Figures/mer12.png)
 
