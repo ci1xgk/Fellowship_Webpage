@@ -85,10 +85,16 @@ This case study [(Xia et al., 2019)](https://www.sciencedirect.com/science/artic
 ***
 
 ### License 
+The source code of LISFLOOD-FP8.0 is available under a GNU General Public License v3.0 for any non-commercial use and can be downloaded at 10.5281/zenodo.4073011.
 
 ***
 
-### References 
+### Key references 
+G. Kesserwani, J.L. Ayog and D. Bau (2018). Discontinuous Galerkin formulation for 2D hydrodynamic modelling: trade-offs between theoretical complexity and practical convenience. Computer Methods in Applied Mechanics and Engineering, 342, 710-741.
+
+J. Ayog, G. Kesserwani, J. Shaw, M.K. Sharifian, and D Bau (2021). Second-order discontinuous Galerkin flood model: comparison with industry-standard finite volume models. Journal of Hydrology, 594: 125924.
+
+J. Shaw, G. Kesserwani, J. Neal, P. Bates, and M. K. Sharifian (2021). LISFLOOD-FP 8.0: the new discontinuous Galerkin shallow water solver for multi-core CPUs and GPUs. Development and technical paper submitted to Geoscientific Model Development, in review.
 
 
 
