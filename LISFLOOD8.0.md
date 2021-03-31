@@ -68,7 +68,7 @@ This case study [(Xia et al., 2019)](https://www.sciencedirect.com/science/artic
 ### Video tutorials  
 [2. Compiling on Windows](https://youtu.be/cNpeCDQXHCs)
 
-[3. How to set up and run a simulation in Lisflood](./Merewether_videos)
+[3. How to set up and run a simulation in Lisflood](./Merewether_videos.md)
 
 [2. Introduction to QGIS](./VideoTutorials/Download_and_compile)
 
