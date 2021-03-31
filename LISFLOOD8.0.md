@@ -65,24 +65,21 @@ This case study [(Xia et al., 2019)](https://www.sciencedirect.com/science/artic
 
 ***
 
-### Video tutorials  
-[2. Compiling on Windows](https://youtu.be/cNpeCDQXHCs)
+### Video tutorials
 
-[3. How to set up and run a simulation in Lisflood](./Merewether_videos.md)
+1. [Downloading Lisflood]()
 
-[2. Introduction to QGIS](./VideoTutorials/Download_and_compile)
+2. [Compiling on Windows](https://youtu.be/cNpeCDQXHCs)
 
-[3. Pre-processing DEM with slope coefficents for the DG2 solver](./VideoTutorials/Download_and_compile)
+3. [How to set up and run a simulation in Lisflood](./Merewether_videos.md)
 
-[4. Running across different platform](./VideoTutorials/Download_and_compile)
+4. [Running a dam break test with slope limiting](https://youtu.be/p_fuxHsManM)
 
-[5. Running a test with a point-source inflow](./VideoTutorials/Download_and_compile)
+5. [Running a test with a point-source inflow](https://youtu.be/T21Can8f4Zg)
 
-[6. Running with a test with a boundary-source inflow and initially wet areas](./VideoTutorials/Download_and_compile)
+6. [Running a test with multiple inflows](https://youtu.be/Im7k70E1jLY)
 
-[7. Running with a test driven by rainfall](./VideoTutorials/Download_and_compile)
-
-[8. Post-processing outputs](./VideoTutorials/Download_and_compile)
+7. [Running a test with spatially and/or temporally varying Manning coefficient rainfall](https://youtu.be/eOA4Vgsf9bY)
 
 ***
 
