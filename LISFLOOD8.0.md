@@ -66,7 +66,7 @@ This case study [(Xia et al., 2019)](https://www.sciencedirect.com/science/artic
 ***
 
 ### Video tutorials  
-[1. Download and compile](./VideoTutorials/Download_and_compile)
+[2. Compiling on Windows](https://youtu.be/cNpeCDQXHCs)
 
 [2. Introduction to QGIS](./VideoTutorials/Download_and_compile)
 
