@@ -2,9 +2,11 @@
 ### Publications
 #### Journal papers
 
-J. Shaw, G. Kesserwani, J. Neal, P. Bates, and M. K. Sharifian (2021). LISFLOOD-FP 8.0: the new discontinuous Galerkin shallow water solver for multi-core CPUs and GPUs. Development and technical paper submitted to **Geoscientific Model Development**, [in review](https://doi.org/10.5194/gmd-2020-340).  
+M. Shirvani and G. Kesserwani (2021). Flood-pedestrian simulator for modelling human response dynamics during flood-induced evacuation: Hillsborough stadium case study. **Natural Hazards and Earth System Sciences**, [Preprint in review](https://doi.org/10.5194/nhess-2021-79).
 
-J. Ayog, G. Kesserwani, J. Shaw, M.K. Sharifian, and D Bau (2021). Second-order discontinuous Galerkin flood model: comparison with industry-standard finite volume models. **Journal of Hydrology**, [**594**: 125924](https://www.sciencedirect.com/science/article/abs/pii/S0022169420313858).
+J. Shaw, G. Kesserwani, J. Neal, P. Bates, and M. K. Sharifian (2021). LISFLOOD-FP 8.0: the new discontinuous Galerkin shallow water solver for multi-core CPUs and GPUs. Development and technical paper submitted to **Geoscientific Model Development**, [Tentatively accepted](https://doi.org/10.5194/gmd-2020-340).  
+
+J. Ayog, G. Kesserwani, J. Shaw, M.K. Sharifian, and D. Bau (2021). Second-order discontinuous Galerkin flood model: comparison with industry-standard finite volume models. **Journal of Hydrology**, [**594**: 125924](https://www.sciencedirect.com/science/article/abs/pii/S0022169420313858).
 
 M. Shirvani, G. Kesserwani, and P. Richmond (2021). Agent-based simulator of dynamic flood-people interactions. **Journal of Flood Risk Management**, [in press](https://doi.org/10.1111/jfr3.12695).
 
