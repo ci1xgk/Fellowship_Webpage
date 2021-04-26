@@ -2,6 +2,8 @@
 ### Publications
 #### Journal papers
 
+J. Ayog, G. Kesserwani, and D. Bau (2021). Well-resolved velocity fields using discontinuous Galerkin shallow water solutions. **Journal of Hydraulic Engineering (ASCE)**, [Preprint in review](https://arxiv.org/abs/2104.11308).
+
 M. Shirvani and G. Kesserwani (2021). Flood-pedestrian simulator for modelling human response dynamics during flood-induced evacuation: Hillsborough stadium case study. **Natural Hazards and Earth System Sciences**, [Preprint in review](https://doi.org/10.5194/nhess-2021-79).
 
 J. Shaw, G. Kesserwani, J. Neal, P. Bates, and M. K. Sharifian (2021). LISFLOOD-FP 8.0: the new discontinuous Galerkin shallow water solver for multi-core CPUs and GPUs. Development and technical paper submitted to **Geoscientific Model Development**, [Tentatively accepted](https://doi.org/10.5194/gmd-2020-340).  
