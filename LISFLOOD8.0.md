@@ -71,7 +71,7 @@ This case study [(Xia et al., 2019)](https://www.sciencedirect.com/science/artic
 
 2. [Compiling on Windows](https://youtu.be/cNpeCDQXHCs)
 
-3. [How to set up and run a simulation in Lisflood](./Merewether_videos.md)
+3. [How to set up and run a simulation in Lisflood](https://youtu.be/QENBvUGzoEk)
 
 4. [Running a dam break test with slope limiting](https://youtu.be/p_fuxHsManM)
 
