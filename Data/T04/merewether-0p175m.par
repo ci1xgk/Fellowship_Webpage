@@ -1,0 +1,16 @@
+DEMfile			merewether-0p175m.dem
+bcifile			merewether.bci
+stagefile		merewether.stage
+dirroot     merewether-0p175m
+resroot			merewether
+startfile       merewether-0p175m.start
+dg2
+cuda
+sim_time		1800.0
+initial_tstep	1.0 
+saveint			10.0
+massint			10.0
+fpfric			0.02
+
+elevoff
+voutput
