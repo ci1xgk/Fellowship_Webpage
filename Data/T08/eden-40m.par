@@ -1,0 +1,13 @@
+DEMfile		eden-40m.dem
+dynamicrainfile	eden-5m.nc
+manningfile	eden-40m.n
+resroot		eden
+stagefile	eden.stage
+
+sim_time	475200
+initial_tstep	60
+saveint		3600
+massint		100
+elevoff
+nodata_elevation -1e4
+drain_nodata
