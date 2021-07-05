@@ -1,0 +1,16 @@
+DEMfile			25_blocks.dem
+bcifile			25_blocks.bci
+stagefile		25_blocks.stage
+dirroot         25_blocks
+resroot			25_blocks
+startfile       25_blocks.start
+dg2
+limiteslopes
+sim_time		10.0
+initial_tstep	1.0 
+saveint			1.0
+massint			1.0
+fpfric			0.01
+
+elevoff
+voutput
