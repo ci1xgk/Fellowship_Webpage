@@ -1,0 +1,20 @@
+DEMfile			ea5-10m.dem
+bdyfile			ea5.bdy
+bcifile         ea5-10m.bci
+stagefile		ea5.stage
+dirroot         ea5-10m\acc-cpu
+resroot			ea5
+
+acceleration
+
+#fv1
+#cuda
+
+sim_time		108000.0
+initial_tstep		0.7
+saveint			3600.0
+massint			100.0
+fpfric			0.04
+
+elevoff
+#voutput
