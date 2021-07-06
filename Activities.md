@@ -1,7 +1,7 @@
 ### Activities
 - 2021 (Sep.), University of Sheffield, [_'Flood modelling and forecasting challenges in industry'_](https://www.twenty65.ac.uk/events/flood) virtual workshop (Main organisers: G. Kesserwani and [V. Speight](https://www.sheffield.ac.uk/civil/staff/research/speightv)).
 
-- 2021 (5 Jul.), University of Sheffield, prgress update and advisory board meeting ([agenda and facts](https://docs.google.com/document/d/1HLhz1mSCaSKWkTcYPThLyMrKNTWhcMn-0aEPElBn2bk/edit)
+- 2021 (5 Jul.), University of Sheffield, prgress update and advisory board meeting ([agenda and facts](https://docs.google.com/document/d/1HLhz1mSCaSKWkTcYPThLyMrKNTWhcMn-0aEPElBn2bk/edit))
 
 - 2021 (Apr.), [UKCRIC Digital theme workshop](https://www.ukcric.com/news/ukcric-workshop-explores-the-challenges-and-opportunities-of-digitalisation-in-the-built-environment/), University of Cambridge. Aimed to explore the UK research  activities focussing on digitalisation in the built environment across the UKCRIC institutions. The flood-pedesrtian simulator was presented ([presentation slides](https://drive.google.com/file/d/1G9SHYH7_v7EChFVTejMpU7Wng72hKUfV/view?usp=sharing)), with a particular focus on how it computerise people's risk perception to floodwater in modelling a mass evacuation scenarios ([Shirvani and Kesserwani, 2021](https://doi.org/10.5194/nhess-2021-79)). 
 
