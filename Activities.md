@@ -7,7 +7,7 @@
 
 
 
-- 2021 (Jan.-Mar.), Knowledge exchange project award from the University of Sheffield. The project aims to document our new contribution to LISLFOOD-FP ([Shaw et al. 2021](https://gmd.copernicus.org/preprints/gmd-2020-340/)), a software widely used within the hydraulic and hydrologic modelling communities. The documentation is being regularily added and updated in the [LISFLOOD-FP v8.0](./LISFLOOD8.0.md) including case studies and video tutorials to assist non-expert practitioner in using the software. 
+- 2021 (Jan.-Mar.), Knowledge exchange project award from the University of Sheffield. The project aims to document our new contribution to LISFLOOD-FP ([Shaw et al. 2021](https://gmd.copernicus.org/preprints/gmd-2020-340/)), a software widely used within the hydraulic and hydrologic modelling communities. The documentation is being regularily added and updated in the [LISFLOOD-FP v8.0](./LISFLOOD8.0.md) including case studies and video tutorials to assist non-expert practitioner in using the software. 
 
 - 2020 (Feb.-Sep.), award of [Partnerships & Regional Engagement](https://www.sheffield.ac.uk/pre) funds to participate in the [Festival of the Mind 2020](https://festivalofthemind.sheffield.ac.uk/2020/): to showcase the real-time visulation capability of an ['Agent-based food-pedestrian simulator'](https://www.seamlesswave.com/Flood_Human_ABM.html) of people evacution in urban and congregated areas ([M. Shirvani](https://drive.google.com/file/d/1wM_Ucc_gHgQEeKdO6rrDvBGJLxCeAKDd/view?usp=sharing), G. Kesserwani and P. Richmond).
 
