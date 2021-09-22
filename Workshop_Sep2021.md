@@ -13,5 +13,10 @@ The workshop was facilitated by a series of invited talks by experts from academ
 
 At the end of the workshop, participates were directed into [Miro]()'s whiteboards letting them enter their thoughts, comments and ideas. The result of this brainstorm can be seen hereunder:   
 
+![image](/Figures/Workshop_16Sep2021_Ideas.jpg)
+
 A direct outcome of the workshop is an online [post-workshop report]() written based on compiling and analysing the participants' inputs. This [document]() can be used as a starting point to develop a multi-authored contribution for publication.
 
+
+
+[back]()
