@@ -1,7 +1,7 @@
 ## The ‘Flood modelling & forecasting challenges in industry’ workshop
 ### Date:	September 16, 2021
 ### Location:	United Kingdom
-### Facilitators:	Georges Kesserwani, Vanessa Speight, Mahya Hajihassanpour, Elizabeth K Court 
+### Orginizers:	Georges Kesserwani, Vanessa Speight, Mahya Hajihassanpour, Elizabeth K Court 
 
 The workshop was part of the EPSRC-funded project SEAMLESS-WAVE and supported by [TWENTY65](https://www.twenty65.ac.uk/). It brought together practitioners and scholars, in an attempt to identify and discuss timely issues in operational-scale flood modelling, forecasting and management. The workshop aimed to increase our understanding of industrial and practical needs that require further addressing in academic research. The focus was on the themes: 
 
@@ -19,4 +19,4 @@ A direct outcome of the workshop is an online [post-workshop report]() written b
 
 
 
-[back](activities.md)
+[back](Activities.md)
