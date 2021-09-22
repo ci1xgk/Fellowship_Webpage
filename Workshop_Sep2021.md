@@ -1,9 +1,9 @@
 ### The ‘Flood modelling & forecasting challenges in industry’ workshop
-The workshop was part of the EPSRC-funded project SEAMLESS-WAVE and is supported by TWENTY65 and the IAHR. It brought together practitioners and scholars in the field, aiming to identify and discuss timely issues in operational-scale flood modelling and forecasting.
+The workshop was part of the EPSRC-funded project SEAMLESS-WAVE and was supported by [TWENTY65](https://www.twenty65.ac.uk/) and the [IAHR](https://www.iahr.org/). It brought together practitioners and scholars in the field, aiming to identify and discuss timely issues in operational-scale flood modelling and forecasting. The focus was on the themes:
 
-The workshop was to gain insights into felt industrial and practical needs, that require further addressing in academic research. The focus was on the themes:
+- improving operational-scale flood mapping and forecasting, and 
+- flood resilience metric production including human response components
 
-improving operational-scale flood mapping and forecasting, and flood resilience metric production including human response components
 The workshop was facilitated by a series of invited talks by experts on subjects, which include hydraulic modelling and engineering, uncertainty quantification, flood-incident emergency response and management, and resilient engineering.
 
 A direct outcome of the workshop was an online document capturing the ideas formed during a workshop’s breakout session. This document will then be used as a starting point to develop a multi-authored contribution for publication, while seeking the feedback from the workshop’s speakers.
@@ -11,73 +11,6 @@ A direct outcome of the workshop was an online document capturing the ideas form
 The themes of the workshop are expected to interest researchers focused on flood model development, testing, application and validation for real-world applications, as well as those interested in flood resilience quantification at urban-scale.
 
 
-
-
-
-
-
-### Activities
-- 2021 (Sep.), University of Sheffield, [_'Flood modelling and forecasting challenges in industry'_](https://www.twenty65.ac.uk/events/flood) virtual workshop (Main organisers: G. Kesserwani and [V. Speight](https://www.sheffield.ac.uk/civil/staff/research/speightv)).
-
-- 2021 (5 Jul.), University of Sheffield, progress update and advisory board meeting. 
-
-- 2021 (Apr.), [UKCRIC Digital theme workshop](https://www.ukcric.com/news/ukcric-workshop-explores-the-challenges-and-opportunities-of-digitalisation-in-the-built-environment/), University of Cambridge. Aimed to explore the UK research  activities focussing on digitalisation in the built environment across the UKCRIC institutions. The flood-pedesrtian simulator was presented ([presentation slides](https://drive.google.com/file/d/1G9SHYH7_v7EChFVTejMpU7Wng72hKUfV/view?usp=sharing)), with a particular focus on how it computerise people's risk perception to floodwater in modelling a mass evacuation scenarios ([Shirvani and Kesserwani, 2021](https://doi.org/10.5194/nhess-2021-79)). 
-
-
-
-- 2021 (Jan.-Mar.), Knowledge exchange project award from the University of Sheffield. The project aims to document our new contribution to LISFLOOD-FP ([Shaw et al. 2021](https://gmd.copernicus.org/preprints/gmd-2020-340/)), a software widely used within the hydraulic and hydrologic modelling communities. The documentation is being regularily added and updated in the [LISFLOOD-FP v8.0](./LISFLOOD8.0.md) including case studies and video tutorials to assist non-expert practitioner in using the software. 
-
-- 2020 (Feb.-Sep.), award of [Partnerships & Regional Engagement](https://www.sheffield.ac.uk/pre) funds to participate in the [Festival of the Mind 2020](https://festivalofthemind.sheffield.ac.uk/2020/): to showcase the real-time visulation capability of an ['Agent-based food-pedestrian simulator'](https://www.seamlesswave.com/Flood_Human_ABM.html) of people evacution in urban and congregated areas ([M. Shirvani](https://drive.google.com/file/d/1wM_Ucc_gHgQEeKdO6rrDvBGJLxCeAKDd/view?usp=sharing), G. Kesserwani and P. Richmond).
-
-- 2020 (15 Jun.), University of Sheffield, scientific and industrial board meeting ([agenda and facts](https://docs.google.com/document/d/1pK91NP_up5o7YWTn-88TwQCWhpZFrxw1qtBsPlHcXVA/edit))
-
-- 2020 (01-04 Mar.), Boğaziçi University, participation in the invitation-only ['Building Resilience Series: Disaster Resilience'](https://www.raeng.org.uk/grants-prizes/grants/international-research-and-collaborations/frontiers/frontiers-of-development/upcoming-symposia) RAEng Symposium (G. Kesserwani).    
-
-- 2020 (Feb. - Apr.), Pilot plan approved by [DAFNI](https://www.dafni.ac.uk/) Governance Board to port our [dynamically coupled agent based flood-pedestrian simulator on FlameGPU](https://arxiv.org/abs/1908.05232) into their compute facilities (T. Gowland, M. Shirvani, G. Kesserwani and P. Richmond).  
-
-- 2019 (9 Dec.), San Francisco AGU fall meeting, [_Direct approach for uncertainty propagation in hydraulic modelling: is it worth it?_](https://drive.google.com/file/d/1cLouenKS0qJR6cIDsGO3kBg2TC4o860W/view?usp=sharing) Oral presentation at the Fall AGU meeting (G. Kesserwani).
-
-- 2019 (19 Nov.), University of Bristol, third steering committee meeting ([agenda and minutes](https://docs.google.com/document/d/1J_Wsoutj_5fuaZejW0um8a1ojZmgTv-VsRECYlP25ls/edit#))
-
-- 2019 (Jun-Dec.), collaboration with the University of Bristol to integrate and test a [robust DG2 solver](https://www.sciencedirect.com/science/article/pii/S004578251830389X) into the multi-core CPU codebase of the popular [LISFLOOD-FP](http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/) flood model (J. Shaw, J. Neal, P Bates and G. Kesserwani).  
-
-- 2019(Jun.-Dec.), collaboration with US researchers in [Lawrence Berkeley National Laboratory](https://eesa.lbl.gov) to develop and validate Wavelet-based local mesh refinement (wLMR)for rainfall-runoff simulations for real-world catchments. The wLMR apporach is being integrated into the hydrogeological tool [‘TINerator’](https://github.com/lanl/LaGriT/tree/tinerator) to augment its mesh generation capability (I. Özgen-Xian and G. Kesserwani).
-
-- 2019 (20 Sep.), Public engagement presentation, [_What happens the day after tomorrow: how do computers forecast floods?_](https://drive.google.com/file/d/18CBCXAx2JzbwhNGkOVSgPh19OlpiuV5A/view), [Pop-Up University](https://www.museums-sheffield.org.uk/whats-on/events/2019/9/pop-up-university), Millenium Gallery, Sheffield (J. Shaw). James' talk explained how the Environment Agency is collecting high-resolution terrain data across the UK in order to produce national flood hazard maps, and he showed how his research, [developing uncertainty quantification methods](https://arxiv.org/abs/1907.06421), can help flood risk managers to assess their confidence in computer flood simulations.
-
-- 2019 (10-12 Sep.), Participation in [Flood Expo 2019](http://www.thefloodexpo.co.uk/) to showcase new research developments to a range of stakeholders, through [exbition panels](https://drive.google.com/file/d/10p1cpQGEE1c0IKQqQyvxs03thszwEGJd/view?usp=sharing) (J. Ayog, M. Shirvani & G. Kesserwani). In particular, our ['agent-based flood-people simulator'](https://arxiv.org/abs/1908.05232) attracted great interest from flood defense designers and companies in the UK and the EU, leading to them to providing us with the data needed to computerise alternative to sandbagging into our [flood-people simulator](https://arxiv.org/abs/1908.05232). 
- 
- - 2019 (11 Sep.), Participation in [Next Generation Land Surface and Hydrological Predictions](https://hydro-jules.org/abstract-submission-form), Royal Society, London (J. Shaw).
- 
-- 2019 (25 Jun.), Oral [presentation](https://drive.google.com/file/d/1yyzqJt4NEi8D3Ei3XjWNQ-Ys_Lhfg5wF/view?usp=sharing) delivered at the [3rd International Conference on Uncertainty Quantification in Computational Sciences and Engineering](https://2019.uncecomp.org/) (J. Shaw)
-
-- 2019 (18 Jun.), [Presentation](https://drive.google.com/file/d/1oeFdc_j-mJ74tCgjBt49CUY_kh2utAWV/view?usp=sharing) and [meeting](https://docs.google.com/document/d/1cIj4oAL9oGxYDdgjZCCjcMVwrI2sC6HPBsVQRcRQtmA/edit?usp=sharing) at JBA Trust to introduce SEAMLESS-WAVE and explore means for facilitating public engagement activities (J. Shaw) 
-
-- 2019 (17 Jun.), [Presentation talk](https://drive.google.com/file/d/19WioVoBD-YuxJDMZuXAipNs_WtYcD0x5/view?usp=sharing) at the [Modelling Hydrodynamics for Water Resources](http://eventos.unizar.es/25050/detail/modelling-hydrodynamics-for-water-resources.html) workshop, 17-21 June, Zaragoza, Spain (G. Kesserwani)
-
-- 2019 (5 Jun.), Meeting with the developers of [TUFLOW](https://www.tuflow.com/) software at their Leeds office: Meeting's [presnetation](https://drive.google.com/file/d/1OmBje1Iz5wIcbt5wkHxDbgGA7Jpc8uju/view?usp=sharing) and minutes (G. Kesserwani and J. Ayog)
-
-- 2019 (23 Apr.), Seminar talk at the [Civil and Environmental Engineering Department, Amercian University of Beirut](https://www.aub.edu.lb/msfea/cee/Pages/default.aspx): [How can we increase accuracy, reliability, functionality and speed of flood risk modelling approaches?](https://drive.google.com/file/d/1ON_2jMZ9C1ZCbjtvSrEz2CmoqGV4crrE/view?usp=sharing) (G. Kesserwani)
-
-- 2019 (28 Mar.), International workshop on CO₂ Storage in the North Sea - Quantification of Uncertainties and Error Reduction, Finse, Norway: Presentation on [Probabilistic flood mapping: Stochastic Galerkin shallow water modelling with uncertain source terms](https://drive.google.com/file/d/1QTPyasTnZxQRgUaK8281Us2leni2cp4d/view?usp=sharing)) (J. Shaw)
-
-- 2019 (1 Mar.), Electrite de France (EDF), Chatou, France: meeting with the host of the [open source TELEMAC software](http://www.opentelemac.org/) to explore potential integration (G. Kesserwani and J. Shaw)
-
-- 2019 (6 Feb.), University of Leeds, EPSRC/LWEC Fellows meeting, [presentation on project overview and progress](https://drive.google.com/file/d/1ACBmj7wHHch_vhvvoxpf052k1KGhIbRY/view?usp=sharing) (G. Kesserwani)
-
-- 2018 (23 Nov.), University of Sheffield, scientific and industrial board meeting ([agenda and minutes](https://docs.google.com/document/d/1J6r1d2T7HTH5wwJ4E47RE9A4s6HJm0FXleKDZJKoMyI/edit?usp=sharing))
-
-- 2018 (3-5 Oct.), University of Colorado, Boulder: participation in an invitation-only [Flood Risk Workshop](https://sites.google.com/view/flood-risk-ws) (G. Kesserwani).
-
-- 2018 (23-27 Sep.), University of Trento: attended a short course on [Computational Methods for Hyperbolic Equations with Applications](https://eleuteriotoro.com/2018/06/23/computational-methods-for-hyperbolic-equations-with-applications/) (J. Ayog and J. Shaw)
-
-- 2018 (3-5 Sep.), University of Reading: two talks delivered at the Workshop on [Moving and Adaptive Meshes for Global Atmospheric Modelling](https://sites.google.com/view/movingmesh2018) (G. Kesserwani and J. Shaw)
-
-- 2018 (2-6 Jul.), University of Palermo: two talks delivered at the 13th [International Conference on Hydroinformatics](https://www.hic2018.org/) (J. Shaw and J. Ayog)
-
-- 2018 (14 May), University of Sheffield, first steering committee meeting ([agenda and minutes](https://docs.google.com/document/d/16lf8-mMgwq32EkVn4_gOtGdfONv02eU5GqYrrhuh_fw/edit))
-
-- 2018 (8-10 Jan.), University of Leeds: Invited talk at the [Maths Foresees Assembly](http://www1.maths.leeds.ac.uk/mathsforesees/leeds2018.html) (G. Kesserwani)
 
 
 
