@@ -9,9 +9,9 @@ The workshop was part of the EPSRC-funded project SEAMLESS-WAVE and supported by
 - Modelling 
 - Resilience
 
-The workshop was facilitated by a series of invited talks by experts from academia, industry and UK organisations. Title of the talks and speakers' information are listed in the [agenda]() (see the appendix). During the lunch break, there was a virtual networking event on [Gather Town]() allowing participants to meet each other online.  
+The workshop was facilitated by a series of invited talks by experts from academia, industry and UK organisations. Title of the talks and speakers' information are listed in the [agenda]() (see the appendix). During the lunch break, there was a virtual networking event on [Gather Town](https://www.gather.town/) allowing participants to meet each other online.  
 
-At the end of the workshop, participates were directed into [Miro]()'s whiteboards letting them enter their thoughts, comments and ideas. The result of this brainstorm can be seen hereunder:   
+At the end of the workshop, participates were directed into [Miro](https://miro.com/)'s whiteboards letting them enter their thoughts, comments and ideas. The result of this brainstorm can be seen hereunder:   
 
 ![image](/Figures/Workshop_16Sep2021_Ideas.jpg)
 
@@ -19,4 +19,4 @@ A direct outcome of the workshop is an online [post-workshop report]() written b
 
 
 
-[back]()
+[back](activities.md)
