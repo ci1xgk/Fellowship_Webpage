@@ -1,5 +1,5 @@
 ### Activities
-- 2021 (Sep.), University of Sheffield, [_'Flood modelling and forecasting challenges in industry'_](https://www.twenty65.ac.uk/events/flood) virtual workshop (Main organisers: G. Kesserwani and [V. Speight](https://www.sheffield.ac.uk/civil/staff/research/speightv)).
+- 2021 (16 Sep.), University of Sheffield: planning and running the [‘Flood modelling and forecasting challenges in industry’](Workshop_16Sep2021.md) virtual workshop (G. Kesserwani, [V. Speight](https://www.sheffield.ac.uk/civil/staff/research/speightv), M. Hajihassanpour and E. Court).
 
 - 2021 (5 Jul.), University of Sheffield, progress update and advisory board meeting. 
 
