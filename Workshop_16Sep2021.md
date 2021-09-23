@@ -15,7 +15,7 @@ At the end of the workshop, participates were directed into [Miro](https://miro.
 
 ![image](/Figures/Workshop_16Sep2021_Ideas.jpg)
 
-A direct outcome of the workshop is an online [post-workshop report](https://docs.google.com/document/d/1tMBQC3AvxVu3AFzaqL6m6e6y-kVLq8xAIrJuWtJnNnI/edit?usp=sharing) written based on compiling and analysing the participants' inputs. This [document](https://docs.google.com/document/d/1tMBQC3AvxVu3AFzaqL6m6e6y-kVLq8xAIrJuWtJnNnI/edit?usp=sharing) can be used as a starting point to develop a multi-authored contribution for publication.
+A direct outcome of the workshop is an online [post-workshop report](https://docs.google.com/document/d/1tMBQC3AvxVu3AFzaqL6m6e6y-kVLq8xAIrJuWtJnNnI/edit?usp=sharing) written based on compiling and analysing the participants' inputs.
 
 
 
