@@ -1,6 +1,6 @@
 ### Activities
 - 2021 (25 Oct.), [Presentation talk](https://docs.google.com/presentation/d/1ZUtdhv_1TdIwjUCi22lqAcFrHfdNN6nh/edit?usp=sharing&ouid=100395140877301018816&rtpof=true&sd=true) at [The 5th International Symposium on Shallow Flows (5th ISSF)](https://www.aischolar.org/attendees/index/EMREJBU) (X. Sun). Xitong explained how the use of DG2 solver can be beneficial in reproducing the flow fields in the context of hydro-environmental applications, and discussed his simulation results of flow through randomly distributed array of cylinedrs.
-- 
+
 - explained the development process of our (multi)wavelets based dynamic and static non-uniform grid flood models and showed the benchmark results for a real-world inundation scenario.  
 
 - 2021 (25 Oct.), [Presentation talk](https://docs.google.com/presentation/d/19MnjVO9dMAeZFw5UgCIlyNmaLdfT_PSx/edit?usp=sharing&ouid=100395140877301018816&rtpof=true&sd=true) at [The 5th International Symposium on Shallow Flows (5th ISSF)](https://www.aischolar.org/attendees/index/EMREJBU) (M. K. Sharifian).  Mohammad explained the development process of our (multi)wavelets based dynamic and static non-uniform grid flood models and showed the benchmark results for a real-world inundation scenario.  
