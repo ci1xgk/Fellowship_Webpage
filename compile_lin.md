@@ -27,6 +27,18 @@ If libnuma is installed in a non-standard location, the following commands must 
 cmake -S . -B build -DNUMA_ROOT=<path>
 cmake --build build
 ````
+
+To compile on [**RHEL7**](https://access.redhat.com/products/red-hat-enterprise-linux), a newer version of cmake and gcc dev tools are needed, and it is therefore recommened to instead use the following commands (thanks to Justin R. Davis from UFL): 
+
+````bash
+yum -y install numactl-devel numactl-libs netcdf-devel cmake3 devtoolset-11
+wget https://zenodo.org/record/4073011/files/LISFLOOD-FP-8.zip
+unzip LISFLOOD-FP-8.zip
+cd LISFLOOD-FP-trunk/
+scl enable devtoolset-11 'cmake3 -S . -B build'
+scl enable devtoolset-11 'cmake3 --build build'
+````
+
 By doing so, the `lisflood` executable will be generated in the `build` sub-directory.
 
 [back](/LISFLOOD8.0.md)
