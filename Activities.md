@@ -1,4 +1,8 @@
 ### Activities
+- 2022 (24 Mar.), Invited seminar talk for the *"Water, Ocean, Coastal and Environmental Engineering with Geotechnics" (WOCEE-G)* at the University of Manchester (G. Kesserwani). Title: *"Benchmarking uncertainty propagation methods for flood hazard frequency analysis in response to multiple uncertain inputs"*. 
+
+- 2022 (Feb.-Sep.), Award of [Partnerships & Regional Engagement](https://www.sheffield.ac.uk/pre) funds to participate in the [Festival of the Mind 2022](https://www.sheffield.ac.uk/ideasbazaar/information-applicants): to showcase the real-time visulation capability for flood inundation propagation at the catchment scale, M. K. Sharifian and G. Kesserwani).
+
 - 2021 (25 Oct.), [Presentation talk](https://docs.google.com/presentation/d/1ZUtdhv_1TdIwjUCi22lqAcFrHfdNN6nh/edit?usp=sharing&ouid=100395140877301018816&rtpof=true&sd=true) at [The 5th International Symposium on Shallow Flows (5th ISSF)](https://www.aischolar.org/attendees/index/EMREJBU) (X. Sun). Xitong explained how the use of DG2 solver can be beneficial in reproducing the flow fields in the context of hydro-environmental applications, and discussed his simulation results of flow through randomly distributed array of cylinders.
 
 - 2021 (25 Oct.), [Presentation talk](https://docs.google.com/presentation/d/19MnjVO9dMAeZFw5UgCIlyNmaLdfT_PSx/edit?usp=sharing&ouid=100395140877301018816&rtpof=true&sd=true) at [The 5th International Symposium on Shallow Flows (5th ISSF)](https://www.aischolar.org/attendees/index/EMREJBU) (M. K. Sharifian).  Mohammad explained the development process of our (multi)wavelets based dynamic and static non-uniform grid flood models and showed the benchmark results for a real-world inundation scenario.  
@@ -8,8 +12,6 @@
 - 2021 (5 Jul.), University of Sheffield, progress update and advisory board meeting. 
 
 - 2021 (Apr.), [UKCRIC Digital theme workshop](https://www.ukcric.com/news/ukcric-workshop-explores-the-challenges-and-opportunities-of-digitalisation-in-the-built-environment/), University of Cambridge. Aimed to explore the UK research  activities focussing on digitalisation in the built environment across the UKCRIC institutions. The flood-pedesrtian simulator was presented ([presentation slides](https://drive.google.com/file/d/1G9SHYH7_v7EChFVTejMpU7Wng72hKUfV/view?usp=sharing)), with a particular focus on how it computerise people's risk perception to floodwater in modelling a mass evacuation scenarios ([Shirvani and Kesserwani, 2021](https://doi.org/10.5194/nhess-2021-79)). 
-
-
 
 - 2021 (Jan.-Mar.), Knowledge exchange project award from the University of Sheffield. The project aims to document our new contribution to LISFLOOD-FP ([Shaw et al. 2021](https://gmd.copernicus.org/preprints/gmd-2020-340/)), a software widely used within the hydraulic and hydrologic modelling communities. The documentation is being regularily added and updated in the [LISFLOOD-FP v8.0](./LISFLOOD8.0.md) including case studies and video tutorials to assist non-expert practitioner in using the software. 
 
