@@ -23,16 +23,18 @@ In addition to the demonstration provided in [Shirvani et al. (2021)](https://on
 * 'Model 5' study the feasiblity of the the sandbaging process for an extreme flooding case.
 
 
-### Related activities 
-The flood-pedestrian simulator has been augmented with more sophisticated behaviour rules for governing pedestrians' variable walking speeds and instability states in floodwater, and considering age groups, gender and body sizes ([Shirvani et al 2020](https://iwaponline.com/jh/article-abstract/22/5/1078/75432/Agent-based-modelling-of-pedestrian-responses?redirectedFrom=fulltext)). 
+### Pedestrian-agent rules 
+The flood-pedestrian simulator has been augmented to consider an enhanced level of heterogeneity for individual pedestrian-agent characteristics (e.g. such as age, gender, weight [Shirvani et al. 2020](https://iwaponline.com/jh/article-abstract/22/5/1078/75432/Agent-based-modelling-of-pedestrian-responses?redirectedFrom=fulltext)), to incorporate empirically based variable movement speeds and stability patterns, and to become applicable for flood emergency evacuation planning in **outdoor spaces** where individuals' destination choice and individual risk perception have great influence on the simulation outcomes ([Shirvani and Kesserwani 2021](https://nhess.copernicus.org/articles/21/3175/2021/nhess-21-3175-2021.html)). 
 
-Work is underway to explore the perforamce of the simulator for a real-case study, of a flood-prone and congested area in Sheffield, and to enable it with a dynamic 4D visulaisation tool to stimulate more effective engagement with the general public ([Festival of the Mind, 2020](http://staging-festivalofthemind.kinsta.cloud/2020/futurecade/planning-for-the-next-great-flood/)). 
+The performance of the simulator was demonstrated for an indoor shopping centre (synthetic case study) and for a flood-prone urban site in the city of Sheffield, near a football stadium ofen congested by pedestrians (see the video in [Shirvani 2021](https://av.tib.eu/media/51547). 
+
+The simulator was also demonstrated over a public engagement activity ([Festival of the Mind, 2020](http://staging-festivalofthemind.kinsta.cloud/2020/futurecade/planning-for-the-next-great-flood/)), through a dynamic 4D visulaisation tool. 
 
 
-### Accessing the simualtor
-The flood-pedestrian simualtor has been ported to the compute facility of [DAFNI](https://dafni.ac.uk/project/flood-people-simulator/), where it can be used from a user-friendly graphical interface and informed by a detailed user guide. We are very grateful for the portability support provided by DAFNI to make the simulator available to the wider community and easy-to-use by non-experts. The project of porting the simulator to DAFNI was smooth, timely and stress-free. Also, upon project completion, DAFNI provided us with a demonstration of how the simulator can be run from their user-friendly graphical interface. Thanks DAFNI! 
+### Accessibility and users' run guide
+The first version of the flood-pedestrian simualtor is available on the UK compute facility of [DAFNI](https://dafni.ac.uk/project/flood-people-simulator/), where it can be used from a user-friendly graphical interface. We are very grateful for the portability support provided by DAFNI to make the simulator available to the wider community and easy-to-use by non-experts. The project of porting the simulator to DAFNI was smooth, timely and stress-free. Also, upon project completion, DAFNI provided us with a demonstration of how the simulator can be run from their user-friendly graphical interface. Thanks DAFNI! 
 
-A more [detailed run guide](https://docs.google.com/document/d/1QgVhKJTGG0g3m4GhrnV3gmGf4ZCvQr3BENS2UuSRZRY/edit?usp=sharing) is also available for those wishing to setup and run the simualtor on a personal computer for new case studies. 
+The latest version of the simuator ([Shirvani and Kesserwani 2021](https://nhess.copernicus.org/articles/21/3175/2021/nhess-21-3175-2021.html)), including a detailed run guide is openly available on [GitHub](https://github.com/SahebSh/flood-pedestrian-simulator/tree/v1.3.0) and can also be accessed from [Zenodo](https://zenodo.org/record/4564288#.Yh9QMOjP25d). Thanks Saheb for the great work, leading to your PhD award! 
 
 
 [back](https://www.seamlesswave.com/Developments.html)
