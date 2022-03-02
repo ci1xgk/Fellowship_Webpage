@@ -28,7 +28,7 @@ cmake -S . -B build -DNUMA_ROOT=<path>
 cmake --build build
 ````
 
-To compile on [**RHEL7**](https://access.redhat.com/products/red-hat-enterprise-linux), a newer version of cmake and gcc dev tools are needed, and it is therefore recommened to instead use the following commands (thanks to Justin R. Davis from UFL): 
+To compile on [RHEL7](https://access.redhat.com/products/red-hat-enterprise-linux), a newer version of cmake and gcc dev tools are needed, and it is therefore recommened to instead use the following commands (thanks to Justin R. Davis from UFL): 
 
 ````bash
 yum -y install numactl-devel numactl-libs netcdf-devel cmake3 devtoolset-11
