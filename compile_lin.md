@@ -6,7 +6,7 @@ To compile LISFLOOD-FP on Linux, the following packages are required:
 - [**CMake**](https://cmake.org/)
 - [**libnuma**](https://github.com/numactl/numactl) 
 - [**libnetcdf**](https://www.unidata.ucar.edu/software/netcdf/), which is required for NetCDF output and dynamic rainfall support
-- [**CUDA toolkit**(https://developer.nvidia.com/cuda-toolkit), required to run GPU-accelerated solvers]
+- [**CUDA toolkit**](https://developer.nvidia.com/cuda-toolkit), required to run GPU-accelerated solvers
 
 As an example, on Ubuntu, CMake, libnuma and libnetcdf can be installed, by entering the following commands in the terminal:
 
