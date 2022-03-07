@@ -28,6 +28,7 @@ If libnuma is installed in a non-standard location, the following commands must 
 cmake -S . -B build -DNUMA_ROOT=<path>
 cmake --build build
 ````
+By doing so, the `lisflood` executable will be generated in the build sub-directory.
 
 #### Updates on compiling for RedHat linux distribution (Thanks to [Justin R. Davis](https://vivo.ufl.edu/display/n8101) from UFL)
 While the compilation process explained above has been tested on Debian-based distributions like Ubuntu, a few ammendment might be required for compiling on RedHat-based distributions, notably, on old versions like [RHEL7](https://access.redhat.com/products/red-hat-enterprise-linux): 
