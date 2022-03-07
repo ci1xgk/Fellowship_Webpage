@@ -29,9 +29,9 @@ cmake --build build
 ````
 
 #### Updates on compiling for RedHat linux distribution (Thanks to [Justin R. Davis](https://vivo.ufl.edu/display/n8101) from UFL)
-WHile the compilation process explained above has been tested on Debian-based distributions like Ubuntu, 
+While the compilation process explained above has been tested on Debian-based distributions like Ubuntu, a few ammendment are required for compiling on RedHat-based distributions, specifically [RHEL7](https://access.redhat.com/products/red-hat-enterprise-linux).
 
-To compile on [RHEL7](https://access.redhat.com/products/red-hat-enterprise-linux), a newer version of cmake and gcc dev tools are needed, and it is therefore recommened to instead use the following commands (thanks to Justin R. Davis from UFL): 
+, a newer version of cmake and gcc dev tools are needed, and it is therefore recommened to instead use the following commands (thanks to Justin R. Davis from UFL): 
 
 ````bash
 yum -y install numactl-devel numactl-libs netcdf-devel cmake3 devtoolset-11
