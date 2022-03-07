@@ -28,6 +28,9 @@ cmake -S . -B build -DNUMA_ROOT=<path>
 cmake --build build
 ````
 
+#### Updates on compiling for RedHat linux distribution (Thanks to [Justin R. Davis](https://vivo.ufl.edu/display/n8101) from UFL)
+WHile the compilation process explained above has been tested on Debian-based distributions like Ubuntu, 
+
 To compile on [RHEL7](https://access.redhat.com/products/red-hat-enterprise-linux), a newer version of cmake and gcc dev tools are needed, and it is therefore recommened to instead use the following commands (thanks to Justin R. Davis from UFL): 
 
 ````bash
