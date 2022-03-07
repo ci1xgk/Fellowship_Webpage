@@ -42,6 +42,6 @@ cd LISFLOOD-FP-trunk/
 scl enable devtoolset-11 'cmake3 -S . -B build'
 scl enable devtoolset-11 'cmake3 --build build'
 ````
-
+- To compile the GPU solvers, the version of CUDA toolkit must be at least v10.0.  
 
 [back](/LISFLOOD8.0.md)
