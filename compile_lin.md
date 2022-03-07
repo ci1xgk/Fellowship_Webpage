@@ -31,7 +31,7 @@ cmake --build build
 
 #### Updates on compiling for RedHat linux distribution (Thanks to [Justin R. Davis](https://vivo.ufl.edu/display/n8101) from UFL)
 While the compilation process explained above has been tested on Debian-based distributions like Ubuntu, a few ammendment might be required for compiling on RedHat-based distributions, notably, on old versions like [RHEL7](https://access.redhat.com/products/red-hat-enterprise-linux): 
-- As RHEL7 only supports old versions of CMake and GCC, the following commands 
+- As RHEL7 only supports old versions of CMake and GCC, the following commands can be used to prepare the libraries and compile the CPU solvers 
 
 ````bash
 yum -y install numactl-devel numactl-libs netcdf-devel cmake3 devtoolset-11
@@ -42,6 +42,5 @@ scl enable devtoolset-11 'cmake3 -S . -B build'
 scl enable devtoolset-11 'cmake3 --build build'
 ````
 
-By doing so, the `lisflood` executable will be generated in the `build` sub-directory.
 
 [back](/LISFLOOD8.0.md)
