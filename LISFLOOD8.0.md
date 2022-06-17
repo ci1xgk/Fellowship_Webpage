@@ -16,7 +16,7 @@ The rest of this page is devoted to instructing new users on how to download, in
 
    | Solver | Suitable applications | Limitations  |
    | :---         | :---      | :--- |
-   | ACC   | Fluvial ...      | ...    |
+   | ACC   | Fluvial ...      | Instabilities in pluvial flooding leading to restrictive timesteps    |
    | FV1     | Pluvial       | ...    |
    | DG2     | Pluvial       | ...    |
 
