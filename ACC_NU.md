@@ -12,7 +12,7 @@ Setting up the simulations follows the same conventions as described in [descrip
 
    | Item name `input` | Description | Solver |
    | :---         | :---      | :--- |
-   | acc_nugrid     | Selects the non-uniofrm ACC solver       | DG2      |
+   | acc_nugrid     | Selects the non-uniofrm ACC solver       | non-uniform ACC      |
    | cuda    | Run the selected solver on GPU       | All      |
 
 
