@@ -21,7 +21,7 @@ Setting up the simulations follows the same conventions as described in section 
 
 table
 
-   | Test Case | Source | Type | Number of elements (thousands) | Maximum refinements level, L | Resolution, R (m) | Simulation time (hr) |
+   | Test Case | Source | Type | Number of elements (thousands) | *L* | *R* (m) | Simulation time (hr) |
    | :---         | :---      | :---       | :---         | :---      | :--- |  :--- | 
    | Lower triangle catchment   | [Özgen-Xian et al., 2020](https://iwaponline.com/jh/article/22/5/1059/73853/Wavelet-based-local-mesh-refinement-for-rainfall)              | Pluvial    | 149, 594, 3700 | 10, 11, 12 | 10, 5, 2 | 72 |
    | Upper Lee Catchment   | [Xia and Liang, 2018](https://www.sciencedirect.com/science/article/pii/S0309170818302124#:~:text=A%20new%20implicit%20scheme%20is,in%20the%20shallow%20water%20equations.&text=The%20new%20scheme%20can%20relax%20flow%20velocities%20towards%20the%20correct%20equilibrium%20state.&text=The%20new%20scheme%20is%20numerically,for%20simulating%20very%20shallow%20flows.)              | Pluvial    | 2712 | 12 | 20 | 120 |
