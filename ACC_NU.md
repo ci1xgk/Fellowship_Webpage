@@ -2,7 +2,8 @@
 
 Things to coverin this section:
 
-Setting up the simulations follows the same conventions as described in [description of the .par file], with the following modifications:
+Setting up the simulations follows the same conventions as described in section [*Input files and their format
+*](Merewether1.md), with the following modifications:
 1. The solver is selected by including item “acc_nugrid”
 2. The error threshold parameter, epsilon, is selected by including item “epsilon value” where value refers to the values of the error threshold parameter.
 3. The maximum resolution level, L, is selected by including the item “L value”, where value refers to an integer for the maximum resolution level
