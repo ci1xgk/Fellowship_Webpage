@@ -12,6 +12,7 @@ Setting up the simulations follows the same conventions as described in section 
 
 
 
+
    | Item name `input` | Description | Solver |
    | :---         | :---      | :--- |
    | acc_nugrid     | Selects the non-uniofrm ACC solver       | non-uniform ACC      |
