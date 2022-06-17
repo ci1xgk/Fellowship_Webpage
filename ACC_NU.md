@@ -1,6 +1,7 @@
 ### Using the non-uniform ACC solver
 
-Things to cover:
+Things to coverin this section:
+
 Setting up the simulations follows the same conventions as described in [description of the .par file], with the following modifications:
 1. The solver is selected by including item “acc_nugrid”
 2. The error threshold parameter, epsilon, is selected by including item “epsilon value” where value refers to the values of the error threshold parameter.
