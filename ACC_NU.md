@@ -1,5 +1,14 @@
 ### Using the non-uniform ACC solver
 
+Things to cover:
+Setting up the simulations follows the same conventions as described in [description of the .par file], with the following modifications:
+1. The solver is selected by including item “acc_nugrid”
+2. The error threshold parameter, epsilon, is selected by including item “epsilon value” where value refers to the values of the error threshold parameter.
+3. The maximum resolution level, L, is selected by including the item “L value”, where value refers to an integer for the maximum resolution level
+4. The 2D model outputs are generated in two forms: (i) on multiresolution grid as “.vtk” file format [link to description of .vtk files and how to use paraview], and (ii) on uniform grid as the conventional raster files [link to output raster files]. By default both these files are generated at the intervals specified by item “saveint”. However, the generation of the “.vtk” files can be suppressed by including the item “vtkoff”.   
+
+
+
 
 table
 
