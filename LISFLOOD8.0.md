@@ -1,7 +1,7 @@
 
 ## LISFLOOD-FP8.2 
 
-The LISFLOOD-FP is a raster-based hydrodynamic model that has been developed by the [University of Bristol](http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/). 
+The LISFLOOD-FP is a raster-based hydrodynamic model that has been developed by the [University of Bristol](http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/). LISFLOOD-FP has undergone extensive development since conception and includes a collection of numerical schemes implemented to solve a variety of mathematical approximations of the 2D shallow water equations of different complexity, ranging from a simple diffusive wave model to shock-capturing Godunov-type schemes based on Finite Volume (FV) and discontinuous Galerkin (DG) methods which solve the full shallow-water equations.
 
 
 
