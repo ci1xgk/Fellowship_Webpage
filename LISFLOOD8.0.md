@@ -17,7 +17,7 @@ The rest of this page is devoted to instructing new users on how to download, in
    | Solver | Suitable applications | Limitations  |
    | :---         | :---      | :--- |
    | ACC   | Fluvial flooding; Pluvial flooding with catchment-scale resolutions      | Not recommended for supercritical flows, e.g., thin flows in pluvial flooding simulations    |
-   | FV1     | Fluvial and Pluvial flooding; Dam-breaks       | ...    |
+   | FV1     | Fluvial and Pluvial flooding; Dam-breaks       | Higher cost     |
    | DG2     | Fluvial flooding; Dam-breaks; Flows around hydraulic structures       | High computational cost for large-scale applications; Restrictive time-step for applications that involve thin flows    |
 
 ***
