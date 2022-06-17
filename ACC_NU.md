@@ -16,6 +16,7 @@ Setting up the simulations follows the same conventions as described in [descrip
    | cuda    | Run the selected solver on GPU       | All      |
    | epsilon     | The choice of error threshold       | non-uniform ACC      |   
    | L     | The maximum refinement levels       | non-uniform ACC      |   
+   | vtkoff     | Suppress production of 2D multiresolution map files (`*.vtk`)     | non-uniform ACC      |   
 
 
 table
