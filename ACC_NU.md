@@ -21,7 +21,7 @@ These modifications to the `.par` files are summarised in the table below.
    | vtkoff     | Suppress production of 2D multiresolution map files (`*.vtk`)     | non-uniform ACC      |   
 
 
-table
+Refre to the paper??
 
    | Test Case | Source | Type | Number of elements (thousands) | *L* | *R* (m) | Simulation time (hr) |
    | :---         | :---      | :---       | :---         | :---      | :--- |  :--- | 
@@ -33,7 +33,7 @@ table
    
    
    
-  Here video tutorials are provided in a step by step manner for setting up the four test cases
+  Here video tutorials are provided in a step by step manner for setting up the four test cases??
    
    
 [back](/LISFLOOD8.0.md)
