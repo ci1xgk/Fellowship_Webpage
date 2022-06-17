@@ -14,7 +14,7 @@ The rest of this page is devoted to instructing new users on how to download, in
 
 
 
-   | Solver | Suitable applications | Potential improvements  |
+   | Solver | Suitable applications | Limitations  |
    | :---         | :---      | :--- |
    | ACC   | Fluvial ...      | ...    |
    | FV1     | Pluvial       | ...    |
