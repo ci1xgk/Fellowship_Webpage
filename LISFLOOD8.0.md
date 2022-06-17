@@ -11,7 +11,7 @@ The LISFLOOD-FP is a raster-based hydrodynamic model that has been developed by 
 The LISFLOOD-FP hydrodynamic model developed by the [University of Bristol](http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/) already includes a solver with local inertia, or ‘gravity wave’ formulation, known as the ACC solver, and a solver with the diffusive wave, or ‘zero-inertia’ formulation, known as the ATS solver. The ACC solver is widely used to simulate floods with gradually-varying, subcritical flow over sufficiently rough surfaces with Manning’s coefficient of at least 0.03. It has a version with CPU-specific optimisations and enhanced with a subgrid channel model ([Neal et al., 2012](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2012WR012514), [2018](https://www.sciencedirect.com/science/article/pii/S1364815217307478)). Please contact [University of Bristol](http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/) for any advice related to the ACC solver.   
 -->
 
-%### New DG2/FV1 solvers on multi-core CPU 
+<!-- ### New DG2/FV1 solvers on multi-core CPU -->
 The new version, LISFLOOD-FP 8.0, includes second-order discontinuous Galerkin (DG2) and first-order finite volume (FV1) solvers of the two-dimensional shallow water equations for modelling a wide range of flows, including rapidly-propagating, supercritical flows, shock waves, or flows over very smooth surfaces. The new DG2/FV1 solvers are purely two-dimensional and parallelised for the multi-core CPU architecture, but do not integrate with the subgrid channel model nor with the CPU-specific optimisations ([Shaw et al., 2021](https://gmd.copernicus.org/preprints/gmd-2020-340/)).
 
 
