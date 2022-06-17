@@ -14,6 +14,8 @@ Setting up the simulations follows the same conventions as described in [descrip
    | :---         | :---      | :--- |
    | acc_nugrid     | Selects the non-uniofrm ACC solver       | non-uniform ACC      |
    | cuda    | Run the selected solver on GPU       | All      |
+   | epsilon     | The choice of error threshold       | non-uniform ACC      |   
+   | L     | The maximum refinement levels       | non-uniform ACC      |   
 
 
 table
