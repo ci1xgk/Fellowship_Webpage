@@ -1,7 +1,5 @@
 ### Using the non-uniform ACC solver
 
-Things to coverin this section:
-
 Setting up the simulations follows the same conventions as described in section [*"Input files and their format"*](/Merewether1.md), with the following updates:
 * The solver is selected by including item `acc_nugrid`.
 * The error threshold, $\varepsilon$, is selected by including item `epsilon`, followed by a float number refering to the value of $\varepsilon$.
