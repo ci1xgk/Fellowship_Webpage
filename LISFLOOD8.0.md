@@ -35,7 +35,7 @@ The latest version of LISFLOOD-FP includes a new solver option, known as the non
 
 
 
-The rest of this page is devoted to instructing new users on how to download, install and run the code of LISFLOOD-FP 8.0, in particular to use the new hydrodynamic solvers, DG2/FV1. Guidance is provided on preprocessing DG2-related Digital Elevation Model (DEM) and initial condition files (with slope-coefficients), and on posprocessing the coarse DG2 output files to downscale them into a floodplain map at finer resolutions. The documented instructions are also covered in video tutorials and through realistic case studies. 
+(TO_BE_REVISED) The rest of this page is devoted to instructing new users on how to download, install and run the code of LISFLOOD-FP 8.2, in particular to use the DG2/FV1 solvers. Guidance is provided on preprocessing DG2-related Digital Elevation Model (DEM) and initial condition files (with slope-coefficients), and on posprocessing the coarse DG2 output files to downscale them into a floodplain map at finer resolutions. The documented instructions are also covered in video tutorials and through realistic case studies. 
 
 ***
 
