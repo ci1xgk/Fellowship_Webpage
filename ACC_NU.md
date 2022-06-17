@@ -7,8 +7,8 @@ Setting up the simulations follows the same conventions as described in section 
 * The error threshold, $\varepsilon$, is selected by including item `epsilon`, followed by a float number refering to the value of $\varepsilon$.
 * The maximum refinement level, *L*, is selected by including the item `L`, followed by an integer refering to the value of *L*.
 * The 2D model outputs are generated in two forms: 
-1. on multiresolution grid as “.vtk” file format [link to description of .vtk files and how to use paraview]
-2. uniform grid as the conventional raster files [link to output raster files]. By default both these files are generated at the intervals specified by item “saveint”. However, the generation of the “.vtk” files can be suppressed by including the item “vtkoff”.   
+   1. on multiresolution grid as “.vtk” file format [link to description of .vtk files and how to use paraview]
+   2. uniform grid as the conventional raster files [link to output raster files]. By default both these files are generated at the intervals specified by item “saveint”. However, the generation of the “.vtk” files can be suppressed by including the item “vtkoff”.   
 
 
 
