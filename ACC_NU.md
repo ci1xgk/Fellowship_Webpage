@@ -2,12 +2,12 @@
 
 Things to coverin this section:
 
-Setting up the simulations follows the same conventions as described in section [*"Input files and their format"*](Merewether1.md), with the following updates:
+Setting up the simulations follows the same conventions as described in section [*"Input files and their format"*](/Merewether1.md), with the following updates:
 * The solver is selected by including item `acc_nugrid`.
 * The error threshold, $\varepsilon$, is selected by including item `epsilon`, followed by a float number refering to the value of $\varepsilon$.
 * The maximum refinement level, *L*, is selected by including the item `L`, followed by an integer refering to the value of *L*.
 * The 2D model outputs are generated in two forms: 
-   1. on multiresolution grid as “.vtk” file format [link to description of .vtk files and how to use paraview]
+   1. Multiresolution grid as `.vtk` file format (see section [*"Non-uniform grid output files (-xxxx.vtk)"*](/vtk.md) for further information about `.vtk` files and how to visualise them)
    2. uniform grid as the conventional raster files [link to output raster files]. 
    
    By default both these files are generated at the intervals specified by item “saveint”. However, the generation of the “.vtk” files can be suppressed by including the item “vtkoff”.   
