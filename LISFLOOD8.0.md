@@ -1,7 +1,11 @@
 
 ## LISFLOOD-FP8.2 
 
-The LISFLOOD-FP is a raster-based hydrodynamic model that has been developed by the [University of Bristol](http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/). LISFLOOD-FP has undergone extensive development since conception and includes a collection of numerical schemes implemented to solve a variety of mathematical approximations of the 2D shallow water equations of different complexity, ranging from a simple diffusive wave model to shock-capturing Godunov-type schemes based on Finite Volume (FV) and discontinuous Galerkin (DG) methods which solve the full shallow-water equations.
+The LISFLOOD-FP is a raster-based hydrodynamic model that has been developed by the [University of Bristol](http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/). LISFLOOD-FP has undergone extensive development since conception and includes a collection of numerical schemes implemented to solve a variety of mathematical approximations of the 2D shallow water equations of different complexity. The local inertia solver, known as the ACC solver, is widely used to simulate floods with gradually-varying, subcritical flow over sufficiently rough surfaces with Manning’s coefficient of at least 0.03. It has a version with CPU-specific optimisations and enhanced with a subgrid channel model ([Neal et al., 2012](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2012WR012514), [2018](https://www.sciencedirect.com/science/article/pii/S1364815217307478)).
+
+
+
+, ranging from a simple diffusive wave model to shock-capturing Godunov-type schemes based on Finite Volume (FV) and discontinuous Galerkin (DG) methods which solve the full shallow-water equations.
 
 
 
