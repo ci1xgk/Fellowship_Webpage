@@ -1,19 +1,17 @@
 
 ## LISFLOOD-FP8.2 
 
-The LISFLOOD-FP is a raster-based hydrodynamic model that has been developed by the [University of Bristol](http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/). LISFLOOD-FP has undergone extensive development since conception and includes a collection of numerical schemes implemented to solve a variety of mathematical approximations of the 2D shallow water equations of different complexity. The local inertia solver, known as the ACC solver, is widely used to simulate floods with gradually-varying, subcritical flow over sufficiently rough surfaces with Manning’s coefficient of at least 0.03. It has a version with CPU-specific optimisations and enhanced with a subgrid channel model ([Neal et al., 2012](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2012WR012514), [2018](https://www.sciencedirect.com/science/article/pii/S1364815217307478)).
-
-
-
+The LISFLOOD-FP is a raster-based hydrodynamic model that has been developed by the [University of Bristol](http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/). LISFLOOD-FP has undergone extensive development since conception and includes a collection of numerical schemes implemented to solve a variety of mathematical approximations of the 2D shallow water equations of different complexity. The local inertia solver, known as the ACC solver, is widely used to simulate floods with gradually-varying, subcritical flow over sufficiently rough surfaces with Manning’s coefficient of at least 0.03. It has a version with CPU-specific optimisations and enhanced with a subgrid channel model ([Neal et al., 2012](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2012WR012514), [2018](https://www.sciencedirect.com/science/article/pii/S1364815217307478)). It also includes second-order discontinuous Galerkin (DG2) and first-order finite volume (FV1) solvers of the two-dimensional shallow water equations for modelling a wide range of flows, including rapidly-propagating, supercritical flows, shock waves, or flows over very smooth surfaces. The DG2/FV1 solvers are purely two-dimensional and parallelised for the multi-core CPU architecture, but do not integrate with the subgrid channel model nor with the CPU-specific optimisations ([Shaw et al., 2021](https://gmd.copernicus.org/preprints/gmd-2020-340/)).
 
 
 <!--
 The LISFLOOD-FP hydrodynamic model developed by the [University of Bristol](http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/) already includes a solver with local inertia, or ‘gravity wave’ formulation, known as the ACC solver, and a solver with the diffusive wave, or ‘zero-inertia’ formulation, known as the ATS solver. The ACC solver is widely used to simulate floods with gradually-varying, subcritical flow over sufficiently rough surfaces with Manning’s coefficient of at least 0.03. It has a version with CPU-specific optimisations and enhanced with a subgrid channel model ([Neal et al., 2012](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2012WR012514), [2018](https://www.sciencedirect.com/science/article/pii/S1364815217307478)). Please contact [University of Bristol](http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/) for any advice related to the ACC solver.   
 -->
 
-<!-- ### New DG2/FV1 solvers on multi-core CPU -->
+<!-- 
+### New DG2/FV1 solvers on multi-core CPU 
 The new version, LISFLOOD-FP 8.0, includes second-order discontinuous Galerkin (DG2) and first-order finite volume (FV1) solvers of the two-dimensional shallow water equations for modelling a wide range of flows, including rapidly-propagating, supercritical flows, shock waves, or flows over very smooth surfaces. The new DG2/FV1 solvers are purely two-dimensional and parallelised for the multi-core CPU architecture, but do not integrate with the subgrid channel model nor with the CPU-specific optimisations ([Shaw et al., 2021](https://gmd.copernicus.org/preprints/gmd-2020-340/)).
-
+-->
 
 <!-- ### New GPU solvers -->
 The new DG2/FV1 solvers are also parallelised within a new Nvidia GPU architecture and can run existing LISFLOOD-FP modelling scenarios without modification. The [user manual of LISFLOOD-FP](https://drive.google.com/file/d/1Yk5txMWWfSqPcPOqjQh30XLSp8Sypy1M/view?usp=sharing) has been updated to further offer guidance about how to parametrise the code to run on the GPU, in particular for the DG2/FV1 solvers. Users interested in knowing more about the mathematical/computational background of the DG2/FV1 solvers and how to run them on LISFLOOD-FP are encouraged to start their readings from [Shaw et al. (2021)](https://gmd.copernicus.org/preprints/gmd-2020-340/). 
