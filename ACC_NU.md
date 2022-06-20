@@ -31,8 +31,6 @@ The mathematical/computational background of the MW-based grid generation, the a
    | Cockermouth urban area  | [Muthusamy et al., 2021](https://www.sciencedirect.com/science/article/pii/S0022169421001359) | Fluvial    | 2160 | 11 | 1 | 144 |
     
 The step by step instructions on how to download and install the code, along with instructions on simulating two of the case studies are given in the videos linked below. Only two case studies are selected as both involve specific features of the setup process and the rest of them follow the same process.  
-  
-  ### Video tutorials
 
 1. [Download and installation](https://youtu.be/jJDRMBkPyr8)
 
