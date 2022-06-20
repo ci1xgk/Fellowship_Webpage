@@ -40,7 +40,7 @@ The mathematical/computational background of the MW-based grid generation, the a
 
 2. [Upper Lee catchment case study](https://youtu.be/IQBr9kxI-0k)
 
-3. [Glasgow urban area case study](https://youtu.be/666RWbGmLMw)
+3. [Glasgow urban area case study](https://youtu.be/8yKIa7-mcg8)
    
    
 [back](/LISFLOOD8.0.md)
