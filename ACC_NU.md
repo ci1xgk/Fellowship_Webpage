@@ -1,7 +1,7 @@
 ### Using the non-uniform ACC solver
 
 Setting up the simulations for using the new non-uniform ACC solver follows the same conventions of LISFLOOD-FP as described in section [*"Input files and their format"*](/Merewether1.md), with a few updates to the `.par` file:
-* The solver is selected by including item `acc_nugrid`.
+* The non-uniofrm ACC solver is selected by including item `acc_nugrid`.
 * The error threshold, $\varepsilon$, is selected by including item `epsilon`, followed by a float number refering to the value of $\varepsilon$.
 * The maximum refinement level, *L*, is selected by including the item `L`, followed by an integer refering to the value of *L*.
 * The 2D model outputs are generated in two forms: 
