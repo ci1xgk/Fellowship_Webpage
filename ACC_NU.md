@@ -29,10 +29,8 @@ The mathematical/computational background of the MW-based grid generation, the a
    | Eden catchment  | [Xia et al., 2019](https://www.sciencedirect.com/science/article/pii/S030917081930243X) | Fluvial    | 6276 | 13 | 20 | 132 |
    | Glasgow urban area | [Néelz and Pender, 2013](https://consult.environment-agency.gov.uk/engagement/bostonbarriertwao/results/appendix-6---neelz--s.---pender--g.--2013--benchmarking-the-latest-generation-of-2d-hydraulic-modelling-packages.-bristol_environment-agency.pdf) | Pluvial    | 95 | 9 | 2 | 5 |
    | Cockermouth urban area  | [Muthusamy et al., 2021](https://www.sciencedirect.com/science/article/pii/S0022169421001359) | Fluvial    | 2160 | 11 | 1 | 144 |
-   
-   
-   
-  Here video tutorials are provided in a step by step manner for setting up the four test cases??
+    
+The step by step instructions on how to download and install the code, along with instructions on simulating two of the case studies are given in the videos linked below. Only two case studies are selected as both involve specific features of the setup process and the rest of them follow the same process.  
   
   ### Video tutorials
 
