@@ -38,6 +38,14 @@ Refre to the paper??
    
    
   Here video tutorials are provided in a step by step manner for setting up the four test cases??
+  
+  ### Video tutorials
+
+1. [Download and installation](https://youtu.be/gQg_yokgeZI)
+
+2. [Upper Lee catchment case study](https://youtu.be/EqjGwytzZwU)
+
+3. [Glasgow urban area case study](https://youtu.be/666RWbGmLMw)
    
    
 [back](/LISFLOOD8.0.md)
