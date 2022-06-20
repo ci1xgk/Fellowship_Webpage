@@ -16,8 +16,8 @@ These modifications to the `.par` files are summarised in the table below.
    | :---         | :---      | :--- |
    | acc_nugrid     | Selects the non-uniofrm ACC solver       | non-uniform ACC      |
    | cuda    | Run the selected solver on GPU       | All      |
-   | epsilon     | The choice of error threshold       | non-uniform ACC      |   
-   | L     | The maximum refinement levels       | non-uniform ACC      |   
+   | epsilon     | The choice of error threshold, $\varepsilon$       | non-uniform ACC      |   
+   | L     | The maximum refinement levels, *L*      | non-uniform ACC      |   
    | vtkoff     | Suppress production of 2D multiresolution map files (`*.vtk`)     | non-uniform ACC      |   
 
 The mathematical/computational background of the MW-based grid generation, the adaptation of the ACC solver on the resulting grids and the idea behind the GPU parallelisation are explained in [HESS manuscript](https://www.hydrology-and-earth-system-sciences.net/). In the latter, the non-uniform ACC solvers were applied to reproduce five real-world fluvial/pluvial case studies, including three catchment-scale scenarios and two urban flooding cases on city-scale. The case studies are summarised in table below. 
