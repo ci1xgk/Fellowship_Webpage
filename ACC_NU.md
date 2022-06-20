@@ -1,10 +1,6 @@
 ### Using the non-uniform ACC solver
 
-
-
-The non-uniform ACC solver is distributed as a new solver in the LISFLOOD-FP ecosystem and follows the same standard usage with a few updates to input/output components.  
-
-Setting up the simulations for using the new non-uniform ACC solver follows the same conventions of LISFLOOD-FP as described in section [*"Input files and their format"*](/Merewether1.md), with a few updates to the `.par` file:
+The non-uniform ACC solver is distributed as a new solver in the LISFLOOD-FP ecosystem and follows the same standard usage with a few updates to input/output components. Setting up the simulations for using the new non-uniform ACC solver follows the same conventions of LISFLOOD-FP as described in section [*"Input files and their format"*](/Merewether1.md), with a few updates to the `.par` file:
 * The non-uniform ACC solver is selected by including item `acc_nugrid`.
 * The error threshold, $\varepsilon$, is selected by including item `epsilon`, followed by a float number refering to the value of $\varepsilon$.
 * The maximum refinement level, *L*, is selected by including the item `L`, followed by an integer refering to the value of *L*.
@@ -41,7 +37,7 @@ Refre to the paper??
   
   ### Video tutorials
 
-1. [Download and installation](https://youtu.be/gQg_yokgeZI)
+1. [Download and installation](https://youtu.be/jJDRMBkPyr8)
 
 2. [Upper Lee catchment case study](https://youtu.be/EqjGwytzZwU)
 
