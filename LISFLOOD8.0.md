@@ -21,7 +21,7 @@ The new DG2/FV1 solvers are also parallelised within a new Nvidia GPU architectu
 
    | Solver | Suitable applications | Limitations  |
    | :---         | :---      | :--- |
-   | ACC   | Fluvial flooding; Pluvial flooding with catchment-scale resolutions      | Not recommended for supercritical flows, e.g., thin flows in pluvial flooding simulations    |
+   | ACC   | Fluvial flooding; Pluvial flooding on catchment-scale resolutions      | Not recommended for supercritical flows, e.g., thin flows in pluvial flooding simulations    |
    | FV1     | Fluvial and Pluvial flooding; Dam-breaks       | Might fail in capturing small-scale transients of flows       |
    | DG2     | Fluvial flooding; Dam-breaks; Flows around hydraulic structures       | High computational cost for large-scale applications; Restrictive time-step for applications that involve thin flows    |
 
