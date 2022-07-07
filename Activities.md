@@ -1,4 +1,6 @@
 ### Activities
+- 2022 (7 Jul.), University of Sheffield, progress update and advisory board meeting (including video-recorded presentation).
+
 - 2022 (19-24 June), Invited talk delivered at the [39th IAHR world congress, Granada, Spain](https://iahrworldcongress.org/iahr/), as part of the special session "The shallow water model intercomparison session: Benchmarking overland flow simulations" (G. Kesserwani and M. K. Sharifian). Georges presented about [our fluvial/pluvial flood flow solver that is featured by a range of efficiency enhancement measures](https://drive.google.com/file/d/1K79k8f_7X1qTUhZWwYIYRkJ6StkH5sHC/view?usp=sharing). 
 
 - 2022 (9 May), Public engagement presentation, [How do computers forecast floods?](https://docs.google.com/presentation/d/1-r7LbF9SkBfxxsSLyGZ2axyEm2iWGHnJ/edit?usp=sharing&ouid=100395140877301018816&rtpof=true&sd=true), Pint of Science, Sidney & Matilda, Sheffield (M. K. Sharifian). Mohammad talked about the importance of flood forecasting systems, how they work and what are the challenges in improving the flood forecasts.
@@ -13,7 +15,7 @@
 
 - 2021 (16 Sep.), University of Sheffield: planning and running the [‘Flood modelling and forecasting challenges in industry’](Workshop_16Sep2021.md) virtual workshop (G. Kesserwani, [V. Speight](https://www.sheffield.ac.uk/civil/staff/research/speightv), M. Hajihassanpour and E. Court).
 
-- 2021 (5 Jul.), University of Sheffield, progress update and advisory board meeting. 
+- 2021 (5 Jul.), University of Sheffield, progress update and advisory board meeting (including video-recorded presentation). 
 
 - 2021 (Apr.), [UKCRIC Digital theme workshop](https://www.ukcric.com/news/ukcric-workshop-explores-the-challenges-and-opportunities-of-digitalisation-in-the-built-environment/), University of Cambridge. Aimed to explore the UK research  activities focussing on digitalisation in the built environment across the UKCRIC institutions. The flood-pedesrtian simulator was presented ([presentation slides](https://drive.google.com/file/d/1G9SHYH7_v7EChFVTejMpU7Wng72hKUfV/view?usp=sharing)), with a particular focus on how it computerise people's risk perception to floodwater in modelling a mass evacuation scenarios ([Shirvani and Kesserwani, 2021](https://doi.org/10.5194/nhess-2021-79)). 
 
