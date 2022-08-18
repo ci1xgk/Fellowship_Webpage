@@ -1,4 +1,6 @@
 ### Activities
+- 2022 (6-9 Sep.), Oral presentation delivered at the [7th IAHR Europe Congress, Athens, Greece](https://www.erasmus.gr/microsites/1227), within the session "Extreme Flood Events: Advancing Numerical Modelling and Strategies for Flood Mitigation (Part 1)" (G. Kesserwani and M. Shirvani). Georges presented about "Microscopic simulation of human response dynamics during a flood-induced evacuation from a football stadium" (presentation to be uploaded after the conference).
+
 - 2022 (7 Jul.), University of Sheffield, progress update and advisory board meeting (including video-recorded presentation).
 
 - 2022 (19-24 June), Invited talk delivered at the [39th IAHR world congress, Granada, Spain](https://iahrworldcongress.org/iahr/), as part of the special session "The shallow water model intercomparison session: Benchmarking overland flow simulations" (G. Kesserwani and M. K. Sharifian). Georges presented about [our fluvial/pluvial flood flow solver that is featured by a range of efficiency enhancement measures](https://drive.google.com/file/d/1K79k8f_7X1qTUhZWwYIYRkJ6StkH5sHC/view?usp=sharing). 
