@@ -2,6 +2,14 @@
 ### Publications
 #### Journal papers
 
+A. Chowdhury, G. Kesserwani, C. Rouge, and P. Richmond (2022). Haar wavelet-based adaptive mesh refinement on the GPU for 2D finite volume shallow water modelling. **Journal of Hydroinformatics**, in review.   
+
+G. Kesserwani and M. K. Sharifian (2022). (Multi)wavelet-based Godunov-type simulators of flood inundation: static versus dynamic grid adaptation. **Advances in Water Resouces**, in revision. 
+
+G. Kesserwani, J. Ayog, M.K. Sharifian, and D. Bau (2022). Shallow-flow velocity predictions using discontinuous Galerkin solutions. **Journal of Hydraulic Engineering (ASCE)**, in revision.
+
+X. Sun, G. Kesserwani, M. K. Sharifian, and V. Stovin (2022). Simulation of laminar to transitional wakes past cylinders with discontinuous Galerkin shallow water solutions. **Journal of Hydraulic Research**, in revision. 
+
 M. Shirvani and G. Kesserwani (2021). Flood-pedestrian simulator for modelling human response dynamics during flood-induced evacuation: Hillsborough stadium case study. **Natural Hazards and Earth System Sciences**, [**21**: 3175–3198](https://nhess.copernicus.org/articles/21/3175/2021/nhess-21-3175-2021).
 
 J. Shaw, G. Kesserwani, J. Neal, P. Bates, and M. K. Sharifian (2021). LISFLOOD-FP 8.0: the new discontinuous Galerkin shallow water solver for multi-core CPUs and GPUs. Development and technical paper submitted to **Geoscientific Model Development**, [**14**: 3577–3602](https://doi.org/10.5194/gmd-14-3577-2021).  
