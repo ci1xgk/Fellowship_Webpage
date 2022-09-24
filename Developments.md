@@ -5,7 +5,7 @@ Development and validation of new modelling frameworks and techniques are ongoin
 
 [Food-pedestrian simulator](./Flood_Human_ABM.md)
 
-[LISFLOOD-FP8.2](./LISFLOOD8.2.md)
+[LISFLOOD-FP8.1](./LISFLOOD8.0.md)
 
 [Smart and flexible multiresolution solvers](./MuliWave_Flood_models.md)
 
