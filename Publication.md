@@ -2,7 +2,7 @@
 ### Publications
 #### Journal papers
 
-A. Chowdhury, G. Kesserwani, C. Rouge, and P. Richmond (2022). Haar wavelet-based adaptive mesh refinement on the GPU for 2D finite volume shallow water modelling. **Journal of Hydroinformatics**, in review.   
+A. Chowdhury, G. Kesserwani, C. Rouge, and P. Richmond (2022). Wavelet-based adaptive mesh refinement on the GPU for shallow water modelling. **Journal of Hydroinformatics**, in review.   
 
 G. Kesserwani and M. K. Sharifian (2022). (Multi)wavelet-based Godunov-type simulators of flood inundation: static versus dynamic grid adaptation. **Advances in Water Resouces**, in revision. 
 
