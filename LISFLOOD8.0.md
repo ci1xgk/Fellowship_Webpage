@@ -129,7 +129,7 @@ J. Shaw, G. Kesserwani, J. Neal, P. Bates, and M. K. Sharifian (2021). [LISFLOOD
 ### About the Developers 
 While the original version of LISFLOOD-FP were set in motion by [University of Bristol](http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/), the recent versions of 8.0 and 8.1 were mainly developed as part of the SEAMLESS-WAVE project lead by [Georges Kesserwani](https://www.sheffield.ac.uk/civil/people/academic/georges-kesserwani) in University of Sheffield. The main GPU kernels for the FV1 and DG2 solvers were initiated by [James Shaw](https://www.datumedge.co.uk/) during his postdoctoral research, before joining [The Floow](https://www.thefloow.com/) as a ssenior software engineer. Further developments were mainly carried out by [Mohammad Kazem Sharifian](https://www.linkedin.com/in/mohammad-kazem-sharifian-12b1a440/), including the GPU kernels of the ACC solver for the uniform and non-uniform grids. Mohammad is now a Flood Modeller at [RMS (Moody's Analytics Company)](https://www.rms.com/) and is the main contact for enquiries about the software, bug reports, feature requests, or basically anything LISFLOOD-FP-related that needs his attention! 
 
-[Contact Us](mailto:admin@cloudhadoop.com)
+[Contact Mohammad](mailto:mksharifian@gmail.com)
 
 
 [back](/Developments.md)
