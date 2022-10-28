@@ -4,6 +4,7 @@ The team involves researchers working at the interface between mathematics, hydr
 - Georges Kesserwani, Research Fellow, University of Sheffield 
 - James Shaw, Research Associate, University of Sheffield
 - Mohammad K. Sharifian, Research Associate, University of Sheffield
+- Mahya Hajihassanpour, Research Associate, University of Sheffield
 - Alovya Chowdhury, PhD student, University of Sheffield
 
 with contribution from: 
