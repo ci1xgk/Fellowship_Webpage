@@ -2,21 +2,23 @@
 ### Publications
 #### Journal papers
 
+M.K. Sharifian,  G. Kesserwani, A. Chowdhury, J. Neal and P. Bates (2022). LISFLOOD-FP 8.1: New GPU accelerated solvers for faster fluvial/pluvial flood simulations. **Geoscientific Model Development**, [preprint under review](https://doi.org/10.5194/gmd-2022-259). 
+
 A. Chowdhury, G. Kesserwani, C. Rouge, and P. Richmond (2022). Wavelet-based adaptive mesh refinement on the GPU for shallow water modelling. **Journal of Hydroinformatics**, in review.   
 
 G. Kesserwani and M. K. Sharifian (2022). (Multi)wavelet-based Godunov-type simulators of flood inundation: static versus dynamic grid adaptation. **Advances in Water Resouces**, in revision. 
 
-G. Kesserwani, J. Ayog, M.K. Sharifian, and D. Bau (2022). Shallow-flow velocity predictions using discontinuous Galerkin solutions. **Journal of Hydraulic Engineering (ASCE)**, in revision.
+G. Kesserwani, J. Ayog, M.K. Sharifian, and D. Bau (2022). Shallow-flow velocity predictions using discontinuous Galerkin solutions. **Journal of Hydraulic Engineering (ASCE)**, [preprint accepted for publication](https://arxiv.org/abs/2210.16972).
 
 X. Sun, G. Kesserwani, M. K. Sharifian, and V. Stovin (2022). Simulation of laminar to transitional wakes past cylinders with discontinuous Galerkin shallow water solutions. **Journal of Hydraulic Research**, in revision. 
 
 M. Shirvani and G. Kesserwani (2021). Flood-pedestrian simulator for modelling human response dynamics during flood-induced evacuation: Hillsborough stadium case study. **Natural Hazards and Earth System Sciences**, [**21**: 3175–3198](https://nhess.copernicus.org/articles/21/3175/2021/nhess-21-3175-2021).
 
-J. Shaw, G. Kesserwani, J. Neal, P. Bates, and M. K. Sharifian (2021). LISFLOOD-FP 8.0: the new discontinuous Galerkin shallow water solver for multi-core CPUs and GPUs. Development and technical paper submitted to **Geoscientific Model Development**, [**14**: 3577–3602](https://doi.org/10.5194/gmd-14-3577-2021).  
+J. Shaw, G. Kesserwani, J. Neal, P. Bates, and M. K. Sharifian (2021). LISFLOOD-FP 8.0: the new discontinuous Galerkin shallow water solver for multi-core CPUs and GPUs. **Geoscientific Model Development**, [**14**: 3577–3602](https://doi.org/10.5194/gmd-14-3577-2021).  
 
 J. Ayog, G. Kesserwani, J. Shaw, M.K. Sharifian, and D. Bau (2021). Second-order discontinuous Galerkin flood model: comparison with industry-standard finite volume models. **Journal of Hydrology**, [**594**: 125924](https://www.sciencedirect.com/science/article/abs/pii/S0022169420313858).
 
-M. Shirvani, G. Kesserwani, and P. Richmond (2021). Agent-based simulator of dynamic flood-people interactions. **Journal of Flood Risk Management**, [in press](https://doi.org/10.1111/jfr3.12695).
+M. Shirvani, G. Kesserwani, and P. Richmond (2021). Agent-based simulator of dynamic flood-people interactions. **Journal of Flood Risk Management**, [**14(2)**, e12695](https://doi.org/10.1111/jfr3.12695).
 
 M. Shirvani, G. Kesserwani, and P. Richmond (2020). Agent-based modelling of pedestrian responses during flood emergency: mobility behavioural rules and implications for flood risk analysis. **Journal of Hydroinformatics**, [**22**: 1078–1092](https://doi.org/10.2166/hydro.2020.031).
 
@@ -38,8 +40,20 @@ trade-offs between theoretical complexity and practical convenience. **Computer 
 M.K. Sharifian, G. Kesserwani and Y. Hassanzadeh (2018). A discontinuous Galerkin approach for conservative modeling of fully
 nonlinear and weakly dispersive wave transformations. **Ocean Modelling**, [**125**, 61-79](https://www.sciencedirect.com/science/article/pii/S146350031830101X).
 
+
 #### Conference contributions
-MK. Sharifian and G. Kesserwani. _(Multi)wavelets increase both accuracy and efficiency of standard Godunov-type hydrodynamic models: 2D application._ 6th IAHR Europe Congress 2020, June 30 - July 2, Warsaw, Poland.  
+
+M.  Hajihassanpour, P. Pettersson and G. Kesserwani. _Benchmarking uncertainty quantification methods in flood modelling applications._ UK Fluids Conference, September 2022, Sheffield. 
+
+M. Shirvani and G. Kesserwani. _Microscopic simulation of human response dynamics during a flood-induced evacuation from a football stadium._ 7th IAHR Europe Congress 2022, September 7-9, Athens, Greece.
+
+M.K. Sharifian and G. Kesserwani. _GPU-accelerated, non-uniform grid solver for fluvial/pluvial flood simulations._ 39th IAHR Congress 2022, June 19 - 24, Granada, Spain.
+
+X Sun, G. Kesserwani, M.K. Sharifian and V. Stovin. _Evaluation of second-order Discontinuous Galerkin shallow water solutions for the production of flow fields around cylinders_ 5th International Symposium of Shallow Flows, 23-25 October 2021, Nanjing, China.
+
+M.K. Sharifian and G. Kesserwani. _Benchmarking (multi)wavelet-based dynamic and static non-uniform grid solvers for flood inundation modelling_ 5th International Symposium of Shallow Flows, 23-25 October 2021, Nanjing, China.
+
+M.K. Sharifian and G. Kesserwani. _(Multi)wavelets increase both accuracy and efficiency of standard Godunov-type hydrodynamic models: 2D application._ 6th IAHR Europe Congress 2020, June 30 - July 2, Warsaw, Poland.  
 
 M. Shirvani, G. Kesserwani and P. Richmond. _Dynamic simulation of flood and people interactions for urban and populated areas._ 'Bringing the Water Sector Together, Innovation Through Collaboration to Secure a Sustainable Future', TWENTY65 conference 2020, April 28-29 Manchester, UK. 
 
