@@ -11,7 +11,7 @@ We have been developing probabilistic finite volume formulations based on _intru
 The _wavelet-based nonintrusive approach_ is found to be more flexible for use with existing deterministic solver, for propagating _multiple uncertainties in practical hydrodynamic modelling applications_. 
 
 
-### Sampling-based methods for practical applications, with code accessiblity 
+### Sampling-based methods, with code accessiblity 
 Nonintrusive software toolkits for obtaining probabilistic flood maps from existing deterministic models have been developed. The toolkits implement modern uncertainty quantification methods (e.g. [Bhaduri et al. 2018](https://doi.org/10.1016/j.jcp.2018.06.003)) with the aim of accelerating probabilistic flood models by using alternatives to the Standard Monte Carlo method (SMC).
 
 The alternatives consider Latin Hypercube Sampling (LHS), Adaptive Stratified Sampling (ASS), Quasi Monte Carlo (QMC) and Haar Wavelet Expansion (HWE) as they can capture all types of histogram distributions. The code to test and run these alternatives for three realistic case studies with many uncertain inputs can be found on [Zenodo](https://zenodo.org/record/7050213).
