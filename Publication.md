@@ -2,15 +2,15 @@
 ### Publications
 #### Journal papers
 
-M.K. Sharifian,  G. Kesserwani, A. Chowdhury, J. Neal and P. Bates (2022). LISFLOOD-FP 8.1: New GPU accelerated solvers for faster fluvial/pluvial flood simulations. **Geoscientific Model Development**, [preprint under review](https://doi.org/10.5194/gmd-2022-259). 
+M.K. Sharifian,  G. Kesserwani, A. Chowdhury, J. Neal and P. Bates (2023). LISFLOOD-FP 8.1: New GPU accelerated solvers for faster fluvial/pluvial flood simulations. **Geoscientific Model Development**, [preprint under review](https://doi.org/10.5194/gmd-2022-259). 
 
-A. Chowdhury, G. Kesserwani, C. Rouge, and P. Richmond (2022). Wavelet-based adaptive mesh refinement on the GPU for shallow water modelling. **Journal of Hydroinformatics**, in review.   
+A. Chowdhury, G. Kesserwani, C. Rouge, and P. Richmond (2023). Wavelet-based adaptive mesh refinement on the GPU for shallow water modelling. **Journal of Hydroinformatics**, in review.   
 
-G. Kesserwani and M. K. Sharifian (2022). (Multi)wavelet-based Godunov-type simulators of flood inundation: static versus dynamic grid adaptation. **Advances in Water Resouces**, in revision. 
+G. Kesserwani and M. K. Sharifian (2023). (Multi)wavelet-based Godunov-type simulators of flood inundation: static versus dynamic grid adaptation. **Advances in Water Resouces**, [https://doi.org/10.1016/j.advwatres.2022.104357](https://doi.org/10.1016/j.advwatres.2022.104357). 
 
-G. Kesserwani, J. Ayog, M.K. Sharifian, and D. Bau (2022). Shallow-flow velocity predictions using discontinuous Galerkin solutions. **Journal of Hydraulic Engineering (ASCE)**, [preprint accepted for publication](https://arxiv.org/abs/2210.16972).
+G. Kesserwani, J. Ayog, M.K. Sharifian, and D. Bau (2023). Shallow-flow velocity predictions using discontinuous Galerkin solutions. **Journal of Hydraulic Engineering (ASCE)**, [preprint accepted for publication](https://arxiv.org/abs/2210.16972).
 
-X. Sun, G. Kesserwani, M. K. Sharifian, and V. Stovin (2022). Simulation of laminar to transitional wakes past cylinders with discontinuous Galerkin shallow water solutions. **Journal of Hydraulic Research**, in revision. 
+X. Sun, G. Kesserwani, M. K. Sharifian, and V. Stovin (2023). Simulation of laminar to transitional wakes past cylinders with discontinuous Galerkin shallow water solutions. **Journal of Hydraulic Research**, in revision. 
 
 M. Shirvani and G. Kesserwani (2021). Flood-pedestrian simulator for modelling human response dynamics during flood-induced evacuation: Hillsborough stadium case study. **Natural Hazards and Earth System Sciences**, [**21**: 3175–3198](https://nhess.copernicus.org/articles/21/3175/2021/nhess-21-3175-2021).
 
