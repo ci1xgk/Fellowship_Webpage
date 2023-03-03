@@ -6,11 +6,11 @@ M.K. Sharifian,  G. Kesserwani, A. Chowdhury, J. Neal and P. Bates (2023). LISFL
 
 A. Chowdhury, G. Kesserwani, C. Rouge, and P. Richmond (2023). Wavelet-based adaptive mesh refinement on the GPU for shallow water modelling. **Journal of Hydroinformatics**, in review.   
 
-G. Kesserwani and M. K. Sharifian (2023). (Multi)wavelet-based Godunov-type simulators of flood inundation: static versus dynamic grid adaptation. **Advances in Water Resouces**, [https://doi.org/10.1016/j.advwatres.2022.104357](https://doi.org/10.1016/j.advwatres.2022.104357). 
+X. Sun, G. Kesserwani, M. K. Sharifian, and V. Stovin (2023). Simulation of laminar to transitional wakes past cylinders with discontinuous Galerkin shallow water solutions. **Journal of Hydraulic Research**, in review. 
 
-G. Kesserwani, J. Ayog, M.K. Sharifian, and D. Bau (2023). Shallow-flow velocity predictions using discontinuous Galerkin solutions. **Journal of Hydraulic Engineering (ASCE)**, [preprint accepted for publication](https://arxiv.org/abs/2210.16972).
+G. Kesserwani and M. K. Sharifian (2023). (Multi)wavelet-based Godunov-type simulators of flood inundation: static versus dynamic grid adaptation. **Advances in Water Resouces**, [**171**, 104357](https://www.sciencedirect.com/science/article/pii/S0309170822002202). 
 
-X. Sun, G. Kesserwani, M. K. Sharifian, and V. Stovin (2023). Simulation of laminar to transitional wakes past cylinders with discontinuous Galerkin shallow water solutions. **Journal of Hydraulic Research**, in revision. 
+G. Kesserwani, J. Ayog, M.K. Sharifian, and D. Bau (2023). Shallow-flow velocity predictions using discontinuous Galerkin solutions. **Journal of Hydraulic Engineering (ASCE)**, [**149**, 04023008-1](https://ascelibrary.org/doi/10.1061/JHEND8.HYENG-13244).
 
 M. Shirvani and G. Kesserwani (2021). Flood-pedestrian simulator for modelling human response dynamics during flood-induced evacuation: Hillsborough stadium case study. **Natural Hazards and Earth System Sciences**, [**21**: 3175–3198](https://nhess.copernicus.org/articles/21/3175/2021/nhess-21-3175-2021).
 
