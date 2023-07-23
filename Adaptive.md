@@ -24,7 +24,7 @@ The GPU-MWDG2 solver will be described in [this paper](), which explores the pot
 |Seaside, Oregon|[Macías et al., 2020](https://www.sciencedirect.com/science/article/abs/pii/S037838391830351X)|12|
 |Tauranga harbour|[Borrero et al., 2015](https://staff.washington.edu/rjl/pubs/Tauranga2015/BorreroLeVequeEtAl2015.pdf)|12|
 
-The following video shows how to run GPU-MWDG2 for two of the test cases, Okushiri island and Seaside, Oregon, on a personal machine and a high-performance computing cluster respectively: [Running test cases using GPU-MWDG2]().
+The following video shows how to run GPU-MWDG2 for two of the test cases, Okushiri island and Seaside, Oregon, on a personal machine and a high-performance computing cluster, respectively: [Running test cases using GPU-MWDG2]().
 
 
 [back](/LISFLOOD8.0.md)
