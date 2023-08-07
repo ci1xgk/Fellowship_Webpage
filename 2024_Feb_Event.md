@@ -3,7 +3,7 @@
 
 ## Event: Advances in flood modelling and forecasting
 ### Date:	February 01 and 02, 2024
-### Location:	The Wave, University of Sheffield, 2 Whitham Road, Sheffield, S10 2AH
+### Location:	The Wave, University of Sheffield, 2 Whitham Road, Sheffield, S10 2AH 
 
 
 
@@ -18,9 +18,13 @@ Flood forecasting is affected by multiple sources of uncertainty that need to be
 
 This one and a half day event will present recent research developments and discuss research findings and questions, covering fundamental, computational and applied aspects of flood modelling and forecasting. It provides a unique forum for research students, academics, flood-related researcher developers and practitioners to discuss latest research and future needs, over an excellent networking opportunity.
 
-The event will include presentations by leading experts in the field of flood modelling and forecasting, which are listed in the programme below. 
+The event will include presentations by leading experts in the field of flood modelling and forecasting, which are listed in the programme below. To book a place, please use the online shop of the University of Sheffield on the [following link](https://onlineshop.shef.ac.uk/conferences-and-events/faculty-of-engineering/civil-structural-engineering/advances-in-flood-modelling-and-forecasting)
+
+
 
 ![Image](/Figures/Day1.png) 
+
+
 
 ![Image](/Figures/Day2.png) 
 
