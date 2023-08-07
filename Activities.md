@@ -1,6 +1,6 @@
 ### Activities
 
-2024 (01-02, Feb.), Organisation of the ['Advances in flood modelling and forcasting'](2024_Feb_Event.md) event at the University of Sheffield. 
+2024 (01-02, Feb.), Organisation of the ['Advances in flood modelling and forceasting'](2024_Feb_Event.md) event at the University of Sheffield. 
 
 2023 (21-15, Aug.), Four presentation talks at the [40th IAHR AHR world Congress, Vienna, Austria](https://rivers.boku.ac.at/iahr/). One presentation on the performance of static versus dynamic multiwavelts grid adaptivity for real-world flood modelling, one a comparative study of many sampling-based uncertainty quantification mehtod for flood modelling, one on the next version release of LISFLOOD-FP for tsunami-generated coastal flooding, and one the utility of hydrodynamic modelling for modelling mixing processes in hydraulic engineering.  
 
