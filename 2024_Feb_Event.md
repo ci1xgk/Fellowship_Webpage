@@ -1,1 +1,1 @@
-Logo to be added here. 
+![Image](/Figures/logo.png) 
