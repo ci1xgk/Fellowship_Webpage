@@ -1,5 +1,5 @@
 ## Advances in flood modelling and forecasting
-### 01-02 February 2024, [The Wave, 2 Whitham Road, Sheffield, S10 2AH](https://goo.gl/maps/NufwV3nUbFnHGAPi6)
+### 01-02 February 2024: [The Wave, 2 Whitham Road, Sheffield, S10 2AH](https://goo.gl/maps/NufwV3nUbFnHGAPi6)
 </br>
 
 ### [Registration](https://onlineshop.shef.ac.uk/conferences-and-events/faculty-of-engineering/civil-structural-engineering/advances-in-flood-modelling-and-forecasting)
