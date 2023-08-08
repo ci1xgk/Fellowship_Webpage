@@ -3,7 +3,6 @@
 ### 01-02 February 2024
 ### [Registration details](https://onlineshop.shef.ac.uk/conferences-and-events/faculty-of-engineering/civil-structural-engineering/advances-in-flood-modelling-and-forecasting)
 </br>
-</br>
 
 Flood modelling and forecasting are core parts of flood risk management. The last decade has seen rapid advances in the development of efficient and flexible flood simulation frameworks for applications ranging from river-reach up to the global scales.
 </br>
@@ -17,19 +16,15 @@ Flood forecasting is affected by multiple sources of uncertainty that need to be
 
 This one and a half day event will present recent research developments and discuss research findings and questions, covering fundamental, computational and applied aspects of flood modelling and forecasting. It provides a unique forum for research students, academics, flood-related researcher developers and practitioners to discuss latest research and future needs, over an excellent networking opportunity.
 </br>
-</br>
 
 The event will include presentations by experts in the field, which are listed in the programme below. The event is free to attend subject to a registration fee between £20 and £40 to secure a place due to limited places.   
-</br>
 </br>
 
 ![Image](/Figures/Day1.png) 
 </br>
-</br>
 
 ![Image](/Figures/Day2.png) 
 
-</br>
 </br>
 We look forward to seeing you in Sheffield,
 
