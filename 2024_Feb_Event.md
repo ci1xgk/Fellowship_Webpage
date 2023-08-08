@@ -1,7 +1,8 @@
 ## Advances in flood modelling and forecasting
-### University of Sheffield: The Wave, 2 Whitham Road, Sheffield, S10 2AH
-### 01-02 February 2024
-### [Registration details](https://onlineshop.shef.ac.uk/conferences-and-events/faculty-of-engineering/civil-structural-engineering/advances-in-flood-modelling-and-forecasting)
+### 01-02 February 2024, [The Wave, 2 Whitham Road, Sheffield, S10 2AH](https://goo.gl/maps/NufwV3nUbFnHGAPi6)
+</br>
+
+### [Registration](https://onlineshop.shef.ac.uk/conferences-and-events/faculty-of-engineering/civil-structural-engineering/advances-in-flood-modelling-and-forecasting)
 </br>
 
 Flood modelling and forecasting are core parts of flood risk management. The last decade has seen rapid advances in the development of efficient and flexible flood simulation frameworks for applications ranging from river-reach up to the global scales.
