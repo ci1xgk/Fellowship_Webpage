@@ -3,7 +3,6 @@
 
 
 
-
 #### [Registration](https://onlineshop.shef.ac.uk/conferences-and-events/faculty-of-engineering/civil-structural-engineering/advances-in-flood-modelling-and-forecasting)
 
 
@@ -32,7 +31,7 @@ The event will include presentations by experts in the field, which are listed i
 
 
 
-
+![Image](/Figures/Logo_event.png)
 
 We look forward to seeing you in Sheffield,
 
