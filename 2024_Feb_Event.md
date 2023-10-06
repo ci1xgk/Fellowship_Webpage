@@ -22,11 +22,7 @@ The event will include presentations by experts in the field, which are listed i
 
 
 
-![Image](/Figures/Day1.png) 
 
-
-
-![Image](/Figures/Day2.png) 
 
 
 
