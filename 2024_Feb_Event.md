@@ -21,7 +21,11 @@ This one and a half day event will present recent research developments and disc
 The event will include presentations by experts in the field, which are listed in the programme below. The event is free to attend subject to a registration fee between £20 and £40 to secure a place due to limited places.   
 
 
+![Image](/Figures/)
 
+
+
+![Image](/Figures/) 
 
 
 
