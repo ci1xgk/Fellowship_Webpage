@@ -25,7 +25,7 @@ The event will include presentations by experts in the field, which are listed i
 
 
 
-![Image](/Figures) 
+![Image](/Figures/Day2.png) 
 
 
 
