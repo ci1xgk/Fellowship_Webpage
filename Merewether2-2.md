@@ -16,7 +16,7 @@ QGIS can also be used to decrease (upscale) the resolution of the DEM data. For 
 -	Once saved, change the extension of the file from `.asc` to `.dem`. 
 
 
-Hence, `merewether-0p175m.dem` will be the upscaled raw DEM file that will be used to set up LISFLOOD-FP simulations.
+Hence, `merewether-0p175m.dem` will be the upscaled raw DEM file that will be used to set up LISFLOOD-FP simulations. See also [Ayog and Kesserwani (2021)](https://zenodo.org/records/5069224) to access the original and modified files on Zenodo.
 
 
 [back](/Merewether2.md)
