@@ -2,13 +2,13 @@
 ### Publications
 #### Journal papers
 
-M. Hajihassanpour, G. Kesserwani, P. Pettersson, and V. Bellos (2023). Sampling-based methods for uncertainty propagation in flood modelling under multiple uncertain inputs: finding out the most efficient choice. **Water Resources Research**, in press. 
+M. Hajihassanpour, G. Kesserwani, P. Pettersson, and V. Bellos (2023). Sampling-based methods for uncertainty propagation in flood modelling under multiple uncertain inputs: finding out the most efficient choice. **Water Resources Research**, [**59**: e2022WR034011](https://doi.org/10.1029/2022WR034011). 
 
 M.K. Sharifian,  G. Kesserwani, A. Chowdhury, J. Neal and P. Bates (2023). LISFLOOD-FP 8.1: New GPU accelerated solvers for faster fluvial/pluvial flood simulations. **Geoscientific Model Development**, [**16**: 2391–2413](https://doi.org/10.5194/gmd-16-2391-2023). 
 
-A. Chowdhury, G. Kesserwani, C. Rouge, and P. Richmond (2023). Wavelet-based adaptive mesh refinement on the GPU for shallow water modelling. **Journal of Hydroinformatics**, [in press](https://doi.org/10.2166/hydro.2023.154).   
+A. Chowdhury, G. Kesserwani, C. Rouge, and P. Richmond (2023). Wavelet-based adaptive mesh refinement on the GPU for shallow water modelling. **Journal of Hydroinformatics**, [**25**: 1210–1234](https://doi.org/10.2166/hydro.2023.154).   
 
-X. Sun, G. Kesserwani, M. K. Sharifian, and V. Stovin (2023). Simulation of laminar to transitional wakes past cylinders with discontinuous Galerkin shallow water solutions. **Journal of Hydraulic Research**, in press. 
+X. Sun, G. Kesserwani, M. K. Sharifian, and V. Stovin (2023). Simulation of laminar to transitional wakes past cylinders with discontinuous Galerkin shallow water solutions. **Journal of Hydraulic Research**, [**61**: 631–650](https://doi.org/10.1080/00221686.2023.2239750). 
 
 G. Kesserwani and M. K. Sharifian (2023). (Multi)wavelet-based Godunov-type simulators of flood inundation: static versus dynamic grid adaptation. **Advances in Water Resouces**, [**171**, 104357](https://www.sciencedirect.com/science/article/pii/S0309170822002202). 
 
