@@ -8,7 +8,8 @@ The model DEM, water level and velocity data were recorded relative to an arbitr
 
 ![image](/Figures/mer2.png)
 
-In the rest of this section, an overview of the LISFLOOD-FP modelling environment is provided through a step-by-step guide for setting up and running the Merewether urban flooding test case.
+In the rest of this section, an overview of the LISFLOOD-FP modelling environment is provided through a step-by-step guide for setting up and running the Merewether urban flooding test case ([Ayog and Kesserwani (2021)](https://zenodo.org/records/5069224)).
+
 
 #### [1. Input files and their format](./Merewether1.md)
 
