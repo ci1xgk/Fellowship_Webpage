@@ -45,6 +45,16 @@ nonlinear and weakly dispersive wave transformations. **Ocean Modelling**, [**12
 
 #### Conference contributions
 
+G. Kesserwani, M. Hajihassanpour, P. Petterson and V. Bellos. _WHAT IS THE MOST EFFICIENT SAMPLING-BASED UNCERTAINTY PROPAGATION METHOD IN FLOOD MODELLING?_ SimHydro 2023: New modelling paradigms for water issues?, 8-10 November 2023, Chatou, France.
+
+A. Chowdhury, G. Kesserwani and C. Rougé. _LISFLOOD-FP 8.2: new GPU-parallelised multiwavelet adaptive discontinuous Galerkin solver for tsunami modelling_ 40th IAHR Congress 2023, August 21 - 25, Vienna, Austria.
+
+S. Xitong, G. Kesserwani and V. Stovin. _Discontinuous Galerkin modelling of solute transport in vegetated steady flows_ 40th IAHR Congress 2023, August 21 - 25, Vienna, Austria.
+
+G. Kesserwani and M. Hajihassanpour _Comparison of sampling-based Uncertainty Quantification (UQ) methods for flood modelling applications_ 40th IAHR Congress 2023, August 21 - 25, Vienna, Austria.
+
+G. Kesserwani and M.K. Sharifian _Static versus dynamic grid adaptation with (multi)wavelet-based flood simulators_ 40th IAHR Congress 2023, August 21 - 25, Vienna, Austria.
+
 M.  Hajihassanpour, P. Pettersson and G. Kesserwani. _Benchmarking uncertainty quantification methods in flood modelling applications._ UK Fluids Conference, September 2022, Sheffield. 
 
 M. Shirvani and G. Kesserwani. _Microscopic simulation of human response dynamics during a flood-induced evacuation from a football stadium._ 7th IAHR Europe Congress 2022, September 7-9, Athens, Greece.
