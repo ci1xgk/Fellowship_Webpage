@@ -14,11 +14,11 @@ Flood modelling uses two-dimensional hydrodynamic simulators with as much comple
 Flood forecasting is affected by multiple sources of uncertainty that need to be efficiently quantified and reduced. Uncertainties stemming from observational and forcing data, model parameters, the initial state of the system, and flood model structure can affect the overall accuracy. Still, it is challenging to have a general and efficient framework to identify the relevant uncertainty sources and how their joint effects impact the output flood-related probability distributions.
 
 
-This one and a half day event will present recent research developments and discuss research findings and questions, covering fundamental, computational and applied aspects of flood modelling and forecasting. It provides a unique forum for research students, academics, flood-related researcher developers and practitioners to discuss latest research and future needs, over an excellent networking opportunity.
+This two-day event will present recent research developments and discuss research findings and questions, covering fundamental, computational and applied aspects of flood modelling and forecasting. It provides a unique forum for research students, academics, flood-related researcher developers and practitioners to discuss latest research and future needs, over an excellent networking opportunity.
 
 
 
-The event will include presentations by experts in the field, which are listed in the programme below.
+The event will include presentations by experts in the field, which are listed in the programme below. 
 
 
 ![Image](/Figures/Day1.png)
@@ -28,7 +28,7 @@ The event will include presentations by experts in the field, which are listed i
 ![Image](/Figures/Day2.png) 
 
 
-
+[Registration](https://onlineshop.shef.ac.uk/conferences-and-events/faculty-of-engineering/civil-structural-engineering/advances-in-flood-modelling-and-forecasting) is open for a small fee of £40 to secure a place, with 50% discount for students and IAHR members.
 
 We look forward to seeing you in Sheffield,
 
