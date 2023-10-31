@@ -38,6 +38,9 @@ Georges Kesserwani
 
 
 
-Sponsors:
-[![Image](/Figures/Logo_event.png)](https://www.iahr.org/)
+
+
+[![Image](/Figures/Logo_IAHR.png)](https://www.iahr.org/)
+
+[![Image](/Figures/Logo_Modelling.png)]([https://www.iahr.org/](https://www.mdpi.com/journal/modelling)https://www.mdpi.com/journal/modelling)
 
