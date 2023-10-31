@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
-logo: /Figures/Fig_5G.jpg
+logo: /Figures/Fig_5G.png
 
 title: SEAMLESS-WAVE
 description: SEAMLESS-WAVE is a developing “SoftwarE infrAstructure for Multi-purpose fLood modElling at variouS scaleS” based on "WAVElets" and their versatile properties. The vision behind SEAMLESS-WAVE is to produce an intelligent and holistic modelling framework, which can drastically reduce iterations in building and testing for an optimal model setting, and in controlling the propagation of model-error due to scaling effects and of uncertainty due statistical inputs.
