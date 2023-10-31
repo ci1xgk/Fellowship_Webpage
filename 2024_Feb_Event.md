@@ -1,3 +1,11 @@
+
+[![Image](/Figures/Logo_IAHR.png)](https://www.iahr.org/)
+
+[![Image](/Figures/Logo_Modelling.png)](https://www.mdpi.com/journal/modelling)
+
+
+
+
 ## Advances in flood modelling and forecasting
 #### 01-02 February 2024: [The Wave, 2 Whitham Road, Sheffield, S10 2AH](https://goo.gl/maps/NufwV3nUbFnHGAPi6)
 
@@ -35,12 +43,3 @@ The event will include presentations by experts in the field, which are listed i
 We look forward to seeing you in Sheffield,
 
 Georges Kesserwani
-
-
-
-
-
-[![Image](/Figures/Logo_IAHR.png)](https://www.iahr.org/)
-
-[![Image](/Figures/Logo_Modelling.png)]([https://www.iahr.org/](https://www.mdpi.com/journal/modelling)https://www.mdpi.com/journal/modelling)
-
