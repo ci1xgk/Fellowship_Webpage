@@ -28,7 +28,9 @@ The event will include presentations by experts in the field, which are listed i
 ![Image](/Figures/Day2.png) 
 
 
-[Registration](https://onlineshop.shef.ac.uk/conferences-and-events/faculty-of-engineering/civil-structural-engineering/advances-in-flood-modelling-and-forecasting) is open for a small fee of £40 to secure a place, with 50% discount for students and IAHR members.
+[Registration](https://onlineshop.shef.ac.uk/conferences-and-events/faculty-of-engineering/civil-structural-engineering/advances-in-flood-modelling-and-forecasting) is open for a small fee of £40, to secure a place, with 50% discount for students and [IAHR members](https://www.iahr.org/index/experts).
+
+
 
 We look forward to seeing you in Sheffield,
 
@@ -37,4 +39,5 @@ Georges Kesserwani
 
 
 Sponsors:
-![Image](/Figures/Logo_event.png)
+[![Image](/Figures/Logo_event.png)](https://www.iahr.org/)
+
