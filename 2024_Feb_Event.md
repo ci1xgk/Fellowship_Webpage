@@ -1,9 +1,6 @@
 
 [![Image](/Figures/Logo_IAHR.png)](https://www.iahr.org/)
 
-[![Image](/Figures/Logo_Modelling.png)](https://www.mdpi.com/journal/modelling)
-
-
 
 
 ## Advances in flood modelling and forecasting
