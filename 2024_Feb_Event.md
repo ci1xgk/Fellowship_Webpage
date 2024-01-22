@@ -1,5 +1,5 @@
 
-[![Image](/Figures/Logo_IAHR.png)]([https://www.iahr.org/](https://www.seamlesswave.com/2024_Feb_Event)
+[![Image](/Figures/Logo_IAHR.png)](https://www.seamlesswave.com/2024_Feb_Event)
 
 
 ## [The Wave, 2 Whitham Road, Sheffield, S10 2AH](https://goo.gl/maps/NufwV3nUbFnHGAPi6)
