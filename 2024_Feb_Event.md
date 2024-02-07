@@ -6,7 +6,7 @@
 
 #### Registration: Closed (event has now taken place). 
 
-#### Workshop presentations: recordings on YouTube.
+#### Recorded workshop presentations
 
 Flood modelling and forecasting are core parts of flood risk management. The last decade has seen rapid advances in the development of efficient and flexible flood simulation frameworks for applications ranging from river-reach up to the global scales.
 
