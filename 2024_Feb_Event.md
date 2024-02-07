@@ -25,3 +25,6 @@ The event included presentations by experts in the field, which are listed in th
 ![Image](/Figures/Day1.png)
 
 ![Image](/Figures/Day2.png) 
+
+
+#### Post-event story
