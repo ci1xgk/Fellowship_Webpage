@@ -27,4 +27,4 @@ The event included presentations by experts in the field, which are listed in th
 ![Image](/Figures/Day2.png) 
 
 
-#### [Post-event story](https://drive.google.com/drive/folders/1gZf1brxl_CHSApQKr5LWcbUO2CTallsQ?usp=sharing)
+#### [Post-event story](https://drive.google.com/file/d/1yuItccAs5d4vb0r57OjleoObmD6Spdz7/view?usp=sharing)
