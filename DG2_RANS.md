@@ -1,5 +1,5 @@
 ### Using the DG2-RANS solver
-The DG2-RANS solver is a new solver in LISFLOOD-FP. DG2-RANS is used in a similar way as other solvers in LISFLOOD-FP (i.e., following the guidance described in Section [*"Input files and their format"*](/Merewether1.md)), but several extra parameters are needed to be included in the *.par file, as described in the table below
+The DG2-RANS solver on LISFLOOD-F can be setup and run in a similar way as any other uniform-grid solver (see the Section [*"Input files and their format"*](/Merewether1.md)), subjected to typing several extra parameters in the *.par file. These parameters are described in the table below. 
 
 | Item name `input`  | Description |
 | --------- | ----------- |
@@ -14,9 +14,9 @@ The DG2-RANS solver is a new solver in LISFLOOD-FP. DG2-RANS is used in a simila
 |cavity_coarse|Boolean keyword instructing LISFLOOD-FP to simulate "Recirculation flow in sharp building cavities" benchmark test using the coarse grid (0.32 m).|
 |cavity_fine|Boolean keyword instructing LISFLOOD-FP to simulate "Recirculation flow in sharp building cavities" benchmark test using the fine grid (0.16 m).|
 
-By default, DG2-RANS will be launched on multicore units. Launching it on GPU needs adding `cuda` input parameter to the *.par file as described in Section [*“Parameter file (.par)”*](/Merewether1-1.md). 
+By default, DG2-RANS will be launched on multicore units. Launching it on GPU needs typing the item `cuda` in the parameter *.par file (see the Section [*“Parameter file (.par)”*](/Merewether1-1.md). 
 
-The DG2-RANS solver is described in [this paper](), which explores the performance of DG2-RANS over four vortical shallow water test cases listed below.
+The DG2-RANS solver is described in [this paper](), which futher explores the performance of DG2-RANS over four vortical shallow water test cases, listed below.
 
 |Test case|Reynolds number|Snapshot|
 | --------- | ----------- | --------- | 
