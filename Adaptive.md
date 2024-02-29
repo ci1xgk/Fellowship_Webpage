@@ -33,11 +33,11 @@ Running simulations using the GPU-MWDG2 solver follows a very similar workflow a
 |Input file|File extension|Description|
 |----------|--------------|-----------|
 |Digital elevation model|`.dem`|ASCII [raster file](https://support.geocue.com/ascii-raster-files-asc/) containing the numerical values of the bathymetric elevation pixel-by-pixel.|
-|Initial flow conditions|`.start,.start.Qx,.start.Qy`|ASCII raster file containing the numerical values of the initial water depth and discharge pixel-by-pixel.|
+|Initial flow conditions|`.start`<br>`.start.Qx`<br>`.start.Qy`|ASCII raster file containing the numerical values of the initial water depth and discharge pixel-by-pixel.|
 |Boundary conditions|`.bci`|Text file specifying where boundary conditions are enforced and what type (fixed versus time-varying).|
 |Point source locations|`.bci`|Text file specifying the locations of point sources and what type (fixed versus time-varying).|
 |Time series at boundaries and point sources|`.bdy`|Text file containing time series in case time-varying boundary conditions and/or point sources have been specified in the .bci file.|
-|Stage and gauge locations|`.stage,.guage`|Text file containing the locations of virtual stage and gauge points where simulated time histories of the water depth and discharge are recorded.|
+|Stage and gauge locations|`.stage`<br>`.guage`|Text file containing the locations of virtual stage and gauge points where simulated time histories of the water depth and discharge are recorded.|
 |Parameter file|`.par`|Text file containing parameters to access various model features for running a simulation.|
 
 ### 2.1 Example: Monai valley
