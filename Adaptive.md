@@ -133,32 +133,32 @@ A parameter (`.par`) file is a text file that specifies various parameters for r
 - `ref_thickness`
 - `cumulative`
 
-| Parameter | Description |
-| ---------------- |-------------|
-|`DEMfile` | Keyword followed by text. Specifies the name of the raster file containing the DEM. |
-|`startfile` | Keyword followed by text. Specifies the name of the raster file containing the initial water depths. |
-|`bcifile` | Keyword followed by text. Specifies the name of the boundary condition file. |
-|`bdyfile` | Keyword followed by text. Specifies the name of the file containing the time-varying conditions. |
-|`stagefile` | Keyword followed by text. Specifies the name of the stage file. |
-|`sim_time` | Keyword followed by a decimal number. Specifies the simulation time in seconds. |
-|`cuda`| Boolean keyword instructing the code to use the GPU-parallelised solvers. |
-|`hwfv1` | Boolean keyword instructing the code to use the GPU-HWFV1 solver. |
-|`mwdg2` | Boolean keyword instructing the code to use the GPU-MWDG2 solver. |
-|`epsilon` | Keyword followed by a decimal number. Specifies the error threshold ε used by the model to control the amount of coarsening in the non-uniform grid. A larger value allows a higher amount of coarsening. |
-|`max_ref_lvl` | Keyword followed by an integer. Specifies the maximum refinement level L used by the model when setting the $2^L × 2^L$ finest resolution grid. For a test case involving a digital elevation model (DEM) made up of $N × M$ cells, the user must specify the value of L to be such that $2^L ≥ \max(N, M)$. By doing so, two areas emerge in the grid: the actual $N × M$ domain area defined by the DEM, and empty areas beyond the $N × M$ area where no DEM data are available and where no flow should should occur. |
-|`wall_height` | Keyword followed by a decimal number. Specifies the height of the wall in metres used by the model to fill the empty areas beyond the domain area. The user must specify a sufficiently high wall height to prevent any flow from exiting past the walls. |
-|`refine_wall` | Boolean keyword to prevent the model from excessively coarsening the non-uniform grid around the wall separating the domain area from the void areas. The user can enable this refinement to ensure that very coarse cells around the wall do not lead to unrealistic calculations. |
+| Parameter      | Description |
+| -------------- |-------------|
+|`DEMfile`       | Keyword followed by text. Specifies the name of the raster file containing the DEM. |
+|`startfile`     | Keyword followed by text. Specifies the name of the raster file containing the initial water depths. |
+|`bcifile`       | Keyword followed by text. Specifies the name of the boundary condition file. |
+|`bdyfile`       | Keyword followed by text. Specifies the name of the file containing the time-varying conditions. |
+|`stagefile`     | Keyword followed by text. Specifies the name of the stage file. |
+|`sim_time`      | Keyword followed by a decimal number. Specifies the simulation time in seconds. |
+|`cuda`          | Boolean keyword instructing the code to use the GPU-parallelised solvers. |
+|`hwfv1`         | Boolean keyword instructing the code to use the GPU-HWFV1 solver. |
+|`mwdg2`         | Boolean keyword instructing the code to use the GPU-MWDG2 solver. |
+|`epsilon`       | Keyword followed by a decimal number. Specifies the error threshold ε used by the model to control the amount of coarsening in the non-uniform grid. A larger value allows a higher amount of coarsening. |
+|`max_ref_lvl`   | Keyword followed by an integer. Specifies the maximum refinement level L used by the model when setting the $2^L × 2^L$ finest resolution grid. For a test case involving a digital elevation model (DEM) made up of $N × M$ cells, the user must specify the value of L to be such that $2^L ≥ \max(N, M)$. By doing so, two areas emerge in the grid: the actual $N × M$ domain area defined by the DEM, and empty areas beyond the $N × M$ area where no DEM data are available and where no flow should should occur. |
+|`wall_height`   | Keyword followed by a decimal number. Specifies the height of the wall in metres used by the model to fill the empty areas beyond the domain area. The user must specify a sufficiently high wall height to prevent any flow from exiting past the walls. |
+|`refine_wall`   | Boolean keyword to prevent the model from excessively coarsening the non-uniform grid around the wall separating the domain area from the void areas. The user can enable this refinement to ensure that very coarse cells around the wall do not lead to unrealistic calculations. |
 |`ref_thickness` | Keyword followed by an integer. Specifies the number of cells that are to be refined around the wall by the model when the refine_wall keyword is also specified. |
-|`initial_t_step` | Keyword followed by a decimal number. Specifies the initial timestep. |
-|`cumulative` | Boolean keyword instructing the model to produce a `.cumu` file that contains time series data designed to help in assessing the effect of grid adaptation on the runtime. |
-|`vtk` | Boolean keyword to enable the output of `.vtk` output files for viewing flow and topography data over a non-uniform grid. |
-|`c_prop` | Boolean keyword to enable the output of discharges; only applicable for quiescent test cases. |
-|`raster_out` | Boolean keyword to enable the output of raster files. |
+|`initial_t_step`| Keyword followed by a decimal number. Specifies the initial timestep. |
+|`cumulative`    | Boolean keyword instructing the model to produce a `.cumu` file that contains time series data designed to help in assessing the effect of grid adaptation on the runtime. |
+|`vtk`           | Boolean keyword to enable the output of `.vtk` output files for viewing flow and topography data over a non-uniform grid. |
+|`c_prop`        | Boolean keyword to enable the output of discharges; only applicable for quiescent test cases. |
+|`raster_out`    | Boolean keyword to enable the output of raster files. |
 |`voutput_stage` | Boolean keyword to also save the velocity time series at the stage locations. |
-|`resroot` | Keyword followed by text. Specifies the prefix of the names of the output files. |
-|`dirroot` | Keyword followed by text. Specifies the name of the folder where the output files are saved. |
-|`massint` | Keyword followed by a decimal number. Specifies the time interval in seconds at which stage or guage data are recorded. |
-|`saveint` | Keyword followed by a decimal number. Specifies the time interval in seconds at which raster or `.vtk` output files are saved. |
+|`resroot`       | Keyword followed by text. Specifies the prefix of the names of the output files. |
+|`dirroot`       | Keyword followed by text. Specifies the name of the folder where the output files are saved. |
+|`massint`       | Keyword followed by a decimal number. Specifies the time interval in seconds at which stage or guage data are recorded. |
+|`saveint`       | Keyword followed by a decimal number. Specifies the time interval in seconds at which raster or `.vtk` output files are saved. |
 
 The GPU-MWDG2 solver is described and analysed in [this paper](), which explores the potential speedup achieved by dynamic GPU-MWDG2 adaptivity over the GPU-parallelised uniform-grid DG2 solver released in LISFLOOD-FP 8.0 ([Shaw et al. 2020](https://gmd.copernicus.org/articles/14/3577/2021/)) when simulating several test cases of tsunami-induced flooding. The test cases are listed below:
 
@@ -168,5 +168,16 @@ The GPU-MWDG2 solver is described and analysed in [this paper](), which explores
 |Seaside, Oregon|[Macías et al., 2020](https://www.sciencedirect.com/science/article/abs/pii/S037838391830351X)|12|
 |Tauranga harbour|[Borrero et al., 2015](https://staff.washington.edu/rjl/pubs/Tauranga2015/BorreroLeVequeEtAl2015.pdf)|12|
 |Hilo harbour|[Arcos and LeVeque, 2015](https://link.springer.com/article/10.1007/s00024-014-0980-y)|10|
+
+The `.cumu` file contains the following time series data, which can be used to compute metrics for assessing the efficiency achieved by dynamic GPU-MWDG2 adaptivity:
+
+| Heading in file    | Description of time series |
+|--------------------|-----------------------------|
+| `simtime`          | Simulation time in seconds. |
+| `runtime_mra`      | Computational effort (measured in seconds) spent by GPU-MWDG2 to perform the MRA process and generate the non-uniform grid up to a given simulation time. |
+| `runtime_solver`   | Computational effort (measured in seconds) spent by GPU-MWDG2 to perform the DG2 update for performing the solver computations on the non-uniform grid up to a given simulation time. |
+| `runtime_total`    | Sum of the `runtime_mra` and the `runtime_solver` time series, listing the total computational effort spent by GPU-MWDG2 up to a given simulation time. |
+| `dt`               | Timestep. |
+| `reduction`        | Percentage reduction in the cell count of GPU-MWDG2’s non-uniform grid relative to the cell count of GPU-DG2’s uniform grid. |
 
 [back](/LISFLOOD8.0.md)
