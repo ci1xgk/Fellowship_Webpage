@@ -29,6 +29,7 @@ To run simulations using the GPU-MWDG2 solver, LISFLOOD-FP must be compiled and 
 #### 2 Running simulations using the GPU-MWDG2 solver: preparing the input files
 
 Running simulations using the GPU-MWDG2 solver follows a very similar workflow as previous versions of [LISFLOOD-FP](http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/) but with some minor differences, explained next. A summary of the LISFLOOD-FP workflow is provided in this readme, but more detailed guidance is available [on the SEAMLESS-WAVE website](/Merewether1.md). The workflow requires preparing several input files, as listed in the table below:
+
 |Input file|File extension|Description|
 |----------|--------------|-----------|
 |Digital elevation model|`.dem`|ASCII [raster file](https://support.geocue.com/ascii-raster-files-asc/) containing the numerical values of the bathymetric elevation pixel-by-pixel.|
