@@ -190,4 +190,28 @@ To run the simulations, do the following steps:
 7. Load a CUDA installation on the cluster (e.g. by running a command like `module load CUDA/10.1.243`)
 8. Start the simulation on the cluster by running `./../lisflood oregon-seaside.par`
 
+The following shell script can be used assuming the `lisflood` executable has already been built:
+
+```
+#!/bin/bash
+#SBATCH --job-name=oregon-seaside.out
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --mem=8G
+#SBATCH --output=oregon-seaside.out
+#SBATCH --time=01:00:00
+#SBATCH --mail-user=aachowdhury2@sheffield.ac.uk
+#SBATCH --partition=gpu
+#SBATCH --qos=gpu
+#SBATCH --gres=gpu:1
+
+module load Python/3.10.4-GCCcore-11.3.0 CUDA/10.1.243
+
+cd /users/cip19aac/LISFLOOD-FP/build/oregon-seaside
+
+./../lisflood -epsilon $1 -dirroot $2 oregon-seaside.par
+```
+
+After running with three values of $\epsilon$, run `python postprocess.py` to generate the plots of the predictions and speedup gains.
+
 [back](/LISFLOOD8.0.md)
