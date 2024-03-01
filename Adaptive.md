@@ -10,25 +10,27 @@ To run simulations using the GPU-MWDG2 solver, an NVIDIA GPU and the [CUDA Toolk
 
 To run simulations using the GPU-MWDG2 solver, LISFLOOD-FP must be compiled and built. Only a summary of the steps for compiling and building LISFLOOD-FP is provided in this page, but in case the steps need troubleshooting, more detailed guidance on compiling and building LISFLOOD-FP is available on the SEAMLESS-WAVE website: [here for Windows](/compile_win.md), and [here for Linux](/compile_lin.md). 
 
-##### 1.1 Building on Windows
+#### 1.1 Building on Windows
 
 1. Open the folder `LISFLOOD-FP` in Visual Studio
 2. Go to toolbar at the top and select either the `x64-Debug` or `x64-Release` option from the dropdown menu
 3. From the toolbar click `Build > Rebuild All`
 4. If the `x64-Debug` option was selected, the built executable `lisflood.exe` may be located in `LISFLOOD-FP\out\build\x64-Debug` (`LISFLOOD-FP\out\build\x64-Release` if `x64-Release` was selected).
 
-##### 1.2 Building on Linux*
+#### 1.2 Building on Linux*
 
 1. Navigate to the `LISFLOOD-FP` directory
 2. Run `cmake -S . -B build` in the command line
 3. Run `cmake --build build`
 4. The built executable `lisflood` will be located in `LISFLOOD-FP/build`
 
-\* There is a potential issue about building on Linux because the [CUB library](https://nvlabs.github.io/cub/) is not properly detected. This issue be avoided by changing all `#include`s with `cub/` to `../../cub/`.
+\*There is a potential issue about building on Linux because the [CUB library](https://nvlabs.github.io/cub/) is not properly detected. This issue be avoided by changing all `#include`s with `cub/` to `../../cub/`.
 
 #### 2 Running simulations using the GPU-MWDG2 solver: preparing the input files
 
-Running simulations using the GPU-MWDG2 solver follows a very similar workflow as previous versions of [LISFLOOD-FP](http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/) but with some minor differences, explained next. A summary of the LISFLOOD-FP workflow is provided in this readme, but more detailed guidance is available [on the SEAMLESS-WAVE website](/Merewether1.md). The workflow requires preparing several input files, as listed in the table below:
+Running simulations using the GPU-MWDG2 solver follows a very similar workflow as previous versions of [LISFLOOD-FP](http://www.bristol.ac.uk/geography/research/hydrology/models/lisflood/) but with some minor differences, explained next. In this page, only a summary of the LISFLOOD-FP workflow is provided, whereas more detailed guidance is available [on the SEAMLESS-WAVE website](/Merewether1.md).
+
+The workflow requires preparing several input files, as listed in the table below:
 
 |Input file|File extension|Description|
 |----------|--------------|-----------|
@@ -40,7 +42,7 @@ Running simulations using the GPU-MWDG2 solver follows a very similar workflow a
 |Stage and gauge locations|`.stage`<br>`.guage`|Text file containing the locations of virtual stage and gauge points where simulated time histories of the water depth and discharge are recorded.|
 |Parameter file|`.par`|Text file containing parameters to access various model features for running a simulation.|
 
-### 2.1 Example: Monai valley
+#### 2.1 Example workflow 1: Monai valley
 
 Consider an example of using the GPU-MWDG2 solver to run a simulation of the Monai valley test case in Section 3.3.2 of [Chowdhury et al. 2023](https://iwaponline.com/jh/article/doi/10.2166/hydro.2023.154/95732/GPU-parallelisation-of-Haar-wavelet-based-grid). This test case needs the following input files:
 
@@ -63,7 +65,7 @@ To prepare the input files listed above and then run simulations of the Monai va
 6. Prepare a parameter file called `monai.par` (parameters needed in file shown below)
 7. Run `..\lisflood.exe monai.par` in a command prompt to start running the simulation
 
-**Automated simulations**
+#### Automated simulations for the Monai valley test case
 
 Instead of manually running the simulation by doing the steps above, the simulation can be run automatically by opening a command prompt at `LISFLOOD-FP\out\build\x64-Release\monai` and running `python simulate.py`. This will automatically do all the preprocessing for preparing the input files (steps 3 to 6), run several simulations (step 7), and postprocess the results.
 
@@ -120,9 +122,9 @@ bdyfile       monai.bdy
 stagefile     monai.stage
 ```
 
-### 2.2 What is a parameter file?
+#### 2.2 What is a parameter file?
 
-A parameter (`.par`) file is a text file that specifies various parameters for running a simulation. Detailed explanations on the parameters and what function they serve have already been provided [here](/Merewether1.md), but they are provided again for reference in the table below, with the extra parameters in LISFLOOD-FP 8.2 *specifically* for running the GPU-MWDG2 solver being highlighted in bold:
+A parameter (`.par`) file is a text file that specifies various parameters for running a simulation: detailed explanations on the parameters and what function they serve have already been provided [here](/Merewether1.md), but they are provided again for reference in the table below, with the extra parameters in LISFLOOD-FP 8.2 specifically for running the GPU-MWDG2 solver being highlighted in bold:
 
 | Parameter      | Description |
 | -------------- |-------------|
@@ -140,7 +142,7 @@ A parameter (`.par`) file is a text file that specifies various parameters for r
 |`bdyfile`           | Keyword followed by text. Specifies the name of the file containing the time-varying conditions. |
 |`stagefile`         | Keyword followed by text. Specifies the name of the stage file. |
 |`sim_time`          | Keyword followed by a decimal number. Specifies the simulation time in seconds. |
-|`hwfv1`             | Boolean keyword instructing the code to use the GPU-HWFV1 solver. |
+|`hwfv1`             | Boolean keyword instructing the code to use [the GPU-HWFV1 solver](https://iwaponline.com/jh/article/doi/10.2166/hydro.2023.154/95732/GPU-parallelisation-of-Haar-wavelet-based-grid). |
 |`initial_t_step`    | Keyword followed by a decimal number. Specifies the initial timestep. |
 |`vtk`               | Boolean keyword to enable the output of `.vtk` output files for viewing flow and topography data over a non-uniform grid. |
 |`c_prop`            | Boolean keyword to enable the output of discharges; only applicable for quiescent test cases. |
@@ -151,7 +153,9 @@ A parameter (`.par`) file is a text file that specifies various parameters for r
 |`massint`           | Keyword followed by a decimal number. Specifies the time interval in seconds at which stage or guage data are recorded. |
 |`saveint`           | Keyword followed by a decimal number. Specifies the time interval in seconds at which raster or `.vtk` output files are saved. |
 
-The `cumulative` instructs the GPU-MWDG2 solver to produce a `.cumu` file that contains various time series data for assessing the efficiency achieved by dynamic GPU-MWDG2 adaptivity:
+#### 3 Assessing the efficiency of dynamic GPU-MWDG2 adaptivity
+
+The `cumulative` keyword instructs the GPU-MWDG2 solver to produce a `.cumu` output file that contains various time series data for assessing the efficiency achieved by dynamic GPU-MWDG2 adaptivity:
 
 | Heading in file    | Description of time series |
 |--------------------|-----------------------------|
@@ -171,6 +175,19 @@ These time series data are entensively used to analyse the efficiency of the GPU
 |Tauranga harbour|[Borrero et al., 2015](https://staff.washington.edu/rjl/pubs/Tauranga2015/BorreroLeVequeEtAl2015.pdf)|12|
 |Hilo harbour|[Arcos and LeVeque, 2015](https://link.springer.com/article/10.1007/s00024-014-0980-y)|10|
 
-### Example: Seaside, Oregon
+#### 3.1 Example workflow 2: Seaside, Oregon
+
+To run a simulation of the Seaside, Oregon test case using the GPU-MWDG2 solver, an NVIDIA GPU with at least 30 GB of memory is needed due to the large value of *L* = 12 required to accommodate the test case DEM. Simulations of this test case have been successfully run on the Stanage high performance computing (HPC) cluster at the University of Sheffield, and guidance is provided next on how to reproduce the simulations on similar HPC clusters.
+
+To run the simulations, do the following steps:
+
+1. Build LISFLOOD-FP on the HPC cluster (e.g. by similar steps as for building on the University of Sheffield HPC cluster as described [here](https://www.seamlesswave.com/compile_hpc.html))
+2. Copy the `LISFLOOD-FP/testing/UoS/oregon-seaside` directory to the same location as the `lisflood` executable, e.g. to `LISFLOOD-FP/build/`
+3. Navigate to the `oregon-seaside` directory
+4. Follow the instructions in the `README.txt` file to generate a file containing (unformatted) DEM data
+5. Load a Python installation on the cluster (e.g. by running a command like `module load Python/3.10.4-GCCcore-11.3.0` in the terminal)
+6. Prepare all the input files by running `python preprocess.py`
+7. Load a CUDA installation on the cluster (e.g. by running a command like `module load CUDA/10.1.243`)
+8. Start the simulation on the cluster by running `./../lisflood oregon-seaside.par`
 
 [back](/LISFLOOD8.0.md)
