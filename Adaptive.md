@@ -83,13 +83,17 @@ Doing steps 1 to 7 will give the following folder tree:
     | -- build
         |
         ...
+        |
         | -- x64-Release
            |
            ...
            |
+           | lisflood.exe
+           |
            | -- monai
                |
                ...
+               |
                | monai.par
                | monai.dem
                | monai.start
@@ -124,7 +128,7 @@ stagefile     monai.stage
 
 #### 2.2 What is a parameter file?
 
-A parameter (`.par`) file is a text file that specifies various parameters for running a simulation: detailed explanations on the parameters and what function they serve have already been provided [here](/Merewether1.md), but they are provided again for reference in the table below, with the extra parameters in LISFLOOD-FP 8.2 specifically for running the GPU-MWDG2 solver being highlighted in bold:
+A parameter (`.par`) file is a text file that specifies various parameters for running a simulation: detailed explanations about the parameters and what functions they serve has already been provided on the SEAMLESS-WAVE website [here](/Merewether1.md), but they are provided again in this page for reference in the table below, with the extra parameters in LISFLOOD-FP 8.2 specifically for running the GPU-MWDG2 solver being highlighted in bold:
 
 | Parameter      | Description |
 | -------------- |-------------|
@@ -181,16 +185,16 @@ To run a simulation of the Seaside, Oregon test case using the GPU-MWDG2 solver,
 
 To run the simulations, do the following steps:
 
-1. Build LISFLOOD-FP on the HPC cluster (e.g. by similar steps as for building on the University of Sheffield HPC cluster as described [here](https://www.seamlesswave.com/compile_hpc.html))
+1. Build LISFLOOD-FP on the HPC cluster (e.g. using similar steps as for building on the University of Sheffield HPC cluster as described [here](https://www.seamlesswave.com/compile_hpc.html))
 2. Copy the `LISFLOOD-FP/testing/UoS/oregon-seaside` directory to the same location as the `lisflood` executable, e.g. to `LISFLOOD-FP/build/`
-3. Navigate to the `oregon-seaside` directory
-4. Follow the instructions in the `README.txt` file to generate a file containing (unformatted) DEM data
+3. Navigate to the `LISFLOOD-FP/testing/UoS/oregon-seaside` directory
+4. Follow the instructions in the `README.txt` file to generate a file containing (unformatted) DEM data; this step requires MATLAB
 5. Load a Python installation on the cluster (e.g. by running a command like `module load Python/3.10.4-GCCcore-11.3.0` in the terminal)
 6. Prepare all the input files by running `python preprocess.py`
 7. Load a CUDA installation on the cluster (e.g. by running a command like `module load CUDA/10.1.243`)
-8. Start the simulation on the cluster by running `./../lisflood oregon-seaside.par`
+8. Start the simulation on the cluster by running `./../lisflood -epsilon <EPSILON> -dirroot <DIRROOT> oregon-seaside.par`, where the `-epsilon <EPSILON>` and `-dirroot <DIRROOT>` flags are used to conveniently specify the `epsilon` and `dirroot` parameters (taking on the values <EPSILON> and <DIRROOT>) directly in the command line instead of the parameter file
 
-The following shell script can be used assuming the `lisflood` executable has already been built:
+When doing step 8, i.e. when actually starting the simulation on the cluster, it is often necessary to run the simulation as a batch job on the cluster, i.e. by submitting a batch job the cluster's scheduler. The Stanage HPC cluster uses the Slurm scheduler, so a sample shell script for using the Slurm scheduler to runs simulations of this test is shown below: 
 
 ```
 #!/bin/bash
@@ -212,6 +216,18 @@ cd /users/cip19aac/LISFLOOD-FP/build/oregon-seaside
 ./../lisflood -epsilon $1 -dirroot $2 oregon-seaside.par
 ```
 
-After running with three values of $\epsilon$, run `python postprocess.py` to generate the plots of the predictions and speedup gains.
+The above shell script can be used to submit a batch job and run the simulation assuming the `lisflood` executable has already been built by running `sbatch oregon-seaside.sh <EPSILON> <DIRROOT>` in the terminal.
+
+To use the shell script to reproduce the simulations reported in the paper, use the shell script to run three simulations using three different $\epsilon$ values by submitting three batch jobs as follows:
+
+```
+sbatch oregon-seaside.sh 0 eps-0
+sbatch oregon-seaside.sh 1e-4 eps-1e-4
+sbatch oregon-seaside.sh 1e-3 eps-1e-3
+```
+
+Once the simulations are complete, run `python postprocess.py` to generate the plots of the predictions and speedup gains reported in the paper.
+
+To run simulations of the Tauranga harbour and Hilo harbour test cases, the same workflow as for this test case is applicable, i.e. by following steps 1 to 8 and using a shell script to submit batch jobs to the cluster.
 
 [back](/LISFLOOD8.0.md)
