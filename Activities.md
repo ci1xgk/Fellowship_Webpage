@@ -1,5 +1,7 @@
 ### Activities
 
+- 2024 (27-30 May), Presentation talk delivered at the 15th international conference on hydroinformatics, "HIC2024" (G. Kesserwani). [On a fast hydrodynamic approach to model solute mixing past rigid vegetation as an alternative to expensive large eddy simulators](https://drive.google.com/file/d/17rFtmuPnBalMrj5iUjPIeMA0phMjctNp/view?usp=sharing). 
+
 - 2024 (01-02, Feb.), Organisation of the ['Advances in flood modelling and forceasting'](2024_Feb_Event.md) event at the University of Sheffield. 
 
 - 2023 (21-15, Aug.), [Four presentation talks](https://drive.google.com/drive/folders/1yoiraO-y68LvJKdiz-b4oUj1fNtICBOU?usp=sharing) at the [40th IAHR AHR world Congress, Vienna, Austria](https://rivers.boku.ac.at/iahr/). One presentation on the performance of static versus dynamic multiwavelts grid adaptivity for real-world flood modelling, one a comparative study of many sampling-based uncertainty quantification mehtod for flood modelling, one on the next version release of LISFLOOD-FP for tsunami-generated coastal flooding, and one the utility of hydrodynamic modelling for modelling mixing processes in hydraulic engineering.  
