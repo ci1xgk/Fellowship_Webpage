@@ -2,6 +2,10 @@
 ### Publications
 #### Journal papers
 
+A. Chowdhury, and G. Kesserwani, (2024). LISFLOOD-FP 8.2: GPU-accelerated multiwavelet discontinuous Galerkin solver with dynamic resolution adaptivity for rapid, multiscale flood simulation. **Geoscientific Model Development**, in review. 
+
+G. Kesserwani, X. Sun, M. Hajihassanpour, and M.K. Sharifian (2024). Discontinuous Galerkin simulator of shallow vortical flow with turbulence. **Advances in Water Resouces**, in review. 
+
 M. Hajihassanpour, G. Kesserwani, P. Pettersson, and V. Bellos (2023). Sampling-based methods for uncertainty propagation in flood modelling under multiple uncertain inputs: finding out the most efficient choice. **Water Resources Research**, [**59**: e2022WR034011](https://doi.org/10.1029/2022WR034011). 
 
 M.K. Sharifian,  G. Kesserwani, A. Chowdhury, J. Neal and P. Bates (2023). LISFLOOD-FP 8.1: New GPU accelerated solvers for faster fluvial/pluvial flood simulations. **Geoscientific Model Development**, [**16**: 2391–2413](https://doi.org/10.5194/gmd-16-2391-2023). 
