@@ -18,7 +18,9 @@ These extra parameters are described in the table below.
 
 By default, the DG2-RANS-k-ε solver will be run on multicore CPU units. Running it on GPU needs further typing the item `cuda` in the the LISFLOOD-FP's *.par file (see the Section [*“Parameter file (.par)”*](/Merewether1-1.md). 
 
-The make up of the DG2-RANS-k-ε solver is described in [Kewsserwani et al. 2025](https://drive.google.com/file/d/10vBjAtyXCKKlKn5mPoLgAsQEsK1qmpo2/view?usp=sharing), and is validated over turbulent flow and laminar flow vortical shallow water test cases. A selection of these test cases are shown in the table below, with videos demonstrating the solver performance that will launch by clicking on the image associated with each test case. 
+The make up of the DG2-RANS-k-ε solver is described in [Kewsserwani et al. 2025](https://drive.google.com/file/d/10vBjAtyXCKKlKn5mPoLgAsQEsK1qmpo2/view?usp=sharing), and is validated over turbulent flow and laminar flow vortical shallow water test cases. 
+
+A selection of these test cases are shown in the table below, with videos demonstrating the solver performance that will launch after **clicking on the image** associated with each test case. 
 
 |Test case|Reynolds number|Snapshot|
 | --------- | ----------- | --------- | 
