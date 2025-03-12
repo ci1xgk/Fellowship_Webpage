@@ -1,5 +1,7 @@
-### Using the DG2-RANS solver
-The DG2-RANS solver on LISFLOOD-F can be setup and run in a similar way as any other uniform-grid solver (see the Section [*"Input files and their format"*](/Merewether1.md)), subjected to typing several extra parameters in the *.par file. These parameters are described in the table below. 
+### Using the DG2-RANS-k-ε solver
+The turbulent flow DG2-RANS-k-ε solver (resp. laminar flow DG2-RANS solver) are integrated into the LISFLOOD-FP. It can be setup and run in a similar way as any other uniform-grid solver (see the Section [*"Input files and their format"*](/Merewether1.md)), subject to typing/initialising extra parameters within the LISFLOOD-FP's *.par file. 
+
+These extra parameters are described in the table below. 
 
 | Item name `input`  | Description |
 | --------- | ----------- |
@@ -14,15 +16,17 @@ The DG2-RANS solver on LISFLOOD-F can be setup and run in a similar way as any o
 |cavity_coarse|Boolean keyword instructing LISFLOOD-FP to simulate "Recirculation flow in sharp building cavities" benchmark test using the coarse grid (0.32 m).|
 |cavity_fine|Boolean keyword instructing LISFLOOD-FP to simulate "Recirculation flow in sharp building cavities" benchmark test using the fine grid (0.16 m).|
 
-By default, DG2-RANS will be launched on multicore units. Launching it on GPU needs typing the item `cuda` in the parameter *.par file (see the Section [*“Parameter file (.par)”*](/Merewether1-1.md). 
+By default, the DG2-RANS-k-ε solver will be run on multicore CPU units. Running it on GPU needs further typing the item `cuda` in the the LISFLOOD-FP's *.par file (see the Section [*“Parameter file (.par)”*](/Merewether1-1.md). 
 
-The DG2-RANS solver is described in [this paper](), which futher explores the performance of DG2-RANS over four vortical shallow water test cases, listed below.
+The make up of the DG2-RANS-k-ε solver is described in [Kewsserwani et al. 2025](https://drive.google.com/file/d/10vBjAtyXCKKlKn5mPoLgAsQEsK1qmpo2/view?usp=sharing), and is validated over turbulent flow and laminar flow vortical shallow water test cases. A selection of these test cases are shown in the table below, with videos demonstrating the solver performance that will launch by clicking on the image associated with each test case. 
 
 |Test case|Reynolds number|Snapshot|
 | --------- | ----------- | --------- | 
-|Laminar wake(s) past cylinder(s)|200-220|[![array_of_cylinder3d_Dt_2D](/Figures/DG_RANS_array_of_cylinder3d_Dt_2D.png)](https://www.youtube.com/watch?v=JMv3jLEjzp4)|
-|Vortex shedding past a conical island|6,210|[![conical_island](/Figures/DG_RANS_conical_island.png)](https://www.youtube.com/watch?v=PByxld06gU4)|
-|Recirculation flow in sharp building cavities|112,673|![Many_cavities](/Figures/DG_RANS_Many_cavities.png)|
+|Vortex shedding past a conical island - submerged case|6,210|[![conical_island](/Figures/DG_RANS_conical_island.png)](https://www.youtube.com/watch?v=PByxld06gU4)|
+|Vortex shedding past a conical island - surface-piercing case|5,175|[![conical_island](/Figures/Surface_Piercing.png)](https://youtu.be/y1XCyB0aeaM?si=QwhrQ_E2PYdpxDtv)|
 |Flow past a square block in a diverting T-junction|7,432|[![T_junction](/Figures/DG_RANS_T_junction.png)](https://www.youtube.com/shorts/G43xtVfk_iU)|
+|Laminar wake(s) past cylinder(s)|200-220|[![array_of_cylinder3d_Dt_2D](/Figures/DG_RANS_array_of_cylinder3d_Dt_2D.png)](https://www.youtube.com/watch?v=JMv3jLEjzp4)|
+|Recirculation flow in sharp building cavities|112,673|![Many_cavities](/Figures/DG_RANS_Many_cavities.png)|
+
 
 [back](/LISFLOOD8.0.md)
