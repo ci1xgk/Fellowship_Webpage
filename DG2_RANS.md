@@ -25,7 +25,7 @@ A selection of these test cases are shown in the table below, with videos demons
 |Test case|Reynolds number|Snapshot|
 | --------- | ----------- | --------- | 
 |Vortex shedding past a conical island - submerged case|6,210|[![conical_island](/Figures/DG_RANS_conical_island.png)](https://www.youtube.com/watch?v=PByxld06gU4)|
-|Vortex shedding past a conical island - surface-piercing case|5,175|[![conical_island](/Figures/Surface_Piercing.png)](https://youtu.be/y1XCyB0aeaM?si=QwhrQ_E2PYdpxDtv)|
+|Vortex shedding past a conical island - surface-piercing case|5,175|[![conical_island](/Figures/Surface_Piercing.png)](https://youtu.be/W9M45fhOBFc?si=5TYCogjWjadT5ENW)|
 |Flow past a square block in a diverting T-junction|7,432|[![T_junction](/Figures/DG_RANS_T_junction.png)](https://www.youtube.com/shorts/G43xtVfk_iU)|
 |Laminar wake(s) past cylinder(s)|200-220|[![array_of_cylinder3d_Dt_2D](/Figures/DG_RANS_array_of_cylinder3d_Dt_2D.png)](https://www.youtube.com/watch?v=JMv3jLEjzp4)|
 |Recirculation flow in sharp building cavities|112,673|![Many_cavities](/Figures/DG_RANS_Many_cavities.png)|
