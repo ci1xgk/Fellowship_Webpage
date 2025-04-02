@@ -20,16 +20,14 @@ By default, the DG2-RANS-k-ε solver will be run on multicore CPU units. Running
 
 The make up of the DG2-RANS-k-ε solver is described in [Kesserwani et al. 2025](https://drive.google.com/file/d/10vBjAtyXCKKlKn5mPoLgAsQEsK1qmpo2/view?usp=sharing), and is validated over turbulent flow and laminar flow vortical shallow water test cases. 
 
-A selection of these test cases are shown in the table below, with videos demonstrating the solver performance that will launch after **clicking on the image** associated with each test case. 
+A selection of these test cases are shown in the table below, with videos demonstrating the solver performance that will start after **clicking on the image** associated with each test case. 
 
-|Test case|Reynolds number|Snapshot|
+|Test case|Reynolds number|Image |
 | --------- | ----------- | --------- | 
-|Vortex shedding past a conical island - submerged case (fine) |6,210|[![conical_island](/Figures/DG_RANS_conical_island.png)](https://www.youtube.com/watch?v=PByxld06gU4)|
-|Vortex shedding past a conical island - surface-piercing case (medium)|5,175|[![conical_island](/Figures/Surface_Piercing.png)](https://youtu.be/W9M45fhOBFc?si=5TYCogjWjadT5ENW)|
-|Flow past a square block in a diverting T-junction (fine)|7,432|[![T_junction](/Figures/DG_RANS_T_junction.png)](https://www.youtube.com/shorts/G43xtVfk_iU)|
-|Flow past a square block in a diverting T-junction (medium)|7,432|[![T_junction](/Figures/DG_RANS_T_junction.png)](https://www.youtube.com/shorts/G43xtVfk_iU)|
-|Laminar wakes past cylinders (medium)|200-220|[![array_of_cylinder3d_Dt_2D](/Figures/DG_RANS_array_of_cylinder3d_Dt_2D.png)](https://www.youtube.com/watch?v=JMv3jLEjzp4)|
-|Recirculation flow in sharp building cavities|112,673|![Many_cavities](/Figures/DG_RANS_Many_cavities.png)|
+|Surface-piercing: Vortex shedding past a conical island (DG2-RANS-k-ε-medium)|5,175|[![conical_island](/Figures/Surface_Piercing.png)](https://youtu.be/W9M45fhOBFc?si=5TYCogjWjadT5ENW)|
+|Submerged: Vortex shedding past a conical island (DG2-RANS-k-ε-fine) |6,210|[![conical_island](/Figures/DG_RANS_conical_island.png)](https://www.youtube.com/watch?v=PByxld06gU4)|
+|Compoundeddies: Flow past a square block in a diverting T-junction (DG2-RANS-k-ε-fine)|7,432|[![T_junction](/Figures/DG_RANS_T_junction.png)](https://www.youtube.com/shorts/G43xtVfk_iU)|
+|Laminar wake interactions past cylinders (DG2-RANS-medium)|220|[![array_of_cylinder3d_Dt_2D](/Figures/DG_RANS_array_of_cylinder3d_Dt_2D.png)](https://www.youtube.com/watch?v=JMv3jLEjzp4)|
 
 
 [back](/LISFLOOD8.0.md)
