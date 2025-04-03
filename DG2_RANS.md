@@ -20,7 +20,7 @@ Videos demonstrating the turbulent flow DG2-RANS-k-ε solver's (resp. laminar fl
 
 |Test case|Reynolds number|Image |
 | --------- | ----------- | --------- | 
-|Surface-piercing: Vortex shedding past a conical island (DG2-RANS-k-ε-medium)|5,175|[![conical_island](/Figures/Surface_Piercing.png)](https://youtu.be/W9M45fhOBFc?si=5TYCogjWjadT5ENW)|
+|Surface-piercing: Vortex shedding past a conical island (DG2-RANS-k-ε-medium)|5,175|[![conical_island](/Figures/Surface_Piercing.png)](https://youtu.be/AU1Db4y1TkM?si=dGk4zH7JbAyHuRWU)|
 |Submerged: Vortex shedding past a conical island (DG2-RANS-k-ε-fine) |6,210|[![conical_island](/Figures/DG_RANS_conical_island.png)](https://www.youtube.com/watch?v=PByxld06gU4)|
 |Compoundeddies: Flow past a square block in a diverting T-junction (DG2-RANS-k-ε-fine)|7,432|[![T_junction](/Figures/DG_RANS_T_junction.png)](https://www.youtube.com/shorts/G43xtVfk_iU)|
 |Laminar wake interactions past cylinders (DG2-RANS-medium)|220|[![array_of_cylinder3d_Dt_2D](/Figures/DG_RANS_array_of_cylinder3d_Dt_2D.png)](https://www.youtube.com/watch?v=JMv3jLEjzp4)|
