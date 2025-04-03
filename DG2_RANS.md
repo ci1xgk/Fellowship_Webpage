@@ -1,22 +1,22 @@
 ### Using the DG2-RANS-k-ε solver
-The turbulent flow DG2-RANS-k-ε solver (resp. laminar flow DG2-RANS solver) are integrated into the LISFLOOD-FP. It can be setup and run in a similar way as any other uniform-grid solver (see the Section [*"Input files and their format"*](/Merewether1.md)), subject to typing/initialising extra parameters within the LISFLOOD-FP's `*.par` file. 
-
-These extra parameters are described in the table below. 
+The DG2-RANS-k-ε turbulent flow solver (resp. DG2-RANS laminar flow solver) can be set-up and run on LISFLOOD-FP, in the same way as any other uniform-grid solver (see [*"Input files and their format"*](/Merewether1.md)), subject to typing and initialising a number of extra parameters in LISFLOOD-FP's `*.par` file. These extra parameters are described below. 
 
 | Item name `input`  | Description |
 | --------- | ----------- |
-|`turbulent`|Boolean keyword instructing LISFLOOD-FP to use turbulent flow simulator|
-|`laminar`|Boolean keyword instructing LISFLOOD-FP to use laminar flow simulator (without turbulence fluctuations)|
-|`inviscid`|Boolean keyword instructing LISFLOOD-FP to use Inviscid flow simulator (without turbulence fluctuations and viscous effects). This is the default flow solver, so if none of `laminar`, `turbulent` and `inviscid` are pointed in *.par file, then the inviscid flow will be considered.|
-|`DtRatioLimit`|Keyword followed by a decimal number. It indirectly sets the upper bound limit for the turbulent (eddy) viscosity $D_t$ = `DtRatioLimit` × $D_m$ The default value is 10,000 which means $D_t$ =0.01.|
+|`turbulent`|Boolean keyword instructing LISFLOOD-FP to use DG2-RANS-k-ε|
+|`laminar`|Boolean keyword instructing LISFLOOD-FP to use DG2-RANS|
+|`inviscid`|Boolean keyword instructing LISFLOOD-FP to use the inviscid flow solver (DG2-SWE). By default, this flow solver is selected if none of `laminar`, `turbulent` and `inviscid` are pointed in `*.par` file|
+|`DtRatioLimit`|Keyword followed by a decimal number. It sets the upper bound limit for the turbulent eddy viscosity $D_t$ = `DtRatioLimit` × $D_m$. The default value is 10,000 which means $D_t$ =0.01|
 |`TurbIntensity`|Keyword followed by a decimal number. It is the turbulence intensity $I$ and is used in the turbulent inflow boundary condition calculations. It is between 0 to 20%. The default value is 1%. The guidance for its value: <br> Low-turbulence cases: 0%<*I*≤1% <br> Medium-turbulence cases: 1%<*I*≤5% <br> High-turbulence cases: 5%<*I*≤20%|
-|`TurbViscousityRatio`|Keyword followed by a decimal number. It specifies the turbulent viscosity ratio $D_r$ which is used in the turbulent inflow boundary condition calculation. It is usually $D_r$ < 10. Its default value is 0.1. |
-|`turboutput`|Boolean keyword instructing LISFLOOD-FP to write out ASCII raster files of the turbulence-related variables $Hk$, *H*$\varepsilon$ and $D_t$. Their average values will be printed in files with the extensions of `*.Hk`, `*.He` and `*.Dt`. Their slope coefficients will be in files with the extensions of `*.Hk1x`, `*.Hk1y`, `*.He1x` and `*.He1y`. Without `turboutput`, there will not be any outputs for the turbulence-related variables. |
+|`TurbViscousityRatio`|Keyword followed by a decimal number. It specifies the turbulent viscosity ratio $D_r$ which is used in the turbulent inflow boundary condition calculation. It is usually $D_r$ < 10. Its default value is 0.1|
+|`turboutput`|Boolean keyword instructing LISFLOOD-FP to write out ASCII raster files of the turbulent-flow variables $Hk$, *H*$\varepsilon$ and $D_t$. Their average values will be printed in files with the extensions of `*.Hk`, `*.He` and `*.Dt`. Their slope coefficients will be in files with the extensions of `*.Hk1x`, `*.Hk1y`, `*.He1x` and `*.He1y`. Without `turboutput`, there will not be any outputs for the turbulence-flow variables. |
 |`startHkHe2d`|Boolean keyword instructing LISFLOOD-FP to read initial condition files for *Hk* and *H*$\varepsilon$ in ASCII raster format. It will read files with the extensions of `*.Hk`, `*.Hk1x`, `*.Hk1y`, `*.He`, `*.He1x` and `*.He1y`. Without `startHkHe2d`, $k$ = $k_{tol}$ = $10^{-12}$ and $\varepsilon$ = $\varepsilon\_{tol}$ = $10^{-12}$ will be used.|
 
-By default, the DG2-RANS-k-ε solver will be run on multicore CPU units. Running it on the GPU needs further typing the item `cuda` in the the `*.par` file (see [*“Parameter file (.par)”*](/Merewether1-1.md)). 
+By default, the DG2-RANS-k-ε turbulent flow solver (resp. DG2-RANS laminar flow solver) will be run on multicore CPU. It is also possible to make the run on the GPU by further typing the item `cuda` in the the `*.par` file (see [*“Parameter file (.par)”*](/Merewether1-1.md)). 
 
-The turbulent flow DG2-RANS-k-ε solver (resp. laminar flow DG2-RANS solver) is described in [Kesserwani et al. 2025](https://drive.google.com/file/d/10vBjAtyXCKKlKn5mPoLgAsQEsK1qmpo2/view?usp=sharing) where it is also validated for turbulent flow and laminar flow test cases involving the development of quasi-steady vortical structures. Videos demonstrating the solver's performance for some of the test cases will start after **clicking on a test-case image from the list below**:  
+The turbulent flow DG2-RANS-k-ε solver (resp. laminar flow DG2-RANS solver) as well as the DG2-SWE solver are described in [Kesserwani et al. 2025](https://drive.google.com/file/d/10vBjAtyXCKKlKn5mPoLgAsQEsK1qmpo2/view?usp=sharing), with validation for turbulent and laminar flow test cases involving quasi-steady vortical structures. 
+
+Videos demonstrating the turbulent flow DG2-RANS-k-ε solver's (resp. laminar flow DG2-RANS solver's) performance for the most challenging test cases: **a video will start after clicking on a test-case image from the list below**.  
 
 |Test case|Reynolds number|Image |
 | --------- | ----------- | --------- | 
