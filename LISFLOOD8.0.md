@@ -23,7 +23,7 @@ The new version, LISFLOOD-FP 8.0, includes second-order discontinuous Galerkin (
 The new DG2/FV1 solvers are also parallelised within a new Nvidia GPU architecture and can run existing LISFLOOD-FP modelling scenarios without modification. The [user manual of LISFLOOD-FP](https://drive.google.com/file/d/1Yk5txMWWfSqPcPOqjQh30XLSp8Sypy1M/view?usp=sharing) has been updated to further offer guidance about how to parametrise the code to run on the GPU, in particular for the DG2/FV1 solvers. Users interested in knowing more about the mathematical/computational background of the DG2/FV1 solvers and how to run them on LISFLOOD-FP are encouraged to start their readings from [Shaw et al. (2021)](https://gmd.copernicus.org/articles/14/3577/2021/).
  -->
 
-   | Solver | Suitable applications | Limitations  |
+   | Invicid Solver | Suitable applications | Limitations  |
    | :---         | :---      | :--- |
    | ACC   | Fluvial flooding; Pluvial flooding on catchment-scale resolutions      | Not recommended for supercritical flows, e.g., thin flows in pluvial flooding simulations at fine resolution   |
    | FV1     | Fluvial and Pluvial flooding; Dam-breaks       | Might fail in capturing small-scale transients of flows       |
@@ -40,7 +40,7 @@ LISFLOOD-FP8.2 include a new GPU-parallelised adaptive FV1/DG2 solvers that run 
 
 ### DG2-RANS-k-ε solver with GPU acceletation to simulate viscous turbulent shallow vortical flows
 
-A turbulent shallow vortical flow simulator has also been added to LISLFOOD-FP. It adapts the DG2 numerical method to solve Reynolds-Average Navier-Stokes (RANS) Equations based on the k-ε turbulence model and incorporates further robustness treatments to preserve the positivity of the turbulence fluctuations. It is accelerated on the multicore CPU and the GPU. This new solver is overviewed in a [Kesserwani et al. 2025](https://drive.google.com/file/d/10vBjAtyXCKKlKn5mPoLgAsQEsK1qmpo2/view?usp=sharing) and guidance for running it on LISFLOOD-FP is available in the following section: [*"Using the DG2-RANS-k-ε solver in LISFLOOD-FP"*](DG2_RANS.md).
+A turbulent shallow vortical flow simulator has also been added to LISLFOOD-FP. It adapts the DG2 numerical method to solve Reynolds-Average Navier-Stokes (RANS) Equations based on the k-ε turbulence model and incorporates further robustness treatments to preserve the positivity of the turbulence fluctuations. It is accelerated on the multicore CPU and the GPU. This new solver is overviewed in a [Kesserwani et al. 2025](https://drive.google.com/file/d/1sAFAi5Ri9xs5Tm-6NFQXF4Fy1LpuyQ4J/view?usp=sharing) and guidance for running it on LISFLOOD-FP is available in the following section: [*"Using the DG2-RANS-k-ε solver in LISFLOOD-FP"*](DG2_RANS.md).
 
 
 The rest of this page includes instructions on how to download, install and run the code of LISFLOOD-FP 8.0 for using the uniform grid DG2 and FV1 solvers. 
@@ -136,7 +136,7 @@ M. K. Sharifian, G. Kesserwani, A. Chowdhury, J. Neal, and P. Bates (2023). [LIS
 
 A. Chowdhury, and G. Kesserwani (2025). [LISFLOOD-FP 8.2: GPU-accelerated multiwavelet discontinuous Galerkin solver with dynamic resolution adaptivity for rapid, multiscale flood simulation](https://doi.org/10.5194/gmd-2024-152).  Geosci. Model Dev. Discuss. 
 
-G. Kesserwani, X. Sun, Hajihassanpour M, M. K. Sharifian (2025). [Discontinuous Galerkin simulator of shallow vortical flow with turbulence](https://drive.google.com/file/d/10vBjAtyXCKKlKn5mPoLgAsQEsK1qmpo2/view?usp=sharing). Advances in Water Resources. In re-review, after moderate revision. 
+G. Kesserwani, X. Sun, Hajihassanpour M, M. K. Sharifian (2025). [Discontinuous Galerkin simulator of shallow vortical flow with turbulence](https://drive.google.com/file/d/1sAFAi5Ri9xs5Tm-6NFQXF4Fy1LpuyQ4J/view?usp=sharing). Advances in Water Resources. In re-review, after moderate revision. 
 
 ***
 
