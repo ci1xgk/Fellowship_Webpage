@@ -14,7 +14,7 @@ The DG2-RANS-k-ε turbulent flow solver (resp. DG2-RANS laminar flow solver) can
 
 By default, the DG2-RANS-k-ε turbulent flow solver (resp. DG2-RANS laminar flow solver) will be run on multicore CPU. It is also possible to make the run on the GPU by further typing the item `cuda` in the the `*.par` file (see [*“Parameter file (.par)”*](/Merewether1-1.md)). 
 
-The turbulent flow DG2-RANS-k-ε solver (resp. laminar flow DG2-RANS solver) as well as the DG2-SWE solver are described in detailed pre-print ([Kesserwani et al. 2025](https://drive.google.com/file/d/1x_8bgTIGzJzF_qTEDYUzbu82NsGrxpev/view?usp=sharing), see also https://doi.org/10.1016/j.advwatres.2025.104986) with validation for turbulent and laminar flow test cases involving quasi-steady vortical structures. 
+The turbulent flow DG2-RANS-k-ε solver (resp. laminar flow DG2-RANS solver) as well as the DG2-SWE solver are described in detailed pre-print ([Kesserwani et al. 2025](https://drive.google.com/file/d/1x_8bgTIGzJzF_qTEDYUzbu82NsGrxpev/view?usp=sharing), of the paper published in [Advances in Water Resources](https://doi.org/10.1016/j.advwatres.2025.104986)) with validation for turbulent and laminar flow test cases involving quasi-steady vortical structures. 
 
 Videos demonstrating the turbulent flow DG2-RANS-k-ε solver's (resp. laminar flow DG2-RANS solver's) performance for the most challenging test cases: **a video will start after clicking on a test-case image from the list below**.  
 
