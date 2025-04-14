@@ -40,7 +40,7 @@ LISFLOOD-FP8.2 include a new GPU-parallelised adaptive FV1/DG2 solvers that run 
 
 ### DG2-RANS-k-ε solver with GPU acceletation to simulate viscous turbulent shallow vortical flows
 
-A turbulent shallow vortical flow simulator has also been added to LISLFOOD-FP. It adapts the DG2 numerical method to solve Reynolds-Average Navier-Stokes (RANS) Equations based on the k-ε turbulence model and incorporates further robustness treatments to preserve the positivity of the turbulence fluctuations. It is accelerated on the multicore CPU and the GPU. This new solver is overviewed in a [Kesserwani et al. 2025](https://drive.google.com/file/d/1sAFAi5Ri9xs5Tm-6NFQXF4Fy1LpuyQ4J/view?usp=sharing) and guidance for running it on LISFLOOD-FP is available in the following section: [*"Using the DG2-RANS-k-ε solver in LISFLOOD-FP"*](DG2_RANS.md).
+A turbulent shallow vortical flow simulator has also been added to LISLFOOD-FP. It adapts the DG2 numerical method to solve Reynolds-Average Navier-Stokes (RANS) Equations based on the k-ε turbulence model and incorporates further robustness treatments to preserve the positivity of the turbulence fluctuations. It is accelerated on the multicore CPU and the GPU. This new solver is overviewed in a [Kesserwani et al. 2025](https://drive.google.com/file/d/1x_8bgTIGzJzF_qTEDYUzbu82NsGrxpev/view?usp=sharing), published with guidance for running it on LISFLOOD-FP is available in the following section: [*"Using the DG2-RANS-k-ε solver in LISFLOOD-FP"*](DG2_RANS.md).
 
 
 The rest of this page includes instructions on how to download, install and run the code of LISFLOOD-FP 8.0 for using the uniform grid DG2 and FV1 solvers. 
