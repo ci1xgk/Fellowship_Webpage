@@ -2,7 +2,7 @@
 ### Publications
 #### Journal papers
 
-A. Chowdhury, and G. Kesserwani, (2025). LISFLOOD-FP 8.2: GPU-accelerated multiwavelet discontinuous Galerkin solver with dynamic resolution adaptivity for rapid, multiscale flood simulation. **Geoscientific Model Development**, https://doi.org/10.5194/gmd-16-2391-2023. 
+A. Chowdhury, and G. Kesserwani, (2025). LISFLOOD-FP 8.2: GPU-accelerated multiwavelet discontinuous Galerkin solver with dynamic resolution adaptivity for rapid, multiscale flood simulation. **Geoscientific Model Development**, https://doi.org/10.5194/gmd-2024-152. 
 
 G. Kesserwani, X. Sun, M. Hajihassanpour, and M.K. Sharifian (2025). Discontinuous Galerkin simulator of shallow vortical flow with turbulence. **Advances in Water Resouces**, https://doi.org/10.1016/j.advwatres.2025.104986. 
 
