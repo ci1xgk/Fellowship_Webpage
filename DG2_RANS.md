@@ -1,5 +1,7 @@
-### Using the DG2-RANS-k-ε solver
-The DG2-RANS-k-ε turbulent flow solver (resp. DG2-RANS laminar flow solver) can be set-up and run on LISFLOOD-FP, in the same way as any other uniform-grid solver (see [*"Input files and their format"*](/Merewether1.md)), subject to typing and initialising a number of extra parameters in LISFLOOD-FP's `*.par` file. These extra parameters are described below. 
+### Using the DG2-RANS-k-ε turbluent flow solver (resp. the DG2-RANS laminar flow solver)
+The DG2-RANS-k-ε turbulent flow solver (resp. DG2-RANS laminar flow solver) can be set-up and run on [LISFLOOD-FP8.0](https://www.seamlesswave.com/LISFLOOD8.0) in the same way as any other uniform-grid solver (see [*"Input files and their format"*](/Merewether1.md)).
+
+In addition, a number of extra parameters need to be typed and initialised in [LISFLOOD-FP8.0](https://www.seamlesswave.com/LISFLOOD8.0)'s `*.par` file. These extra parameters are described in the Tale below: 
 
 | Item name `input`  | Description |
 | --------- | ----------- |
@@ -14,7 +16,7 @@ The DG2-RANS-k-ε turbulent flow solver (resp. DG2-RANS laminar flow solver) can
 
 By default, the DG2-RANS-k-ε turbulent flow solver (resp. DG2-RANS laminar flow solver) will be run on multicore CPU. It is also possible to make the run on the GPU by further typing the item `cuda` in the the `*.par` file (see [*“Parameter file (.par)”*](/Merewether1-1.md)). 
 
-The turbulent flow DG2-RANS-k-ε solver (resp. laminar flow DG2-RANS solver) as well as the DG2-SWE solver are described in detailed pre-print ([Kesserwani et al. 2025](https://drive.google.com/file/d/1x_8bgTIGzJzF_qTEDYUzbu82NsGrxpev/view?usp=sharing), of the paper published in [Advances in Water Resources](https://doi.org/10.1016/j.advwatres.2025.104986)) with validation for turbulent and laminar flow test cases involving quasi-steady vortical structures. 
+The technicalities underpinning the turbulent flow DG2-RANS-k-ε solver (resp. laminar flow DG2-RANS solver), as well as the simpler (invicid) DG2-SWE solver, are all described in a pre-print [Kesserwani et al. 2025](https://drive.google.com/file/d/1x_8bgTIGzJzF_qTEDYUzbu82NsGrxpev/view?usp=sharing) with validation for turbulent and laminar flow experimental benchmarks involving quasi-steady vortical structures. This is the pre-print accepted for publication in [Advances in Water Resources](https://doi.org/10.1016/j.advwatres.2025.104986). 
 
 Videos demonstrating the turbulent flow DG2-RANS-k-ε solver's (resp. laminar flow DG2-RANS solver's) performance for the most challenging test cases: **a video will start after clicking on a test-case image from the list below**.  
 
@@ -30,8 +32,8 @@ Videos demonstrating the turbulent flow DG2-RANS-k-ε solver's (resp. laminar fl
 
 
 
-#### "Recirculation flow in sharp building cavities" test case 
-In contrast to all the other test cases, this test case involved a skewed (non-uniform distribution of) infow velocity components. Therefore, resolution-specific pre-processing of the inflow boudary was applied and can be activated by further typing these two items. 
+#### "Recirculation flow in sharp building cavities"
+In contrast to all the other experimental benchmarks, this benchmark involves a skewed (non-uniform distribution of) infow velocity components. Therefore, resolution-specific pre-processing of the inflow boudary was applied and can be activated by further typing these two items. 
 
 
 
